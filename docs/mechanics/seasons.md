@@ -42,14 +42,14 @@ The Nether and the End have no seasons.
 
 ## Player effects
 
-The season sets the air temperature, which players feel through the [temperature mechanic](temperature.md): they need warm clothing and shelter in winter and shade in summer. Summer heat also makes players thirsty faster, through the thirst mechanic.
+The season sets the air temperature, which players feel through the [temperature mechanic](temperature.md): they need warm clothing and shelter in winter and shade in summer. Summer heat also makes players thirsty faster, through the [thirst mechanic](thirst.md).
 
 ## Related mechanics
 
 Seasons work together with these mechanics, which each get a document of their own:
 
 - **[Temperature](temperature.md).** Players and villagers feel the air temperature, which the season and biome set.
-- **Thirst.** Players need to drink, and need to drink more in the heat.
+- **[Thirst](thirst.md).** Players, villagers, and livestock need to drink, and need to drink more in the heat.
 - **Food spoilage.** Food rots over time unless it is preserved, which makes storing food for winter a real task.
 
 ## Additions and changes
