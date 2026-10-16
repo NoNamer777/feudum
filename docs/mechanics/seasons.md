@@ -42,20 +42,20 @@ The Nether and the End have no seasons.
 
 ## Player effects
 
-The season sets the air temperature, which players feel through the temperature mechanic: they need warm clothing and shelter in winter and shade in summer. Summer heat also makes players thirsty faster, through the thirst mechanic.
+The season sets the air temperature, which players feel through the [temperature mechanic](temperature.md): they need warm clothing and shelter in winter and shade in summer. Summer heat also makes players thirsty faster, through the thirst mechanic.
 
 ## Related mechanics
 
 Seasons work together with these mechanics, which each get a document of their own:
 
-- **Temperature.** Players and villagers feel the air temperature, which the season and biome set.
+- **[Temperature](temperature.md).** Players and villagers feel the air temperature, which the season and biome set.
 - **Thirst.** Players need to drink, and need to drink more in the heat.
 - **Food spoilage.** Food rots over time unless it is preserved, which makes storing food for winter a real task.
 
 ## Additions and changes
 
-- **Seasonal climate.** Biome temperature and weather follow the season and the climate of the biome, and day length varies, which changes the vanilla day and night cycle.
-- **Crop seasons.** Every crop gets the seasons it grows in, and new crops fill the seasons vanilla leaves empty, winter included.
+- **Seasonal climate.** Biome temperature and weather follow the season and the climate of the biome, and day length varies, which changes the vanilla day and night cycle. Snow and ice form and melt with the air temperature.
+- **Crop seasons.** Every crop gets the range of air temperatures it grows in, which sets the seasons and climates it grows in. New crops fill the seasons vanilla leaves empty, winter included.
 - **Almanac.** An item, or a sundial block, that shows the date and the season.
 - **Greenhouse.** A greenhouse or cold frame that lets crops grow out of season.
 - **Food storage.** Preserving blocks such as a granary, smokehouse, salting barrel, and root cellar, which slow or stop food spoilage.
