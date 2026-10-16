@@ -84,7 +84,7 @@ Body temperature drifts toward the air temperature a body feels, and faster the 
 
 - **Clothing and armor**, as [Protection](#protection) describes.
 - **Wetness.** Rain, swimming, and wading make a body wet. Being wet cools it, which is dangerous in the cold and welcome in the heat. A body dries off over time, faster in warm air or next to a fire.
-- **Food and drink.** Hot stews and mulled cider or wine warm the body for a few minutes. Cool water and melon cool it.
+- **Food and drink.** Hot stews and mulled cider or wine warm the body for a few minutes. [Cool water](thirst.md#water-temperature) and melon cool it.
 - **Exertion.** Sprinting, fighting, and mining warm the body slightly.
 
 Food, drink, and exertion are small and temporary. They nudge body temperature, but never replace clothing or shelter.
@@ -107,7 +107,7 @@ Fire resistance protects against heat as well as fire.
 | Cold      | Shivering: hunger drains faster and mining slows                                                       |
 | Cool      | None                                                                                                   |
 | Mild      | None                                                                                                   |
-| Warm      | Thirst rises faster                                                                                    |
+| Warm      | [Thirst](thirst.md) rises faster                                                                       |
 | Hot       | Thirst rises much faster, and hunger regeneration slows                                                |
 | Scorching | Heat haze, weakness, nausea flashes, and damage over time                                              |
 
@@ -155,7 +155,7 @@ The world reacts to the air temperature, so one rule explains frost, greenhouses
 Temperature works together with these mechanics:
 
 - **[Seasons](seasons.md).** The season and the climate of the biome set the base air temperature.
-- **Thirst.** Thirst rises faster in the warm, hot, and scorching bands.
+- **[Thirst](thirst.md).** Thirst rises faster in the warm, hot, and scorching bands.
 - **Food spoilage.** Cold air slows rot.
 - **Wind.** The strength of the wind sets the wind chill.
 - **Disease.** Long spells in the freezing or scorching band cause illness.
