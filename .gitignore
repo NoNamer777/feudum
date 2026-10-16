@@ -1,0 +1,38 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Minecraft run directories
+run/
+runs/
+
+# Mod loader caches
+.architectury-transformer/
+
+# Java
+*.class
+hs_err_pid*.log
+
+# Secrets
+.env
+.env.*
+
+# Editor
+.idea/*
+!.idea/markdown.xml
+.vscode/*
+!.vscode/extensions.json
+*.iml
+out/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
