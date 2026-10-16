@@ -19,3 +19,7 @@ These mechanics have no document yet:
 - **Intoxication**: alcoholic drinks build drunkenness from tipsy to drunk to passed out, with a false warmth that hides the cold.
 - **Trade**: villages trade surplus with each other and with traveling merchants, such as salt for inland villages and spices from abroad.
 - **Vermin**: rats, mice, and weevils raid food stores and spread disease, and cats and raised granaries keep them down.
+- **Nutrition**: a varied diet keeps players and villagers healthy, and a diet lacking fresh food brings deficiencies such as scurvy.
+- **Aging**: villagers grow up, grow old, and die of age, and the old and the very young resist illness less.
+- **Morale**: how villagers feel about their lives, which festivals raise and hardship lowers, and which sets how they work and whether they stay.
+- **Faith**: a church, holy days, and consecrated ground, where the dead rest without rising.
