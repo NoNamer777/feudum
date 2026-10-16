@@ -147,7 +147,7 @@ Feeding animals through winter belongs to the herder role, not to temperature.
 The world reacts to the air temperature, so one rule explains frost, greenhouses, cellars, and ice houses:
 
 - **Crops.** Every crop grows within a range of air temperatures at its block. Frost kills crops that are not frost-hardy, and a greenhouse works because it is a sheltered, heated room.
-- **Food storage.** Food spoils at a rate set by the air temperature of the room it sits in. A root cellar works because the air below ground stays cool, and an ice house because its ice cools the room.
+- **Food storage.** Food [spoils](food-spoilage.md) at a rate set by the air temperature of the room it sits in. A root cellar works because the air below ground stays cool, and an ice house because its ice cools the room.
 - **Snow and ice.** In the freezing band, water freezes and snow settles. From the mild band up, ice and snow melt. A heated room melts the snow around its fireplace, and an ice house keeps its ice only while it stays cold enough.
 
 ## Related mechanics
@@ -156,7 +156,7 @@ Temperature works together with these mechanics:
 
 - **[Seasons](seasons.md).** The season and the climate of the biome set the base air temperature.
 - **[Thirst](thirst.md).** Thirst rises faster in the warm, hot, and scorching bands.
-- **Food spoilage.** Cold air slows rot.
+- **[Food spoilage](food-spoilage.md).** Cold air slows rot.
 - **Wind.** The strength of the wind sets the wind chill.
 - **Disease.** Long spells in the freezing or scorching band cause illness.
 - **Clothing.** Garments give warmth, cooling, and windproofing.

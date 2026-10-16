@@ -24,4 +24,9 @@ These roles have no document yet:
 - **Leatherworker**: makes waterskins, belts, straps, and saddles from the tanner's leather.
 - **Smith**: forges tools, kettles, brewing coppers, barrel hoops, and well chains.
 - **Salter**: boils or sun-dries seawater into salt on the coast.
+- **Butcher**: slaughters livestock in the autumn cull, and salts and smokes the meat to keep through winter.
+- **Fisher**: catches fish, and salts and dries the catch so it keeps.
+- **Dairymaid**: churns milk into butter and presses it into cheese.
+- **Miller**: grinds the village's grain into flour at a mill.
+- **Baker**: bakes bread every few days, since bread keeps only four.
 - **Merchant**: carries the village's surplus to other villages and markets, and brings back what it lacks.
