@@ -18,3 +18,4 @@ These mechanics have no document yet:
 - **Sanitation**: villagers and livestock produce waste that has to go somewhere: latrines, dung heaps, and manure for the fields.
 - **Intoxication**: alcoholic drinks build drunkenness from tipsy to drunk to passed out, with a false warmth that hides the cold.
 - **Trade**: villages trade surplus with each other and with traveling merchants, such as salt for inland villages and spices from abroad.
+- **Vermin**: rats, mice, and weevils raid food stores and spread disease, and cats and raised granaries keep them down.
