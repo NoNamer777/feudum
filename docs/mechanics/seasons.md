@@ -50,7 +50,7 @@ Seasons work together with these mechanics, which each get a document of their o
 
 - **[Temperature](temperature.md).** Players and villagers feel the air temperature, which the season and biome set.
 - **[Thirst](thirst.md).** Players, villagers, and livestock need to drink, and need to drink more in the heat.
-- **Food spoilage.** Food rots over time unless it is preserved, which makes storing food for winter a real task.
+- **[Food spoilage](food-spoilage.md).** Food rots over time unless it is preserved, which makes storing food for winter a real task.
 
 ## Additions and changes
 
@@ -58,6 +58,6 @@ Seasons work together with these mechanics, which each get a document of their o
 - **Crop seasons.** Every crop gets the range of air temperatures it grows in, which sets the seasons and climates it grows in. New crops fill the seasons vanilla leaves empty, winter included.
 - **Almanac.** An item, or a sundial block, that shows the date and the season.
 - **Greenhouse.** A greenhouse or cold frame that lets crops grow out of season.
-- **Food storage.** Preserving blocks such as a granary, smokehouse, salting barrel, and root cellar, which slow or stop food spoilage.
+- **Food storage.** Preserving blocks such as a salting barrel and smokehouse, and cool rooms such as a root cellar, which slow or stop [food spoilage](food-spoilage.md), and a granary that keeps grain from vermin.
 - **Heating.** Fireplaces that burn firewood to keep villager homes warm.
 - **Seasonal foliage.** Leaves that change color, fall in autumn, and leave deciduous trees bare in winter.

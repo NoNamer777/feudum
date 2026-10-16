@@ -69,7 +69,7 @@ The flux, the medieval name for dysentery, is an illness of the disease mechanic
 
 Clean water turns unclean in two ways:
 
-- **Stagnation.** Water in an open container, such as a bucket, cup, barrel, or cistern, turns unclean after a few in-game days. It turns faster in warm air and slower in cool rooms, by the same rule that food spoilage uses. Sealed containers, such as a waterskin, a stoppered jug, or a bottle, keep water clean much longer.
+- **Stagnation.** Water in an open container, such as a bucket, cup, barrel, or cistern, turns unclean after a few in-game days. It turns faster in warm air and slower in cool rooms, by the same rule that [food spoilage](food-spoilage.md#rate) uses. Sealed containers, such as a waterskin, a stoppered jug, or a bottle, keep water clean much longer.
 - **Pollution.** A polluter within a few blocks of a well, a cistern, or still water makes that water unclean. Polluters are livestock pens, dung heaps, latrines, tanneries, rotting food, and corpses of mobs that died in the water. A river carries pollution a set distance downstream, so the water upstream of a village is cleaner than the water below it.
 
 Once the polluter is gone, the water clears over a day or two. Rain falling straight into a container is always clean. The sanitation mechanic describes the polluters themselves.
@@ -80,7 +80,7 @@ Boiling makes water clean: a vanilla cauldron or a new kettle over a campfire, f
 
 ### Salt
 
-Salt water never quenches. Boiling it in a pot over a fire, or leaving it in a new salt pan block in the sun, gives salt and no water. The salting barrel of food spoilage uses that salt, and the salter sells the surplus to inland villages.
+Salt water never quenches. Boiling it in a pot over a fire, or leaving it in a new salt pan block in the sun, gives salt and no water. The salting barrel of [food spoilage](food-spoilage.md#preservation) uses that salt, and the salter sells the surplus to inland villages.
 
 ### Water temperature
 
@@ -186,7 +186,7 @@ Thirst works together with these mechanics:
 - **[Temperature](temperature.md).** Body temperature speeds up thirst in the warm, hot, and scorching bands. Cool water cools the body, and hot drinks warm it.
 - **[Seasons](seasons.md).** The season and climate set how often rain fills the water stores, and winter freezes water.
 - **Disease.** Unclean water causes the flux, and a remedy item takes over the effect clearing of vanilla milk.
-- **Food spoilage.** Stored water stagnates by the same rule that food rots, ale sours, and the salting barrel uses salt from salt water.
+- **[Food spoilage](food-spoilage.md).** Stored water stagnates by the same rule that food rots, ale sours, and the salting barrel uses salt from salt water.
 - **Sanitation.** Latrines, dung heaps, tanneries, and livestock pens pollute nearby water.
 - **Intoxication.** Ale, beer, cider, perry, mead, and wine are alcoholic.
 - **Trade.** Salt goes to inland villages, and spices for mulled drinks come from abroad.
