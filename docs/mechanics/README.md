@@ -2,6 +2,7 @@
 
 Each document describes one mechanic: how it works, and the items, blocks, and behaviors it depends on.
 
+- [Disease](disease.md): players, villagers, and livestock fall ill from the cold, the heat, bad water, bad food, and each other, and recover with care and remedies.
 - [Food spoilage](food-spoilage.md): food rots over time unless it is kept cold, sealed, or preserved, so a village preserves its harvest to eat through winter.
 - [Seasons](seasons.md): a four-season year that changes the climate, the crops, and the rhythm of village life.
 - [Temperature](temperature.md): players, villagers, and livestock feel the heat and the cold, and need clothing, shelter, and fire to stay safe.
@@ -12,7 +13,6 @@ Each document describes one mechanic: how it works, and the items, blocks, and b
 These mechanics have no document yet:
 
 - **Wind**: wind blows with a direction and a strength that change with the weather and the altitude.
-- **Disease**: players, villagers, and livestock fall ill, recover, and can be treated.
 - **Clothing**: garments in slots of their own, separate from armor, that keep the wearer warm or cool.
 - **Injuries**: broken bones and bleeding wounds that need treatment to heal.
 - **Sanitation**: villagers and livestock produce waste that has to go somewhere: latrines, dung heaps, and manure for the fields.

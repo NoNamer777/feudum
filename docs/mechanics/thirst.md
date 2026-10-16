@@ -63,7 +63,7 @@ All water has one of three purities:
 | Unclean | Rivers, lakes, ponds, swamps, and water gone stale or polluted | Quenches, with a small chance of the flux, higher for swamp and still water |
 | Salt    | Oceans and beaches                                             | Makes thirst worse and causes nausea                                        |
 
-The flux, the medieval name for dysentery, is an illness of the disease mechanic. It causes nausea, faster thirst drain, and weakness, and the disease mechanic describes how it progresses and heals. Unclean water gives villagers the flux the same way it does players.
+The flux, the medieval name for dysentery, is an illness of the [disease mechanic](disease.md#illnesses). It causes nausea, faster thirst drain, and weakness, and the disease mechanic describes how it progresses and heals. Unclean water gives villagers the flux the same way it does players.
 
 ### Contamination
 
@@ -113,18 +113,18 @@ The leatherworker makes waterskins, the potter makes clay jugs and cups, and the
 
 Quench is in points, and a droplet is 2 points:
 
-| Drink                 | Quench | Alcohol  | Also                                                                                 |
-|:----------------------|-------:|:---------|:-------------------------------------------------------------------------------------|
-| Water                 |      2 | None     | Cool water cools the body, and boiled water warms it slightly                        |
-| Milk (vanilla)        |      3 | None     | Feeds a little. No longer clears all effects; a remedy of the disease mechanic does. |
-| Small ale             |      4 | Weak     | Feeds a little. The everyday safe drink.                                             |
-| Ale                   |      4 | Moderate | Feeds a little. Sours within days.                                                   |
-| Beer                  |      4 | Moderate | Feeds a little. Hops keep it for weeks.                                              |
-| Cider and perry       |      4 | Moderate | None                                                                                 |
-| Mead                  |      3 | Strong   | None                                                                                 |
-| Wine                  |      3 | Moderate | None                                                                                 |
-| Mulled cider and wine |      3 | Moderate | Warms the body                                                                       |
-| Herbal tea            |      4 | None     | Warms the body. The herbalist's teas add mild remedy effects.                        |
+| Drink                 | Quench | Alcohol  | Also                                                                               |
+|:----------------------|-------:|:---------|:-----------------------------------------------------------------------------------|
+| Water                 |      2 | None     | Cool water cools the body, and boiled water warms it slightly                      |
+| Milk (vanilla)        |      3 | None     | Feeds a little. No longer clears all effects; [theriac](disease.md#remedies) does. |
+| Small ale             |      4 | Weak     | Feeds a little. The everyday safe drink.                                           |
+| Ale                   |      4 | Moderate | Feeds a little. Sours within days.                                                 |
+| Beer                  |      4 | Moderate | Feeds a little. Hops keep it for weeks.                                            |
+| Cider and perry       |      4 | Moderate | None                                                                               |
+| Mead                  |      3 | Strong   | None                                                                               |
+| Wine                  |      3 | Moderate | None                                                                               |
+| Mulled cider and wine |      3 | Moderate | Warms the body                                                                     |
+| Herbal tea            |      4 | None     | Warms the body. The herbalist's teas add mild remedy effects.                      |
 
 Every clean drink is safe, and only water can be unclean. The intoxication mechanic describes what alcohol does.
 
@@ -185,7 +185,7 @@ Thirst works together with these mechanics:
 
 - **[Temperature](temperature.md).** Body temperature speeds up thirst in the warm, hot, and scorching bands. Cool water cools the body, and hot drinks warm it.
 - **[Seasons](seasons.md).** The season and climate set how often rain fills the water stores, and winter freezes water.
-- **Disease.** Unclean water causes the flux, and a remedy item takes over the effect clearing of vanilla milk.
+- **[Disease](disease.md).** Unclean water causes the flux, and theriac takes over the effect clearing of vanilla milk.
 - **[Food spoilage](food-spoilage.md).** Stored water stagnates by the same rule that food rots, ale sours, and the salting barrel uses salt from salt water.
 - **Sanitation.** Latrines, dung heaps, tanneries, and livestock pens pollute nearby water.
 - **Intoxication.** Ale, beer, cider, perry, mead, and wine are alcoholic.

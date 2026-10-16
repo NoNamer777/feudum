@@ -111,7 +111,7 @@ Fire resistance protects against heat as well as fire.
 | Hot       | Thirst rises much faster, and hunger regeneration slows                                                |
 | Scorching | Heat haze, weakness, nausea flashes, and damage over time                                              |
 
-Effects build over minutes, with warnings first. A dry player without protection, out on a winter night in a cold climate, slides from mild to freezing in about three real minutes. Damage starts only after time spent in the freezing band. Long spells in the freezing band cause a chill, and long spells in the scorching band cause heatstroke. Both are illnesses of the disease mechanic, which describes how they progress and heal.
+Effects build over minutes, with warnings first. A dry player without protection, out on a winter night in a cold climate, slides from mild to freezing in about three real minutes. Damage starts only after time spent in the freezing band. Long spells in the freezing band cause a chill, and long spells in the scorching band cause heatstroke. Both are illnesses of the [disease mechanic](disease.md#illnesses), which describes how they progress and heal.
 
 Server config scales how strong the effects are and how fast they build, and can turn temperature off for players.
 
@@ -158,7 +158,7 @@ Temperature works together with these mechanics:
 - **[Thirst](thirst.md).** Thirst rises faster in the warm, hot, and scorching bands.
 - **[Food spoilage](food-spoilage.md).** Cold air slows rot.
 - **Wind.** The strength of the wind sets the wind chill.
-- **Disease.** Long spells in the freezing or scorching band cause illness.
+- **[Disease](disease.md).** Long spells in the freezing or scorching band cause illness.
 - **Clothing.** Garments give warmth, cooling, and windproofing.
 
 ## Additions and changes
