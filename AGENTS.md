@@ -1,5 +1,7 @@
 # Agent instructions
 
+Read [README.md](README.md) first: it says what Feudum is and where its design docs live. Before you design or build a feature, read the design page that covers it.
+
 ## Vanilla content
 
 Feudum replaces vanilla Minecraft rather than building on it: every block, item, entity, biome, structure, dimension, and mechanic a player meets comes from Feudum. The overworld is the one exception; it stays as the dimension Feudum's own biomes generate in.
