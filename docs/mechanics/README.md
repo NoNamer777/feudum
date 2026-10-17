@@ -18,4 +18,4 @@ Mechanics that came up during a grilling session but were not its focus. Each wa
 - **Weather**: weather and snow that follow the season. Came up in Time.
 - **Buildings**: how buildings are designed, built, and recognized as part of a village. Came up in Villages.
 - **Lordship contests**: how a player challenges a sitting lord, how a contest is won, and what the loser keeps. Came up in Villages.
-- **Realms**: fealty between lords, up to a monarch at the top that a player can become. Came up in Villages.
+- **Realms**: fealty between lords, up to a sovereign with no lord above them, which a player can become. Came up in Villages.

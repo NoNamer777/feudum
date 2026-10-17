@@ -68,7 +68,7 @@ Villages owns a village's identity, its territory, its lifecycle, standing, mano
 - **Buildings**: how buildings are designed, built, and recognized, and how building moves standing.
 - **Village generation**: the layouts and placement of world-gen villages, listed in the [world generation index](../world-generation/README.md).
 - **Lordship contests**: how a contest starts and is won, and what the loser keeps.
-- **Realms**: fealty between lords, up to a monarch that a player can become.
+- **Realms**: fealty between lords, up to a sovereign with no lord above them, which a player can become.
 
 ## Deferred
 
