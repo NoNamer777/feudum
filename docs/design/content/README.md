@@ -10,8 +10,8 @@ None yet.
 
 Content that came up during a grilling session but was not its focus. Each waits for a session of its own.
 
-- **Clothing layers**: whether Feudum adds clothing slots under armor, and the clothing that fills them. Came up in Body temperature.
-- **Snow and ice**: the Feudum snow layer and ice blocks that weather builds up, drifts, and melts. Came up in Weather.
-- **Timekeeping items**: a Feudum clock and calendar that show the player the time, date, and season. Deferred in Time.
-- **Weather vane**: a vane that shows where the wind blows from. It reads the sheltered wind at its block, so it must sit high and clear to read true. Came up in Weather.
-- **Windmill**: a mill whose milling is powered by the wind speed. Came up in Weather.
+- **Clothing layers**: whether Feudum adds clothing slots under armor, and the clothing that fills them.
+- **Snow and ice**: the Feudum snow layer and ice blocks that weather builds up, drifts, and melts.
+- **Timekeeping items**: a Feudum clock and calendar that show the player the time, date, and season.
+- **Weather vane**: a vane that shows where the wind blows from. It reads the sheltered wind at its block, so it must sit high and clear to read true.
+- **Windmill**: a mill whose milling is powered by the wind speed.
