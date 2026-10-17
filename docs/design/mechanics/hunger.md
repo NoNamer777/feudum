@@ -15,7 +15,7 @@ Every mob that eats has a stomach, an energy store, and a diet. A meal fills the
 ## Model
 
 - A body carries three layers: its stomach, its energy, and its group levels.
-- **Stomach**: how much the body has eaten and not yet digested. Eating fills it at once. A body can eat past its capacity, up to 125%, and is Stuffed above 100%.
+- **Stomach**: how much the body has eaten and not yet digested. Eating fills it at once, and drinking fills it too, as [Thirst](thirst.md#model) describes. A body can eat past its capacity, up to 125%, and is Stuffed above 100%.
 - **Energy**: what digestion fills, over a few Feudum hours, and metabolism drains.
 - **Group levels**: one level from 0 to 100% for each food group the species tracks.
 - Hunger advances by the Feudum time that passed, so it follows the day length and the sleep speed-up.
@@ -40,7 +40,7 @@ Energy drains at the base metabolic rate of the diet profile, adjusted by:
 - **Healing**: natural healing spends energy.
 - **Grain deficiency**: raises the drain, as [Deficiencies](#deficiencies) describes.
 
-Heat stages leave energy alone; they drain thirst.
+Heat stages leave energy alone; they drain [thirst](thirst.md#drain).
 
 ## Stages
 
@@ -57,6 +57,7 @@ The stages follow energy, apart from Stuffed, which follows the stomach. Thresho
 - Work covers mining, chopping, and attacking, as in Body temperature.
 - Under `mild`, Starving brings heavy slowness and deals no damage.
 - Effects apply as Feudum attribute modifiers, never as mob effects, so no icon shows in the inventory.
+- Modifiers of the same kind as those of Body temperature and Thirst take the strongest rather than adding up, under a rule that Health owns. Damage from each mechanic still applies on its own.
 - Feudum's own starvation damage type carries its own death message.
 
 ## Deficiencies
@@ -92,7 +93,7 @@ For a human:
 
 ## Food
 
-- Every consumable carries a food component: energy, stomach fill, an amount for each food group, eating time, and the optional thermal offset of [Body temperature](body-temperature.md#felt-temperature).
+- Every consumable carries a food component: energy, stomach fill, an amount for each food group, eating time, the optional thermal offset of [Body temperature](body-temperature.md#felt-temperature), and the water and salt amounts of [Thirst](thirst.md#food-and-drink).
 - Food components are data-driven, so a data pack can add foods.
 
 ## Animals
@@ -108,6 +109,7 @@ For a human:
 - A profile holds the diet type, an item tag of what the species can eat, the groups it tracks, the stomach and energy capacity, the base metabolic rate, and the stage thresholds.
 - The diet type is grazer, browser, carnivore, or omnivore.
 - Villagers use the human diet profile, the same as players.
+- A profile can carry a thirst block, which [Thirst](thirst.md#diet-profiles) describes.
 - A profile can carry a young modifier with a faster drain. A young body stops growing while it is Hungry or worse.
 
 ## Persistence
@@ -140,7 +142,8 @@ For a human:
 Hunger owns diet profiles, the stomach, energy, food groups and group levels, drain, the stages and their effects, deficiencies and cravings, natural healing, cues, food components, and the feeding goal of animals. Other mechanics, most of them planned in the [index](README.md), own the rest:
 
 - **Body temperature**: the cold stages that raise the drain, and the comfort band that a vegetable deficiency narrows.
-- **Thirst**: drinking and dehydration, on the same shape as Hunger: a store, stages, cues, a harshness setting, a query, and catch-up.
+- **[Thirst](thirst.md)**: drinking, hydration, and the salt and foul loads, which share the stomach, the food component, and the diet profile of Hunger.
+- **Health**: injuries, and the rule that modifiers of the same kind take the strongest. Natural healing moves to Health once it has a design.
 - **Villagers**: when and what a villager eats, such as meals on its schedule.
 - **Village economy**: the food stock a village eats from.
 - **Village simulation**: drawing on the stock at each catch-up step, and applying hunger and deficiencies abstractly, so a village that runs out of fruit in winter falls sick while no one is near.

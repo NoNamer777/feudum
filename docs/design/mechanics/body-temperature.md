@@ -36,7 +36,7 @@ Felt temperature starts from the local temperature of the [Weather](weather.md#l
 - **Wetness**: wetness always cools. In the cold it also cancels much of the insulation; in the heat it brings relief, so a swim cools a summer day.
 - **Exertion**: sprinting, swimming, climbing, mining, chopping, and fighting build a warming offset that decays over about a minute of rest.
 - **Heat sources**: see [Shelter and heat](#shelter-and-heat).
-- **Food and drink**: a consumable can carry a thermal component, an offset in °C and a duration, so a hot stew warms for a while and cold water cools. [Hunger](hunger.md) and Thirst own the nourishment.
+- **Food and drink**: a consumable can carry a thermal component, an offset in °C and a duration, so a hot stew warms for a while and cold water cools. [Hunger](hunger.md) and [Thirst](thirst.md) own the nourishment.
 - **Depth**: below the surface, by heightmap and without sky access, felt temperature blends toward the cave temperature, the yearly average of the local temperature there. Caves feel cool in summer and mild in winter, and the deepest levels warm again with geothermal heat.
 - **Water**: a body in water feels the water temperature instead of the air. Deep water stays near the yearly average, shallows follow the air, and water under ice never drops below 0 °C. A body in water drifts several times faster than in air, so falling through winter ice kills within a minute or two.
 - **Insulation**: clothing and natural insulation, such as fur or fleece, widen the comfort band toward the cold and narrow it toward the heat, and slow the drift. A fur coat makes winter safe and summer worse.
@@ -85,6 +85,7 @@ Each side of normal has three stages, with thresholds from the thermal profile. 
 - Work covers mining, chopping, and attacking.
 - Under `mild`, Freezing and Heatstroke keep their slowness and deal no damage.
 - Effects apply as Feudum attribute modifiers, never as mob effects, so no icon shows in the inventory.
+- Modifiers of the same kind as those of Hunger and Thirst take the strongest rather than adding up, under a rule that Health owns. Damage from each mechanic still applies on its own.
 - Feudum's own hypothermia and heatstroke damage types carry their own death messages.
 - Feudum replaces the vanilla freezing mechanic: the frozen-ticks counter and its screen overlay never trigger, and vanilla freeze damage never applies.
 
@@ -125,7 +126,8 @@ Body temperature owns thermal profiles, felt temperature and its inputs, wetness
 
 - **Weather**: local temperature, precipitation, snow cover, wind, and wind shelter. Body temperature reads the sheltered wind for wind chill and drying.
 - **[Hunger](hunger.md)**: nourishment, how faster drain plays out, and the vegetable deficiency that narrows the comfort band.
-- **Thirst**: drinking, and how faster drain plays out.
+- **[Thirst](thirst.md)**: drinking, and how faster drain plays out.
+- **Health**: the rule that modifiers of the same kind take the strongest.
 - **Villagers**: how villagers react to their body temperature.
 - **Village simulation**: abstract losses while a village is unloaded, such as livestock lost in a hard winter, read from the Weather query for each catch-up step.
 - **Fire**: how fire catches and spreads. Its heat output is a heat source like any other.

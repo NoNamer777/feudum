@@ -287,7 +287,7 @@ _Avoid_: Cold-blooded
 
 ### Diet profile
 
-An entity type's data for hunger: its diet type, what it can eat, the food groups it tracks, its stomach and energy capacity, its metabolic rate, and its stage thresholds.
+An entity type's data for hunger: its diet type, what it can eat, the food groups it tracks, its stomach and energy capacity, its metabolic rate, and its stage thresholds. An optional thirst block holds its data for thirst.
 
 ### Diet type
 
@@ -295,7 +295,7 @@ What kind of eater a species is: grazer, browser, carnivore, or omnivore.
 
 ### Stomach
 
-What a body has eaten and not yet digested, which limits how much more it can eat.\
+What a body has eaten or drunk and not yet digested or absorbed, which limits how much more it can take in.\
 _Avoid_: Saturation
 
 ### Energy
@@ -324,3 +324,29 @@ A group level below 25%, whose effects grow as the level falls.
 ### Craving
 
 The cue that marks a food carrying a group the body lacks.
+
+## Thirst
+
+### Hydration
+
+The store that drinks absorb into and metabolism drains, whose level sets every thirst stage._Avoid_: Thirst bar, water level
+
+### Salt load
+
+The salt a body carries from seawater and salted food, which raises the drain until clean water flushes it.
+
+### Foul load
+
+What a body carries from foul water, which fades over days and which Illness reads.
+
+### Salinity
+
+How salty a water block or the contents of a container are, from 0 for fresh water to 1 for seawater.
+
+### Foulness
+
+How foul a water block or the contents of a container are, from 0 for clean water to 1.
+
+### Foul water
+
+Water with a foulness above 0, such as swamp water or a pond fouled by livestock.
