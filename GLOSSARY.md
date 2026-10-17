@@ -126,3 +126,42 @@ _Avoid_: Expiry
 ### Contest
 
 A player's challenge for a sitting lord's title.
+
+## Weather
+
+### Weather field
+
+The weather over the whole map at a moment, from which every front comes.\
+_Avoid_: Weather map
+
+### Front
+
+One body of weather that forms, drifts across the map, and passes.\
+_Avoid_: Storm, weather cell
+
+### Weather values
+
+The cloud cover, precipitation intensity, storminess, and fog at a point.
+
+### Weather label
+
+The name for a range of weather values, such as Drizzle or Blizzard.\
+_Avoid_: Weather type, weather state
+
+### Local temperature
+
+The temperature at a point: the season's temperature in its biome, adjusted for altitude and the time of day.
+
+### Weather sign
+
+Something in the sky that shows weather to come.\
+_Avoid_: Forecast
+
+### Weather override
+
+An operator's timed change to the weather across the dimension.\
+_Avoid_: Forced weather
+
+### Snow cover
+
+The snow lying on a column, in layers.
