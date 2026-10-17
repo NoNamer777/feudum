@@ -30,3 +30,6 @@ These roles have no document yet:
 - **Miller**: grinds the village's grain into flour at a mill.
 - **Baker**: bakes bread every few days, since bread keeps only four.
 - **Merchant**: carries the village's surplus to other villages and markets, and brings back what it lacks.
+- **Midwife**: delivers the village's children, and nurses the sick who have no household to care for them.
+- **Sexton**: digs the graves and keeps the burial ground, so the dead stay buried.
+- **Priest**: holds the services and holy days, and consecrates the burial ground.

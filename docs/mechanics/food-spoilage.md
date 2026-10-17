@@ -25,7 +25,7 @@ Each stack stores the world time at which it rots. When the stack moves somewher
 | Spoiled | 75 to 100%      | 50%             | Food poisoning, more likely from meat and fish |
 | Rotten  | Past 100%       | Cannot be eaten | None                                           |
 
-Nourishment covers both hunger and saturation. Food poisoning is an illness of the disease mechanic: nausea and faster hunger drain for a while. [Rotten food](#rotten-food) describes what rotten food turns into.
+Nourishment covers both hunger and saturation. Food poisoning is an illness of the [disease mechanic](disease.md#illnesses): nausea and faster hunger drain for a while. [Rotten food](#rotten-food) describes what rotten food turns into.
 
 ### Rate
 
@@ -181,7 +181,7 @@ Food spoilage works together with these mechanics:
 - **[Temperature](temperature.md).** The air band sets the spoilage rate, and rooms make cellars, larders, smokehouses, and ice houses.
 - **[Seasons](seasons.md).** The village stores food for winter, frost harms produce, and the harvest festival uses up what will not keep.
 - **[Thirst](thirst.md).** Water stagnates and drinks sour by the same rule, and boiling salt water gives the salt for salting.
-- **Disease.** Spoiled food causes food poisoning, and spoiled water causes the flux.
+- **[Disease](disease.md).** Spoiled food causes food poisoning, and spoiled water causes the flux.
 - **Sanitation.** Rotten food becomes manure, and pollutes nearby water.
 - **Vermin.** Rats, mice, and weevils raid the stores, and the granary keeps them out.
 - **Trade.** Fresh food does not survive a journey, so villages trade preserved food such as salt fish, cheese, and ham, and inland villages buy salt to preserve at all.
