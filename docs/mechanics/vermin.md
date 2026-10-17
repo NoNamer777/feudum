@@ -176,6 +176,7 @@ Vermin works together with these mechanics:
 - **[Seasons](seasons.md).** Vermin breed in spring and summer, move into the stores in autumn, and crowd indoors in winter.
 - **Hygiene.** Clean bodies and clothing will draw fewer flea bites, and lice and bedbugs belong to hygiene.
 - **[Clothing](clothing.md).** Moth-eaten clothing keeps its wearer less warm.
+- **[Cloth](cloth.md).** Moths eat wool, silk, and fur in every form, and the weaver weaves the sackcloth for sacks.
 - **Trade.** Merchants bring arsenic to villages without a mine, and can bring weevilled grain and plague-ridden rats.
 - **Crop pests.** The pests of the fields belong to crop pests, not to vermin.
 
@@ -194,8 +195,8 @@ Vermin works together with these mechanics:
 - **Sack.** A new carried container for grain, flour, beans, and seeds, which rats gnaw open.
 - **Sealed vessels.** Crocks, sealed casks, and shulker boxes keep rats and mice out.
 - **Moth defenses.** A new herb sachet, airing, the garderobe, and a new clothes pegs block.
-- **Plants and crops.** New lavender and rue plants, and a new hemp crop, retted and dressed like flax.
-- **Sackcloth.** A new cloth woven from tow, the coarse fiber left from dressing flax or hemp.
+- **Plants and crops.** New lavender and rue plants, and a new hemp crop, retted and dressed like flax, as the [cloth mechanic](cloth.md#retting-and-dressing) describes.
+- **Sackcloth.** A new [cloth](cloth.md#kinds-of-cloth) woven from tow, the coarse fiber left from dressing flax or hemp.
 - **Sweeping.** Players sweep out an empty container to kill the weevil eggs in it.
 - **Villager behavior.** Feudum villagers keep cats, clear droppings, store grain in the granary, sieve grain, lay sachets, air their clothes, and site the granary away from polluters.
 - **Ratoner.** A new role that hunts rats and mice by night.

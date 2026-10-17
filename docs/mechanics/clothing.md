@@ -2,7 +2,7 @@
 
 Players and Feudum villagers wear clothing in slots of their own, separate from armor. Garments keep the wearer warm in the cold and cool in the heat, wear out with use, and are patched until they fall to rags. A village needs its tailor and the trades around it to keep everyone in wool for winter and linen for summer.
 
-Clothing starts from finished cloth, leather, and fur. Spinning, weaving, fulling, dyeing, and bleaching belong to the planned cloth mechanic, which the [mechanics index](README.md#planned) lists.
+Clothing starts from finished cloth, leather, and fur. Spinning, weaving, fulling, dyeing, and bleaching belong to the [cloth mechanic](cloth.md).
 
 ## Who wears it
 
@@ -60,7 +60,7 @@ Medieval people wore linen next to the skin. The shirt took up sweat and dirt an
 | Hands        | Gloves           | Leather             | Slight warmth                                   |
 | Hands        | Fur-lined gloves | Leather and fur     | Very warm                                       |
 
-Garments are the same for everyone: the tunic covers both the medieval tunic and the kirtle. A garment takes the color of the cloth it is sewn from, and a finished garment can be re-dyed at the dye vat. Color is cosmetic. Silk garments have the values of their linen versions, and the planned ranks mechanic will add sumptuary rules that set what each estate may wear, silk included.
+Garments are the same for everyone: the tunic covers both the medieval tunic and the kirtle. A garment takes the color of the cloth it is sewn from, and a finished garment can be re-dyed at the [dye vat](cloth.md#dyeing). Color is cosmetic. Silk garments have the values of their linen versions, and the planned ranks mechanic will add sumptuary rules that set what each estate may wear, silk included.
 
 ### Warmth, cooling, and windproofing
 
@@ -220,7 +220,7 @@ Clothing works together with these mechanics:
 - **[Seasons](seasons.md).** The season sets which clothing a body needs.
 - **[Vermin](vermin.md).** Moths eat stored wool, silk, and fur, and moth-eaten garments give less warmth.
 - **[Sanitation](sanitation.md).** Rags go to the dung heap, and straw for hats comes from the harvest.
-- **Cloth.** Supplies the cloth, thread, felt, and waxed cloth that garments are sewn from.
+- **[Cloth](cloth.md).** Supplies the cloth, thread, felt, and waxed linen that garments are sewn from, and the dye vat that re-dyes them.
 - **Hygiene.** Owns dirt on garments, laundry, and lice, and launders the shirt.
 - **Skills.** Skilled sewing will make garments that last longer and patches that restore more.
 - **Ranks.** Will add sumptuary rules that set what each estate may wear.

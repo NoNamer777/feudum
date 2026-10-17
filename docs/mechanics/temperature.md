@@ -160,6 +160,7 @@ Temperature works together with these mechanics:
 - **Wind.** The strength of the wind sets the wind chill.
 - **[Disease](disease.md).** Long spells in the freezing or scorching band cause illness.
 - **[Clothing](clothing.md).** Garments give warmth, cooling, and windproofing.
+- **[Cloth](cloth.md).** Shorn sheep feel the cold, and the silkworm tray needs mild to warm air.
 
 ## Additions and changes
 
@@ -170,7 +171,7 @@ Temperature works together with these mechanics:
 - **Fireplace and brazier.** New heat sources that burn logs or firewood.
 - **Firewood.** A new fuel item that burns longer than logs, which the woodcutter supplies.
 - **Insulating blocks.** Thatch and wattle and daub, new building blocks with the best insulation.
-- **Linings.** Wool, fur, and linen linings for armor. Linen needs a new fiber crop such as flax.
+- **Linings.** Wool, fur, and linen linings for armor. Linen comes from flax, a new crop of the [cloth mechanic](cloth.md#flax-and-hemp).
 - **Hot and cool food and drink.** Vanilla stews warm the body, and new mulled cider and wine warm it further. Cool water and melon cool it.
 - **Temperature display.** A HUD gauge with a trend arrow and a wet indicator, breath vapor, heat shimmer, and a heat haze, alongside the vanilla frost overlay.
 - **Freezing and melting.** Water freezes, snow settles, and both melt by the air temperature instead of the vanilla biome temperature.

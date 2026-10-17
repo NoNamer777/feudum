@@ -147,7 +147,7 @@ Some trades foul the air and the water as part of their work:
 | Butcher | Blood and offal at the shambles, the slaughtering place |
 | Fuller  | Urine in the fulling trough                             |
 | Dyer    | The woad vat, whose smell dyers were known for          |
-| Farmer  | The retting pond, where flax soaks until its stalks rot |
+| Farmer  | The retting pond, where flax and hemp stalks rot        |
 
 - **Offal.** A new item from butchering. Offal goes to the pigs, the dogs, or the dung heap.
 - **Urine.** Households keep urine in a new urine tub block. The tanner, the fuller, and the dyer collect it for their work.
@@ -244,6 +244,7 @@ Sanitation works together with these mechanics:
 - **Soil fertility.** Manure, ash, and night soil feed the fields.
 - **Hygiene.** Washing and laundry need the lye that household ash gives, and hygiene will take over washing off soiled.
 - **[Vermin](vermin.md).** Filth draws rats, and droppings and rags go to the dung heap.
+- **[Cloth](cloth.md).** The retting pond, the fulling trough, and the woad vat are cloth trades, which draw on the urine tub and on lye from ash.
 - **Morale.** Villagers lose morale while filth sits near their home or work.
 - **Reputation.** Villagers will remember a player who fouls their village.
 - **Wind.** The builder will site polluters downwind.

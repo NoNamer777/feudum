@@ -144,7 +144,7 @@ Vanilla foods and drinks quench as follows:
 
 ## Water stores
 
-- **Well.** A new well head block, a stone ring with a windlass and a bucket, on top of a dug shaft. The bottom of the shaft has to hold a water source below the groundwater depth: Y 50 by default, and Y 30 in arid climates. A well never runs dry and draws clean, cool water, as long as no polluter sits near it. The builder digs the village's wells.
+- **Well.** A new well head block, a stone ring with a windlass, a rope, and a bucket, on top of a dug shaft. The bottom of the shaft has to hold a water source below the groundwater depth: Y 50 by default, and Y 30 in arid climates. A well never runs dry and draws clean, cool water, as long as no polluter sits near it. The builder digs the village's wells.
 - **Rain barrel.** A new block that fills with clean water during rain, about one bucket per rainy in-game hour.
 - **Cistern.** An underground store of several blocks that rain or a gutter fills, holding many buckets. It stays cool, so its water stagnates slowly.
 - **Water trough.** A new block for livestock, as [Livestock](#livestock) describes.
@@ -188,6 +188,7 @@ Thirst works together with these mechanics:
 - **[Disease](disease.md).** Unclean water causes the flux, and theriac takes over the effect clearing of vanilla milk.
 - **[Food spoilage](food-spoilage.md).** Stored water stagnates by the same rule that food rots, ale sours, and the salting barrel uses salt from salt water.
 - **[Sanitation](sanitation.md).** Privies, dung heaps, tanneries, and livestock pens pollute nearby water.
+- **[Cloth](cloth.md).** The kettle boils silk cocoons, and the windlass of the well head needs rope.
 - **Intoxication.** Ale, beer, cider, perry, mead, and wine are alcoholic.
 - **Trade.** Salt goes to inland villages, and spices for mulled drinks come from abroad.
 

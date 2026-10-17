@@ -184,6 +184,7 @@ Food spoilage works together with these mechanics:
 - **[Disease](disease.md).** Spoiled food causes food poisoning, and spoiled water causes the flux.
 - **[Sanitation](sanitation.md).** Rotten food becomes manure, and pollutes nearby water.
 - **[Vermin](vermin.md).** Rats, mice, and weevils raid the stores, and the granary keeps them out.
+- **[Cloth](cloth.md).** The drying rack dries retted stalks and woad balls, and mulberries spoil like berries.
 - **Trade.** Fresh food does not survive a journey, so villages trade preserved food such as salt fish, cheese, and ham, and inland villages buy salt to preserve at all.
 
 ## Additions and changes
