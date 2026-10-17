@@ -62,7 +62,7 @@ A village is a persistent, self-steering community with its own name, territory,
 
 Villages owns a village's identity, its territory, its lifecycle, standing, manors, and lordship. Other mechanics, most of them planned in the [index](README.md), own the rest:
 
-- **Villagers**: villager life, death, and homes; officer roles such as a reeve; and who a villager lord is and what it wishes.
+- **Villagers**: villager life, death, and homes. The roles a villager can hold, such as a reeve or a villager lord, are listed in the [villager roles index](../villager-roles/README.md).
 - **Village economy**: tithes, trade, and how they move standing.
 - **Village simulation**: how a village reaches its decisions, such as through officers and custom; when it forms a manor, appoints a villager lord, or founds a village; and what happens in the unloaded parts of a loaded village.
 - **Buildings**: how buildings are designed, built, and recognized, and how building moves standing.
