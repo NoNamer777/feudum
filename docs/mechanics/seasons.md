@@ -58,6 +58,6 @@ Seasons work together with these mechanics, which each get a document of their o
 - **Crop seasons.** Every crop gets the range of air temperatures it grows in, which sets the seasons and climates it grows in. New crops fill the seasons vanilla leaves empty, winter included.
 - **Almanac.** An item, or a sundial block, that shows the date and the season.
 - **Greenhouse.** A greenhouse or cold frame that lets crops grow out of season.
-- **Food storage.** Preserving blocks such as a salting barrel and smokehouse, and cool rooms such as a root cellar, which slow or stop [food spoilage](food-spoilage.md), and a granary that keeps grain from vermin.
+- **Food storage.** Preserving blocks such as a salting barrel and smokehouse, and cool rooms such as a root cellar, which slow or stop [food spoilage](food-spoilage.md), and a [granary](vermin.md#the-granary) that keeps grain from vermin.
 - **Heating.** Fireplaces that burn firewood to keep villager homes warm.
 - **Seasonal foliage.** Leaves that change color, fall in autumn, and leave deciduous trees bare in winter.

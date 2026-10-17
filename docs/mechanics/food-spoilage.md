@@ -139,7 +139,7 @@ Cool storage needs no new block. Storage places are rooms under the room rules o
 - **Larder.** A cool room in a home where the household keeps its food.
 - **Ice house.** A well-insulated room that ice or packed ice keeps cold. It keeps its ice only while it stays cold enough, so it needs fresh ice every winter.
 
-The granary keeps grain from vermin and damp, and the vermin mechanic describes it.
+The [granary](vermin.md#the-granary) keeps grain from vermin and damp, and crocks and sealed casks keep rats and mice out, as the [vermin mechanic](vermin.md#containers-and-sacks) describes.
 
 ## Villagers
 
@@ -183,7 +183,7 @@ Food spoilage works together with these mechanics:
 - **[Thirst](thirst.md).** Water stagnates and drinks sour by the same rule, and boiling salt water gives the salt for salting.
 - **[Disease](disease.md).** Spoiled food causes food poisoning, and spoiled water causes the flux.
 - **[Sanitation](sanitation.md).** Rotten food becomes manure, and pollutes nearby water.
-- **Vermin.** Rats, mice, and weevils raid the stores, and the granary keeps them out.
+- **[Vermin](vermin.md).** Rats, mice, and weevils raid the stores, and the granary keeps them out.
 - **Trade.** Fresh food does not survive a journey, so villages trade preserved food such as salt fish, cheese, and ham, and inland villages buy salt to preserve at all.
 
 ## Additions and changes
