@@ -85,6 +85,7 @@ Each side of normal has three stages, with thresholds from the thermal profile. 
 - Work covers mining, chopping, and attacking.
 - Under `mild`, Freezing and Heatstroke keep their slowness and deal no damage.
 - Effects apply as Feudum attribute modifiers, never as mob effects, so no icon shows in the inventory.
+- Modifiers of the same kind as those of Hunger and Thirst take the strongest rather than adding up, under a rule that Health owns. Damage from each mechanic still applies on its own.
 - Feudum's own hypothermia and heatstroke damage types carry their own death messages.
 - Feudum replaces the vanilla freezing mechanic: the frozen-ticks counter and its screen overlay never trigger, and vanilla freeze damage never applies.
 
@@ -126,6 +127,7 @@ Body temperature owns thermal profiles, felt temperature and its inputs, wetness
 - **Weather**: local temperature, precipitation, snow cover, wind, and wind shelter. Body temperature reads the sheltered wind for wind chill and drying.
 - **[Hunger](hunger.md)**: nourishment, how faster drain plays out, and the vegetable deficiency that narrows the comfort band.
 - **[Thirst](thirst.md)**: drinking, and how faster drain plays out.
+- **Health**: the rule that modifiers of the same kind take the strongest.
 - **Villagers**: how villagers react to their body temperature.
 - **Village simulation**: abstract losses while a village is unloaded, such as livestock lost in a hard winter, read from the Weather query for each catch-up step.
 - **Fire**: how fire catches and spreads. Its heat output is a heat source like any other.

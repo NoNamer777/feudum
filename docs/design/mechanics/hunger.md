@@ -57,6 +57,7 @@ The stages follow energy, apart from Stuffed, which follows the stomach. Thresho
 - Work covers mining, chopping, and attacking, as in Body temperature.
 - Under `mild`, Starving brings heavy slowness and deals no damage.
 - Effects apply as Feudum attribute modifiers, never as mob effects, so no icon shows in the inventory.
+- Modifiers of the same kind as those of Body temperature and Thirst take the strongest rather than adding up, under a rule that Health owns. Damage from each mechanic still applies on its own.
 - Feudum's own starvation damage type carries its own death message.
 
 ## Deficiencies
@@ -142,6 +143,7 @@ Hunger owns diet profiles, the stomach, energy, food groups and group levels, dr
 
 - **Body temperature**: the cold stages that raise the drain, and the comfort band that a vegetable deficiency narrows.
 - **[Thirst](thirst.md)**: drinking, hydration, and the salt and foul loads, which share the stomach, the food component, and the diet profile of Hunger.
+- **Health**: injuries, and the rule that modifiers of the same kind take the strongest. Natural healing moves to Health once it has a design.
 - **Villagers**: when and what a villager eats, such as meals on its schedule.
 - **Village economy**: the food stock a village eats from.
 - **Village simulation**: drawing on the stock at each catch-up step, and applying hunger and deficiencies abstractly, so a village that runs out of fruit in winter falls sick while no one is near.
