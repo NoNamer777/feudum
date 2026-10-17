@@ -1,6 +1,6 @@
 # Mechanics
 
-The game mechanics of Feudum. A mechanic gets its own page in this folder once a grilling session settles its design. The [design index](../README.md) lists the other areas, such as world generation and content.
+The game mechanics of Feudum. A mechanic gets its own page in this folder once its design is settled. The [design index](../README.md) lists the other areas, such as world generation and content.
 
 ## Designed
 
@@ -11,7 +11,7 @@ The game mechanics of Feudum. A mechanic gets its own page in this folder once a
 
 ## Planned
 
-Mechanics that came up during a grilling session but were not its focus. Each waits for a session of its own.
+Mechanics that came up while designing other topics and wait for a design of their own.
 
 - **Buildings**: how buildings are designed, built, and recognized as part of a village.
 - **Extreme weather**: tornadoes, hurricanes, and other extreme wind events, beyond what fronts bring.

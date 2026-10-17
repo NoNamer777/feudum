@@ -1,6 +1,6 @@
 # Content
 
-The blocks, items, and entities of Feudum, which replace their vanilla counterparts. A piece of content gets its own page in this folder once a grilling session settles its design. The [design index](../README.md) lists the other areas.
+The blocks, items, and entities of Feudum, which replace their vanilla counterparts. A piece of content gets its own page in this folder once its design is settled. The [design index](../README.md) lists the other areas.
 
 ## Designed
 
@@ -8,7 +8,7 @@ None yet.
 
 ## Planned
 
-Content that came up during a grilling session but was not its focus. Each waits for a session of its own.
+Content that came up while designing other topics and waits for a design of its own.
 
 - **Clothing layers**: whether Feudum adds clothing slots under armor, and the clothing that fills them.
 - **Snow and ice**: the Feudum snow layer and ice blocks that weather builds up, drifts, and melts.
