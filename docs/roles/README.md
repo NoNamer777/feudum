@@ -10,7 +10,7 @@ These roles have no document yet:
 - **Woodcutter**: fells trees, mostly in winter, and supplies the firewood that heats the village's homes.
 - **Builder**: raises and repairs the village's buildings, mostly in summer, and digs its wells.
 - **Herder**: tends the village's livestock, keeps their troughs full, and keeps the herds fed and sheltered through winter.
-- **Tailor**: sews the village's clothing, warm for winter and light for summer.
+- **Tailor**: sews and mends the village's clothing, gambesons, and horse blankets, warm for winter and light for summer.
 - **Herbalist**: gathers medicinal plants in their season, and makes simple remedies such as teas and poultices for mild illness.
 - **Apothecary**: buys herbs and minerals, and brews stronger remedies for serious illness in a shop.
 - **Barber-surgeon**: treats the body rather than the illness: bloodletting, setting bones, pulling teeth, and cutting hair.
@@ -22,7 +22,7 @@ These roles have no document yet:
 - **Potter**: throws and fires clay jugs, cups, and storage pots.
 - **Tanner**: turns hides into leather at the edge of the village, away from homes and water.
 - **Leatherworker**: makes waterskins, belts, straps, and saddles from the tanner's leather.
-- **Smith**: forges tools, kettles, brewing coppers, barrel hoops, and well chains.
+- **Smith**: forges tools, kettles, brewing coppers, barrel hoops, well chains, and needles.
 - **Salter**: boils or sun-dries seawater into salt on the coast.
 - **Butcher**: slaughters livestock in the autumn cull, and salts and smokes the meat to keep through winter.
 - **Fisher**: catches fish, and salts and dries the catch so it keeps.
@@ -40,6 +40,11 @@ These roles have no document yet:
 - **Fuller**: thickens woven wool in urine and fuller's earth, then stretches, raises, and shears it into finished cloth.
 - **Dyer**: grows woad, madder, and weld in a dye garden, and dyes yarn and cloth in heated vats.
 - **Whitster**: bleaches linen with lye and buttermilk, and lays it out in the sun on a bleaching field.
-- **Carpenter**: builds looms, spinning wheels, tenter frames, carts, privy seats, and furniture.
+- **Carpenter**: builds looms, spinning wheels, tenter frames, sewing tables, carts, privy seats, and furniture.
 - **Ratoner**: hunts the village's rats and mice by night with a ratting dog, destroys their nests, and sets traps and ratsbane.
 - **Mason**: cuts and lays stone, and carves the staddles that raise a granary out of reach of rats.
+- **Cordwainer**: makes turnshoes and boots from the tanner's leather, and mends them.
+- **Skinner**: taws rabbit hides, sheepskins, and fox pelts into fur with alum and salt, and makes fur cloaks, fur linings, and the lining of the pelisse.
+- **Glover**: makes mittens, gloves, and fur-lined gloves.
+- **Hatter**: makes felt hats, plaits straw hats, and finishes fur hats with the skinner's fur.
+- **Warrener**: keeps rabbits in pillow mounds for meat and fur, and traps the foxes that raid them.
