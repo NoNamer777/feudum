@@ -2,7 +2,7 @@
 
 A village is a persistent, self-steering community with its own name, territory, and history. Players do not own villages; they earn standing with them. A village can divide into manors, and with enough standing a player can be offered one and become its lord. A lord can hold manors in any number of villages, but every village keeps deciding its own next steps.
 
-[GLOSSARY.md](../../GLOSSARY.md) defines the terms this page uses.
+[GLOSSARY.md](../../../GLOSSARY.md) defines the terms this page uses.
 
 ## Identity
 
@@ -29,7 +29,7 @@ A village is a persistent, self-steering community with its own name, territory,
 
 ## Standing and wishes
 
-- Each village keeps a standing for every player it knows, and standing sets how much weight the player's wishes carry. [ADR 0002](../adr/0002-lords-earn-standing.md) records why lordship rests on standing rather than ownership.
+- Each village keeps a standing for every player it knows, and standing sets how much weight the player's wishes carry. [ADR 0002](../../adr/0002-lords-earn-standing.md) records why lordship rests on standing rather than ownership.
 - Villages owns the standing scale and its thresholds. The mechanics that own an action decide how it moves standing.
 - Standing can fall below neutral, which makes a village wary of or hostile to a player. The mechanics that own a behavior, such as trade or defense, decide what hostility looks like.
 - Standing never decays with time alone.
@@ -38,7 +38,7 @@ A village is a persistent, self-steering community with its own name, territory,
 
 ## Manors
 
-- A manor is a set of the village's buildings, sworn to one lord. [ADR 0003](../adr/0003-lordship-attaches-to-manors.md) records why lordship attaches to manors rather than villages.
+- A manor is a set of the village's buildings, sworn to one lord. [ADR 0003](../../adr/0003-lordship-attaches-to-manors.md) records why lordship attaches to manors rather than villages.
 - A villager belongs to the manor that holds their home. A villager who loses their home stays with that manor until they find a new one.
 - Buildings in no manor form the village holding. A village with no manors has no lord.
 - A manor is carved only from the village holding, never from another manor.

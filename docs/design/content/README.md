@@ -1,6 +1,6 @@
 # Content
 
-The blocks, items, and entities of Feudum, which replace their vanilla counterparts. A piece of content gets its own page in this folder once a grilling session settles its design. The [docs index](../README.md) lists the other areas.
+The blocks, items, and entities of Feudum, which replace their vanilla counterparts. A piece of content gets its own page in this folder once a grilling session settles its design. The [docs index](../../README.md) lists the other areas.
 
 ## Designed
 

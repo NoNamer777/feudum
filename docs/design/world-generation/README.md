@@ -1,6 +1,6 @@
 # World generation
 
-How Feudum generates its world: the biomes of the overworld and the structures and villages placed in them. A topic gets its own page in this folder once a grilling session settles its design. The [docs index](../README.md) lists the other areas.
+How Feudum generates its world: the biomes of the overworld and the structures and villages placed in them. A topic gets its own page in this folder once a grilling session settles its design. The [docs index](../../README.md) lists the other areas.
 
 ## Designed
 
