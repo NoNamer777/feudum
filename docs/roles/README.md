@@ -33,3 +33,11 @@ These roles have no document yet:
 - **Midwife**: delivers the village's children, and nurses the sick who have no household to care for them.
 - **Sexton**: digs the graves and keeps the burial ground, so the dead stay buried.
 - **Priest**: holds the services and holy days, and consecrates the burial ground.
+- **Gong farmer**: empties the village's cesspits at night, and carts the night soil to the laystall.
+- **Raker**: clears filth from the streets and refuse from full middens, and carts both to the laystall.
+- **Spinner**: combs wool and dresses flax, and spins both into yarn on a distaff and spindle or a spinning wheel.
+- **Weaver**: weaves yarn into wool and linen cloth on a loom.
+- **Fuller**: thickens woven wool in urine and fuller's earth, then stretches, raises, and shears it into finished cloth.
+- **Dyer**: grows woad, madder, and weld in a dye garden, and dyes yarn and cloth in heated vats.
+- **Whitster**: bleaches linen with lye and buttermilk, and lays it out in the sun on a bleaching field.
+- **Carpenter**: builds looms, spinning wheels, tenter frames, carts, privy seats, and furniture.
