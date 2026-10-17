@@ -16,11 +16,12 @@ The wild plants and trees Feudum adds or changes, and the mechanic that describe
 
 ## Trees
 
-| Tree               | Used for                                                 | Mechanic                                                    |
-|:-------------------|:---------------------------------------------------------|:------------------------------------------------------------|
-| Willow             | Willow bark for tea. It grows along rivers and in swamps | [Disease](../mechanics/disease.md#medicinal-plants-and-rye) |
-| Orchard apple tree | Apples for cider                                         | [Thirst](../mechanics/thirst.md#additions-and-changes)      |
-| Pear tree          | Pears for perry                                          | [Thirst](../mechanics/thirst.md#additions-and-changes)      |
+| Tree               | Used for                                                                  | Mechanic                                                    |
+|:-------------------|:--------------------------------------------------------------------------|:------------------------------------------------------------|
+| Willow             | Willow bark for tea. It grows along rivers and in swamps                  | [Disease](../mechanics/disease.md#medicinal-plants-and-rye) |
+| Orchard apple tree | Apples for cider                                                          | [Thirst](../mechanics/thirst.md#additions-and-changes)      |
+| Pear tree          | Pears for perry                                                           | [Thirst](../mechanics/thirst.md#additions-and-changes)      |
+| White mulberry     | Leaves for silkworms, and mulberries. It grows wild only in cherry groves | [Cloth](../mechanics/cloth.md#silk)                         |
 
 ## Changed vanilla plants
 

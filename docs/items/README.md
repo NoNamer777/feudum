@@ -11,6 +11,7 @@ The items Feudum adds or changes, and the mechanic that describes each. The prod
 | Lard               | The butcher's fat, which seals potted meat                                                                                                                           | [Food spoilage](../mechanics/food-spoilage.md#preservation) |
 | Alegar and vinegar | Soured ale, and soured cider, perry, wine, and mead, for pickling                                                                                                    | [Food spoilage](../mechanics/food-spoilage.md#drinks)       |
 | Rotten food        | What rots out of every food except meat and fish                                                                                                                     | [Food spoilage](../mechanics/food-spoilage.md#rotten-food)  |
+| Mulberries         | The fruit of the white mulberry, which keeps 4 days                                                                                                                  | [Cloth](../mechanics/cloth.md#silk)                         |
 
 ## Drinks
 
@@ -45,21 +46,48 @@ The items Feudum adds or changes, and the mechanic that describes each. The prod
 
 ## Clothing and materials
 
-| Item        | What it is                                                                                                             | Mechanic                                                                                              |
-|:------------|:-----------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------|
-| Garments    | The garments of linen, wool, felt, straw, fur, leather, and waxed linen for the seven clothing slots                   | [Clothing](../mechanics/clothing.md#garments)                                                         |
-| Gambeson    | A light armor of quilted linen and wool that gives warmth                                                              | [Clothing](../mechanics/clothing.md#armor)                                                            |
-| Blankets    | The horse blanket, fly sheet, and caparison                                                                            | [Clothing](../mechanics/clothing.md#blankets)                                                         |
-| Linings     | Wool, fur, and linen linings for armor                                                                                 | [Temperature](../mechanics/temperature.md#protection)                                                 |
-| Patch       | Cut from cloth, leather, or fur, and sewn on to mend a garment                                                         | [Clothing](../mechanics/clothing.md#wear-and-mending)                                                 |
-| Needles     | The bone needle, and the smith's longer-lasting iron needle                                                            | [Clothing](../mechanics/clothing.md#sewing)                                                           |
-| Cloth       | Wool cloth, fulled wool, linen, felt, waxed linen, linen thread, and sackcloth, which the planned cloth mechanic makes | [Clothing](../mechanics/clothing.md#garments), [Vermin](../mechanics/vermin.md#containers-and-sacks)  |
-| Sheepskin   | Dropped by a sheep slaughtered unshorn                                                                                 | [Clothing](../mechanics/clothing.md#fur)                                                              |
-| Fox pelt    | Dropped by a fox                                                                                                       | [Clothing](../mechanics/clothing.md#fur)                                                              |
-| Dressed fur | A pelt tawed with alum and salt, ready to sew                                                                          | [Clothing](../mechanics/clothing.md#fur)                                                              |
-| Alum        | Mined from alunite in badlands, or bought, for tawing fur                                                              | [Clothing](../mechanics/clothing.md#fur)                                                              |
-| Herb sachet | Linen filled with dried lavender, wormwood, or rue, which keeps moths out of a container                               | [Vermin](../mechanics/vermin.md#clothes-moths)                                                        |
-| Rags        | What ruined cloth and worn-out garments become                                                                         | [Vermin](../mechanics/vermin.md#clothes-moths), [Clothing](../mechanics/clothing.md#wear-and-mending) |
+| Item        | What it is                                                                                                          | Mechanic                                                                                              |
+|:------------|:--------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------|
+| Garments    | The garments of linen, wool, fustian, silk, felt, straw, fur, leather, and waxed linen for the seven clothing slots | [Clothing](../mechanics/clothing.md#garments)                                                         |
+| Gambeson    | A light armor of quilted linen stuffed with cotton wadding, wool, or tow, that gives warmth                         | [Clothing](../mechanics/clothing.md#armor)                                                            |
+| Blankets    | The horse blanket, fly sheet, and caparison                                                                         | [Clothing](../mechanics/clothing.md#blankets)                                                         |
+| Linings     | Wool, fur, and linen linings for armor                                                                              | [Temperature](../mechanics/temperature.md#protection)                                                 |
+| Patch       | Cut from cloth, leather, or fur, and sewn on to mend a garment                                                      | [Clothing](../mechanics/clothing.md#wear-and-mending)                                                 |
+| Needles     | The bone needle, and the smith's longer-lasting iron needle                                                         | [Clothing](../mechanics/clothing.md#sewing)                                                           |
+| Sheepskin   | Dropped by a sheep slaughtered unshorn                                                                              | [Clothing](../mechanics/clothing.md#fur)                                                              |
+| Fox pelt    | Dropped by a fox                                                                                                    | [Clothing](../mechanics/clothing.md#fur)                                                              |
+| Dressed fur | A pelt tawed with alum and salt, ready to sew                                                                       | [Clothing](../mechanics/clothing.md#fur)                                                              |
+| Alum        | Mined from alunite in badlands, or bought, for tawing fur                                                           | [Clothing](../mechanics/clothing.md#fur)                                                              |
+| Herb sachet | Linen filled with dried lavender, wormwood, or rue, which keeps moths out of a container                            | [Vermin](../mechanics/vermin.md#clothes-moths)                                                        |
+| Rags        | What ruined cloth and worn-out garments become                                                                      | [Vermin](../mechanics/vermin.md#clothes-moths), [Clothing](../mechanics/clothing.md#wear-and-mending) |
+
+## Fiber and cloth
+
+| Item                  | What it is                                                                                                                               | Mechanic                                             |
+|:----------------------|:-----------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------|
+| Raw fleece            | Shorn from a sheep in its color, and washed before combing                                                                               | [Cloth](../mechanics/cloth.md#wool)                  |
+| Combed wool and noils | Combed from washed fleece. Noils go to felt                                                                                              | [Cloth](../mechanics/cloth.md#wool)                  |
+| Flax and hemp stalks  | Retted and dried before they are dressed                                                                                                 | [Cloth](../mechanics/cloth.md#retting-and-dressing)  |
+| Line and tow          | The long and the short fiber that heckling gives                                                                                         | [Cloth](../mechanics/cloth.md#retting-and-dressing)  |
+| Cotton                | Bolls of the cotton crop, ginned and bowed before spinning                                                                               | [Cloth](../mechanics/cloth.md#cotton)                |
+| Cotton wadding        | Stuffing for the gambeson                                                                                                                | [Cloth](../mechanics/cloth.md#fibers)                |
+| Silk                  | Mulberry leaves, silkworm cocoons, and raw silk                                                                                          | [Cloth](../mechanics/cloth.md#silk)                  |
+| Yarn                  | Wool, linen, hemp, tow, and cotton yarn                                                                                                  | [Cloth](../mechanics/cloth.md#yarn-and-thread)       |
+| Thread                | Linen, wool, and silk thread for sewing                                                                                                  | [Cloth](../mechanics/cloth.md#yarn-and-thread)       |
+| Twine and rope        | Twine works wherever vanilla string does, and rope makes leads                                                                           | [Cloth](../mechanics/cloth.md#cordage)               |
+| Cloth                 | Lengths of wool cloth, fulled wool, linen, bleached linen, canvas, sackcloth, fustian, silk cloth, felt, waxed linen, and finished cloth | [Cloth](../mechanics/cloth.md#kinds-of-cloth)        |
+| Woad balls            | Crushed woad leaves, dried and then fermented for blue dye                                                                               | [Cloth](../mechanics/cloth.md#dyeing)                |
+| Fuller's earth        | A clay dug from patches among clay deposits, for fulling                                                                                 | [Cloth](../mechanics/cloth.md#fulling-and-finishing) |
+
+## Cloth tools
+
+| Item                      | What it is                                  | Mechanic                                            |
+|:--------------------------|:--------------------------------------------|:----------------------------------------------------|
+| Wool combs                | Comb washed fleece into combed wool         | [Cloth](../mechanics/cloth.md#wool)                 |
+| Scutching knife           | Scrapes the broken core from flax and hemp  | [Cloth](../mechanics/cloth.md#retting-and-dressing) |
+| Roller gin and cotton bow | Clean cotton of its seeds and beat it loose | [Cloth](../mechanics/cloth.md#cotton)               |
+| Distaff and spindle       | Spin and ply yarn by hand, while walking    | [Cloth](../mechanics/cloth.md#spinning)             |
+| Teasel handle             | Raises the nap of fulled cloth              | [Cloth](../mechanics/cloth.md#finishing)            |
 
 ## Waste
 
@@ -89,18 +117,20 @@ The items Feudum adds or changes, and the mechanic that describes each. The prod
 
 ## Changed vanilla items
 
-| Item                                     | Change                                                | Mechanic                                                                                             |
-|:-----------------------------------------|:------------------------------------------------------|:-----------------------------------------------------------------------------------------------------|
-| Every food and drink                     | Gets a shelf life, and spoils through four stages     | [Food spoilage](../mechanics/food-spoilage.md#freshness)                                             |
-| Rotten flesh                             | What rotten meat and fish become                      | [Food spoilage](../mechanics/food-spoilage.md#rotten-food)                                           |
-| Milk                                     | Quenches, and no longer clears effects                | [Thirst](../mechanics/thirst.md#drinks), [Disease](../mechanics/disease.md#remedies)                 |
-| Water bottle                             | Counts as water, with the purity of its source        | [Thirst](../mechanics/thirst.md#drinks)                                                              |
-| Glass bottle                             | Holds 3 sips, and shatters when dropped from a height | [Thirst](../mechanics/thirst.md#containers)                                                          |
-| Bucket                                   | Fills the other containers, but cannot be drunk from  | [Thirst](../mechanics/thirst.md#containers)                                                          |
-| Stews and soups                          | Quench, and warm the body                             | [Thirst](../mechanics/thirst.md#drinks), [Temperature](../mechanics/temperature.md#body-temperature) |
-| Honey bottle, melon slice, sweet berries | Quench a little, and melon cools the body             | [Thirst](../mechanics/thirst.md#drinks)                                                              |
-| Leather armor                            | Gives fair warmth and windproofing                    | [Clothing](../mechanics/clothing.md#armor)                                                           |
-| Rabbit hide                              | Counts as fur for clothing                            | [Clothing](../mechanics/clothing.md#fur)                                                             |
-| Llama carpet                             | Becomes a wool blanket that gives warmth              | [Clothing](../mechanics/clothing.md#blankets)                                                        |
-| Shears                                   | Cut patches from cloth, leather, and fur              | [Clothing](../mechanics/clothing.md#wear-and-mending)                                                |
-| Shovel                                   | Scoops waste as items                                 | [Sanitation](../mechanics/sanitation.md#handling-waste)                                              |
+| Item                                     | Change                                                                    | Mechanic                                                                                             |
+|:-----------------------------------------|:--------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------|
+| Every food and drink                     | Gets a shelf life, and spoils through four stages                         | [Food spoilage](../mechanics/food-spoilage.md#freshness)                                             |
+| Rotten flesh                             | What rotten meat and fish become                                          | [Food spoilage](../mechanics/food-spoilage.md#rotten-food)                                           |
+| Milk                                     | Quenches, and no longer clears effects                                    | [Thirst](../mechanics/thirst.md#drinks), [Disease](../mechanics/disease.md#remedies)                 |
+| Water bottle                             | Counts as water, with the purity of its source                            | [Thirst](../mechanics/thirst.md#drinks)                                                              |
+| Glass bottle                             | Holds 3 sips, and shatters when dropped from a height                     | [Thirst](../mechanics/thirst.md#containers)                                                          |
+| Bucket                                   | Fills the other containers, but cannot be drunk from                      | [Thirst](../mechanics/thirst.md#containers)                                                          |
+| Stews and soups                          | Quench, and warm the body                                                 | [Thirst](../mechanics/thirst.md#drinks), [Temperature](../mechanics/temperature.md#body-temperature) |
+| Honey bottle, melon slice, sweet berries | Quench a little, and melon cools the body                                 | [Thirst](../mechanics/thirst.md#drinks)                                                              |
+| Leather armor                            | Gives fair warmth and windproofing                                        | [Clothing](../mechanics/clothing.md#armor)                                                           |
+| Rabbit hide                              | Counts as fur for clothing                                                | [Clothing](../mechanics/clothing.md#fur)                                                             |
+| Llama carpet                             | Becomes a wool blanket that gives warmth                                  | [Clothing](../mechanics/clothing.md#blankets)                                                        |
+| Shears                                   | Take raw fleece from sheep, crop the nap of fulled cloth, and cut patches | [Cloth](../mechanics/cloth.md#wool), [Clothing](../mechanics/clothing.md#wear-and-mending)           |
+| String                                   | Twine works in its place, and it no longer crafts into wool               | [Cloth](../mechanics/cloth.md#cordage)                                                               |
+| Lead                                     | Crafted from rope, with no slime ball                                     | [Cloth](../mechanics/cloth.md#cordage)                                                               |
+| Shovel                                   | Scoops waste as items                                                     | [Sanitation](../mechanics/sanitation.md#handling-waste)                                              |
