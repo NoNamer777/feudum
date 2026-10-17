@@ -16,3 +16,6 @@ These mobs have no document yet:
 - **Cat**: hunts rats and mice around its home, and sometimes leaves a dead rat as its morning gift.
 - **Tamed wolf**: attacks rats and mice on sight.
 - **Ratting dog**: a tamed wolf that follows the ratoner, hunts rats down, and digs out their nests.
+- **Sheep**: drops a sheepskin when slaughtered unshorn.
+- **Fox**: drops a fox pelt, and raids rabbit warrens.
+- **Horse, donkey, mule, camel, and llama**: wear blankets, and the llama's carpet becomes a wool blanket.

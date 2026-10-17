@@ -42,7 +42,7 @@ The Nether and the End have no seasons.
 
 ## Player effects
 
-The season sets the air temperature, which players feel through the [temperature mechanic](temperature.md): they need warm clothing and shelter in winter and shade in summer. Summer heat also makes players thirsty faster, through the [thirst mechanic](thirst.md).
+The season sets the air temperature, which players feel through the [temperature mechanic](temperature.md): they need warm [clothing](clothing.md) and shelter in winter and shade in summer. Summer heat also makes players thirsty faster, through the [thirst mechanic](thirst.md).
 
 ## Related mechanics
 

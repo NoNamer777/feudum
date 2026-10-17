@@ -2,6 +2,7 @@
 
 Each document describes one mechanic: how it works, and the items, blocks, and behaviors it depends on.
 
+- [Clothing](clothing.md): players and villagers wear garments in slots of their own, separate from armor, that keep them warm or cool, wear out, and are patched until they fall to rags.
 - [Disease](disease.md): players, villagers, and livestock fall ill from the cold, the heat, bad water, bad food, and each other, and recover with care and remedies.
 - [Food spoilage](food-spoilage.md): food rots over time unless it is kept cold, sealed, or preserved, so a village preserves its harvest to eat through winter.
 - [Sanitation](sanitation.md): players, villagers, and livestock produce waste that has to go somewhere: privies, dung heaps, and manure for the fields, kept away from the water.
@@ -15,7 +16,6 @@ Each document describes one mechanic: how it works, and the items, blocks, and b
 These mechanics have no document yet:
 
 - **Wind**: wind blows with a direction and a strength that change with the weather and the altitude.
-- **Clothing**: garments in slots of their own, separate from armor, that keep the wearer warm or cool.
 - **Injuries**: broken bones and bleeding wounds that need treatment to heal.
 - **Intoxication**: alcoholic drinks build drunkenness from tipsy to drunk to passed out, with a false warmth that hides the cold.
 - **Trade**: villages trade surplus with each other and with traveling merchants, such as salt for inland villages and spices from abroad.
@@ -27,3 +27,6 @@ These mechanics have no document yet:
 - **Soil fertility**: each harvest draws on the soil, and manure, fallow years, and crop rotation restore it.
 - **Crop pests**: crows, pigeons, rabbits, and moles raid sown fields, and scarecrows and bird-scarers keep them off.
 - **Reputation**: how Feudum villagers remember what each player has done in their village, such as fouling its streets.
+- **Cloth**: wool, flax, and hemp become yarn and thread, and then wool cloth, linen, sackcloth, felt, and waxed cloth, through spinning, weaving, fulling, dyeing, and bleaching.
+- **Skills**: players and villagers learn skills by reading, by being taught by a mature villager of a role, or by picking a few when a world starts. Reading is a skill of its own, and a skill makes its work better but is never needed to do it.
+- **Ranks**: the estates of a village, those who pray, fight, and work, from serf and freeman to lord and clergy. They set duties and rights, and sumptuary rules set what each estate may wear.
