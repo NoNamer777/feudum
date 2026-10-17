@@ -8,7 +8,4 @@ None yet.
 
 ## Planned
 
-Topics that came up while designing others and wait for a design of their own.
-
-- **Terrain**: the shape of the generated land. Its base height must follow from the seed alone, since Weather reads it for wind exposure and rain shadows ([ADR 0006](../../adr/0006-weather-reads-the-generated-terrain.md)).
-- **Village generation**: the layouts and placement of the villages world generation places.
+Topics that came up while designing other topics and wait for a design of their own are [open issues](https://github.com/NoNamer777/feudum/issues?q=is%3Aissue%20is%3Aopen%20label%3Adesign%20label%3Aworld-generation) labeled `design` and `world-generation`.

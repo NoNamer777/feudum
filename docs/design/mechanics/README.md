@@ -13,26 +13,4 @@ The game mechanics of Feudum. A mechanic gets its own page in this folder once i
 
 ## Planned
 
-Mechanics that came up while designing other topics and wait for a design of their own.
-
-- **Animal husbandry**: breeding livestock, beyond the Fed animal with no deficiency that Hunger requires.
-- **Brewing**: ale, small beer, cider, and wine, which make water safe to drink, and the drunkenness they bring. Replaces vanilla brewing.
-- **Buildings**: how buildings are designed, built, and recognized as part of a village.
-- **Cooking**: how preparing and combining food sets the energy and food groups it carries.
-- **Extreme weather**: tornadoes, hurricanes, and other extreme wind events, beyond what fronts bring.
-- **Farming**: crops whose growth depends on the season.
-- **Fire**: how fire catches, spreads downwind, and burns out, and how rain puts it out.
-- **Fluids**: how water flows, whether its sources are finite, rivers and their currents, and the salinity and foulness of water: the fresh and salt water of world generation, fouling by livestock, and how waters mix. Its starting point for fouling: still fresh water turns foul when three or more livestock spend a Feudum day within 6 blocks of it, and stays foul for about two days after they leave, while flowing water never fouls. Replaces vanilla water.
-- **Food preservation**: how food spoils, and how salting, smoking, and cellars keep it.
-- **Health**: natural healing, injuries such as bleeding and broken bones, and the rule that modifiers of the same kind from Hunger, Thirst, and Body temperature take the strongest.
-- **Illness**: how a body falls sick, such as from the foul load of [Thirst](thirst.md#model), and how sickness spreads and heals.
-- **Lordship contests**: how a player challenges a sitting lord, how a contest is won, and what the loser keeps.
-- **Realms**: fealty between lords, up to a sovereign with no lord above them, which a player can become.
-- **Relief**: the bladder and bowels that fill with what the stomach passes on, the need to relieve oneself, where to go, and the waste left behind, which can foul water and fertilize fields.
-- **Sailing**: boats under sail that read the wind.
-- **Segmented sleep**: a first and second sleep with a waking hour between, for villager schedules and possibly player sleep. Revisits the sleep speed-up of Time.
-- **Skills**: how players and villagers learn and improve skills, such as reading weather signs, through reading (a skill of its own), being taught by villagers, and practice.
-- **Village economy**: stock and production, and the harvests, markets, tithes, and taxes on the calendar.
-- **Village simulation**: how a village reaches its decisions, and how it advances as abstract data while its chunks are unloaded.
-- **Villagers**: the villager model that daily schedules, aging, homes, and village officers run on, including villager lords.
-- **Wildlife**: how hungry predators hunt live prey, with stalking and pack tactics, and how prey flees.
+Mechanics that came up while designing other topics and wait for a design of their own are [open issues](https://github.com/NoNamer777/feudum/issues?q=is%3Aissue%20is%3Aopen%20label%3Adesign%20label%3Amechanics) labeled `design` and `mechanics`.

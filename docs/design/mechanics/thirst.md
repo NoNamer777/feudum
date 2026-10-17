@@ -118,18 +118,18 @@ The stages follow hydration. Thresholds come from the diet profile. For a human 
 
 ## Boundaries
 
-Thirst owns hydration, absorption, the salt and foul loads, drain, the stages and their effects, cues, the water and salt amounts of food components, the thirst block of diet profiles, and the drinking goal of animals. Other mechanics, most of them planned in the [index](README.md), own the rest:
+Thirst owns hydration, absorption, the salt and foul loads, drain, the stages and their effects, cues, the water and salt amounts of food components, the thirst block of diet profiles, and the drinking goal of animals. Other mechanics own the rest, each linked to its page or, while it waits for a design, its issue:
 
 - **[Hunger](hunger.md)**: the stomach, food components, and diet profiles that Thirst extends.
 - **[Body temperature](body-temperature.md)**: the heat stages that raise the drain, and the thermal offset of drinks and snow.
-- **Fluids**: the salinity and foulness of water blocks and containers, how water flows, mixes, and fouls, and Feudum's replacement for vanilla water.
-- **Health**: natural healing, and the rule that modifiers of the same kind take the strongest.
-- **Illness**: what the foul load does to a body.
-- **Relief**: the water that passes off once hydration is full.
-- **Cooking**: boiling water.
-- **Brewing**: ale, beer, cider, wine, and drunkenness.
-- **Villagers**: when and what a villager drinks.
-- **Village economy**: the stock of water, ale, and beer a village drinks from.
-- **Village simulation**: applying thirst and the foul load abstractly while a village is unloaded.
-- **Buildings**: wells and cisterns.
-- **Drink containers**, **Rain barrel**, and **Feed trough and hay**: the containers, the rain barrel, and the water troughs, planned in [Content](../content/README.md).
+- **[Fluids](https://github.com/NoNamer777/feudum/issues/34)**: the salinity and foulness of water blocks and containers, how water flows, mixes, and fouls, and Feudum's replacement for vanilla water.
+- **[Health](https://github.com/NoNamer777/feudum/issues/36)**: natural healing, and the rule that modifiers of the same kind take the strongest.
+- **[Illness](https://github.com/NoNamer777/feudum/issues/37)**: what the foul load does to a body.
+- **[Relief](https://github.com/NoNamer777/feudum/issues/40)**: the water that passes off once hydration is full.
+- **[Cooking](https://github.com/NoNamer777/feudum/issues/30)**: boiling water.
+- **[Brewing](https://github.com/NoNamer777/feudum/issues/28)**: ale, beer, cider, wine, and drunkenness.
+- **[Villagers](https://github.com/NoNamer777/feudum/issues/46)**: when and what a villager drinks.
+- **[Village economy](https://github.com/NoNamer777/feudum/issues/44)**: the stock of water, ale, and beer a village drinks from.
+- **[Village simulation](https://github.com/NoNamer777/feudum/issues/45)**: applying thirst and the foul load abstractly while a village is unloaded.
+- **[Buildings](https://github.com/NoNamer777/feudum/issues/29)**: wells and cisterns.
+- **[Drink containers](https://github.com/NoNamer777/feudum/issues/49)**, **[Rain barrel](https://github.com/NoNamer777/feudum/issues/52)**, and **[Feed trough and hay](https://github.com/NoNamer777/feudum/issues/50)**: the containers, the rain barrel, and the water troughs.

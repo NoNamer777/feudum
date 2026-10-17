@@ -49,7 +49,7 @@ Wind is measured in meters per second. The wind at a point adds up these parts:
 
 Exposure reads the base height of Feudum's world generation, which follows from the seed alone, never the blocks in the world. A hill a player levels keeps its original wind. Exposure is sampled on a coarse grid, tens of blocks apart, and cached. [ADR 0006](../../adr/0006-weather-reads-the-generated-terrain.md) records why.
 
-The strongest storm fronts top out around 30 m/s. Tornadoes, hurricanes, and other extreme wind events are planned in the [index](README.md).
+The strongest storm fronts top out around 30 m/s. Tornadoes, hurricanes, and other extreme wind events are planned in [Extreme weather](https://github.com/NoNamer777/feudum/issues/31).
 
 ### Wind labels
 
@@ -141,17 +141,17 @@ Wind forces read the sheltered wind, gusts included, so a wall or a house protec
 
 ## Boundaries
 
-Weather owns the weather field, fronts, weather values and labels, the wind and its labels, wind shelter, wind forces, local temperature, snow cover, snow drifts, and ice, weather signs, lightning, and weather overrides. Other mechanics, most of them planned in the [index](README.md), own what weather does to them:
+Weather owns the weather field, fronts, weather values and labels, the wind and its labels, wind shelter, wind forces, local temperature, snow cover, snow drifts, and ice, weather signs, lightning, and weather overrides. Other mechanics own what weather does to them, each linked to its page or, while it waits for a design, its issue:
 
-- **Farming**: how crops respond to the weather, storm damage included.
-- **Village simulation**: what a village does with the weather of each catch-up step.
-- **Villagers**: how weather changes villager behavior.
-- **Buildings**: what weather does to buildings, storm damage included.
-- **Skills**: how well players and villagers read weather signs, and what a skilled reader learns beyond them.
-- **Fire**: how fire spreads, downwind included, and how rain puts it out.
+- **[Farming](https://github.com/NoNamer777/feudum/issues/32)**: how crops respond to the weather, storm damage included.
+- **[Village simulation](https://github.com/NoNamer777/feudum/issues/45)**: what a village does with the weather of each catch-up step.
+- **[Villagers](https://github.com/NoNamer777/feudum/issues/46)**: how weather changes villager behavior.
+- **[Buildings](https://github.com/NoNamer777/feudum/issues/29)**: what weather does to buildings, storm damage included.
+- **[Skills](https://github.com/NoNamer777/feudum/issues/43)**: how well players and villagers read weather signs, and what a skilled reader learns beyond them.
+- **[Fire](https://github.com/NoNamer777/feudum/issues/33)**: how fire spreads, downwind included, and how rain puts it out.
 - **Body temperature**: what cold, heat, wetness, and wind do to living mobs.
-- **Sailing**: how boats under sail read the wind.
-- **Extreme weather**: tornadoes, hurricanes, and other extreme wind events.
-- **Windmill**: how wind powers milling, planned in [Content](../content/README.md).
+- **[Sailing](https://github.com/NoNamer777/feudum/issues/41)**: how boats under sail read the wind.
+- **[Extreme weather](https://github.com/NoNamer777/feudum/issues/31)**: tornadoes, hurricanes, and other extreme wind events.
+- **[Windmill](https://github.com/NoNamer777/feudum/issues/56)**: how wind powers milling.
 
 World generation must offer the base height that exposure reads, as [ADR 0006](../../adr/0006-weather-reads-the-generated-terrain.md) records.
