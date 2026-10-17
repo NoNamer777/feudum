@@ -12,4 +12,5 @@ Content that came up during a grilling session but was not its focus. Each waits
 
 - **Timekeeping items**: a Feudum clock and calendar that show the player the time, date, and season. Deferred in Time.
 - **Snow and ice**: the Feudum snow layer and ice blocks that weather builds up and melts. Came up in Weather.
+- **Clothing layers**: whether Feudum adds clothing slots under armor, and the clothing that fills them. Came up in Body temperature.
 - **Weather vane**: a vane that shows where the wind blows from. Waits for wind, which Weather deferred. Came up in Weather.

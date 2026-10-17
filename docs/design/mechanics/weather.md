@@ -80,4 +80,4 @@ Weather owns the weather field, fronts, weather values and labels, local tempera
 
 ## Deferred
 
-- **Wind**: wind as a weather value, snow drifts and snow moved by the wind, and seasonal shifts in the drift of fronts. The [weather vane](../content/README.md) waits for it.
+- **Wind**: wind as a weather value, snow drifts and snow moved by the wind, and seasonal shifts in the drift of fronts. The [weather vane](../content/README.md) waits for it, and [Body temperature](body-temperature.md) expects a wind speed at any position and moment from the query for its wind chill.
