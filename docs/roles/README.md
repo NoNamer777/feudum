@@ -41,3 +41,5 @@ These roles have no document yet:
 - **Dyer**: grows woad, madder, and weld in a dye garden, and dyes yarn and cloth in heated vats.
 - **Whitster**: bleaches linen with lye and buttermilk, and lays it out in the sun on a bleaching field.
 - **Carpenter**: builds looms, spinning wheels, tenter frames, carts, privy seats, and furniture.
+- **Ratoner**: hunts the village's rats and mice by night with a ratting dog, destroys their nests, and sets traps and ratsbane.
+- **Mason**: cuts and lays stone, and carves the staddles that raise a granary out of reach of rats.

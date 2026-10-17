@@ -25,4 +25,5 @@ These mechanics have no document yet:
 - **Faith**: a church, holy days, and consecrated ground, where the dead rest without rising.
 - **Hygiene**: washing, bathhouses, and laundry keep bodies and clothing clean, which keeps fleas away and lifts morale.
 - **Soil fertility**: each harvest draws on the soil, and manure, fallow years, and crop rotation restore it.
+- **Crop pests**: crows, pigeons, rabbits, and moles raid sown fields, and scarecrows and bird-scarers keep them off.
 - **Reputation**: how Feudum villagers remember what each player has done in their village, such as fouling its streets.
