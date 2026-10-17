@@ -1,6 +1,6 @@
 # Villager roles
 
-The roles a villager can hold, such as an office or a title. A role gets its own page in this folder once a grilling session settles its design. The planned Villagers mechanic in the [mechanics index](../mechanics/README.md) owns the villager model that roles run on, and the [docs index](../../README.md) lists the other areas.
+The roles a villager can hold, such as an office or a title. A role gets its own page in this folder once a grilling session settles its design. The planned Villagers mechanic in the [mechanics index](../mechanics/README.md) owns the villager model that roles run on, and the [design index](../README.md) lists the other areas.
 
 ## Designed
 
