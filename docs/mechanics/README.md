@@ -23,3 +23,5 @@ These mechanics have no document yet:
 - **Aging**: villagers grow up, grow old, and die of age, and the old and the very young resist illness less.
 - **Morale**: how villagers feel about their lives, which festivals raise and hardship lowers, and which sets how they work and whether they stay.
 - **Faith**: a church, holy days, and consecrated ground, where the dead rest without rising.
+- **Hygiene**: washing, bathhouses, and laundry keep bodies and clothing clean, which keeps fleas away and lifts morale.
+- **Soil fertility**: each harvest draws on the soil, and manure, fallow years, and crop rotation restore it.
