@@ -73,7 +73,7 @@ Each illness shows these symptoms. The days run from onset to the end of the ill
 | Plague             | Fever, swellings, weakness, slowness; a cough in the pneumonic form |    4 |
 
 - **Chill and lung fever.** A chill heals once the body is warm and fed. Kept cold or left untended, it turns into lung fever.
-- **The flux.** It spreads only through water: the waste of a sick body fouls the latrines and the water nearby, as the sanitation mechanic describes.
+- **The flux.** It spreads only through water: the waste of a sick body infects the cesspit it goes into and the water nearby, as the [sanitation document](sanitation.md#cesspits) describes.
 - **Marsh ague.** It can relapse after the body recovers, and bring its fever back.
 - **Plague.** It starts from a flea bite and does not spread between people. It can turn pneumonic, which adds a cough, spreads like a strong pox, and reaches its crisis in half the time.
 
@@ -235,14 +235,15 @@ A body in a proper grave rarely rises. The risen are plain zombies and skeletons
 
 Livestock has diseases of its own:
 
-| Disease     | Animals         | Cause                               | Tier    | Spreads |
-|:------------|:----------------|:------------------------------------|:--------|:--------|
-| Murrain     | Cattle          | Contagion between herds             | Serious | Yes     |
-| Sheep rot   | Sheep           | Grazing wet pasture in rain (fluke) | Serious | No      |
-| Scab        | Sheep           | Contagion                           | Mild    | Yes     |
-| Swine fever | Pigs            | Contagion, unclean troughs          | Serious | Yes     |
-| Fowl pest   | Chickens        | Contagion                           | Serious | Yes     |
-| Colic       | Horses, donkeys | Spoiled feed, sudden change of feed | Mild    | No      |
+| Disease     | Animals                      | Cause                               | Tier    | Spreads |
+|:------------|:-----------------------------|:------------------------------------|:--------|:--------|
+| Murrain     | Cattle                       | Contagion between herds             | Serious | Yes     |
+| Sheep rot   | Sheep                        | Grazing wet pasture in rain (fluke) | Serious | No      |
+| Scab        | Sheep                        | Contagion                           | Mild    | Yes     |
+| Swine fever | Pigs                         | Contagion, unclean troughs          | Serious | Yes     |
+| Fowl pest   | Chickens                     | Contagion                           | Serious | Yes     |
+| Colic       | Horses, donkeys              | Spoiled feed, sudden change of feed | Mild    | No      |
+| Foot rot    | Sheep, cattle, goats, horses | Standing in deep dung               | Mild    | No      |
 
 Livestock also catches a chill and heatstroke from exposure, as the [temperature document](temperature.md#livestock) describes, and dehydration lowers its resistance.
 
@@ -267,7 +268,7 @@ Disease works together with these mechanics:
 - **[Thirst](thirst.md).** Unclean water causes the flux, low thirst lowers resistance, and theriac takes over the effect clearing of milk.
 - **[Food spoilage](food-spoilage.md).** Spoiled food causes food poisoning, and remedies spoil by the same rules.
 - **[Seasons](seasons.md).** Each season brings its own illnesses, and wet harvests bring ergot.
-- **Sanitation.** The waste of the sick fouls latrines and water, which spreads the flux.
+- **[Sanitation](sanitation.md).** The waste of the sick infects cesspits and the water nearby, which spreads the flux, and deep dung causes foot rot.
 - **Vermin.** Rats carry the fleas that bring plague.
 - **Injuries.** Wounds, broken bones, bleeding, and wound infection belong to injuries, not disease.
 - **Intoxication.** Hangovers belong to intoxication, not disease.
@@ -296,6 +297,6 @@ Disease works together with these mechanics:
 - **Epidemics.** A village state that keeps merchants away, calls off festivals, lowers morale, and can make villagers flee.
 - **Bodies and burial.** A new shrouded body entity, a grave marker block, burial grounds, and plague pits. Unburied bodies pollute water.
 - **Risen dead.** Zombies and skeletons rise from bodies that were not properly buried, in addition to vanilla spawning.
-- **Livestock diseases.** New murrain, sheep rot, scab, swine fever, fowl pest, and colic, with herbal drenches, culling, and burned carcasses.
+- **Livestock diseases.** New murrain, sheep rot, scab, swine fever, fowl pest, colic, and foot rot, with herbal drenches, culling, and burned carcasses.
 - **Illness display.** Effect icons, cough and sneeze sounds, cough particles, pale and pox-marked villagers, and drooping livestock.
 - **Configuration.** Server settings for the strength of the symptoms, the pace of the stages, the epidemic threshold, the immunity time, and turning disease off for players and contagion off for everyone.

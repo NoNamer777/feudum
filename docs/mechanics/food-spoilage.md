@@ -128,7 +128,7 @@ The salter supplies salt, the brewer alegar, the vintner and orchardist vinegar,
 ## Rotten food
 
 - **Items.** Rotten meat and fish become vanilla rotten flesh, and other rotten food becomes a new rotten food item. [Drinks](#drinks) lists what each drink turns into.
-- **Uses.** Both compost in the vanilla composter, and the dung heap of the sanitation mechanic takes them as manure for the fields.
+- **Uses.** Both compost in the vanilla composter, and the [dung heap](sanitation.md#dung-heap-and-manure) of the sanitation mechanic rots them into manure for the fields.
 - **Pollution.** Rotten food near a well, a cistern, or still water pollutes it, as the [thirst document](thirst.md#contamination) describes.
 
 ## Storage
@@ -182,7 +182,7 @@ Food spoilage works together with these mechanics:
 - **[Seasons](seasons.md).** The village stores food for winter, frost harms produce, and the harvest festival uses up what will not keep.
 - **[Thirst](thirst.md).** Water stagnates and drinks sour by the same rule, and boiling salt water gives the salt for salting.
 - **[Disease](disease.md).** Spoiled food causes food poisoning, and spoiled water causes the flux.
-- **Sanitation.** Rotten food becomes manure, and pollutes nearby water.
+- **[Sanitation](sanitation.md).** Rotten food becomes manure, and pollutes nearby water.
 - **Vermin.** Rats, mice, and weevils raid the stores, and the granary keeps them out.
 - **Trade.** Fresh food does not survive a journey, so villages trade preserved food such as salt fish, cheese, and ham, and inland villages buy salt to preserve at all.
 
