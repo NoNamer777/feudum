@@ -68,11 +68,11 @@ Weevils are kept down by:
 
 Clothes moths are tiny moths that flutter around containers holding wool blocks, carpets, cloth, and wool clothing. They settle in dark, still places that are rarely disturbed, and their larvae eat what is stored there:
 
-| Stage      | Effect                                                    |
-|:-----------|:----------------------------------------------------------|
-| Sound      | None                                                      |
-| Moth-eaten | Clothing keeps its wearer less warm, once clothing exists |
-| Ruined     | Becomes rags, a new item that goes to the dung heap       |
+| Stage      | Effect                                                              |
+|:-----------|:--------------------------------------------------------------------|
+| Sound      | None                                                                |
+| Moth-eaten | [Clothing](clothing.md#wear-and-mending) keeps its wearer less warm |
+| Ruined     | Becomes rags, a new item that goes to the dung heap                 |
 
 Linen and leather are safe, since clothes moths eat only wool.
 
@@ -175,7 +175,7 @@ Vermin works together with these mechanics:
 - **[Temperature](temperature.md).** Rooms make the granary and the garderobe, and the air band sets the pace of breeding.
 - **[Seasons](seasons.md).** Vermin breed in spring and summer, move into the stores in autumn, and crowd indoors in winter.
 - **Hygiene.** Clean bodies and clothing will draw fewer flea bites, and lice and bedbugs belong to hygiene.
-- **Clothing.** Moth-eaten clothing will keep its wearer less warm.
+- **[Clothing](clothing.md).** Moth-eaten clothing keeps its wearer less warm.
 - **Trade.** Merchants bring arsenic for ratsbane, and can bring weevilled grain and plague-ridden rats.
 - **Crop pests.** The pests of the fields belong to crop pests, not to vermin.
 

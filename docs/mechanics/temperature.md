@@ -93,7 +93,7 @@ Food, drink, and exertion are small and temporary. They nudge body temperature, 
 
 Clothing and armor are two layers that stack:
 
-- **Clothing** has five slots of its own, separate from the armor slots: head, body, legs, feet, and cloak. It gives most of the warmth and cooling. Each garment has a warmth value, a cooling value, and a windproof value. Garments include wool clothing, a fur cloak, a waxed coat, and a wide straw hat. The clothing mechanic describes the slots and garments in full.
+- **Clothing** has seven slots of its own, separate from the armor slots: underclothes, head, body, legs, feet, cloak, and hands. It gives most of the warmth and cooling. Each garment has a warmth value, a cooling value, and a windproof value. Garments include wool clothing, a fur cloak, a waxed coat, and a wide straw hat. The [clothing mechanic](clothing.md) describes the slots and garments in full.
 - **Armor** gives protection. Metal armor heats up in the sun and chills in frost unless it has a lining.
 - **Linings** can be added to armor: wool or fur for warmth, and linen for cooling. A knight in plate armor survives winter with a fur lining.
 
@@ -159,7 +159,7 @@ Temperature works together with these mechanics:
 - **[Food spoilage](food-spoilage.md).** Cold air slows rot.
 - **Wind.** The strength of the wind sets the wind chill.
 - **[Disease](disease.md).** Long spells in the freezing or scorching band cause illness.
-- **Clothing.** Garments give warmth, cooling, and windproofing.
+- **[Clothing](clothing.md).** Garments give warmth, cooling, and windproofing.
 
 ## Additions and changes
 
