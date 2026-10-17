@@ -51,14 +51,14 @@ Time gives Feudum one clock and one calendar, and every time-based system follow
 
 ## Boundaries
 
-Time owns the clock, the calendar, the season curves, climate profiles, and the hooks on calendar boundaries. The planned mechanics in the [index](README.md) own what happens on them:
+Time owns the clock, the calendar, the season curves, climate profiles, and the hooks on calendar boundaries. Other mechanics own what happens on them, each linked to its page or, while it waits for a design, its issue:
 
-- **Villagers**: daily schedules and how fast villagers age.
-- **Village economy**: harvests, markets, tithes, and taxes on the calendar.
-- **Village simulation**: what a village does during each catch-up step.
-- **Farming**: how crop growth reads the season curves.
+- **[Villagers](https://github.com/NoNamer777/feudum/issues/46)**: daily schedules and how fast villagers age.
+- **[Village economy](https://github.com/NoNamer777/feudum/issues/44)**: harvests, markets, tithes, and taxes on the calendar.
+- **[Village simulation](https://github.com/NoNamer777/feudum/issues/45)**: what a village does during each catch-up step.
+- **[Farming](https://github.com/NoNamer777/feudum/issues/32)**: how crop growth reads the season curves.
 - **Weather**: what a local season brings, such as rain, storms, and snow.
 
 ## Deferred
 
-- **Timekeeping items**: a Feudum clock and calendar that show the time, date, and season. The vanilla clock stays hidden until then, and no permanent HUD replaces it.
+- **[Timekeeping items](https://github.com/NoNamer777/feudum/issues/54)**: a Feudum clock and calendar that show the time, date, and season. The vanilla clock stays hidden until then, and no permanent HUD replaces it.

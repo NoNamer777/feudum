@@ -139,17 +139,17 @@ For a human:
 
 ## Boundaries
 
-Hunger owns diet profiles, the stomach, energy, food groups and group levels, drain, the stages and their effects, deficiencies and cravings, natural healing, cues, food components, and the feeding goal of animals. Other mechanics, most of them planned in the [index](README.md), own the rest:
+Hunger owns diet profiles, the stomach, energy, food groups and group levels, drain, the stages and their effects, deficiencies and cravings, natural healing, cues, food components, and the feeding goal of animals. Other mechanics own the rest, each linked to its page or, while it waits for a design, its issue:
 
 - **Body temperature**: the cold stages that raise the drain, and the comfort band that a vegetable deficiency narrows.
 - **[Thirst](thirst.md)**: drinking, hydration, and the salt and foul loads, which share the stomach, the food component, and the diet profile of Hunger.
-- **Health**: injuries, and the rule that modifiers of the same kind take the strongest. Natural healing moves to Health once it has a design.
-- **Villagers**: when and what a villager eats, such as meals on its schedule.
-- **Village economy**: the food stock a village eats from.
-- **Village simulation**: drawing on the stock at each catch-up step, and applying hunger and deficiencies abstractly, so a village that runs out of fruit in winter falls sick while no one is near.
-- **Farming**: how grass grows back with the season.
-- **Wildlife**: hunting live prey, such as stalking, pack tactics, and prey that flees.
-- **Cooking**: how preparing and combining food sets its food component.
-- **Food preservation**: spoilage, salting, smoking, and cellars.
-- **Animal husbandry**: breeding, beyond its hunger requirement.
-- **Foods** and **Feed trough and hay**: the food and fodder that Feudum adds, planned in [Content](../content/README.md).
+- **[Health](https://github.com/NoNamer777/feudum/issues/36)**: injuries, and the rule that modifiers of the same kind take the strongest. Natural healing moves to Health once it has a design.
+- **[Villagers](https://github.com/NoNamer777/feudum/issues/46)**: when and what a villager eats, such as meals on its schedule.
+- **[Village economy](https://github.com/NoNamer777/feudum/issues/44)**: the food stock a village eats from.
+- **[Village simulation](https://github.com/NoNamer777/feudum/issues/45)**: drawing on the stock at each catch-up step, and applying hunger and deficiencies abstractly, so a village that runs out of fruit in winter falls sick while no one is near.
+- **[Farming](https://github.com/NoNamer777/feudum/issues/32)**: how grass grows back with the season.
+- **[Wildlife](https://github.com/NoNamer777/feudum/issues/47)**: hunting live prey, such as stalking, pack tactics, and prey that flees.
+- **[Cooking](https://github.com/NoNamer777/feudum/issues/30)**: how preparing and combining food sets its food component.
+- **[Food preservation](https://github.com/NoNamer777/feudum/issues/35)**: spoilage, salting, smoking, and cellars.
+- **[Animal husbandry](https://github.com/NoNamer777/feudum/issues/27)**: breeding, beyond its hunger requirement.
+- **[Foods](https://github.com/NoNamer777/feudum/issues/51)** and **[Feed trough and hay](https://github.com/NoNamer777/feudum/issues/50)**: the food and fodder that Feudum adds.

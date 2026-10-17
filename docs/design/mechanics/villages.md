@@ -60,15 +60,15 @@ A village is a persistent, self-steering community with its own name, territory,
 
 ## Boundaries
 
-Villages owns a village's identity, its territory, its lifecycle, standing, manors, and lordship. Other mechanics, most of them planned in the [index](README.md), own the rest:
+Villages owns a village's identity, its territory, its lifecycle, standing, manors, and lordship. Other mechanics own the rest, each linked to its page or, while it waits for a design, its issue:
 
-- **Villagers**: villager life, death, and homes. The roles a villager can hold, such as a reeve or a villager lord, are listed in the [villager roles index](../villager-roles/README.md).
-- **Village economy**: tithes, trade, and how they move standing.
-- **Village simulation**: how a village reaches its decisions, such as through officers and custom; when it forms a manor, appoints a villager lord, or founds a village; and what happens in the unloaded parts of a loaded village.
-- **Buildings**: how buildings are designed, built, and recognized, and how building moves standing.
-- **Village generation**: the layouts and placement of world-gen villages, listed in the [world generation index](../world-generation/README.md).
-- **Lordship contests**: how a contest starts and is won, and what the loser keeps.
-- **Realms**: fealty between lords, up to a sovereign with no lord above them, which a player can become.
+- **[Villagers](https://github.com/NoNamer777/feudum/issues/46)**: villager life, death, and homes. The roles a villager can hold, such as a [reeve](https://github.com/NoNamer777/feudum/issues/58) or a [villager lord](https://github.com/NoNamer777/feudum/issues/59), are listed in the [villager roles index](../villager-roles/README.md).
+- **[Village economy](https://github.com/NoNamer777/feudum/issues/44)**: tithes, trade, and how they move standing.
+- **[Village simulation](https://github.com/NoNamer777/feudum/issues/45)**: how a village reaches its decisions, such as through officers and custom; when it forms a manor, appoints a villager lord, or founds a village; and what happens in the unloaded parts of a loaded village.
+- **[Buildings](https://github.com/NoNamer777/feudum/issues/29)**: how buildings are designed, built, and recognized, and how building moves standing.
+- **[Village generation](https://github.com/NoNamer777/feudum/issues/61)**: the layouts and placement of world-gen villages.
+- **[Lordship contests](https://github.com/NoNamer777/feudum/issues/38)**: how a contest starts and is won, and what the loser keeps.
+- **[Realms](https://github.com/NoNamer777/feudum/issues/39)**: fealty between lords, up to a sovereign with no lord above them, which a player can become.
 
 ## Deferred
 

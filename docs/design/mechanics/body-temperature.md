@@ -122,14 +122,14 @@ Each side of normal has three stages, with thresholds from the thermal profile. 
 
 ## Boundaries
 
-Body temperature owns thermal profiles, felt temperature and its inputs, wetness, enclosure and room temperature, heat sources, the thermal stats of wearables and consumables, the stages and their effects, cues, and the comfort-seeking goal of animals. Other mechanics, most of them planned in the [index](README.md), own the rest:
+Body temperature owns thermal profiles, felt temperature and its inputs, wetness, enclosure and room temperature, heat sources, the thermal stats of wearables and consumables, the stages and their effects, cues, and the comfort-seeking goal of animals. Other mechanics own the rest, each linked to its page or, while it waits for a design, its issue:
 
 - **Weather**: local temperature, precipitation, snow cover, wind, and wind shelter. Body temperature reads the sheltered wind for wind chill and drying.
 - **[Hunger](hunger.md)**: nourishment, how faster drain plays out, and the vegetable deficiency that narrows the comfort band.
 - **[Thirst](thirst.md)**: drinking, and how faster drain plays out.
-- **Health**: the rule that modifiers of the same kind take the strongest.
-- **Villagers**: how villagers react to their body temperature.
-- **Village simulation**: abstract losses while a village is unloaded, such as livestock lost in a hard winter, read from the Weather query for each catch-up step.
-- **Fire**: how fire catches and spreads. Its heat output is a heat source like any other.
-- **Buildings**: whether a building reuses the enclosure check.
-- **Clothing layers**: whether Feudum adds clothing slots under armor.
+- **[Health](https://github.com/NoNamer777/feudum/issues/36)**: the rule that modifiers of the same kind take the strongest.
+- **[Villagers](https://github.com/NoNamer777/feudum/issues/46)**: how villagers react to their body temperature.
+- **[Village simulation](https://github.com/NoNamer777/feudum/issues/45)**: abstract losses while a village is unloaded, such as livestock lost in a hard winter, read from the Weather query for each catch-up step.
+- **[Fire](https://github.com/NoNamer777/feudum/issues/33)**: how fire catches and spreads. Its heat output is a heat source like any other.
+- **[Buildings](https://github.com/NoNamer777/feudum/issues/29)**: whether a building reuses the enclosure check.
+- **[Clothing layers](https://github.com/NoNamer777/feudum/issues/48)**: whether Feudum adds clothing slots under armor.
