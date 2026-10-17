@@ -32,7 +32,7 @@ Every living mob, players included, has a body temperature that drifts toward ho
 Felt temperature starts from the local temperature of the [Weather](weather.md#local-temperature) query, which already accounts for season, climate profile, altitude, and the time of day. Environmental inputs add offsets in °C to it, and insulation reshapes the comfort band.
 
 - **Sun**: open sky adds a sun offset that grows with the height of the sun and shrinks with cloud cover. Midday in a clear desert is brutal; shade or overcast takes the edge off.
-- **Wind chill**: wind lowers the felt temperature in proportion to its speed, and more when wet. Cover, enclosure, and wind-resistant clothing cut it. Until Weather delivers wind, the input reads zero.
+- **Wind chill**: wind lowers the felt temperature in proportion to the mean speed of the [sheltered wind](weather.md#wind-shelter), and more when wet. Wind-resistant clothing cuts it further.
 - **Wetness**: wetness always cools. In the cold it also cancels much of the insulation; in the heat it brings relief, so a swim cools a summer day.
 - **Exertion**: sprinting, swimming, climbing, mining, chopping, and fighting build a warming offset that decays over about a minute of rest.
 - **Heat sources**: see [Shelter and heat](#shelter-and-heat).
@@ -47,11 +47,12 @@ Felt temperature starts from the local temperature of the [Weather](weather.md#l
 - Exertion while Overheated adds sweat, so a hard worker cools in the heat but chills once they stop in the cold.
 - Snow falling on an uncovered body melts into wetness while the felt temperature is above freezing.
 - Water-resistant clothing reduces every source.
-- Wetness dries faster with higher felt temperature, sun, wind, and nearby heat sources.
+- Wetness dries faster with higher felt temperature, sun, sheltered wind, and nearby heat sources.
 
 ## Shelter and heat
 
-- A body under no open sky is covered: rain, sun, and most of the wind no longer reach it.
+- A body under no open sky is covered: rain and sun no longer reach it.
+- Wind shelter, not cover, decides how much wind reaches a body, so a roof with open sides keeps off the rain but not the wind, and a wall with no roof breaks the wind.
 - A body inside an enclosed space feels the room temperature of that space instead of the outside air.
 - The enclosure check flood-fills the air around a body up to a volume cap. Wall blocks bound the space, and so do door-like blocks, such as doors, trapdoors, gates, and panes, whether open or closed. The fill also stops at outdoor cells, air with open sky above, and each face it shares with one counts as an opening.
 - A space past the volume cap is covered, not enclosed.
@@ -122,7 +123,7 @@ Each side of normal has three stages, with thresholds from the thermal profile. 
 
 Body temperature owns thermal profiles, felt temperature and its inputs, wetness, enclosure and room temperature, heat sources, the thermal stats of wearables and consumables, the stages and their effects, cues, and the comfort-seeking goal of animals. Other mechanics, most of them planned in the [index](README.md), own the rest:
 
-- **Weather**: local temperature, precipitation, snow cover, and wind. Body temperature expects a wind speed at any position and moment from the Weather query.
+- **Weather**: local temperature, precipitation, snow cover, wind, and wind shelter. Body temperature reads the sheltered wind for wind chill and drying.
 - **Hunger** and **Thirst**: nourishment, and how faster drain plays out.
 - **Villagers**: how villagers react to their body temperature.
 - **Village simulation**: abstract losses while a village is unloaded, such as livestock lost in a hard winter, read from the Weather query for each catch-up step.
