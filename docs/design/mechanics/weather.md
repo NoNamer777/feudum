@@ -2,11 +2,11 @@
 
 Weather brings fronts that drift across the map, shaped by each biome's climate profile and the season curves of [Time](time.md). Feudum computes the weather rather than storing it, so the weather at any place and moment, past or future, can be known. Vanilla weather covers a whole dimension at once and advances by ticks, so Feudum replaces it.
 
-[GLOSSARY.md](../../GLOSSARY.md) defines the terms this page uses.
+[GLOSSARY.md](../../../GLOSSARY.md) defines the terms this page uses.
 
 ## Computed weather
 
-- Feudum owns the weather. Vanilla weather stays at clear, the weather cycle is locked off, and vanilla `/weather` is unregistered. [ADR 0004](../adr/0004-feudum-owns-the-weather.md) records why.
+- Feudum owns the weather. Vanilla weather stays at clear, the weather cycle is locked off, and vanilla `/weather` is unregistered. [ADR 0004](../../adr/0004-feudum-owns-the-weather.md) records why.
 - The weather at a point follows from the world seed, the position, and the Feudum time. Nothing is stored except weather overrides.
 - Weather advances by the Feudum time that passed, so it follows the day length and the sleep speed-up.
 - Editing a climate profile or a weather setting changes the weather of every date, past dates included. Snow and ice already in the world stay as they are and continue from the new weather.

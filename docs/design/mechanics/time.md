@@ -2,11 +2,11 @@
 
 Time gives Feudum one clock and one calendar, and every time-based system follows them: the day and night cycle, villager schedules, recurring village events, aging, and the seasons that change the world. Vanilla's clock is too fast for a management game and cannot carry a calendar, so Feudum replaces it.
 
-[GLOSSARY.md](../../GLOSSARY.md) defines the terms this page uses.
+[GLOSSARY.md](../../../GLOSSARY.md) defines the terms this page uses.
 
 ## Clock
 
-- Feudum owns the clock. It stores elapsed time as a day count plus the fraction of the current day, and derives the vanilla `dayTime` from it. The `doDaylightCycle` gamerule stays locked off. [ADR 0001](../adr/0001-feudum-owns-the-clock.md) records why.
+- Feudum owns the clock. It stores elapsed time as a day count plus the fraction of the current day, and derives the vanilla `dayTime` from it. The `doDaylightCycle` gamerule stays locked off. [ADR 0001](../../adr/0001-feudum-owns-the-clock.md) records why.
 - A day lasts 40 real minutes by default, twice the vanilla day. Day length is a per-world setting that can change at any time; since the clock counts days rather than ticks, a change never moves the date.
 - Every Feudum system advances by the Feudum time that has passed, never by counting server ticks. Day length, sleep speed-up, and catch-up all run through this one path.
 - A day has 24 hours and starts at midnight. Dawn falls at 06:00, as in vanilla.
