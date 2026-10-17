@@ -33,16 +33,22 @@ Medieval people wore linen next to the skin. The shirt took up sweat and dirt an
 | Slot         | Garment          | Material            | Character                                       |
 |:-------------|:-----------------|:--------------------|:------------------------------------------------|
 | Underclothes | Shirt            | Linen               | Slight warmth, cooling in heat                  |
+| Underclothes | Silk shirt       | Silk                | Slight warmth, cooling in heat                  |
 | Head         | Coif             | Linen               | Slight warmth, cool                             |
+| Head         | Silk coif        | Silk                | Slight warmth, cool                             |
 | Head         | Hood             | Wool                | Warm, windproof, with a shoulder cape           |
 | Head         | Felt hat         | Felt                | Fair warmth, sheds rain                         |
 | Head         | Fur hat          | Fur and felt        | Very warm                                       |
 | Head         | Straw hat        | Straw               | Shade                                           |
 | Body         | Linen tunic      | Linen               | Cooling                                         |
 | Body         | Wool tunic       | Wool                | Warm                                            |
+| Body         | Fustian tunic    | Fustian             | Fair warmth, slight cooling                     |
+| Body         | Silk tunic       | Silk                | Cooling, keeps its warmth when wet              |
 | Body         | Pelisse          | Wool lined with fur | Very warm                                       |
 | Legs         | Linen hose       | Linen               | Cooling                                         |
 | Legs         | Wool hose        | Wool                | Warm                                            |
+| Legs         | Fustian hose     | Fustian             | Fair warmth, slight cooling                     |
+| Legs         | Silk hose        | Silk                | Cooling, keeps its warmth when wet              |
 | Feet         | Turnshoes        | Leather             | Slight warmth                                   |
 | Feet         | Boots            | Leather             | Warm, windproof, keep the feet dry while wading |
 | Feet         | Fur-lined boots  | Leather and fur     | Very warm, windproof                            |
@@ -54,7 +60,7 @@ Medieval people wore linen next to the skin. The shirt took up sweat and dirt an
 | Hands        | Gloves           | Leather             | Slight warmth                                   |
 | Hands        | Fur-lined gloves | Leather and fur     | Very warm                                       |
 
-Garments are the same for everyone: the tunic covers both the medieval tunic and the kirtle. A garment takes the color of the cloth it is sewn from, and a finished garment can be re-dyed at the dye vat. Color is cosmetic. The planned ranks mechanic will add sumptuary rules that set what each estate may wear.
+Garments are the same for everyone: the tunic covers both the medieval tunic and the kirtle. A garment takes the color of the cloth it is sewn from, and a finished garment can be re-dyed at the dye vat. Color is cosmetic. Silk garments have the values of their linen versions, and the planned ranks mechanic will add sumptuary rules that set what each estate may wear, silk included.
 
 ### Warmth, cooling, and windproofing
 
@@ -71,7 +77,7 @@ Each garment has a warmth, a cooling, and a windproof value, which add up across
 Clothing and armor stack, and armor takes linings, as the [temperature document](temperature.md#protection) describes:
 
 - **Leather armor** stays armor, the cuir bouilli of the period. It keeps its vanilla dyeing, and gives fair warmth and windproofing without a lining.
-- **Gambeson.** A new light armor of quilted linen and wool, the padded armor of the period, worn in the chest armor slot. It gives warmth along with its protection.
+- **Gambeson.** A new light armor of quilted linen stuffed with cotton wadding, wool, or tow, the padded armor of the period, worn in the chest armor slot. Each stuffing gives the same protection, and the gambeson gives warmth along with it.
 
 ### Wetness
 
@@ -79,6 +85,8 @@ Clothing and armor stack, and armor takes linings, as the [temperature document]
 
 - **Wool** keeps about half its warmth when wet.
 - **Linen** loses all its warmth when wet.
+- **Fustian** keeps about half its warmth when wet, like wool.
+- **Silk** keeps all its warmth when wet.
 - **Shedding rain.** The waxed coat and the cloak keep the wearer dry in rain and snow. A felt hat slows the wetting on its own.
 - **Wading.** Boots keep the wearer dry in water too shallow to swim in.
 - **Swimming.** Nothing keeps a swimmer dry.
@@ -96,7 +104,7 @@ Garments wear out with time worn and with damage taken, through four stages:
 | Threadbare | Half values                                   |
 | Rags       | Becomes rags, the item of the vermin mechanic |
 
-- **Pace.** A garment worn every day moves one stage per season, so an unpatched garment lasts about three seasons. Shirts, hose, and gloves wear twice as fast.
+- **Pace.** A garment worn every day moves one stage per season, so an unpatched garment lasts about three seasons. Shirts, hose, and gloves wear twice as fast. Silk garments, and garments sewn from finished cloth, last one season longer.
 - **Damage.** Damage taken without armor wears the garments it hits one stage faster. Armor shields the garments under it.
 - **Moths.** Stored wool, silk, and fur can turn moth-eaten, as the [vermin mechanic](vermin.md#clothes-moths) describes, and wearing a garment airs it. A moth-eaten garment gives half its warmth and no windproofing. The moth mark and the wear stage are separate, so a threadbare, moth-eaten cloak gives a quarter of its warmth.
 
@@ -180,10 +188,10 @@ These roles make what the village wears:
 
 | Item                                         | Maker      | Materials                                       |
 |:---------------------------------------------|:-----------|:------------------------------------------------|
-| Shirts, coifs, hoods, tunics, hose           | Tailor     | Linen and wool cloth                            |
+| Shirts, coifs, hoods, tunics, hose           | Tailor     | Linen, wool cloth, fustian, and silk cloth      |
 | Cloaks, waxed coats, mantles                 | Tailor     | Fulled wool, waxed linen, and linen             |
 | Pelisse                                      | Tailor     | Wool cloth, with the skinner's lining           |
-| Gambeson                                     | Tailor     | Quilted linen and wool                          |
+| Gambeson                                     | Tailor     | Linen, and cotton wadding, wool, or tow         |
 | Horse blankets, fly sheets, caparisons       | Tailor     | Wool, linen, and dyed wool                      |
 | Fur cloaks, fur linings, and pelisse linings | Skinner    | Dressed fur                                     |
 | Dressed fur                                  | Skinner    | Rabbit hides, sheepskins, fox pelts, alum, salt |
@@ -223,9 +231,9 @@ Clothing works together with these mechanics:
 ## Additions and changes
 
 - **Clothing slots.** Seven slots in a new inventory panel, separate from armor: underclothes, head, body, legs, feet, cloak, and hands.
-- **Garments.** New garments of linen, wool, felt, straw, fur, leather, and waxed linen, with warmth, cooling, windproof, and shade values.
+- **Garments.** New garments of linen, wool, fustian, silk, felt, straw, fur, leather, and waxed linen, with warmth, cooling, windproof, and shade values.
 - **Rendering.** Garments render under armor and the cloak over it, with a client option to hide them.
-- **Gambeson.** A new light armor of quilted linen and wool that gives warmth.
+- **Gambeson.** A new light armor of quilted linen stuffed with cotton wadding, wool, or tow, that gives warmth.
 - **Leather armor.** Vanilla leather armor gives fair warmth and windproofing.
 - **Wear.** Garments wear from sound to worn, threadbare, and rags, faster when hit without armor.
 - **Patches.** New patches of cloth, leather, or fur, cut with vanilla shears, that mend a garment or remove the moth mark.
