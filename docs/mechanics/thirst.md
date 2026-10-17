@@ -70,9 +70,9 @@ The flux, the medieval name for dysentery, is an illness of the [disease mechani
 Clean water turns unclean in two ways:
 
 - **Stagnation.** Water in an open container, such as a bucket, cup, barrel, or cistern, turns unclean after a few in-game days. It turns faster in warm air and slower in cool rooms, by the same rule that [food spoilage](food-spoilage.md#rate) uses. Sealed containers, such as a waterskin, a stoppered jug, or a bottle, keep water clean much longer.
-- **Pollution.** A polluter within a few blocks of a well, a cistern, or still water makes that water unclean. Polluters are livestock pens, dung heaps, latrines, tanneries, rotting food, and corpses of mobs that died in the water. A river carries pollution a set distance downstream, so the water upstream of a village is cleaner than the water below it.
+- **Pollution.** A polluter within its range of a well, a cistern, or still water makes that water unclean. Polluters include livestock pens, dung heaps, privies, tanneries, rotting food, and corpses of mobs that died in the water. A river carries pollution downstream for four times the range of the polluter, so the water upstream of a village is cleaner than the water below it.
 
-Once the polluter is gone, the water clears over a day or two. Rain falling straight into a container is always clean. The sanitation mechanic describes the polluters themselves.
+Once the polluter is gone, the water clears over a day or two. Rain falling straight into a container is always clean. The [sanitation document](sanitation.md#polluters) lists the polluters and their ranges.
 
 ### Purifying
 
@@ -187,7 +187,7 @@ Thirst works together with these mechanics:
 - **[Seasons](seasons.md).** The season and climate set how often rain fills the water stores, and winter freezes water.
 - **[Disease](disease.md).** Unclean water causes the flux, and theriac takes over the effect clearing of vanilla milk.
 - **[Food spoilage](food-spoilage.md).** Stored water stagnates by the same rule that food rots, ale sours, and the salting barrel uses salt from salt water.
-- **Sanitation.** Latrines, dung heaps, tanneries, and livestock pens pollute nearby water.
+- **[Sanitation](sanitation.md).** Privies, dung heaps, tanneries, and livestock pens pollute nearby water.
 - **Intoxication.** Ale, beer, cider, perry, mead, and wine are alcoholic.
 - **Trade.** Salt goes to inland villages, and spices for mulled drinks come from abroad.
 
