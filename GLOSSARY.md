@@ -141,7 +141,7 @@ _Avoid_: Storm, weather cell
 
 ### Weather values
 
-The cloud cover, precipitation intensity, storminess, and fog at a point.
+The cloud cover, precipitation intensity, storminess, fog, and wind at a point.
 
 ### Weather label
 
@@ -154,7 +154,7 @@ The temperature at a point: the season's temperature in its biome, adjusted for 
 
 ### Weather sign
 
-Something in the sky that shows weather to come.\
+Something in the sky or the wind that shows weather to come.\
 _Avoid_: Forecast
 
 ### Weather override
@@ -165,6 +165,61 @@ _Avoid_: Forced weather
 ### Snow cover
 
 The snow lying on a column, in layers.
+
+### Snow drift
+
+Snow cover that the wind has heaped in the lee of an obstacle, up to 2 blocks deep.
+
+### Wind
+
+The moving air at a point: a mean speed and the direction it blows from.\
+_Avoid_: Surface wind
+
+### Steering flow
+
+The large-scale wind, mostly west to east, that carries fronts across the map.\
+_Avoid_: Prevailing wind, jet stream
+
+### Front wind
+
+The wind a front brings with it, growing with storminess.
+
+### Gust
+
+A brief rise of the wind above its mean speed.
+
+### Backing
+
+A wind direction turning counterclockwise, as ahead of a front.
+
+### Veering
+
+A wind direction turning clockwise, as after a front passes.
+
+### Windiness
+
+The season curve in a climate profile that scales the wind in its biomes.
+
+### Exposure
+
+How much the generated terrain speeds up or slows down the wind at a position.
+
+### Wind shelter
+
+How much the blocks upwind of an entity or block cut the wind.
+
+### Sheltered wind
+
+The wind at an entity or block after wind shelter.
+
+### Wind label
+
+The name for a range of wind speeds, such as Breeze or Gale.\
+_Avoid_: Wind force, Beaufort number
+
+### Rain shadow
+
+The drier lee of high terrain, where fronts have dropped their precipitation on the windward side.
 
 ## Body temperature
 
