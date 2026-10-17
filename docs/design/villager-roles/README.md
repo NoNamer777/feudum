@@ -10,6 +10,6 @@ None yet.
 
 Roles that came up during a grilling session but were not its focus. Each waits for a session of its own.
 
-- **Villager lord**: a villager a manor is sworn to. [Villages](../mechanics/villages.md#lordship) sets its weight and rights; its page will settle who becomes one and what it wishes. Came up in Villages.
-- **Reeve**: the officer who carries out a village's decisions and runs its daily work. Came up in Villages.
 - **Hayward**: the officer who guards a village's crops and fences. Came up in Villages.
+- **Reeve**: the officer who carries out a village's decisions and runs its daily work. Came up in Villages.
+- **Villager lord**: a villager a manor is sworn to. [Villages](../mechanics/villages.md#lordship) sets its weight and rights; its page will settle who becomes one and what it wishes. Came up in Villages.
