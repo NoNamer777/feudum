@@ -18,7 +18,7 @@ These mechanics have no document yet:
 - **Wind**: wind blows with a direction and a strength that change with the weather and the altitude.
 - **Injuries**: broken bones and bleeding wounds that need treatment to heal.
 - **Intoxication**: alcoholic drinks build drunkenness from tipsy to drunk to passed out, with a false warmth that hides the cold.
-- **Trade**: villages trade surplus with each other and with traveling merchants, such as salt for inland villages and spices from abroad.
+- **Trade**: villages trade surplus with each other and with traveling merchants. Every traded good comes from somewhere in the world, so a village sited there can produce it for trade. Salt comes from the coasts, alum from a new alunite stone in badlands, arsenic from a new ore deep underground, and spices from new jungle plants.
 - **Nutrition**: a varied diet keeps players and villagers healthy, and a diet lacking fresh food brings deficiencies such as scurvy.
 - **Aging**: villagers grow up, grow old, and die of age, and the old and the very young resist illness less.
 - **Morale**: how villagers feel about their lives, which festivals raise and hardship lowers, and which sets how they work and whether they stay.

@@ -126,7 +126,7 @@ Fur comes from three animals:
 
 Wolves, polar bears, and other animals give no fur.
 
-A pelt needs dressing before it can be sewn. The skinner taws it with alum and salt into **dressed fur**, a new item. No vanilla biome yields alum, so it is bought from the merchant until the planned trade mechanic brings it. The salter supplies the salt.
+A pelt needs dressing before it can be sewn. The skinner taws it with alum and salt into **dressed fur**, a new item. Alum comes from alunite, a new stone in badlands, as the planned [trade mechanic](README.md#planned) describes, so villages elsewhere buy it from the merchant. The salter supplies the salt.
 
 ### The warren
 
@@ -217,7 +217,7 @@ Clothing works together with these mechanics:
 - **Skills.** Skilled sewing will make garments that last longer and patches that restore more.
 - **Ranks.** Will add sumptuary rules that set what each estate may wear.
 - **Aging.** Children will outgrow their clothes once a year.
-- **Trade.** Will bring alum for tawing fur.
+- **Trade.** Brings alum for tawing fur to villages far from the badlands.
 - **Wind.** The strength of the wind sets the chill that windproofing blocks.
 
 ## Additions and changes

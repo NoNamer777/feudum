@@ -57,7 +57,7 @@ The items Feudum adds or changes, and the mechanic that describes each. The prod
 | Sheepskin   | Dropped by a sheep slaughtered unshorn                                                                                 | [Clothing](../mechanics/clothing.md#fur)                                                              |
 | Fox pelt    | Dropped by a fox                                                                                                       | [Clothing](../mechanics/clothing.md#fur)                                                              |
 | Dressed fur | A pelt tawed with alum and salt, ready to sew                                                                          | [Clothing](../mechanics/clothing.md#fur)                                                              |
-| Alum        | Bought from the merchant, for tawing fur                                                                               | [Clothing](../mechanics/clothing.md#fur)                                                              |
+| Alum        | Mined from alunite in badlands, or bought, for tawing fur                                                              | [Clothing](../mechanics/clothing.md#fur)                                                              |
 | Herb sachet | Linen filled with dried lavender, wormwood, or rue, which keeps moths out of a container                               | [Vermin](../mechanics/vermin.md#clothes-moths)                                                        |
 | Rags        | What ruined cloth and worn-out garments become                                                                         | [Vermin](../mechanics/vermin.md#clothes-moths), [Clothing](../mechanics/clothing.md#wear-and-mending) |
 
@@ -83,7 +83,7 @@ The items Feudum adds or changes, and the mechanic that describes each. The prod
 | Firewood | A fuel that burns longer than logs, which the woodcutter supplies | [Temperature](../mechanics/temperature.md#heat-and-cold-sources)  |
 | Salt     | Boiled or sun-dried from salt water, for salting                  | [Thirst](../mechanics/thirst.md#salt)                             |
 | Ratsbane | Poison bait of arsenic that kills whatever eats it                | [Vermin](../mechanics/vermin.md#traps-and-ratsbane)               |
-| Arsenic  | Bought from merchants, for ratsbane                               | [Vermin](../mechanics/vermin.md#traps-and-ratsbane)               |
+| Arsenic  | Mined deep underground, or bought, for ratsbane                   | [Vermin](../mechanics/vermin.md#traps-and-ratsbane)               |
 | Handcart | Carries the gong farmer's muck barrels                            | [Sanitation](../mechanics/sanitation.md#gong-farmer-and-laystall) |
 | Almanac  | Shows the date and the season                                     | [Seasons](../mechanics/seasons.md#additions-and-changes)          |
 

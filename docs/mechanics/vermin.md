@@ -147,14 +147,14 @@ These roles make what the village needs against vermin:
 | Item           | Maker      | Ingredients                                    |
 |:---------------|:-----------|:-----------------------------------------------|
 | Box trap       | Carpenter  | Planks and a string catch                      |
-| Ratsbane       | Apothecary | Arsenic bought from merchants, mixed into bait |
+| Ratsbane       | Apothecary | Arsenic, mined or bought, then mixed into bait |
 | Herb sachet    | Herbalist  | Linen and dried lavender, wormwood, or rue     |
 | Wooden staddle | Carpenter  | Logs                                           |
 | Stone staddle  | Mason      | Stone                                          |
 | Clothes pegs   | Carpenter  | Sticks and planks                              |
 | Sack           | Weaver     | Sackcloth woven from flax tow or hemp          |
 
-The herbalist grows lavender and rue in the physic garden, and forages them where they grow wild. Arsenic comes only through trade, so a village without trade relies on cats, traps, and the ratoner.
+The herbalist grows lavender and rue in the physic garden, and forages them where they grow wild. Arsenic is mined from a new ore deep underground, as the planned [trade mechanic](README.md#planned) describes, and villages without a mine buy it from merchants. A village with neither relies on cats, traps, and the ratoner.
 
 ## Seasons and climate
 
@@ -176,7 +176,7 @@ Vermin works together with these mechanics:
 - **[Seasons](seasons.md).** Vermin breed in spring and summer, move into the stores in autumn, and crowd indoors in winter.
 - **Hygiene.** Clean bodies and clothing will draw fewer flea bites, and lice and bedbugs belong to hygiene.
 - **[Clothing](clothing.md).** Moth-eaten clothing keeps its wearer less warm.
-- **Trade.** Merchants bring arsenic for ratsbane, and can bring weevilled grain and plague-ridden rats.
+- **Trade.** Merchants bring arsenic to villages without a mine, and can bring weevilled grain and plague-ridden rats.
 - **Crop pests.** The pests of the fields belong to crop pests, not to vermin.
 
 ## Additions and changes
