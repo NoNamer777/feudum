@@ -165,3 +165,65 @@ _Avoid_: Forced weather
 ### Snow cover
 
 The snow lying on a column, in layers.
+
+## Body temperature
+
+### Body temperature
+
+The core temperature of a living mob, which drifts toward the equilibrium its felt temperature sets.\
+_Avoid_: Heat, warmth
+
+### Felt temperature
+
+The local temperature as a body feels it, after sun, wind chill, wetness, exertion, heat sources, food and drink, depth, and water.\
+_Avoid_: Ambient temperature
+
+### Comfort band
+
+The range of felt temperature in which a body stays at its normal temperature.
+
+### Thermal profile
+
+An entity type's data for body temperature: its normal temperature, comfort band, natural insulation, drift rate, and stage thresholds.
+
+### Insulation
+
+How much clothing, fur, or fleece widens the comfort band toward the cold, narrows it toward the heat, and slows the drift.
+
+### Wetness
+
+How wet a body is, from dry to soaked.
+
+### Covered
+
+Under no open sky.
+
+### Enclosed
+
+Inside a bounded space that the enclosure check finds within its volume cap.
+
+### Room temperature
+
+The temperature an enclosed space holds, which drifts toward the balance between its heat sources and its losses.
+
+### Opening
+
+A face of an enclosed space that loses heat much faster than a wall: an open or closed door-like block, or air with open sky above.\
+_Avoid_: Leak, gap
+
+### Heat source
+
+A block or living entity that warms the felt temperature around it, or cools it, for a cold source.
+
+### Cave temperature
+
+The yearly average of the local temperature at a place, which felt temperature blends toward below the surface.
+
+### Water temperature
+
+The temperature a body in water feels instead of the air.
+
+### Ectotherm
+
+A species whose body temperature tracks its felt temperature, and whom the cold slows rather than hurts.\
+_Avoid_: Cold-blooded
