@@ -1,6 +1,6 @@
 # Mechanics
 
-The game mechanics of Feudum. A mechanic gets its own page in this folder once a grilling session settles its design.
+The game mechanics of Feudum. A mechanic gets its own page in this folder once a grilling session settles its design. The [docs index](../README.md) lists the other areas, such as world generation and content.
 
 ## Designed
 
@@ -15,4 +15,3 @@ Mechanics that came up during a grilling session but were not its focus. Each wa
 - **Village simulation**: advancing a village as abstract data while its chunks are unloaded. Came up in Time.
 - **Farming**: crops whose growth depends on the season. Came up in Time.
 - **Weather**: weather and snow that follow the season. Came up in Time.
-- **Timekeeping items**: a Feudum clock and calendar that show the player the time, date, and season. Deferred in Time.
