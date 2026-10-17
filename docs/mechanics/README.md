@@ -27,3 +27,6 @@ These mechanics have no document yet:
 - **Soil fertility**: each harvest draws on the soil, and manure, fallow years, and crop rotation restore it.
 - **Crop pests**: crows, pigeons, rabbits, and moles raid sown fields, and scarecrows and bird-scarers keep them off.
 - **Reputation**: how Feudum villagers remember what each player has done in their village, such as fouling its streets.
+- **Cloth**: wool, flax, and hemp become yarn and thread, and then wool cloth, linen, sackcloth, felt, and waxed cloth, through spinning, weaving, fulling, dyeing, and bleaching.
+- **Skills**: players and villagers learn skills by reading, by being taught by a mature villager of a role, or by picking a few when a world starts. Reading is a skill of its own, and a skill makes its work better but is never needed to do it.
+- **Ranks**: the estates of a village, those who pray, fight, and work, from serf and freeman to lord and clergy. They set duties and rights, and sumptuary rules set what each estate may wear.
