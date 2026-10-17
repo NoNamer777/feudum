@@ -1,6 +1,6 @@
 # Mechanics
 
-The game mechanics of Feudum. A mechanic gets its own page in this folder once a grilling session settles its design. The [docs index](../../README.md) lists the other areas, such as world generation and content.
+The game mechanics of Feudum. A mechanic gets its own page in this folder once a grilling session settles its design. The [design index](../README.md) lists the other areas, such as world generation and content.
 
 ## Designed
 
