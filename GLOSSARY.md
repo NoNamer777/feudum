@@ -282,3 +282,45 @@ The temperature a body in water feels instead of the air.
 
 A species whose body temperature tracks its felt temperature, and whom the cold slows rather than hurts.\
 _Avoid_: Cold-blooded
+
+## Hunger
+
+### Diet profile
+
+An entity type's data for hunger: its diet type, what it can eat, the food groups it tracks, its stomach and energy capacity, its metabolic rate, and its stage thresholds.
+
+### Diet type
+
+What kind of eater a species is: grazer, browser, carnivore, or omnivore.
+
+### Stomach
+
+What a body has eaten and not yet digested, which limits how much more it can eat.\
+_Avoid_: Saturation
+
+### Energy
+
+The store that digestion fills and metabolism drains, whose level sets every hunger stage but Stuffed.\
+_Avoid_: Food bar, hunger points
+
+### Food group
+
+One of the six kinds of nourishment a diet needs: grain, protein, vegetables, fruit, dairy, or forage.\
+_Avoid_: Nutrient
+
+### Group level
+
+How well a body is stocked with one food group, from 0 to 100%.
+
+### Forage
+
+The food group of grass and hay, which grazing animals need and humans can't digest.\
+_Avoid_: Fodder
+
+### Deficiency
+
+A group level below 25%, whose effects grow as the level falls.
+
+### Craving
+
+The cue that marks a food carrying a group the body lacks.

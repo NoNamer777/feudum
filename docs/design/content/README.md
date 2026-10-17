@@ -11,6 +11,8 @@ None yet.
 Content that came up while designing other topics and waits for a design of its own.
 
 - **Clothing layers**: whether Feudum adds clothing slots under armor, and the clothing that fills them.
+- **Feed trough and hay**: the trough livestock eat from and the hay that carries a herd through winter, when snow cover blocks grazing.
+- **Foods**: the food items that replace vanilla's, each with its energy and food groups.
 - **Snow and ice**: the Feudum snow layer and ice blocks that weather builds up, drifts, and melts.
 - **Timekeeping items**: a Feudum clock and calendar that show the player the time, date, and season.
 - **Weather vane**: a vane that shows where the wind blows from. It reads the sheltered wind at its block, so it must sit high and clear to read true.
