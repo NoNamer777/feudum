@@ -64,3 +64,65 @@ _Avoid_: Night skip
 
 Bringing an unloaded village forward to the current time.\
 _Avoid_: Fast-forward, offline simulation
+
+## Villages
+
+### Village
+
+A persistent, self-steering community with its own name, territory, and history.\
+_Avoid_: Settlement, town
+
+### Territory
+
+The chunks a village claims: every chunk within a margin of its buildings.\
+_Avoid_: Claim, borders
+
+### Wilderness
+
+Every chunk that no village claims.
+
+### Village center
+
+The territory chunk nearest the middle of a village's buildings, used as a reference point.
+
+### Ruins
+
+The buildings an ended village leaves behind.
+
+### Manor
+
+A set of a village's buildings, with the villagers whose homes are in them, sworn to one lord.\
+_Avoid_: Fief, estate
+
+### Village holding
+
+The buildings of a village that belong to no manor.\
+_Avoid_: Commons
+
+### Lord
+
+The one player or villager a manor is sworn to.\
+_Avoid_: Owner, ruler
+
+### Standing
+
+How much a village trusts a player, and so how much weight that player's wishes carry.\
+_Avoid_: Reputation, favor
+
+### Wish
+
+Something a player or lord asks of a village, which the village weighs against its own needs.\
+_Avoid_: Order, command
+
+### Tend
+
+To be inside a village's territory, or to steer it remotely.
+
+### Lapse
+
+A player lord losing the title after not tending the village for too long.\
+_Avoid_: Expiry
+
+### Contest
+
+A player's challenge for a sitting lord's title.
