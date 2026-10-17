@@ -98,7 +98,7 @@ Garments wear out with time worn and with damage taken, through four stages:
 
 - **Pace.** A garment worn every day moves one stage per season, so an unpatched garment lasts about three seasons. Shirts, hose, and gloves wear twice as fast.
 - **Damage.** Damage taken without armor wears the garments it hits one stage faster. Armor shields the garments under it.
-- **Moths.** Stored wool can turn moth-eaten, as the [vermin mechanic](vermin.md#clothes-moths) describes, and wearing a garment airs it. A moth-eaten garment gives half its warmth and no windproofing. The moth mark and the wear stage are separate, so a threadbare, moth-eaten cloak gives a quarter of its warmth.
+- **Moths.** Stored wool, silk, and fur can turn moth-eaten, as the [vermin mechanic](vermin.md#clothes-moths) describes, and wearing a garment airs it. A moth-eaten garment gives half its warmth and no windproofing. The moth mark and the wear stage are separate, so a threadbare, moth-eaten cloak gives a quarter of its warmth.
 
 A **patch** is cut from cloth, leather, or fur with vanilla shears, and sewn on at the [sewing table](#sewing). A patch of the garment's own material takes it back one stage, or removes the moth mark. Each patch shows on the garment. Households patch their own clothes, and the tailor mends the rest.
 
@@ -202,7 +202,7 @@ The medieval London tailors were a guild of tailors and linen armorers, so the t
 - **Cold climates.** Wool and fur for most of the year.
 - **Arid climates.** Linen and the mantle by day, and a cloak against the cold nights.
 - **Tropical climates.** Linen all year.
-- **Moths.** Moths breed in spring and summer, so stored winter wool needs sachets and airing while it waits for autumn.
+- **Moths.** Moths breed in spring and summer, so stored winter wool and fur need sachets and airing while it waits for autumn.
 
 ## Related mechanics
 
@@ -210,7 +210,7 @@ Clothing works together with these mechanics:
 
 - **[Temperature](temperature.md).** Garments give warmth, cooling, windproofing, and shade, and wetness changes what they give.
 - **[Seasons](seasons.md).** The season sets which clothing a body needs.
-- **[Vermin](vermin.md).** Moths eat stored wool, and moth-eaten garments give less warmth.
+- **[Vermin](vermin.md).** Moths eat stored wool, silk, and fur, and moth-eaten garments give less warmth.
 - **[Sanitation](sanitation.md).** Rags go to the dung heap, and straw for hats comes from the harvest.
 - **Cloth.** Supplies the cloth, thread, felt, and waxed cloth that garments are sewn from.
 - **Hygiene.** Owns dirt on garments, laundry, and lice, and launders the shirt.

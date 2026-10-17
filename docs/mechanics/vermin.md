@@ -1,6 +1,6 @@
 # Vermin
 
-Rats, mice, weevils, and clothes moths live wherever food and cloth are stored. Rats and mice raid the stores and foul what they leave behind, weevils eat the grain from within, and moths eat holes in the wool. The fleas on rats bring plague. Cats, traps, raised granaries, sealed vessels, and the ratoner keep them down. A village that keeps its filth beside its stores feeds the rats, and the rats bring plague.
+Rats, mice, weevils, and clothes moths live wherever food and cloth are stored. Rats and mice raid the stores and foul what they leave behind, weevils eat the grain from within, and moths eat holes in the wool, silk, and fur. The fleas on rats bring plague. Cats, traps, raised granaries, sealed vessels, and the ratoner keep them down. A village that keeps its filth beside its stores feeds the rats, and the rats bring plague.
 
 ## Where vermin live
 
@@ -66,7 +66,7 @@ Weevils are kept down by:
 
 ## Clothes moths
 
-Clothes moths are tiny moths that flutter around containers holding wool blocks, carpets, cloth, and wool clothing. They settle in dark, still places that are rarely disturbed, and their larvae eat what is stored there:
+Clothes moths are tiny moths that flutter around containers holding wool blocks, carpets, wool and silk cloth, furs, and wool, silk, and fur clothing. They settle in dark, still places that are rarely disturbed, and their larvae eat what is stored there:
 
 | Stage      | Effect                                                              |
 |:-----------|:--------------------------------------------------------------------|
@@ -74,7 +74,7 @@ Clothes moths are tiny moths that flutter around containers holding wool blocks,
 | Moth-eaten | [Clothing](clothing.md#wear-and-mending) keeps its wearer less warm |
 | Ruined     | Becomes rags, a new item that goes to the dung heap                 |
 
-Linen and leather are safe, since clothes moths eat only wool.
+Linen, cotton, hemp, and leather are safe, since clothes moths eat only wool, silk, and fur, as real clothes moths do.
 
 Moths are kept down by:
 
@@ -186,7 +186,7 @@ Vermin works together with these mechanics:
 - **Raids.** Rats and mice eat stored food, eggs, chicks, and feed, and leave droppings, a new item that raises the risk of food poisoning.
 - **Fleas and plague.** Flea particles and sounds around rats, a new itch effect, and plague among rats that leaves dead rats, a new item, before it reaches people.
 - **Weevils.** Weevils breed in stored grain, flour, and beans, and weevilled food carries their eggs to the next store.
-- **Moth damage.** Wool goes from sound to moth-eaten to ruined, and ruined cloth becomes rags, a new item.
+- **Moth damage.** Wool, silk, and fur go from sound to moth-eaten to ruined, and ruined cloth and fur become rags, a new item.
 - **Cats.** Vanilla cats hunt rats and mice, and sometimes bring a dead rat as their morning gift.
 - **Dogs.** Tamed wolves attack rats and mice, and the ratoner's ratting dog hunts them and digs out nests.
 - **Traps and ratsbane.** A new box trap block, and new ratsbane bait that poisons whatever eats it.

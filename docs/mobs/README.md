@@ -9,7 +9,7 @@ These mobs have no document yet:
 - **Rat**: the black rat, which nests near food stores, raids them at night, and carries the fleas that bring plague.
 - **Mouse**: nests in the walls and thatch of a home, and nibbles the food in its larder.
 - **Weevil**: a tiny beetle that breeds in stored grain, flour, and dried beans, and eats them.
-- **Clothes moth**: a tiny moth whose larvae eat holes in stored wool, cloth, and wool clothing.
+- **Clothes moth**: a tiny moth whose larvae eat holes in stored wool, silk, and fur, as cloth and as clothing.
 
 ### Changed vanilla mobs
 
