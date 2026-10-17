@@ -4,7 +4,7 @@ Each document describes one mechanic: how it works, and the items, blocks, and b
 
 - [Disease](disease.md): players, villagers, and livestock fall ill from the cold, the heat, bad water, bad food, and each other, and recover with care and remedies.
 - [Food spoilage](food-spoilage.md): food rots over time unless it is kept cold, sealed, or preserved, so a village preserves its harvest to eat through winter.
-- [Sanitation](sanitation.md): villagers and livestock produce waste that has to go somewhere: privies, dung heaps, and manure for the fields, kept away from the water.
+- [Sanitation](sanitation.md): players, villagers, and livestock produce waste that has to go somewhere: privies, dung heaps, and manure for the fields, kept away from the water.
 - [Seasons](seasons.md): a four-season year that changes the climate, the crops, and the rhythm of village life.
 - [Temperature](temperature.md): players, villagers, and livestock feel the heat and the cold, and need clothing, shelter, and fire to stay safe.
 - [Thirst](thirst.md): players, villagers, and livestock need to drink, more so in the heat, and clean water takes work to keep.
