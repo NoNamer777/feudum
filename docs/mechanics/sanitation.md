@@ -122,7 +122,7 @@ The herder mucks out the pens and barns, lays fresh **straw** bedding, and carri
 
 The dung heap is a new block that rots organic waste into **manure**, a new item:
 
-- **Inputs.** Dung, used bedding, rotten food and rotten flesh, kitchen scraps, offal, and street filth. Night soil turns a dung heap into a laystall.
+- **Inputs.** Dung, used bedding, rotten food and rotten flesh, kitchen scraps, offal, street filth, and the droppings and rags of the [vermin mechanic](vermin.md). Night soil turns a dung heap into a laystall.
 - **Rotting.** Waste rots into manure over a few weeks, and night soil over a season. Warm air speeds this up, and freezing air stops it.
 - **Manure.** The soil fertility mechanic describes what manure does for the fields.
 
@@ -174,7 +174,7 @@ Within its range, a polluter brings:
 - **Unclean water.** Wells, cisterns, and still water turn unclean, as the [thirst document](thirst.md#contamination) describes, and clear a day or two after the polluter is gone.
 - **Smell.** Particles and a sound that grow with the strength.
 - **Flies.** Swarms over filth in the warm band and above. They are particles and sounds, like the mosquitoes of the [disease mechanic](disease.md#causes), not mobs.
-- **Rats.** Filth draws rats to the stores nearby, as the vermin mechanic describes.
+- **Rats.** Filth draws rats to the stores nearby, as the [vermin mechanic](vermin.md#nests) describes.
 - **Miasma.** Villagers believed that bad air caused disease, as medieval people did. Feudum villagers avoid the smell where they can, and their morale drops while filth sits near their home or work.
 
 Filth itself never harms anyone. Its harm comes through unclean water, the flux, rats, and morale, so every consequence has a warning first: a smell, flies, or a villager who walks around it.
@@ -243,7 +243,7 @@ Sanitation works together with these mechanics:
 - **[Seasons](seasons.md).** Winter freezes waste, and the spring thaw releases it.
 - **Soil fertility.** Manure, ash, and night soil feed the fields.
 - **Hygiene.** Washing and laundry need the lye that household ash gives, and hygiene will take over washing off soiled.
-- **Vermin.** Filth draws rats.
+- **[Vermin](vermin.md).** Filth draws rats, and droppings and rags go to the dung heap.
 - **Morale.** Villagers lose morale while filth sits near their home or work.
 - **Reputation.** Villagers will remember a player who fouls their village.
 - **Wind.** The builder will site polluters downwind.

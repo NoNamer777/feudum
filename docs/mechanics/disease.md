@@ -1,6 +1,6 @@
 # Disease
 
-Players, Feudum villagers, and livestock fall ill. The cold, the heat, unclean water, spoiled food, damp rye, and vermin each bring an illness, and some illnesses spread from body to body. Rest, warmth, and food heal most of them, and the village's healers make remedies for the rest. A village that neglects its sick, its water, or its dead can lose many of its villagers to a single epidemic.
+Players, Feudum villagers, and livestock fall ill. The cold, the heat, unclean water, spoiled food, damp rye, and [vermin](vermin.md) each bring an illness, and some illnesses spread from body to body. Rest, warmth, and food heal most of them, and the village's healers make remedies for the rest. A village that neglects its sick, its water, or its dead can lose many of its villagers to a single epidemic.
 
 ## Who feels it
 
@@ -85,8 +85,8 @@ A datapack can add illnesses or change any of them.
 
 - **Cold and heat.** Long spells in the freezing band cause a chill, and long spells in the scorching band cause heatstroke, as the [temperature document](temperature.md#effects) describes.
 - **Water.** Unclean water risks the flux, as the [thirst document](thirst.md#purity) describes.
-- **Food.** Spoiled food risks food poisoning, as the [food spoilage document](food-spoilage.md#stages) describes. Rye that carries ergot causes St. Anthony's fire, as [Medicinal plants and rye](#medicinal-plants-and-rye) describes.
-- **Fleas.** Fleas from rats bring plague. The vermin mechanic describes the rats and their fleas.
+- **Food.** Spoiled food risks food poisoning, as the [food spoilage document](food-spoilage.md#stages) describes, and so does food stored with the droppings of rats and mice, as the [vermin document](vermin.md#raids) describes. Rye that carries ergot causes St. Anthony's fire, as [Medicinal plants and rye](#medicinal-plants-and-rye) describes.
+- **Fleas.** Fleas from rats bring plague. The [vermin mechanic](vermin.md#fleas-and-plague) describes the rats and their fleas.
 - **Mosquitoes.** New ambient mosquitoes swarm in swamps and mangrove swamps on warm evenings, and their bites carry marsh ague. They are particles and sounds, not mobs.
 - **Contagion.** Rheum, the pox, and pneumonic plague spread between bodies.
 
@@ -269,7 +269,7 @@ Disease works together with these mechanics:
 - **[Food spoilage](food-spoilage.md).** Spoiled food causes food poisoning, and remedies spoil by the same rules.
 - **[Seasons](seasons.md).** Each season brings its own illnesses, and wet harvests bring ergot.
 - **[Sanitation](sanitation.md).** The waste of the sick infects cesspits and the water nearby, which spreads the flux, and deep dung causes foot rot.
-- **Vermin.** Rats carry the fleas that bring plague.
+- **[Vermin](vermin.md).** Rats carry the fleas that bring plague, and droppings cause food poisoning.
 - **Injuries.** Wounds, broken bones, bleeding, and wound infection belong to injuries, not disease.
 - **Intoxication.** Hangovers belong to intoxication, not disease.
 - **Trade.** Imported spices and minerals make stronger remedies, and merchants avoid a village in an epidemic.
