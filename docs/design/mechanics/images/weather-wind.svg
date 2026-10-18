@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 320" width="1020" height="320" role="img" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#1f2328">
+  <title>How the steering flow, fronts, and local shaping build the wind at a point and the sheltered wind, and which systems read each</title>
+  <rect x="0.5" y="0.5" width="1019" height="319" rx="6" fill="#ffffff" stroke="#d0d7de"/>
+  <defs>
+    <marker id="e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#57606a"/></marker>
+  </defs>
+  <path d="M160 165 H208" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M160 165 H208" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M300 140 V88" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M300 140 V88" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <text x="306" y="118" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">unturned</text>
+  <path d="M390 165 H508" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M390 165 H508" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <text x="449" y="141" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">turned by the</text>
+  <text x="449" y="155" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">climate profile</text>
+  <path d="M390 63 C 460 63, 510 90, 530 138" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M390 63 C 460 63, 510 90, 530 138" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <text x="400" y="55" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">front wind</text>
+  <path d="M600 250 V192" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M600 250 V192" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M690 165 H798" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M690 165 H798" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <text x="744" y="158" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">wind shelter</text>
+  <path d="M640 140 V90" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M640 140 V90" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M895 140 V98" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M895 140 V98" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <rect x="20" y="140" width="140" height="50" rx="6" fill="#f6f8fa" stroke="#8c959f"/>
+  <text x="90" y="162" text-anchor="middle" font-weight="600">Seed, position,</text>
+  <text x="90" y="177" text-anchor="middle" font-weight="600">and Feudum time</text>
+  <rect x="210" y="140" width="180" height="50" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="300" y="162" text-anchor="middle" font-weight="600">Steering flow</text>
+  <text x="300" y="177" text-anchor="middle" font-size="11.5" fill="#59636e">map-wide, mostly west to east</text>
+  <rect x="210" y="38" width="180" height="50" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="300" y="67.5" text-anchor="middle" font-weight="600">Fronts</text>
+  <rect x="510" y="140" width="180" height="50" rx="6" fill="#fff8c5" stroke="#9a6700" stroke-width="1.6"/>
+  <text x="600" y="162" text-anchor="middle" font-weight="600">Wind at a point</text>
+  <text x="600" y="177" text-anchor="middle" font-size="11.5" fill="#59636e">blocks ignored</text>
+  <rect x="500" y="250" width="200" height="50" rx="6" fill="#f6f8fa" stroke="#8c959f"/>
+  <text x="600" y="272" text-anchor="middle" font-weight="600">Windiness, exposure,</text>
+  <text x="600" y="287" text-anchor="middle" font-weight="600">daily cycle, and gusts</text>
+  <rect x="800" y="140" width="190" height="50" rx="6" fill="#fff8c5" stroke="#9a6700" stroke-width="1.6"/>
+  <text x="895" y="162" text-anchor="middle" font-weight="600">Sheltered wind</text>
+  <text x="895" y="177" text-anchor="middle" font-size="11.5" fill="#59636e">at an entity or block</text>
+  <rect x="545" y="22" width="220" height="66" rx="6" fill="#ffffff" stroke="#8c959f" stroke-dasharray="5 3"/>
+  <text x="655" y="44.5" text-anchor="middle">Read by</text>
+  <text x="655" y="59.5" text-anchor="middle" font-size="11.5" fill="#59636e">fog, and the day and night</text>
+  <text x="655" y="74.5" text-anchor="middle" font-size="11.5" fill="#59636e">swing of local temperature</text>
+  <rect x="790" y="16" width="210" height="82" rx="6" fill="#ffffff" stroke="#8c959f" stroke-dasharray="5 3"/>
+  <text x="895" y="39" text-anchor="middle">Read by</text>
+  <text x="895" y="54" text-anchor="middle" font-size="11.5" fill="#59636e">Body temperature, wind forces,</text>
+  <text x="895" y="69" text-anchor="middle" font-size="11.5" fill="#59636e">the weather vane, and</text>
+  <text x="895" y="84" text-anchor="middle" font-size="11.5" fill="#59636e">snow drifts</text>
+</svg>

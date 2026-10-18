@@ -21,43 +21,9 @@ Every thread, rope, and bolt of cloth in Feudum is made the long way. Flax rots 
 
 ## Fibers and products
 
-The diagram maps each fiber to the cloth and cordage it yields, and shows where a chain branches. Each arrow names one step and skips the rest, which the tables below list. Rounded boxes are cordage, and the hexagons are felt and matting, which are neither spun nor woven.
+The diagram maps each fiber to the cloth and cordage it yields, and shows where a chain branches. Each arrow stands for one step and skips the rest, which the tables below list. Arrows into cloth are weaving, and the other arrows name their step. Cordage is tan, and felt and matting, which are neither spun nor woven, are gray.
 
-```mermaid
-flowchart LR
-    wool["<b>Wool</b>"] -->|carded| rolags["Rolags"]
-    rolags -->|spun| woolen["Woolen yarn"]
-    woolen -->|woven and fulled| woolc["<b>Woolen</b>"]
-    rolags -->|felted| felt{{"<b>Felt</b>"}}
-    wool -->|combed| tops["Tops"]
-    tops -->|spun| worsted["Worsted yarn"]
-    worsted -->|woven| worstc["<b>Worsted</b>"]
-    worsted -->|plied| thread(["<b>Thread</b>"])
-    flax["<b>Flax</b>"] -->|hackled| line["Line"]
-    line -->|spun| fine["Fine yarn"]
-    fine -->|plied| thread
-    fine -->|woven| linen["<b>Linen</b>"]
-    flax -->|hackled| tow["Tow"]
-    tow -->|spun| coarse["Coarse yarn"]
-    coarse -->|woven| clinen["<b>Coarse linen</b>"]
-    coarse -->|plied| twine(["<b>Twine</b>"])
-    nettle["<b>Nettle</b>"] -->|scutched| nettlef["Nettle fiber"]
-    nettlef -->|spun| nettley["Nettle yarn"]
-    nettley -->|plied| twine
-    nettley -->|woven| nettlec["<b>Nettle cloth</b>"]
-    hemp["<b>Hemp</b>"] -->|scutched| hempf["Hemp fiber"]
-    hempf -->|spun| hempy["Hemp yarn"]
-    hempy -->|plied| twine
-    hempy -->|woven| hempc["<b>Hemp cloth</b>"]
-    hempy -->|laid| rope(["<b>Rope</b>"])
-    goat["<b>Goat hair</b>"] -->|carded| goatf["Carded hair"]
-    goatf -->|spun| goaty["Goat hair yarn"]
-    goaty -->|laid| rope
-    goaty -->|woven| hairc["<b>Haircloth</b>"]
-    lime["<b>Lime bast</b>"] -->|retted and peeled| strips["Bast strips"]
-    strips -->|twisted| rope
-    strips -->|plaited| matting{{"<b>Matting</b>"}}
-```
+![Six fibers and what they become. Wool is carded into rolags, which are spun into woolen yarn and woven and fulled into woolen, or felted into felt. Combed wool becomes tops, spun into worsted yarn, which is woven into worsted or plied into thread. Flax is hackled into line and tow, spun into fine and coarse yarn, and woven into linen and coarse linen; fine yarn is also plied into thread, and coarse yarn into twine. Nettle and hemp are scutched and spun, then woven into nettle cloth and hemp cloth or plied into twine, and hemp yarn is also laid into rope. Goat hair is carded and spun, then woven into haircloth or laid into rope. Lime bast is retted and peeled into strips, which are twisted into rope or plaited into matting.](images/textiles-fibers.svg)
 
 ## Bast fibers
 

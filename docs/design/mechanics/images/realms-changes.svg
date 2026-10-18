@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 684" width="940" height="684" role="img" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#1f2328">
+  <title>The Kingdom of Ashford before and after three changes: Brook ends, Ashford ends, and Dale merges into Fen</title>
+  <rect x="0.5" y="0.5" width="939" height="683" rx="6" fill="#ffffff" stroke="#d0d7de"/>
+  <defs>
+    <marker id="e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#57606a"/></marker>
+  </defs>
+  <rect x="20" y="20" width="440" height="298" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="34" y="44" font-size="13" font-weight="600">Before</text>
+  <path d="M267 104 L186 128" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M267 104 L186 128" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M186 170 L132 194" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M186 170 L132 194" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <rect x="86" y="196" width="92" height="40" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="132" y="213" text-anchor="middle" font-weight="600">Clay</text>
+  <text x="132" y="228" text-anchor="middle" font-size="11.5" fill="#59636e">Cora</text>
+  <path d="M186 170 L240 194" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M186 170 L240 194" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M240 236 L240 260" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M240 236 L240 260" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <rect x="194" y="262" width="92" height="40" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="240" y="279" text-anchor="middle" font-weight="600">Elm</text>
+  <text x="240" y="294" text-anchor="middle" font-size="11.5" fill="#59636e">Eda</text>
+  <rect x="194" y="196" width="92" height="40" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="240" y="213" text-anchor="middle" font-weight="600">Dale</text>
+  <text x="240" y="228" text-anchor="middle" font-size="11.5" fill="#59636e">Dov</text>
+  <rect x="140" y="130" width="92" height="40" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="186" y="147" text-anchor="middle" font-weight="600">Brook</text>
+  <text x="186" y="162" text-anchor="middle" font-size="11.5" fill="#59636e">Bram</text>
+  <path d="M267 104 L348 128" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M267 104 L348 128" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M348 170 L348 194" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M348 170 L348 194" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <rect x="302" y="196" width="92" height="40" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="348" y="213" text-anchor="middle" font-weight="600">Glen</text>
+  <text x="348" y="228" text-anchor="middle" font-size="11.5" fill="#59636e">Gus</text>
+  <rect x="302" y="130" width="92" height="40" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="348" y="147" text-anchor="middle" font-weight="600">Fen</text>
+  <text x="348" y="162" text-anchor="middle" font-size="11.5" fill="#59636e">Finn</text>
+  <rect x="221" y="64" width="92" height="40" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="267" y="81" text-anchor="middle" font-weight="600">Ashford</text>
+  <text x="267" y="96" text-anchor="middle" font-size="11.5" fill="#59636e">Alice</text>
+  <rect x="480" y="20" width="440" height="298" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="494" y="44" font-size="13" font-weight="600">1. Brook ends: Clay and Dale pass up to Ashford</text>
+  <path d="M700 104 L592 128" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M700 104 L592 128" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <rect x="546" y="130" width="92" height="40" rx="6" fill="#fff8c5" stroke="#9a6700" stroke-width="1.6"/>
+  <text x="592" y="147" text-anchor="middle" font-weight="600">Clay</text>
+  <text x="592" y="162" text-anchor="middle" font-size="11.5" fill="#59636e">Cora</text>
+  <path d="M700 104 L700 128" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M700 104 L700 128" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M700 170 L700 194" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M700 170 L700 194" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <rect x="654" y="196" width="92" height="40" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="700" y="213" text-anchor="middle" font-weight="600">Elm</text>
+  <text x="700" y="228" text-anchor="middle" font-size="11.5" fill="#59636e">Eda</text>
+  <rect x="654" y="130" width="92" height="40" rx="6" fill="#fff8c5" stroke="#9a6700" stroke-width="1.6"/>
+  <text x="700" y="147" text-anchor="middle" font-weight="600">Dale</text>
+  <text x="700" y="162" text-anchor="middle" font-size="11.5" fill="#59636e">Dov</text>
+  <path d="M700 104 L808 128" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M700 104 L808 128" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M808 170 L808 194" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M808 170 L808 194" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <rect x="762" y="196" width="92" height="40" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="808" y="213" text-anchor="middle" font-weight="600">Glen</text>
+  <text x="808" y="228" text-anchor="middle" font-size="11.5" fill="#59636e">Gus</text>
+  <rect x="762" y="130" width="92" height="40" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="808" y="147" text-anchor="middle" font-weight="600">Fen</text>
+  <text x="808" y="162" text-anchor="middle" font-size="11.5" fill="#59636e">Finn</text>
+  <rect x="654" y="64" width="92" height="40" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="700" y="81" text-anchor="middle" font-weight="600">Ashford</text>
+  <text x="700" y="96" text-anchor="middle" font-size="11.5" fill="#59636e">Alice</text>
+  <rect x="20" y="338" width="440" height="298" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="34" y="362" font-size="13" font-weight="600">2. Ashford ends: Brook and Fen begin new realms</text>
+  <path d="M169.8 422 L115.8 446" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M169.8 422 L115.8 446" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <rect x="69.8" y="448" width="92" height="40" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="115.8" y="465" text-anchor="middle" font-weight="600">Clay</text>
+  <text x="115.8" y="480" text-anchor="middle" font-size="11.5" fill="#59636e">Cora</text>
+  <path d="M169.8 422 L223.8 446" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M169.8 422 L223.8 446" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M223.8 488 L223.8 512" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M223.8 488 L223.8 512" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <rect x="177.8" y="514" width="92" height="40" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="223.8" y="531" text-anchor="middle" font-weight="600">Elm</text>
+  <text x="223.8" y="546" text-anchor="middle" font-size="11.5" fill="#59636e">Eda</text>
+  <rect x="177.8" y="448" width="92" height="40" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="223.8" y="465" text-anchor="middle" font-weight="600">Dale</text>
+  <text x="223.8" y="480" text-anchor="middle" font-size="11.5" fill="#59636e">Dov</text>
+  <rect x="123.8" y="382" width="92" height="40" rx="6" fill="#fff8c5" stroke="#9a6700" stroke-width="1.6"/>
+  <text x="169.8" y="399" text-anchor="middle" font-weight="600">Brook</text>
+  <text x="169.8" y="414" text-anchor="middle" font-size="11.5" fill="#59636e">Bram</text>
+  <path d="M364.2 422 L364.2 446" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M364.2 422 L364.2 446" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <rect x="318.2" y="448" width="92" height="40" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="364.2" y="465" text-anchor="middle" font-weight="600">Glen</text>
+  <text x="364.2" y="480" text-anchor="middle" font-size="11.5" fill="#59636e">Gus</text>
+  <rect x="318.2" y="382" width="92" height="40" rx="6" fill="#fff8c5" stroke="#9a6700" stroke-width="1.6"/>
+  <text x="364.2" y="399" text-anchor="middle" font-weight="600">Fen</text>
+  <text x="364.2" y="414" text-anchor="middle" font-size="11.5" fill="#59636e">Finn</text>
+  <rect x="480" y="338" width="440" height="298" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="494" y="362" font-size="13" font-weight="600">3. Finn wins Dale, which merges into Fen</text>
+  <path d="M673 422 L592 446" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M673 422 L592 446" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M592 488 L592 512" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M592 488 L592 512" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <rect x="546" y="514" width="92" height="40" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="592" y="531" text-anchor="middle" font-weight="600">Clay</text>
+  <text x="592" y="546" text-anchor="middle" font-size="11.5" fill="#59636e">Cora</text>
+  <rect x="546" y="448" width="92" height="40" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="592" y="465" text-anchor="middle" font-weight="600">Brook</text>
+  <text x="592" y="480" text-anchor="middle" font-size="11.5" fill="#59636e">Bram</text>
+  <path d="M673 422 L754 446" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M673 422 L754 446" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M754 488 L700 512" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M754 488 L700 512" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <rect x="654" y="514" width="92" height="40" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="700" y="531" text-anchor="middle" font-weight="600">Glen</text>
+  <text x="700" y="546" text-anchor="middle" font-size="11.5" fill="#59636e">Gus</text>
+  <path d="M754 488 L808 512" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M754 488 L808 512" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <rect x="762" y="514" width="92" height="40" rx="6" fill="#fff8c5" stroke="#9a6700" stroke-width="1.6"/>
+  <text x="808" y="531" text-anchor="middle" font-weight="600">Elm</text>
+  <text x="808" y="546" text-anchor="middle" font-size="11.5" fill="#59636e">Eda</text>
+  <rect x="708" y="448" width="92" height="40" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="754" y="465" text-anchor="middle" font-weight="600">Fen</text>
+  <text x="754" y="480" text-anchor="middle" font-size="11.5" fill="#59636e">Finn</text>
+  <rect x="627" y="382" width="92" height="40" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="673" y="399" text-anchor="middle" font-weight="600">Ashford</text>
+  <text x="673" y="414" text-anchor="middle" font-size="11.5" fill="#59636e">Alice</text>
+  <rect x="20" y="653" width="22" height="13" rx="3" fill="#fff8c5" stroke="#9a6700" stroke-width="1.6"/>
+  <text x="50" y="664" font-size="12">a manor whose liege changed</text>
+  <path d="M262 659 H292" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <text x="300" y="664" font-size="12">from a liege manor to its vassal</text>
+</svg>

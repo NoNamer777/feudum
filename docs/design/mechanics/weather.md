@@ -30,27 +30,9 @@ Weather brings fronts that drift across the map on the wind, shaped by each biom
 
 ## Wind
 
-The diagram shows how the parts of [Wind at a point](#wind-at-a-point) build the two winds that [Query](#query) returns, and which systems read each. The wind at a point ignores blocks, and the [wind shelter](#wind-shelter) of placed blocks turns it into the sheltered wind.
+The diagram shows how the parts of [Wind at a point](#wind-at-a-point) build the two winds that [Query](#query) returns, and which systems read each. The wind at a point ignores blocks, and the [wind shelter](#wind-shelter) of placed blocks turns it into the sheltered wind. The two winds are highlighted, and dashed boxes list what reads each.
 
-```mermaid
-flowchart LR
-    inputs(["<b>Seed, position,<br/>and Feudum time</b>"])
-    steering["<b>Steering flow</b><br/>map-wide, mostly west to east"]
-    fronts["<b>Fronts</b>"]
-    shaping(["<b>Windiness, exposure,<br/>daily cycle, and gusts</b>"])
-    point["<b>Wind at a point</b><br/>blocks ignored"]
-    sheltered["<b>Sheltered wind</b><br/>at an entity or block"]
-    values(["<b>Fog, and the day and night<br/>swing of local temperature</b>"])
-    readers(["<b>Body temperature, wind forces,<br/>weather vane, and snow drifts</b>"])
-    inputs --> steering
-    steering -->|unturned| fronts
-    steering -->|turned by the climate profile| point
-    fronts -->|front wind| point
-    shaping --> point
-    point -->|wind shelter| sheltered
-    point --> values
-    sheltered --> readers
-```
+![The seed, position, and Feudum time set the steering flow. Fronts ride the steering flow unturned, and the climate profile turns it into the wind at a point, which the front wind, windiness, exposure, the daily cycle, and gusts also shape. Fog and the day and night swing of local temperature read the wind at a point. Wind shelter turns it into the sheltered wind, which Body temperature, wind forces, the weather vane, and snow drifts read.](images/weather-wind.svg)
 
 ### Steering flow
 

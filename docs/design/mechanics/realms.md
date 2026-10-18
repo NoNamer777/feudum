@@ -66,55 +66,9 @@ flowchart TD
 - When a root manor ends, its realm ends, and each of its vassal manors goes free. Each freed manor with vassals of its own begins a new realm.
 - When a lord's second manor in a village merges into the first, the merged manor keeps the liege of the manor it merged into, and the other manor's bond to its liege ends. The merged manor keeps the vassal manors of both. A bond that would make the merged manor its own liege, directly or up the chain, ends.
 
-The diagram applies these rules to the Kingdom of Ashford of the [Structure](#structure) diagram, one change at a time, and leaves out ranks. Manors with a dashed border are those whose liege changed. The merge assumes that Finn wins Dale in a contest, with Alice's leave, and that Dale lies in the same village as Fen, which the Structure diagram leaves open.
+The diagram applies these rules to the Kingdom of Ashford of the [Structure](#structure) diagram, shown first, and makes each change to it on its own. It leaves out ranks, and highlights the manors whose liege changed. The merge assumes that Finn wins Dale in a contest, with Alice's leave, and that Dale lies in the same village as Fen, which the Structure diagram leaves open.
 
-```mermaid
-flowchart LR
-    subgraph brookends["Brook ends: Clay and Dale pass up to Ashford"]
-        direction TB
-        A1["<b>Ashford</b><br/>Alice"]
-        C1["<b>Clay</b><br/>Cora"]
-        D1["<b>Dale</b><br/>Dov"]
-        E1["<b>Elm</b><br/>Eda"]
-        F1["<b>Fen</b><br/>Finn"]
-        G1["<b>Glen</b><br/>Gus"]
-        A1 --> C1
-        A1 --> D1
-        D1 --> E1
-        A1 --> F1
-        F1 --> G1
-    end
-    subgraph ashfordends["Ashford ends: Brook and Fen go free and begin new realms"]
-        direction TB
-        B2["<b>Brook</b><br/>Bram"]
-        C2["<b>Clay</b><br/>Cora"]
-        D2["<b>Dale</b><br/>Dov"]
-        E2["<b>Elm</b><br/>Eda"]
-        F2["<b>Fen</b><br/>Finn"]
-        G2["<b>Glen</b><br/>Gus"]
-        B2 --> C2
-        B2 --> D2
-        D2 --> E2
-        F2 --> G2
-    end
-    subgraph dalemerges["Finn wins Dale, which merges into Fen"]
-        direction TB
-        A3["<b>Ashford</b><br/>Alice"]
-        B3["<b>Brook</b><br/>Bram"]
-        C3["<b>Clay</b><br/>Cora"]
-        F3["<b>Fen</b><br/>Finn"]
-        G3["<b>Glen</b><br/>Gus"]
-        E3["<b>Elm</b><br/>Eda"]
-        A3 --> B3
-        A3 --> F3
-        B3 --> C3
-        F3 --> G3
-        F3 --> E3
-    end
-    brookends ~~~ ashfordends ~~~ dalemerges
-    classDef changed stroke-width:3px,stroke-dasharray:6 3
-    class C1,D1,B2,F2,E3 changed
-```
+![Four trees of the Kingdom of Ashford. Before any change, Alice's Ashford holds Brook and Fen, Brook holds Clay and Dale, Dale holds Elm, and Fen holds Glen. When Brook ends, Clay and Dale pass up to Ashford. When Ashford ends, Brook and Fen go free as the roots of two new realms. When Finn wins Dale and it merges into Fen, Elm passes to Fen.](images/realms-changes.svg)
 
 ## Tribute and aid
 

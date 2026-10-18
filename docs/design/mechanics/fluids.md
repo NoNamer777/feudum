@@ -40,36 +40,9 @@ Water in Feudum is finite: every block holds real liters that flow, level out, e
 
 ## Water cycle
 
-Water enters and leaves the world through these paths. The diagram shows where water sits and the flows between those stores that this section, [Rivers](#rivers), and [Groundwater](#groundwater) describe. Rounded boxes are where water enters or leaves.
+Water enters and leaves the world through these paths. The diagram shows where water sits and the flows between those stores that this section, [Rivers](#rivers), and [Groundwater](#groundwater) describe. Blue boxes are where water sits, and dashed boxes are where it enters or leaves the world.
 
-```mermaid
-flowchart TD
-    weather(["<b>Weather</b><br/>rain and snow"])
-    snow["<b>Snow cover and ice</b>"]
-    open["<b>Open water</b><br/>ponds, lakes, floodplain"]
-    ground["<b>Ground</b><br/>water table"]
-    river["<b>Rivers</b><br/>discharge per segment"]
-    taken(["<b>Containers, troughs, and bodies</b>"])
-    sea(["<b>Sea</b><br/>fixed boundary at sea level"])
-    air(["<b>Evaporation</b>"])
-    weather -->|snow| snow
-    weather -->|rain on water| open
-    weather -->|rain on land, soaked in| ground
-    weather -->|rain on land, run off| river
-    snow -->|melt| open
-    snow -->|melt in the catchment| river
-    open -->|freezes| snow
-    open -->|lake outlets, floods draining back| river
-    river -->|floods| open
-    open -->|seepage| ground
-    ground -->|baseflow and springs| river
-    ground -->|wells| taken
-    open -->|drawing and drinking| taken
-    taken -->|pouring| open
-    river -->|river mouth| sea
-    open -->|evaporation| air
-    river -->|evaporation| air
-```
+![The water cycle. Weather adds snow to snow cover and ice, rain to open water, and rain on land, which soaks into the ground or runs off into rivers. Snow and ice melt into open water and, in the catchment, into rivers, and open water freezes. Open water flows to rivers through lake outlets and floods draining back, and rivers flood onto it. Open water seeps into the ground, which feeds rivers through baseflow and springs. Wells draw from the ground, and containers, troughs, and bodies draw from open water and pour back into it. Rivers reach the sea at their mouths, and open water and rivers lose water to evaporation.](images/fluids-water-cycle.svg)
 
 ### In
 
