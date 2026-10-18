@@ -1,0 +1,21 @@
+body:
+  - type: markdown
+    attributes:
+      value: >
+        Ask about the design or the project here, and mark the reply that answers you. The
+        [design pages](https://github.com/NoNamer777/feudum/blob/main/docs/design/README.md) may already hold the
+        answer.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+    validations:
+      required: true
+
+  - type: input
+    id: page
+    attributes:
+      label: Design page
+      description: The design page or issue your question is about, if any.
+      placeholder: https://github.com/NoNamer777/feudum/blob/main/docs/design/mechanics/villages.md
