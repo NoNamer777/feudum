@@ -93,7 +93,7 @@ For a human:
 
 ## Food
 
-- Every consumable carries a food component: energy, stomach fill, an amount for each food group, eating time, the optional thermal offset of [Body temperature](body-temperature.md#felt-temperature), and the water and salt amounts of [Thirst](thirst.md#food-and-drink).
+- Every consumable carries a food component: energy, stomach fill, an amount for each food group, eating time, the optional thermal offset of [Body temperature](body-temperature.md#felt-temperature), the water and salt amounts of [Thirst](thirst.md#food-and-drink), and the residue amount of [Relief](relief.md#food).
 - Food components are data-driven, so a data pack can add foods.
 
 ## Animals
@@ -142,6 +142,7 @@ For a human:
 Hunger owns diet profiles, the stomach, energy, food groups and group levels, drain, the stages and their effects, deficiencies and cravings, natural healing, cues, food components, and the feeding goal of animals. Other mechanics own the rest, each linked to its page or, while it waits for a design, its issue:
 
 - **Body temperature**: the cold stages that raise the drain, and the comfort band that a vegetable deficiency narrows.
+- **[Relief](relief.md)**: the residue that digestion passes on to the bowels, which shares the food component and the diet profile of Hunger.
 - **[Thirst](thirst.md)**: drinking, hydration, and the salt and foul loads, which share the stomach, the food component, and the diet profile of Hunger.
 - **[Health](https://github.com/NoNamer777/feudum/issues/36)**: injuries, and the rule that modifiers of the same kind take the strongest. Natural healing moves to Health once it has a design.
 - **[Villagers](https://github.com/NoNamer777/feudum/issues/46)**: when and what a villager eats, such as meals on its schedule.

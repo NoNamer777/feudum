@@ -79,7 +79,7 @@ Water enters and leaves the world through these paths.
 
 ### Fouling
 
-- A fouling source adds foulness to the water within 6 blocks of it at a rate. The sources are livestock, the waste of [Relief](https://github.com/NoNamer777/feudum/issues/40), and carcasses lying in water.
+- A fouling source adds foulness to the water within 6 blocks of it at a rate. The sources are livestock, the waste of [Relief](relief.md), and carcasses lying in water.
 - The starting rates let three livestock foul a still pond within about one Feudum day.
 - Foulness decays toward 0, so a fouled pond clears in about two days once its sources leave.
 - A current carries foulness downstream and dilutes it. A river beside a pen stays nearly clean, and the stretch just below the pen runs slightly foul.
@@ -151,7 +151,7 @@ Fluids owns Feudum water: volume, flow, and settling, river discharge and curren
 - **[Body temperature](body-temperature.md)**: wetness and water temperature.
 - **[Terrain](https://github.com/NoNamer777/feudum/issues/60)**: the drainage network and the groundwater baseline, from the seed alone.
 - **[Illness](https://github.com/NoNamer777/feudum/issues/37)**: what foul water does once drunk.
-- **[Relief](https://github.com/NoNamer777/feudum/issues/40)**: the waste that fouls water.
+- **[Relief](relief.md)**: the waste that fouls water.
 - **[Health](https://github.com/NoNamer777/feudum/issues/36)**: drowning damage.
 - **[Encumbrance](https://github.com/NoNamer777/feudum/issues/65)**: the weight that buoyancy reads.
 - **[Sailing](https://github.com/NoNamer777/feudum/issues/41)**: hulls, sails, and steering of boats.

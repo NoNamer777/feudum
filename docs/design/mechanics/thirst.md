@@ -126,7 +126,7 @@ Thirst owns hydration, absorption, the salt and foul loads, drain, the stages an
 - **[Fluids](fluids.md)**: the salinity and foulness of water blocks and containers, how water flows, mixes, and fouls, and Feudum's replacement for vanilla water.
 - **[Health](https://github.com/NoNamer777/feudum/issues/36)**: natural healing, and the rule that modifiers of the same kind take the strongest.
 - **[Illness](https://github.com/NoNamer777/feudum/issues/37)**: what the foul load does to a body.
-- **[Relief](https://github.com/NoNamer777/feudum/issues/40)**: the water that passes off once hydration is full.
+- **[Relief](relief.md)**: the water that passes off once hydration is full.
 - **[Cooking](https://github.com/NoNamer777/feudum/issues/30)**: boiling water.
 - **[Brewing](https://github.com/NoNamer777/feudum/issues/28)**: ale, beer, cider, wine, and drunkenness.
 - **[Villagers](https://github.com/NoNamer777/feudum/issues/46)**: when and what a villager drinks.
