@@ -398,3 +398,56 @@ _Avoid_: Groundwater level
 
 Water with a salinity above 1.\
 _Avoid_: Saltwater
+
+## Relief
+
+### Bladder
+
+The store that fills with the water a body passes off and empties when the body relieves.
+
+### Bowels
+
+The store that fills with the residue of digested food and empties when the body relieves.\
+_Avoid_: Gut
+
+### Residue
+
+The share of a food that passes on to the bowels once digested.\
+_Avoid_: Fiber
+
+### Accident
+
+A full store emptying where the body stands, under the `harsh` setting.
+
+### Soiled
+
+The state of a body after an accident, until it is washed.\
+_Avoid_: Dirty, filthy
+
+### Privy
+
+A block that takes waste into its pit, or into the water under it.\
+_Avoid_: Latrine, toilet, outhouse
+
+### Waste
+
+Night soil, dung, or manure, as a layer on the ground, an item, or the contents of a privy pit or dung heap.\
+_Avoid_: Excrement, poop
+
+### Night soil
+
+The waste of humans.
+
+### Dung
+
+The waste of animals.
+
+### Manure
+
+The waste a dung heap has rotted, which Farming spreads on fields.\
+_Avoid_: Compost, fertilizer
+
+### Dung heap
+
+A block that collects waste and straw bedding and rots them into manure.\
+_Avoid_: Midden, compost heap

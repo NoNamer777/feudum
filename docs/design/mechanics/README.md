@@ -7,6 +7,7 @@ The game mechanics of Feudum. A mechanic gets its own page in this folder once i
 - **[Body temperature](body-temperature.md)**: thermal profiles for every living mob, felt temperature and its inputs, wetness, shelter and room temperature, and the stages of cold and heat.
 - **[Fluids](fluids.md)**: finite, volumetric water, rivers on a generated drainage network, the water cycle and groundwater, salinity and foulness, and how bodies swim and float.
 - **[Hunger](hunger.md)**: diet profiles for every mob that eats, the stomach, energy, and food groups, drain and its stages, deficiencies and cravings, and the feeding goal of animals.
+- **[Relief](relief.md)**: the bladder and bowels, their stages and accidents, relieving and where waste goes, how waste fouls water and fades, and the dung heap that rots it into manure.
 - **[Thirst](thirst.md)**: hydration for every mob that eats, the salt and foul loads, drain and its stages, cues, and the drinking goal of animals.
 - **[Time](time.md)**: the clock, the calendar with its seasons and sub-seasons, climate profiles, and catch-up for unloaded villages.
 - **[Villages](villages.md)**: what a village is, its territory and lifecycle, standing, manors, and lordship.
