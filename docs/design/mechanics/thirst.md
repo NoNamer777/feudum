@@ -21,6 +21,7 @@ Every mob that eats also drinks. A drink fills the stomach and absorbs into hydr
 - **Foul load**: what foul water leaves behind. It fades over a few Feudum days. Thirst only stores it; Illness decides whether the body falls sick.
 - Thirst advances by the Feudum time that passed, so it follows the day length and the sleep speed-up.
 - At normal activity in a mild climate, a human needs to drink three to four times per Feudum day.
+- [Relief](relief.md#model) has a diagram of how food and drink move through the stomach, energy, hydration, and the stores of Relief.
 
 ## Water quality
 

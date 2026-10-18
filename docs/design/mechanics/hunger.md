@@ -20,6 +20,7 @@ Every mob that eats has a stomach, an energy store, and a diet. A meal fills the
 - **Group levels**: one level from 0 to 100% for each food group the species tracks.
 - Hunger advances by the Feudum time that passed, so it follows the day length and the sleep speed-up.
 - At normal activity, a human needs two good meals per Feudum day, matching the medieval dinner at midday and supper in the evening. Heavy labor calls for a third.
+- [Relief](relief.md#model) has a diagram of how food and drink move through the stomach, energy, hydration, and the stores of Relief.
 
 ## Food groups
 

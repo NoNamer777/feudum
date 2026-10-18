@@ -19,6 +19,46 @@ Every thread, rope, and bolt of cloth in Feudum is made the long way. Flax rots 
 - Villagers work the same blocks at the same rate. Spinning and flax dressing are household work any villager does. [Weaver](https://github.com/NoNamer777/feudum/issues/107), [Fuller](https://github.com/NoNamer777/feudum/issues/108), and [Dyer](https://github.com/NoNamer777/feudum/issues/109) are trades.
 - [Tools and blocks](#tools-and-blocks) lists what each step needs.
 
+## Fibers and products
+
+The diagram maps each fiber to the cloth and cordage it yields, and shows where a chain branches. Each arrow names one step and skips the rest, which the tables below list. Rounded boxes are cordage, and the hexagons are felt and matting, which are neither spun nor woven.
+
+```mermaid
+flowchart LR
+    wool["<b>Wool</b>"] -->|carded| rolags["Rolags"]
+    rolags -->|spun| woolen["Woolen yarn"]
+    woolen -->|woven and fulled| woolc["<b>Woolen</b>"]
+    rolags -->|felted| felt{{"<b>Felt</b>"}}
+    wool -->|combed| tops["Tops"]
+    tops -->|spun| worsted["Worsted yarn"]
+    worsted -->|woven| worstc["<b>Worsted</b>"]
+    worsted -->|plied| thread(["<b>Thread</b>"])
+    flax["<b>Flax</b>"] -->|hackled| line["Line"]
+    line -->|spun| fine["Fine yarn"]
+    fine -->|plied| thread
+    fine -->|woven| linen["<b>Linen</b>"]
+    flax -->|hackled| tow["Tow"]
+    tow -->|spun| coarse["Coarse yarn"]
+    coarse -->|woven| clinen["<b>Coarse linen</b>"]
+    coarse -->|plied| twine(["<b>Twine</b>"])
+    nettle["<b>Nettle</b>"] -->|scutched| nettlef["Nettle fiber"]
+    nettlef -->|spun| nettley["Nettle yarn"]
+    nettley -->|plied| twine
+    nettley -->|woven| nettlec["<b>Nettle cloth</b>"]
+    hemp["<b>Hemp</b>"] -->|scutched| hempf["Hemp fiber"]
+    hempf -->|spun| hempy["Hemp yarn"]
+    hempy -->|plied| twine
+    hempy -->|woven| hempc["<b>Hemp cloth</b>"]
+    hempy -->|laid| rope(["<b>Rope</b>"])
+    goat["<b>Goat hair</b>"] -->|carded| goatf["Carded hair"]
+    goatf -->|spun| goaty["Goat hair yarn"]
+    goaty -->|laid| rope
+    goaty -->|woven| hairc["<b>Haircloth</b>"]
+    lime["<b>Lime bast</b>"] -->|retted and peeled| strips["Bast strips"]
+    strips -->|twisted| rope
+    strips -->|plaited| matting{{"<b>Matting</b>"}}
+```
+
 ## Bast fibers
 
 Flax, hemp, and nettle follow one chain:
