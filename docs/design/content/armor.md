@@ -79,6 +79,17 @@ Every hit lands on one region, and only the layers worn on that region protect a
 - Each armor piece and garment on the struck region loses durability in proportion to the protection it contributed.
 - [Clothing](clothing.md#combining-stats) has a diagram of the layers of one region, from the skin out.
 
+Sample values of the reduction:
+
+| Protection `p` | Reduction |
+|---------------:|----------:|
+|              5 |       20% |
+|             10 |       33% |
+|             20 |       50% |
+|             40 |       67% |
+|             60 |       75% |
+|            100 |       83% |
+
 ### Padding
 
 - A gambeson and an arming cap of [Clothing](clothing.md#catalog) are quilted linen. Each gives about the blunt protection of hardened leather, half that against cut, and little against pierce, so a poor levy can fight in one.

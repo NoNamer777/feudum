@@ -135,6 +135,13 @@ flowchart LR
 - A contest against any other manor in a realm where the player holds a manor needs leave from the lord of the nearest manor that holds both the target and one of the player's manors in its subtree. A villager lord grants or refuses leave under Village simulation.
 - Contests across realms need no leave. [Lordship contests](https://github.com/NoNamer777/feudum/issues/38) designs how a contest starts and is won.
 
+For example, in the [Structure](#structure) diagram, Cora is the lord of Clay:
+
+- Cora can't contest Brook or Ashford, since both lie above Clay. That would be felony.
+- To contest Dale or Elm, Cora needs Bram's leave, since Brook is the nearest manor with both the target and Clay in its subtree.
+- To contest Fen or Glen, Cora needs Alice's leave, since only Ashford holds both the target and Clay.
+- To contest Hollow or Iver, Cora needs no leave, since Clay lies in another realm.
+
 ## Liege realm
 
 - A lord with manors in two or more realms names one of them as their liege realm.
