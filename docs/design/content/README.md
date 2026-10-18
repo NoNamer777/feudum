@@ -4,7 +4,7 @@ The blocks, items, and entities of Feudum, which replace their vanilla counterpa
 
 ## Designed
 
-None yet.
+- **[Clothing](clothing.md)**: three layers and a cloak over five regions, garment types and materials, how their stats combine, garment wetness and drying, wear and mending, and soiled garments.
 
 ## Planned
 
