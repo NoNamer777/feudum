@@ -329,7 +329,8 @@ The cue that marks a food carrying a group the body lacks.
 
 ### Hydration
 
-The store that drinks absorb into and metabolism drains, whose level sets every thirst stage._Avoid_: Thirst bar, water level
+The store that drinks absorb into and metabolism drains, whose level sets every thirst stage.\
+_Avoid_: Thirst bar, water level
 
 ### Salt load
 
