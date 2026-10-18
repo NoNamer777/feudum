@@ -146,7 +146,7 @@ The diagram shows the states a body passes through between unhurt and dead, and 
 - A Downed body never dies just from lying there.
 - A Downed body heals at the resting rate. Once it stops bleeding and both vital pools reach 10%, it stands on its own: about 2.5 Feudum hours from a chest at 0, or about 4 real minutes at the default day length.
 - A helper can stop a Downed body's bleeding and help it up at once. It then stands **Weakened**, with heavy slowness and no sprinting or attacking, until both vital pools reach 10%.
-- A body knocked out by a concussion, or whose blood falls below 50%, goes **Unconscious**. It can't move, and a player hears muffled sounds over a dark screen.
+- A body knocked out by a concussion, whose blood falls below 50%, or that drinks itself into a [stupor](brewing.md#stages), goes **Unconscious**. It can't move, and a player hears muffled sounds over a dark screen.
 - A knock-out lasts about one Feudum hour, about 100 real seconds at the default day length. Unconsciousness from blood loss lasts until blood rises above 50%. Nothing wakes a body sooner.
 - An Unconscious body wakes Downed while a vital pool is still at 0.
 - A Downed or Unconscious body stays a target, so hostile mobs and enemies can finish it off.
@@ -155,10 +155,10 @@ The diagram shows the states a body passes through between unhurt and dead, and 
 
 ## Modifiers
 
-Hunger, Thirst, Body temperature, and Relief defer to this rule for how their modifiers combine, and Health and Illness follow it too.
+Hunger, Thirst, Body temperature, Relief, and Brewing defer to this rule for how their modifiers combine, and Health and Illness follow it too.
 
 - A kind of modifier is one attribute, such as movement speed, attack speed, mining speed, or attack damage.
-- Body-condition modifiers come from Hunger, Thirst, Body temperature, Relief, Health, and Illness. On each attribute, only the strongest of them applies.
+- Body-condition modifiers come from Hunger, Thirst, Body temperature, Relief, Brewing, Health, and Illness. On each attribute, only the strongest of them applies.
 - Modifiers from what a body wears or carries, such as those of [Encumbrance](https://github.com/NoNamer777/feudum/issues/65), stack on top of the strongest body-condition modifier.
 - A flag, such as no sprinting or no healing, applies when any mechanic sets it.
 - Damage from each mechanic still applies on its own.

@@ -5,6 +5,7 @@ The game mechanics of Feudum. A mechanic gets its own page in this folder once i
 ## Designed
 
 - **[Body temperature](body-temperature.md)**: thermal profiles for every living mob, felt temperature and its inputs, wetness, shelter and room temperature, and the stages of cold and heat.
+- **[Brewing](brewing.md)**: malting, ale and beer, cider, perry, wine, and mead, fermentation that makes water safe, distilling, keeping and souring, and drunkenness with its hangover, tolerance, dependence, and withdrawal.
 - **[Fluids](fluids.md)**: finite, volumetric water, rivers on a generated drainage network, the water cycle and groundwater, salinity and foulness, and how bodies swim and float.
 - **[Health](health.md)**: a pool of health for each body part, where hits land, blood and bleeding, injuries and their treatment, natural healing, the Downed and Unconscious states, and the rule that combines the modifiers of every need.
 - **[Hunger](hunger.md)**: diet profiles for every mob that eats, the stomach, energy, and food groups, drain and its stages, deficiencies and cravings, and the feeding goal of animals.

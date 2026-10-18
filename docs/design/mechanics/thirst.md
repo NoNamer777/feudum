@@ -30,7 +30,7 @@ Every mob that eats also drinks. A drink fills the stomach and absorbs into hydr
 - The diet profile's salt tolerance scales what salinity adds, so a species that tolerates salt can drink seawater.
 - A drink of brine adds more salt than seawater, so it dehydrates faster.
 - Fluids decides how water gets its quality, such as the fresh and salt water of world generation, the foul water of swamps and of ponds near livestock, and how waters mix.
-- Boiled water, ale, small beer, cider, and wine are clean, so a village can make foul water safe. Cooking owns boiling, and Brewing owns the rest.
+- Boiled water, ale, small beer, cider, and wine are clean, so a village can make foul water safe. Cooking owns boiling, and [Brewing](brewing.md#fermentation) owns the rest.
 
 ## Drinking
 
@@ -129,7 +129,7 @@ Thirst owns hydration, absorption, the salt and foul loads, drain, the stages an
 - **[Illness](https://github.com/NoNamer777/feudum/issues/37)**: what the foul load does to a body.
 - **[Relief](relief.md)**: the water that passes off once hydration is full.
 - **[Cooking](https://github.com/NoNamer777/feudum/issues/30)**: boiling water.
-- **[Brewing](https://github.com/NoNamer777/feudum/issues/28)**: ale, beer, cider, wine, and drunkenness.
+- **[Brewing](brewing.md)**: ale, beer, cider, wine, the alcohol amount of drinks, and drunkenness.
 - **[Villagers](https://github.com/NoNamer777/feudum/issues/46)**: when and what a villager drinks.
 - **[Village economy](https://github.com/NoNamer777/feudum/issues/44)**: the stock of water, ale, and beer a village drinks from.
 - **[Village simulation](https://github.com/NoNamer777/feudum/issues/45)**: applying thirst and the foul load abstractly while a village is unloaded.
