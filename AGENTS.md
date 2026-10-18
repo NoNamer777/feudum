@@ -6,6 +6,8 @@ Read [README.md](README.md) first: it says what Feudum is and where its design d
 
 A topic that comes up while designing another and waits for a design of its own is a GitHub issue, not a line in the docs. File it with the `design` label and the label of each area it belongs to: `mechanics`, `world-generation`, `content`, or `villager-roles`. Wherever a design page names the topic, link to its issue. The pull request that adds the topic's page closes the issue with a `Closes` line and points those links at the new page.
 
+An issue promoted from an idea in Discussions ends its body with a `Refs: <discussion URL>` line, since GitHub has no issue relationship for a discussion.
+
 Picking up a `design` issue starts a grilling session on its topic, run with the `grilling` skill, before you write any of the page. The user makes every decision of the design, and the page records the answers they settled.
 
 ## Vanilla content
