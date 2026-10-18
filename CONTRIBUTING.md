@@ -52,8 +52,11 @@ Pick the lightest format that does the job:
 | Content                                               | Format                                                                                                    |
 |:------------------------------------------------------|:----------------------------------------------------------------------------------------------------------|
 | Values to compare, or a rule to work through          | A Markdown table, or worked examples                                                                      |
-| Graph-shaped, such as flows, cycles, and hierarchies  | A Mermaid fenced block, like the [Structure](docs/design/mechanics/realms.md#structure) diagram of Realms |
+| A small hierarchy                                     | A Mermaid fenced block, like the [Structure](docs/design/mechanics/realms.md#structure) diagram of Realms |
+| Flows, cycles, and branching chains                   | An SVG file                                                                                               |
 | Spatial or plotted, such as a map, layers, or a chart | An SVG file                                                                                               |
+
+Mermaid lays out a graph on its own. That suits a small hierarchy, but it scatters flows and cycles, so draw those as an SVG with every box placed by hand.
 
 Line up the columns of every table in the source, and give each cell of the separator row an alignment indicator, such as `:---`.
 
