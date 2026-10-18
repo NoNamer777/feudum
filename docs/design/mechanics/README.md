@@ -9,6 +9,7 @@ The game mechanics of Feudum. A mechanic gets its own page in this folder once i
 - **[Hunger](hunger.md)**: diet profiles for every mob that eats, the stomach, energy, and food groups, drain and its stages, deficiencies and cravings, and the feeding goal of animals.
 - **[Realms](realms.md)**: fealty between manors, the realm record and its sovereign, tribute, aid, and wish weight up and down the chain, peace in the realm, liege realms, and rank.
 - **[Relief](relief.md)**: the bladder and bowels, their stages and accidents, relieving and where waste goes, how waste fouls water and fades, and the dung heap that rots it into manure.
+- **[Textiles](textiles.md)**: six fibers from retting and shearing to thread, rope, and cloth, fulling and felt, dyes, overdyeing, and fading, the lant tub, and wall hangings and rugs.
 - **[Thirst](thirst.md)**: hydration for every mob that eats, the salt and foul loads, drain and its stages, cues, and the drinking goal of animals.
 - **[Time](time.md)**: the clock, the calendar with its seasons and sub-seasons, climate profiles, and catch-up for unloaded villages.
 - **[Villages](villages.md)**: what a village is, its territory and lifecycle, standing, manors, and lordship.
