@@ -69,7 +69,8 @@ Every hit lands on one region, and only the layers worn on that region protect a
 - A melee hit or a projectile lands on the region at the height where it strikes the hitbox. The top eighth is the head, the bottom eighth the feet, and the middle splits into chest and legs at the waist. A hit on the chest or legs lands on the hands about 10% of the time.
 - An attack without an impact point, such as a mob's plain melee, picks a region by weighted chance: about 10% head, 40% chest, 30% legs, 10% feet, and 10% hands. The chance shifts toward legs and feet when the attacker stands lower, and toward the head when it stands higher.
 - An explosion spreads its damage over every region by those same shares.
-- A hit's damage is multiplied by its struck region before protection applies, so an unarmored head is the weak spot. [Health](https://github.com/NoNamer777/feudum/issues/36) owns the multipliers, starting from about ×1.5 for the head, ×1 for chest and legs, and ×0.5 for hands and feet. Health also owns how hits land on bodies without regions, such as animals.
+- A hit's damage is multiplied by its struck region before protection applies, so an unarmored head is the weak spot. [Health](../mechanics/health.md#hits) owns the multipliers, starting from about ×1.5 for the head, ×1 for chest and legs, and ×0.5 for hands and feet. Health also owns how hits land on bodies without regions, such as animals.
+- Once protection applies, [Health](../mechanics/health.md#hits) lands what is left of the hit in a pool of the body, such as the head or the left arm.
 
 ## Protection
 
@@ -101,7 +102,7 @@ Armor and a helm on a region whose clothing layer is empty protect less and chaf
 
 - Their blunt protection drops to half, and their pierce protection to three quarters. Cut protection stays, since the metal still stops the edge.
 - An underlayer garment on that region wears four times as fast.
-- With the underlayer empty too, the armor rests on bare skin and the region is **Chafed**, which slows natural healing until the armor comes off or the region is dressed. Health owns the healing rate.
+- With the underlayer empty too, the armor rests on bare skin and the region is **Chafed**, which slows natural healing until the armor comes off or the region is dressed. [Health](../mechanics/health.md#healing) owns the healing rate.
 
 ## Thermal stats
 
@@ -191,7 +192,7 @@ Armor owns the armor pieces, their types and materials, damage kinds, struck reg
 
 - **[Clothing](clothing.md)**: the regions, layers, and slots, the helm slot and the hood of a hooded cloak included, and garment wetness and drying.
 - **[Body temperature](../mechanics/body-temperature.md)**: what the thermal stats of armor do to felt temperature.
-- **[Health](https://github.com/NoNamer777/feudum/issues/36)**: damage, the multiplier of each struck region, and the healing rate a Chafed region slows.
+- **[Health](../mechanics/health.md)**: damage, the multiplier of each struck region, the pool each hit lands in, and the healing rate a Chafed region slows.
 - **[Weapons](weapons.md)**: weapons and shields, the damage kind of each attack, and armor penetration.
 - **[Wildlife](https://github.com/NoNamer777/feudum/issues/47)**: the damage kinds of animal attacks.
 - **[Encumbrance](https://github.com/NoNamer777/feudum/issues/65)**: what the weight of armor does to a body.

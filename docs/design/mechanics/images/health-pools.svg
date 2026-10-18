@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" width="760" height="430" role="img" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#1f2328">
+  <title>The seven pools of a human, and the pools each of Armor's five struck regions lands in</title>
+  <rect x="0.5" y="0.5" width="759" height="429" rx="6" fill="#ffffff" stroke="#d0d7de"/>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#57606a"/></marker>
+  </defs>
+
+  <text x="200" y="32" text-anchor="middle" font-weight="600">Pools of a human, from the front</text>
+  <text x="590" y="32" text-anchor="middle" font-weight="600">Struck regions of Armor</text>
+
+  <!-- Body: the figure faces the reader, so its right side is on the left of the image -->
+  <rect x="172" y="50" width="56" height="56" rx="14" fill="#ffd8d3" stroke="#cf222e" stroke-width="1.4"/>
+  <text x="200" y="76" text-anchor="middle" font-weight="600">Head</text>
+  <text x="200" y="92" text-anchor="middle" font-size="12" fill="#59636e">vital, 10</text>
+
+  <rect x="155" y="114" width="90" height="130" rx="6" fill="#ffd8d3" stroke="#cf222e" stroke-width="1.4"/>
+  <text x="200" y="172" text-anchor="middle" font-weight="600">Chest</text>
+  <text x="200" y="188" text-anchor="middle" font-size="12" fill="#59636e">vital, 24</text>
+
+  <rect x="105" y="134" width="44" height="160" rx="6" fill="#ddf4ff" stroke="#0969da" stroke-width="1.2"/>
+  <text x="127" y="200" text-anchor="middle" font-weight="600">Right</text>
+  <text x="127" y="216" text-anchor="middle" font-weight="600">arm</text>
+  <text x="127" y="232" text-anchor="middle" font-size="12" fill="#59636e">14</text>
+
+  <rect x="251" y="134" width="44" height="160" rx="6" fill="#ddf4ff" stroke="#0969da" stroke-width="1.2"/>
+  <text x="273" y="200" text-anchor="middle" font-weight="600">Left</text>
+  <text x="273" y="216" text-anchor="middle" font-weight="600">arm</text>
+  <text x="273" y="232" text-anchor="middle" font-size="12" fill="#59636e">14</text>
+
+  <rect x="157" y="250" width="40" height="160" rx="6" fill="#ddf4ff" stroke="#0969da" stroke-width="1.2"/>
+  <text x="177" y="320" text-anchor="middle" font-weight="600">Right</text>
+  <text x="177" y="336" text-anchor="middle" font-weight="600">leg</text>
+  <text x="177" y="352" text-anchor="middle" font-size="12" fill="#59636e">16</text>
+
+  <rect x="203" y="250" width="40" height="160" rx="6" fill="#ddf4ff" stroke="#0969da" stroke-width="1.2"/>
+  <text x="223" y="320" text-anchor="middle" font-weight="600">Left</text>
+  <text x="223" y="336" text-anchor="middle" font-weight="600">leg</text>
+  <text x="223" y="352" text-anchor="middle" font-size="12" fill="#59636e">16</text>
+
+  <!-- Legend -->
+  <rect x="24" y="372" width="14" height="14" rx="3" fill="#ffd8d3" stroke="#cf222e"/>
+  <text x="44" y="384" font-size="12">vital</text>
+  <rect x="24" y="394" width="14" height="14" rx="3" fill="#ddf4ff" stroke="#0969da"/>
+  <text x="44" y="406" font-size="12">limb</text>
+
+  <!-- Struck regions -->
+  <rect x="520" y="56" width="140" height="44" rx="4" fill="#f6f8fa" stroke="#8c959f"/>
+  <text x="590" y="76" text-anchor="middle" font-weight="600">Head</text>
+  <text x="590" y="92" text-anchor="middle" font-size="12" fill="#59636e">×1.5</text>
+
+  <rect x="520" y="104" width="140" height="44" rx="4" fill="#f6f8fa" stroke="#8c959f"/>
+  <text x="590" y="124" text-anchor="middle" font-weight="600">Chest</text>
+  <text x="590" y="140" text-anchor="middle" font-size="12" fill="#59636e">×1</text>
+
+  <rect x="520" y="220" width="140" height="44" rx="4" fill="#f6f8fa" stroke="#8c959f"/>
+  <text x="590" y="240" text-anchor="middle" font-weight="600">Hands</text>
+  <text x="590" y="256" text-anchor="middle" font-size="12" fill="#59636e">×0.5</text>
+
+  <rect x="520" y="290" width="140" height="44" rx="4" fill="#f6f8fa" stroke="#8c959f"/>
+  <text x="590" y="310" text-anchor="middle" font-weight="600">Legs</text>
+  <text x="590" y="326" text-anchor="middle" font-size="12" fill="#59636e">×1</text>
+
+  <rect x="520" y="360" width="140" height="44" rx="4" fill="#f6f8fa" stroke="#8c959f"/>
+  <text x="590" y="380" text-anchor="middle" font-weight="600">Feet</text>
+  <text x="590" y="396" text-anchor="middle" font-size="12" fill="#59636e">×0.5</text>
+
+  <!-- Arrows from regions to pools -->
+  <path d="M520 78 H236" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#a)"/>
+
+  <path d="M520 122 H253" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#a)"/>
+  <text x="390" y="114" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">about 70%</text>
+  <path d="M520 136 C 420 136, 380 196, 303 196" fill="none" stroke="#57606a" stroke-width="1.4" stroke-dasharray="5 4" marker-end="url(#a)"/>
+  <text x="410" y="214" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">about 30%, arm on the struck side</text>
+
+  <path d="M520 242 C 420 242, 380 270, 303 270" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#a)"/>
+  <text x="410" y="240" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">arm on the struck side</text>
+
+  <path d="M520 312 H251" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#a)"/>
+  <text x="390" y="304" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">leg on the struck side</text>
+  <path d="M520 382 C 400 382, 320 380, 251 380" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#a)"/>
+  <text x="390" y="374" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">leg on the struck side</text>
+</svg>

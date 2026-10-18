@@ -42,7 +42,7 @@ The stage follows whichever store is fuller, as a share of its capacity. Thresho
 - A sleeping body that reaches Pressing wakes, so a jug of ale at supper means a trip to the privy before dawn.
 - Under `mild`, a store holds at 100% and the body stays Desperate until it relieves.
 - Effects apply as Feudum attribute modifiers, never as mob effects, so no icon shows in the inventory.
-- Modifiers of the same kind as those of Hunger, Thirst, and Body temperature take the strongest rather than adding up, under a rule that Health owns.
+- Modifiers of the same kind as those of Hunger, Thirst, and Body temperature take the strongest rather than adding up, under the [rule](health.md#modifiers) of Health.
 
 ### Accidents
 
@@ -157,7 +157,7 @@ Relief owns the bladder and bowels, how they fill, the stages and their effects,
 - **[Thirst](thirst.md)**: hydration, the water that passes off once it is full, and the drain whose share fills the bladder.
 - **[Fluids](fluids.md)**: how foulness spreads in water and groundwater, and how it decays.
 - **[Villages](villages.md)**: the standing scale.
-- **[Health](https://github.com/NoNamer777/feudum/issues/36)**: the rule that modifiers of the same kind take the strongest.
+- **[Health](health.md)**: the rule that modifiers of the same kind take the strongest.
 - **[Illness](https://github.com/NoNamer777/feudum/issues/37)**: what a Soiled body, deep dung, and fouled water do to a body.
 - **[Farming](https://github.com/NoNamer777/feudum/issues/32)**: what manure and fresh waste do to the soil.
 - **[Brewing](https://github.com/NoNamer777/feudum/issues/28)**: the alcohol amount of drinks.

@@ -66,8 +66,8 @@ The stages follow hydration. Thresholds come from the diet profile. For a human 
 - Work covers mining, chopping, and attacking, as in Body temperature.
 - Under `mild`, Dehydrated brings heavy slowness and deals no damage.
 - Effects apply as Feudum attribute modifiers, never as mob effects, so no icon shows in the inventory.
-- Modifiers of the same kind as those of Hunger and Body temperature take the strongest rather than adding up, under a rule that Health owns. Damage from each mechanic still applies on its own.
-- Healing spends no water, but a Parched or Dehydrated body doesn't heal.
+- Modifiers of the same kind as those of Hunger and Body temperature take the strongest rather than adding up, under the [rule](health.md#modifiers) of Health. Damage from each mechanic still applies on its own.
+- Healing spends no water, but a Parched or Dehydrated body doesn't [heal](health.md#healing).
 - Feudum's own dehydration damage type carries its own death message.
 
 ## Cues
@@ -125,7 +125,7 @@ Thirst owns hydration, absorption, the salt and foul loads, drain, the stages an
 - **[Hunger](hunger.md)**: the stomach, food components, and diet profiles that Thirst extends.
 - **[Body temperature](body-temperature.md)**: the heat stages that raise the drain, and the thermal offset of drinks and snow.
 - **[Fluids](fluids.md)**: the salinity and foulness of water blocks and containers, how water flows, mixes, and fouls, and Feudum's replacement for vanilla water.
-- **[Health](https://github.com/NoNamer777/feudum/issues/36)**: natural healing, and the rule that modifiers of the same kind take the strongest.
+- **[Health](health.md)**: natural healing, and the rule that modifiers of the same kind take the strongest.
 - **[Illness](https://github.com/NoNamer777/feudum/issues/37)**: what the foul load does to a body.
 - **[Relief](relief.md)**: the water that passes off once hydration is full.
 - **[Cooking](https://github.com/NoNamer777/feudum/issues/30)**: boiling water.

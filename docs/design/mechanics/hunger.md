@@ -38,7 +38,7 @@ Energy drains at the base metabolic rate of the diet profile, adjusted by:
 - **Rest**: resting and sleeping drain at a lower rate, so a night's sleep costs about one meal.
 - **Exertion**: the activities that build the exertion offset of [Body temperature](body-temperature.md#felt-temperature), such as sprinting, mining, and fighting, raise the drain.
 - **Cold**: Chilled multiplies the drain by 1.25 and Hypothermic by 1.5, as starting values to tune.
-- **Healing**: natural healing spends energy.
+- **Healing**: [natural healing](health.md#healing) spends energy.
 - **Grain deficiency**: raises the drain, as [Deficiencies](#deficiencies) describes.
 
 Heat stages leave energy alone; they drain [thirst](thirst.md#drain).
@@ -58,7 +58,7 @@ The stages follow energy, apart from Stuffed, which follows the stomach. Thresho
 - Work covers mining, chopping, and attacking, as in Body temperature.
 - Under `mild`, Starving brings heavy slowness and deals no damage.
 - Effects apply as Feudum attribute modifiers, never as mob effects, so no icon shows in the inventory.
-- Modifiers of the same kind as those of Body temperature and Thirst take the strongest rather than adding up, under a rule that Health owns. Damage from each mechanic still applies on its own.
+- Modifiers of the same kind as those of Body temperature and Thirst take the strongest rather than adding up, under the [rule](health.md#modifiers) of Health. Damage from each mechanic still applies on its own.
 - Feudum's own starvation damage type carries its own death message.
 
 ## Deficiencies
@@ -78,7 +78,8 @@ For a human:
 
 ## Healing
 
-- A fed body heals slowly while awake, and faster while it sleeps or sits.
+[Health](health.md#healing) owns natural healing, and Hunger feeds it:
+
 - Healing spends energy, and a Famished or Starving body doesn't heal.
 - A balanced diet speeds healing, and a fruit deficiency slows it.
 
@@ -140,12 +141,12 @@ For a human:
 
 ## Boundaries
 
-Hunger owns diet profiles, the stomach, energy, food groups and group levels, drain, the stages and their effects, deficiencies and cravings, natural healing, cues, food components, and the feeding goal of animals. Other mechanics own the rest, each linked to its page or, while it waits for a design, its issue:
+Hunger owns diet profiles, the stomach, energy, food groups and group levels, drain, the stages and their effects, deficiencies and cravings, cues, food components, and the feeding goal of animals. Other mechanics own the rest, each linked to its page or, while it waits for a design, its issue:
 
 - **Body temperature**: the cold stages that raise the drain, and the comfort band that a vegetable deficiency narrows.
 - **[Relief](relief.md)**: the residue that digestion passes on to the bowels, which shares the food component and the diet profile of Hunger.
 - **[Thirst](thirst.md)**: drinking, hydration, and the salt and foul loads, which share the stomach, the food component, and the diet profile of Hunger.
-- **[Health](https://github.com/NoNamer777/feudum/issues/36)**: injuries, and the rule that modifiers of the same kind take the strongest. Natural healing moves to Health once it has a design.
+- **[Health](health.md)**: natural healing, injuries, and the rule that modifiers of the same kind take the strongest.
 - **[Villagers](https://github.com/NoNamer777/feudum/issues/46)**: when and what a villager eats, such as meals on its schedule.
 - **[Village economy](https://github.com/NoNamer777/feudum/issues/44)**: the food stock a village eats from.
 - **[Village simulation](https://github.com/NoNamer777/feudum/issues/45)**: drawing on the stock at each catch-up step, and applying hunger and deficiencies abstractly, so a village that runs out of fruit in winter falls sick while no one is near.

@@ -93,7 +93,7 @@ Each side of normal has three stages, with thresholds from the thermal profile. 
 - Work covers mining, chopping, and attacking.
 - Under `mild`, Freezing and Heatstroke keep their slowness and deal no damage.
 - Effects apply as Feudum attribute modifiers, never as mob effects, so no icon shows in the inventory.
-- Modifiers of the same kind as those of Hunger and Thirst take the strongest rather than adding up, under a rule that Health owns. Damage from each mechanic still applies on its own.
+- Modifiers of the same kind as those of Hunger and Thirst take the strongest rather than adding up, under the [rule](health.md#modifiers) of Health. Damage from each mechanic still applies on its own.
 - Feudum's own hypothermia and heatstroke damage types carry their own death messages.
 - Feudum replaces the vanilla freezing mechanic: the frozen-ticks counter and its screen overlay never trigger, and vanilla freeze damage never applies.
 
@@ -136,7 +136,7 @@ Body temperature owns thermal profiles, felt temperature and its inputs, the wet
 - **[Hunger](hunger.md)**: nourishment, how faster drain plays out, and the vegetable deficiency that narrows the comfort band.
 - **[Thirst](thirst.md)**: drinking, and how faster drain plays out.
 - **[Fluids](fluids.md)**: the water a body swims in and the wet ground it lies on, both of which add wetness.
-- **[Health](https://github.com/NoNamer777/feudum/issues/36)**: the rule that modifiers of the same kind take the strongest.
+- **[Health](health.md)**: the rule that modifiers of the same kind take the strongest.
 - **[Villagers](https://github.com/NoNamer777/feudum/issues/46)**: how villagers react to their body temperature.
 - **[Village simulation](https://github.com/NoNamer777/feudum/issues/45)**: abstract losses while a village is unloaded, such as livestock lost in a hard winter, read from the Weather query for each catch-up step.
 - **[Fire](https://github.com/NoNamer777/feudum/issues/33)**: how fire catches and spreads. Its heat output is a heat source like any other.
