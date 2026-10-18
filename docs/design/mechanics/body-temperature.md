@@ -56,7 +56,7 @@ Felt temperature starts from the local temperature of the [Weather](weather.md#l
 - A body inside an enclosed space feels the room temperature of that space instead of the outside air.
 - The enclosure check flood-fills the air around a body up to a volume cap. Wall blocks bound the space, and so do door-like blocks, such as doors, trapdoors, gates, and panes, whether open or closed. The fill also stops at outdoor cells, air with open sky above, and each face it shares with one counts as an opening.
 - A space past the volume cap is covered, not enclosed.
-- Each enclosed space stores a room temperature, which drifts toward the balance between the heat its heat sources put in and the heat it loses. Each wall face loses heat by the insulation of its block, so wool holds heat better than stone. Each opening loses much more: an open door or trapdoor more than a closed one, and a missing block most of all.
+- Each enclosed space stores a room temperature, which drifts toward the balance between the heat its heat sources put in and the heat it loses. Each wall face loses heat by the insulation of its block, so timber holds heat better than stone, and a [wall hanging](textiles.md#hangings-and-rugs) raises the insulation of the face it hangs on. Each opening loses much more: an open door or trapdoor more than a closed one, and a missing block most of all.
 - A well-heated room with one hole stays fairly warm, an open barn stays barely above the outside temperature, and an unheated room settles to the outside temperature.
 - Room temperatures are cached and recomputed when a block of the space changes. They are dropped when the chunks unload, and the space starts from its balance when they load again.
 - Heat sources are data-driven: block tags map a block to a heat output in °C. In the open, the output falls off over a radius. In an enclosed space, the full output goes into the room temperature.
@@ -134,3 +134,4 @@ Body temperature owns thermal profiles, felt temperature and its inputs, the wet
 - **[Fire](https://github.com/NoNamer777/feudum/issues/33)**: how fire catches and spreads. Its heat output is a heat source like any other.
 - **[Buildings](https://github.com/NoNamer777/feudum/issues/29)**: whether a building reuses the enclosure check.
 - **[Clothing](../content/clothing.md)**: the slots, how the stats of worn garments combine, and the wetness and drying of garments.
+- **[Textiles](textiles.md)**: the wall hangings and rugs that raise the insulation of a face, and shearing, which leaves a sheep shorn.
