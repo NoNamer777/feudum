@@ -36,14 +36,16 @@ A body has five regions: head, chest, legs, feet, and hands. Each region has lay
 
 ### Materials
 
-| Material | Character                                 | Insulation kept when soaked |
-|:---------|:------------------------------------------|----------------------------:|
-| Linen    | Light and cool; the underlayer material.  |                   about 10% |
-| Wool     | Warm, and stays fairly warm when wet.     |                   about 50% |
-| Leather  | Resists wind and water, and wears slowly. |                   about 30% |
-| Fur      | The warmest, and heavy.                   |                   about 35% |
-| Felt     | Fulled wool, for hats and boot linings.   |                   about 40% |
-| Straw    | Hats that shade the face.                 |                   about 10% |
+| Material | Character                                                               | Insulation kept when soaked |
+|:---------|:------------------------------------------------------------------------|----------------------------:|
+| Linen    | Light and cool; the underlayer material.                                |                   about 10% |
+| Nettle   | A rough, cheap linen that wears faster.                                 |                   about 10% |
+| Woolen   | Warm, and stays fairly warm when wet.                                   |                   about 50% |
+| Worsted  | Smooth and hard-wearing; less warm than woolen and more wind-resistant. |                   about 40% |
+| Leather  | Resists wind and water, and wears slowly.                               |                   about 30% |
+| Fur      | The warmest, and heavy.                                                 |                   about 35% |
+| Felt     | Matted wool, for hats and boot linings.                                 |                   about 40% |
+| Straw    | Hats that shade the face.                                               |                   about 10% |
 
 Silk and other fine cloth wait for [Social standing of dress](https://github.com/NoNamer777/feudum/issues/82).
 
@@ -52,26 +54,26 @@ Silk and other fine cloth wait for [Social standing of dress](https://github.com
 | Type         | Layer      | Regions           | Materials                               |
 |:-------------|:-----------|:------------------|:----------------------------------------|
 | Coif         | Underlayer | Head              | Linen                                   |
-| Shirt        | Underlayer | Chest             | Linen                                   |
-| Braies       | Underlayer | Legs              | Linen                                   |
-| Wraps        | Underlayer | Feet              | Linen, wool                             |
-| Hood         | Clothing   | Head              | Wool, fur                               |
+| Shirt        | Underlayer | Chest             | Linen, nettle                           |
+| Braies       | Underlayer | Legs              | Linen, nettle                           |
+| Wraps        | Underlayer | Feet              | Linen, woolen                           |
+| Hood         | Clothing   | Head              | Woolen, fur                             |
 | Hat          | Clothing   | Head              | Felt, straw                             |
 | Arming cap   | Clothing   | Head              | Linen                                   |
 | Headwrap     | Clothing   | Head              | Linen                                   |
-| Tunic        | Clothing   | Chest             | Linen, wool                             |
+| Tunic        | Clothing   | Chest             | Linen, nettle, woolen, worsted          |
 | Gambeson     | Clothing   | Chest             | Linen                                   |
 | Jerkin       | Clothing   | Chest             | Leather                                 |
 | Coat         | Clothing   | Chest             | Fur                                     |
-| Hose         | Clothing   | Legs              | Wool                                    |
-| Trousers     | Clothing   | Legs              | Wool, leather                           |
-| Robe         | Clothing   | Chest, legs       | Linen, wool                             |
+| Hose         | Clothing   | Legs              | Woolen, worsted                         |
+| Trousers     | Clothing   | Legs              | Woolen, leather                         |
+| Robe         | Clothing   | Chest, legs       | Linen, woolen                           |
 | Shoes        | Clothing   | Feet              | Leather                                 |
 | Boots        | Clothing   | Feet              | Leather, leather lined with felt or fur |
-| Mittens      | Clothing   | Hands             | Wool, fur                               |
+| Mittens      | Clothing   | Hands             | Woolen, fur                             |
 | Gloves       | Clothing   | Hands             | Leather                                 |
-| Cloak        | Cloak      | Chest, legs       | Wool, leather                           |
-| Hooded cloak | Cloak      | Head, chest, legs | Wool                                    |
+| Cloak        | Cloak      | Chest, legs       | Woolen, leather                         |
+| Hooded cloak | Cloak      | Head, chest, legs | Woolen                                  |
 | Mantle       | Cloak      | Chest, legs       | Fur                                     |
 
 - A robe and a gown are the same type.
@@ -131,7 +133,7 @@ Each garment carries its own wetness, from dry to soaked. The wetness of [Body t
 
 ## Starting clothing
 
-- A new player starts in a linen shirt, linen braies, a wool tunic, wool hose, and leather shoes, so a first night under the `harsh` setting of Body temperature isn't a death sentence.
+- A new player starts in a linen shirt, linen braies, a woolen tunic, woolen hose, and leather shoes, so a first night under the `harsh` setting of Body temperature isn't a death sentence.
 - Worn garments drop on death like the rest of the inventory, and respawning gives no new set.
 - Generated villagers wear clothing that suits the climate profile of their biome. [Villagers](https://github.com/NoNamer777/feudum/issues/46) and [Village economy](https://github.com/NoNamer777/feudum/issues/44) decide who gets new clothes once theirs wear out, and where they come from.
 
