@@ -33,7 +33,7 @@ Felt temperature starts from the local temperature of the [Weather](weather.md#l
 
 - **Sun**: open sky adds a sun offset that grows with the height of the sun and shrinks with cloud cover. Midday in a clear desert is brutal; shade or overcast takes the edge off.
 - **Wind chill**: wind lowers the felt temperature in proportion to the mean speed of the [sheltered wind](weather.md#wind-shelter), and more when wet. Wind-resistant clothing cuts it further.
-- **Wetness**: wetness always cools. In the cold it also cancels much of the insulation; in the heat it brings relief, so a swim cools a summer day.
+- **Wetness**: wetness always cools. In the cold it also cancels much of the natural insulation, and a wet garment loses its own, as [Clothing](../content/clothing.md#wetness) describes. In the heat it brings relief, so a swim cools a summer day.
 - **Exertion**: sprinting, swimming, climbing, mining, chopping, and fighting build a warming offset that decays over about a minute of rest.
 - **Heat sources**: see [Shelter and heat](#shelter-and-heat).
 - **Food and drink**: a consumable can carry a thermal component, an offset in °C and a duration, so a hot stew warms for a while and cold water cools. [Hunger](hunger.md) and [Thirst](thirst.md) own the nourishment.
@@ -46,7 +46,7 @@ Felt temperature starts from the local temperature of the [Weather](weather.md#l
 - Wetness rises with precipitation intensity while uncovered, to full when submerged, and by depth when wading.
 - Exertion while Overheated adds sweat, so a hard worker cools in the heat but chills once they stop in the cold.
 - Snow falling on an uncovered body melts into wetness while the felt temperature is above freezing.
-- Water-resistant clothing reduces every source.
+- Garments carry wetness of their own, and precipitation reaches the body only through them, slowed by their water resistance, as [Clothing](../content/clothing.md#wetness) describes.
 - Wetness dries faster with higher felt temperature, sun, sheltered wind, and nearby heat sources.
 
 ## Shelter and heat
@@ -67,7 +67,7 @@ Felt temperature starts from the local temperature of the [Weather](weather.md#l
 ## Clothing
 
 - Every wearable carries thermal stats as data: insulation, wind resistance, water resistance, and sun heating. Metal armor bakes in the sun and chills in the frost.
-- Clothing uses the existing equipment slots, mob equipment included.
+- Bodies wear clothing in three layers, and [Clothing](../content/clothing.md) owns the slots and how the stats of worn garments combine.
 
 ## Stages
 
@@ -111,7 +111,7 @@ Each side of normal has three stages, with thresholds from the thermal profile. 
 
 ## Query
 
-- One query returns an entity's body temperature, its felt temperature with the offset of each input, its wetness, and its stage.
+- One query returns an entity's body temperature, its felt temperature with the offset of each input, its wetness, and its stage. It also returns each worn garment, as [Clothing](../content/clothing.md#query) describes.
 - Other mechanics read body temperature through this query.
 
 ## Commands
@@ -122,7 +122,7 @@ Each side of normal has three stages, with thresholds from the thermal profile. 
 
 ## Boundaries
 
-Body temperature owns thermal profiles, felt temperature and its inputs, wetness, enclosure and room temperature, heat sources, the thermal stats of wearables and consumables, the stages and their effects, cues, and the comfort-seeking goal of animals. Other mechanics own the rest, each linked to its page or, while it waits for a design, its issue:
+Body temperature owns thermal profiles, felt temperature and its inputs, the wetness of the body, enclosure and room temperature, heat sources, the thermal stats of wearables and consumables, the stages and their effects, cues, and the comfort-seeking goal of animals. Other mechanics own the rest, each linked to its page or, while it waits for a design, its issue:
 
 - **Weather**: local temperature, precipitation, snow cover, wind, and wind shelter. Body temperature reads the sheltered wind for wind chill and drying.
 - **[Hunger](hunger.md)**: nourishment, how faster drain plays out, and the vegetable deficiency that narrows the comfort band.
@@ -133,4 +133,4 @@ Body temperature owns thermal profiles, felt temperature and its inputs, wetness
 - **[Village simulation](https://github.com/NoNamer777/feudum/issues/45)**: abstract losses while a village is unloaded, such as livestock lost in a hard winter, read from the Weather query for each catch-up step.
 - **[Fire](https://github.com/NoNamer777/feudum/issues/33)**: how fire catches and spreads. Its heat output is a heat source like any other.
 - **[Buildings](https://github.com/NoNamer777/feudum/issues/29)**: whether a building reuses the enclosure check.
-- **[Clothing layers](https://github.com/NoNamer777/feudum/issues/48)**: whether Feudum adds clothing slots under armor.
+- **[Clothing](../content/clothing.md)**: the slots, how the stats of worn garments combine, and the wetness and drying of garments.

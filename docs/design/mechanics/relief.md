@@ -43,9 +43,9 @@ The stage follows whichever store is fuller, as a share of its capacity. Thresho
 ### Accidents
 
 - An accident empties the full store where the body stands, as [Relieving](#relieving) on open ground does, and leaves the body Soiled.
-- A Soiled body clears once it is washed, by immersion in water or by pouring a container of water over itself. Immersion adds the waste to the water, as [Waste in water](#waste-in-water) describes, and pouring leaves foul wet ground.
+- A Soiled body clears once it is washed, by immersion in water or by pouring a container of water over itself. Immersion adds the waste to the water, as [Waste in water](#waste-in-water) describes, and pouring leaves foul wet ground. An accident also soils the garment on the legs, and a body that wears a soiled garment stays Soiled, as [Clothing](../content/clothing.md#soiling) describes.
 - [Washing and bathhouses](https://github.com/NoNamer777/feudum/issues/75) plans washbasins and bathhouses as further ways to wash.
-- [Illness](https://github.com/NoNamer777/feudum/issues/37) decides whether a Soiled body or deep dung makes a body sick. [Clothing layers](https://github.com/NoNamer777/feudum/issues/48) decides whether clothing stays soiled.
+- [Illness](https://github.com/NoNamer777/feudum/issues/37) decides whether a Soiled body or deep dung makes a body sick.
 
 ## Relieving
 
@@ -157,7 +157,7 @@ Relief owns the bladder and bowels, how they fill, the stages and their effects,
 - **[Farming](https://github.com/NoNamer777/feudum/issues/32)**: what manure and fresh waste do to the soil.
 - **[Brewing](https://github.com/NoNamer777/feudum/issues/28)**: the alcohol amount of drinks.
 - **[Segmented sleep](https://github.com/NoNamer777/feudum/issues/42)**: the waking hour that a full bladder already brings.
-- **[Clothing layers](https://github.com/NoNamer777/feudum/issues/48)**: whether clothing stays soiled.
+- **[Clothing](../content/clothing.md)**: soiled garments, which keep a body Soiled until they are washed.
 - **[Villagers](https://github.com/NoNamer777/feudum/issues/46)**: when and where a villager relieves, such as the chamber pot at night and the privy by day.
 - **[Gong farmer](https://github.com/NoNamer777/feudum/issues/73)**: the villager who empties privy pits and carries night soil to the dung heap.
 - **[Inns and taverns](https://github.com/NoNamer777/feudum/issues/74)**: when a guest may use the privy of the house.
