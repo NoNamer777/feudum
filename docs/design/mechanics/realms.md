@@ -66,6 +66,10 @@ flowchart TD
 - When a root manor ends, its realm ends, and each of its vassal manors goes free. Each freed manor with vassals of its own begins a new realm.
 - When a lord's second manor in a village merges into the first, the merged manor keeps the liege of the manor it merged into, and the other manor's bond to its liege ends. The merged manor keeps the vassal manors of both. A bond that would make the merged manor its own liege, directly or up the chain, ends.
 
+The diagram applies these rules to the Kingdom of Ashford of the [Structure](#structure) diagram, shown first, and makes each change to it on its own. It leaves out ranks, and highlights the manors whose liege changed. The merge assumes that Finn wins Dale in a contest, with Alice's leave, and that Dale lies in the same village as Fen, which the Structure diagram leaves open.
+
+![Four trees of the Kingdom of Ashford. Before any change, Alice's Ashford holds Brook and Fen, Brook holds Clay and Dale, Dale holds Elm, and Fen holds Glen. When Brook ends, Clay and Dale pass up to Ashford. When Ashford ends, Brook and Fen go free as the roots of two new realms. When Finn wins Dale and it merges into Fen, Elm passes to Fen.](images/realms-changes.svg)
+
 ## Tribute and aid
 
 - A manor passes a share of everything it takes in up to its liege manor, including the tribute from its own vassals, so tribute cascades to the sovereign. [Village economy](https://github.com/NoNamer777/feudum/issues/44) sets the share.
@@ -84,6 +88,13 @@ flowchart TD
 - A player can't contest a manor above or below one of their own manors in a realm. That is felony.
 - A contest against any other manor in a realm where the player holds a manor needs leave from the lord of the nearest manor that holds both the target and one of the player's manors in its subtree. A villager lord grants or refuses leave under Village simulation.
 - Contests across realms need no leave. [Lordship contests](https://github.com/NoNamer777/feudum/issues/38) designs how a contest starts and is won.
+
+For example, in the [Structure](#structure) diagram, Cora is the lord of Clay:
+
+- Cora can't contest Brook or Ashford, since both lie above Clay. That would be felony.
+- To contest Dale or Elm, Cora needs Bram's leave, since Brook is the nearest manor with both the target and Clay in its subtree.
+- To contest Fen or Glen, Cora needs Alice's leave, since only Ashford holds both the target and Clay.
+- To contest Hollow or Iver, Cora needs no leave, since Clay lies in another realm.
 
 ## Liege realm
 

@@ -30,6 +30,10 @@ Weather brings fronts that drift across the map on the wind, shaped by each biom
 
 ## Wind
 
+The diagram shows how the parts of [Wind at a point](#wind-at-a-point) build the two winds that [Query](#query) returns, and which systems read each. The wind at a point ignores blocks, and the [wind shelter](#wind-shelter) of placed blocks turns it into the sheltered wind. The two winds are highlighted, and dashed boxes list what reads each.
+
+![The seed, position, and Feudum time set the steering flow. Fronts ride the steering flow unturned, and the climate profile turns it into the wind at a point, which the front wind, windiness, exposure, the daily cycle, and gusts also shape. Fog and the day and night swing of local temperature read the wind at a point. Wind shelter turns it into the sheltered wind, which Body temperature, wind forces, the weather vane, and snow drifts read.](images/weather-wind.svg)
+
 ### Steering flow
 
 - The steering flow is one wind across the whole map, mostly west to east. It varies slowly over tens of kilometers, so neighboring regions differ while staying coherent at the scale of a front, and its direction wanders over days.

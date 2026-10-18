@@ -36,3 +36,32 @@ Pull requests are welcome for small fixes to the docs, such as a typo or a broke
 - [Sign your commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits): the default branch rejects unsigned ones. If you can't sign, report the fix in Q&A.
 - Title the pull request as a [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/) subject, such as `docs: fix broken link in thirst page`.
 - Say in a sentence why the change is needed.
+
+## Diagrams and tables
+
+A design page may use a visual aid, such as a diagram, table, or chart, where it makes the design easier to grasp. It never has to, and prose is often enough. Add a diagram or chart only where it does at least one of these:
+
+- Joins rules spread across sections or pages into one picture.
+- Shows structure that prose can only list, such as branches, cycles, or trees that change shape.
+- Shows something spatial or plotted.
+
+Leave out a diagram of what a table already orders, such as the thresholds of a set of stages.
+
+Pick the lightest format that does the job:
+
+| Content                                               | Format                                                                                                    |
+|:------------------------------------------------------|:----------------------------------------------------------------------------------------------------------|
+| Values to compare, or a rule to work through          | A Markdown table, or worked examples                                                                      |
+| A small hierarchy                                     | A Mermaid fenced block, like the [Structure](docs/design/mechanics/realms.md#structure) diagram of Realms |
+| Flows, cycles, and branching chains                   | An SVG file                                                                                               |
+| Spatial or plotted, such as a map, layers, or a chart | An SVG file                                                                                               |
+
+Mermaid lays out a graph on its own. That suits a small hierarchy, but it scatters flows and cycles, so draw those as an SVG with every box placed by hand.
+
+Line up the columns of every table in the source, and give each cell of the separator row an alignment indicator, such as `:---`.
+
+Store each SVG in an `images/` folder beside the pages of its area, named `<page>-<topic>.svg`, such as `docs/design/mechanics/images/villages-territory.svg`. Give it a `<title>` and a light background of its own, so it reads in both GitHub themes. Embed it with alt text that describes what it shows.
+
+Introduce every visual aid with a sentence that says what it shows. The page's text stays the source of truth, so a visual aid shows only what the page already says. In that sentence, mark as illustrative any value the page leaves open, such as an example name, a threshold, or an assumed layout. A diagram that needs a rule the page lacks waits until that rule is designed.
+
+GitHub's renderer is the target. Check each Mermaid block in the GitHub file view, and each SVG in both the light and the dark theme. Mermaid lays out nodes in the order they are defined, so reorder the definitions when edges cross.

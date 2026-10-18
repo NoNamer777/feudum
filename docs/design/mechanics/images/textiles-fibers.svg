@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 870 571" width="870" height="571" role="img" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#1f2328">
+  <title>How each of the six fibers becomes cloth, cordage, felt, or matting</title>
+  <rect x="0.5" y="0.5" width="869" height="570" rx="6" fill="#ffffff" stroke="#d0d7de"/>
+  <defs>
+    <marker id="e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#57606a"/></marker>
+  </defs>
+  <path d="M130 101 C 175 101, 185 63, 228 63" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M130 101 C 175 101, 185 63, 228 63" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <text x="180" y="77" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">carded</text>
+  <path d="M130 101 C 175 101, 185 139, 228 139" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M130 101 C 175 101, 185 139, 228 139" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <text x="180" y="133" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">combed</text>
+  <path d="M130 243.5 C 175 243.5, 185 215, 228 215" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M130 243.5 C 175 243.5, 185 215, 228 215" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <text x="180" y="224.25" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">hackled</text>
+  <path d="M130 243.5 C 175 243.5, 185 272, 228 272" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M130 243.5 C 175 243.5, 185 272, 228 272" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <text x="180" y="270.75" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">hackled</text>
+  <path d="M130 329 H228" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M130 329 H228" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <text x="180" y="324" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">scutched</text>
+  <path d="M130 367 H228" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M130 367 H228" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <text x="180" y="362" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">scutched</text>
+  <path d="M130 443 H228" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M130 443 H228" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <text x="180" y="438" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">carded</text>
+  <path d="M130 500 H228" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M130 500 H228" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <text x="180" y="495" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">retted and peeled</text>
+  <path d="M360 63 H448" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M360 63 H448" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M360 139 H448" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M360 139 H448" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M360 215 H448" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M360 215 H448" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M360 272 H448" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M360 272 H448" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M360 329 H448" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M360 329 H448" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M360 367 H448" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M360 367 H448" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M360 443 H448" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M360 443 H448" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M580 63 H718" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M580 63 H718" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <text x="650" y="58" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">woven and fulled</text>
+  <path d="M580 139 H718" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M580 139 H718" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M580 139 C 625 139, 675 177, 718 177" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M580 139 C 625 139, 675 177, 718 177" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <text x="621.58" y="160.208" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">plied</text>
+  <path d="M580 215 C 625 215, 675 177, 718 177" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M580 215 C 625 215, 675 177, 718 177" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <text x="621.58" y="201.792" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">plied</text>
+  <path d="M580 215 H718" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M580 215 H718" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M580 272 C 625 272, 675 253, 718 253" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M580 272 C 625 272, 675 253, 718 253" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M580 272 C 625 272, 675 291, 718 291" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M580 272 C 625 272, 675 291, 718 291" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <text x="621.58" y="289.104" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">plied</text>
+  <path d="M580 329 C 625 329, 675 291, 718 291" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M580 329 C 625 329, 675 291, 718 291" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <text x="621.58" y="315.792" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">plied</text>
+  <path d="M580 329 H718" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M580 329 H718" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M580 367 C 625 367, 675 291, 718 291" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M580 367 C 625 367, 675 291, 718 291" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <text x="621.58" y="345.584" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">plied</text>
+  <path d="M580 367 H718" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M580 367 H718" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M580 367 C 625 367, 675 405, 718 405" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M580 367 C 625 367, 675 405, 718 405" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <text x="621.58" y="388.208" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">laid</text>
+  <path d="M580 443 C 625 443, 675 405, 718 405" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M580 443 C 625 443, 675 405, 718 405" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <text x="621.58" y="429.792" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">laid</text>
+  <path d="M580 443 H718" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M580 443 H718" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M360 63 C 390 63, 370 101, 405 101 H450 H580 H718" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M360 63 C 390 63, 370 101, 405 101 H450 H580 H718" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <text x="515" y="97" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">felted</text>
+  <path d="M360 500 C 390 500, 370 405, 405 405 H450 H580 H718" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M360 500 C 390 500, 370 405, 405 405 H450 H580 H718" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <text x="515" y="401" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">twisted</text>
+  <path d="M360 500 H580 H718" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M360 500 H580 H718" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <text x="515" y="496" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">plaited</text>
+  <rect x="20" y="88" width="110" height="26" rx="6" fill="#f6f8fa" stroke="#8c959f"/>
+  <text x="75" y="105.5" text-anchor="middle" font-weight="600">Wool</text>
+  <rect x="20" y="230.5" width="110" height="26" rx="6" fill="#f6f8fa" stroke="#8c959f"/>
+  <text x="75" y="248" text-anchor="middle" font-weight="600">Flax</text>
+  <rect x="20" y="316" width="110" height="26" rx="6" fill="#f6f8fa" stroke="#8c959f"/>
+  <text x="75" y="333.5" text-anchor="middle" font-weight="600">Nettle</text>
+  <rect x="20" y="354" width="110" height="26" rx="6" fill="#f6f8fa" stroke="#8c959f"/>
+  <text x="75" y="371.5" text-anchor="middle" font-weight="600">Hemp</text>
+  <rect x="20" y="430" width="110" height="26" rx="6" fill="#f6f8fa" stroke="#8c959f"/>
+  <text x="75" y="447.5" text-anchor="middle" font-weight="600">Goat hair</text>
+  <rect x="20" y="487" width="110" height="26" rx="6" fill="#f6f8fa" stroke="#8c959f"/>
+  <text x="75" y="504.5" text-anchor="middle" font-weight="600">Lime bast</text>
+  <rect x="230" y="50" width="130" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="295" y="67.5" text-anchor="middle">Rolags</text>
+  <rect x="230" y="126" width="130" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="295" y="143.5" text-anchor="middle">Tops</text>
+  <rect x="230" y="202" width="130" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="295" y="219.5" text-anchor="middle">Line</text>
+  <rect x="230" y="259" width="130" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="295" y="276.5" text-anchor="middle">Tow</text>
+  <rect x="230" y="316" width="130" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="295" y="333.5" text-anchor="middle">Nettle fiber</text>
+  <rect x="230" y="354" width="130" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="295" y="371.5" text-anchor="middle">Hemp fiber</text>
+  <rect x="230" y="430" width="130" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="295" y="447.5" text-anchor="middle">Carded hair</text>
+  <rect x="230" y="487" width="130" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="295" y="504.5" text-anchor="middle">Bast strips</text>
+  <rect x="450" y="50" width="130" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="515" y="67.5" text-anchor="middle">Woolen yarn</text>
+  <rect x="450" y="126" width="130" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="515" y="143.5" text-anchor="middle">Worsted yarn</text>
+  <rect x="450" y="202" width="130" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="515" y="219.5" text-anchor="middle">Fine yarn</text>
+  <rect x="450" y="259" width="130" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="515" y="276.5" text-anchor="middle">Coarse yarn</text>
+  <rect x="450" y="316" width="130" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="515" y="333.5" text-anchor="middle">Nettle yarn</text>
+  <rect x="450" y="354" width="130" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="515" y="371.5" text-anchor="middle">Hemp yarn</text>
+  <rect x="450" y="430" width="130" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="515" y="447.5" text-anchor="middle">Goat hair yarn</text>
+  <rect x="720" y="50" width="130" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="785" y="67.5" text-anchor="middle" font-weight="600">Woolen</text>
+  <rect x="720" y="88" width="130" height="26" rx="6" fill="#eaeef2" stroke="#8c959f"/>
+  <text x="785" y="105.5" text-anchor="middle" font-weight="600">Felt</text>
+  <rect x="720" y="126" width="130" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="785" y="143.5" text-anchor="middle" font-weight="600">Worsted</text>
+  <rect x="720" y="164" width="130" height="26" rx="6" fill="#f5e6d3" stroke="#a8784a"/>
+  <text x="785" y="181.5" text-anchor="middle" font-weight="600">Thread</text>
+  <rect x="720" y="202" width="130" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="785" y="219.5" text-anchor="middle" font-weight="600">Linen</text>
+  <rect x="720" y="240" width="130" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="785" y="257.5" text-anchor="middle" font-weight="600">Coarse linen</text>
+  <rect x="720" y="278" width="130" height="26" rx="6" fill="#f5e6d3" stroke="#a8784a"/>
+  <text x="785" y="295.5" text-anchor="middle" font-weight="600">Twine</text>
+  <rect x="720" y="316" width="130" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="785" y="333.5" text-anchor="middle" font-weight="600">Nettle cloth</text>
+  <rect x="720" y="354" width="130" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="785" y="371.5" text-anchor="middle" font-weight="600">Hemp cloth</text>
+  <rect x="720" y="392" width="130" height="26" rx="6" fill="#f5e6d3" stroke="#a8784a"/>
+  <text x="785" y="409.5" text-anchor="middle" font-weight="600">Rope</text>
+  <rect x="720" y="430" width="130" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="785" y="447.5" text-anchor="middle" font-weight="600">Haircloth</text>
+  <rect x="720" y="487" width="130" height="26" rx="6" fill="#eaeef2" stroke="#8c959f"/>
+  <text x="785" y="504.5" text-anchor="middle" font-weight="600">Matting</text>
+  <text x="20" y="30" font-size="12" font-weight="600" fill="#59636e">FIBER</text>
+  <text x="230" y="30" font-size="12" font-weight="600" fill="#59636e">PREPARED</text>
+  <text x="450" y="30" font-size="12" font-weight="600" fill="#59636e">SPUN</text>
+  <text x="720" y="30" font-size="12" font-weight="600" fill="#59636e">PRODUCT</text>
+  <rect x="20" y="538.0" width="22" height="13" rx="3" fill="#ffffff" stroke="#8c959f"/>
+  <text x="50" y="549" font-size="12">cloth, woven</text>
+  <rect x="210" y="538.0" width="22" height="13" rx="3" fill="#f5e6d3" stroke="#a8784a"/>
+  <text x="240" y="549" font-size="12">cordage, plied or laid</text>
+  <rect x="400" y="538.0" width="22" height="13" rx="3" fill="#eaeef2" stroke="#8c959f"/>
+  <text x="430" y="549" font-size="12">felt and matting, neither spun nor woven</text>
+</svg>

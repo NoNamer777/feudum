@@ -19,6 +19,10 @@ Every living mob, players included, has a body temperature that drifts toward ho
 - Body temperature and wetness advance by the Feudum time that passed, so they follow the day length and the sleep speed-up. Sleeping rough through a winter night can freeze a player; a bed under a roof protects them.
 - Players update every second, and mobs on a staggered cycle of a few seconds. Inputs such as the enclosure check and the Weather query are cached.
 
+The chart plots the equilibrium against the felt temperature for a human, bare and dressed, with the thresholds of [Stages](#stages). Only the comfort band of 12 to 26 °C and the stage thresholds come from this page. The normal temperature of 37 °C, the slope outside the band, and the dressed band are illustrative, since the thermal profile and clothing set them.
+
+![A chart of equilibrium against felt temperature. Inside the bare comfort band of 12 to 26 °C, the equilibrium stays at the normal 37 °C, and outside it the equilibrium falls or rises in a straight line. The dressed band is shifted toward the cold, so a dressed body stays above Hypothermic at a felt temperature where a bare one falls below it.](images/body-temperature-equilibrium.svg)
+
 ## Thermal profiles
 
 - Each entity type has a data-driven thermal profile: JSON in a data pack, assigned through entity type tags, as climate profiles are assigned through biome tags.
@@ -50,6 +54,10 @@ Felt temperature starts from the local temperature of the [Weather](weather.md#l
 - Wetness dries faster with higher felt temperature, sun, sheltered wind, and nearby heat sources.
 
 ## Shelter and heat
+
+The diagram shows side views of three shelters, each passing a different test: cover, wind shelter, or enclosure. The closed room also shows parts of its heat balance: a heat source, an opening, and a wall hanging.
+
+![Three side views in rain and wind. A roof on posts is covered, but the wind passes under it. A wall with no roof breaks the wind, but rain falls on both sides. A closed room with a hearth, a wall hanging, and an opening is covered, gets no wind, and feels its room temperature.](images/body-temperature-shelter.svg)
 
 - A body under no open sky is covered: rain and sun no longer reach it.
 - Wind shelter, not cover, decides how much wind reaches a body, so a roof with open sides keeps off the rain but not the wind, and a wall with no roof breaks the wind.

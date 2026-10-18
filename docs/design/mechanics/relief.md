@@ -14,6 +14,10 @@ Every mob that eats also passes what it can't use. Digestion leaves residue in t
 
 ## Model
 
+The diagram shows how food and drink move through the stores of [Hunger](hunger.md#model), [Thirst](thirst.md#model), and Relief, each labeled with the page that owns it. Dashed boxes are where something leaves the body. The salt and foul loads change rates rather than move anything, so they stay out of it.
+
+![Food and drink fill the stomach, and eating raises the group levels. The stomach digests into energy, which metabolism spends, and leaves the residue of what digests in the bowels. Water absorbs from the stomach into hydration, and once hydration is full it goes to the bladder instead. Hydration drains as sweat through exertion and heat, and into the bladder through the base drain and salt load. Relieving empties the bladder and the bowels at a privy, a chamber pot, open ground, or water, and the bladder alone at a lant tub.](images/relief-body-stores.svg)
+
 - A body carries a bladder and bowels, which the [stomach](hunger.md#model) of Hunger and the [hydration](thirst.md#model) of Thirst fill.
 - **Bladder**: fills with the water that passes off once hydration is full, and with the share of the hydration drain that leaves as urine: the base drain and the salt load. Exertion and heat drain leave as sweat and fill nothing, so a body passes little on a hot day of hard work.
 - **Bowels**: fill as the stomach digests, by the residue of what digests, as [Food](#food) describes.

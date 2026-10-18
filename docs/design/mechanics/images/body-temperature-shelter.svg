@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 290" width="780" height="290" role="img" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#1f2328">
+  <title>Three side views: a roof on posts, a wall with no roof, and a closed room</title>
+  <rect x="0.5" y="0.5" width="779" height="289" rx="6" fill="#ffffff" stroke="#d0d7de"/>
+  <defs>
+    <marker id="w" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f2328"/></marker>
+    <marker id="h" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#bc4c00"/></marker>
+  </defs>
+  <text x="20" y="30" font-size="14" font-weight="600">Roof on posts</text>
+  <line x1="30" y1="50" x2="25" y2="62" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="64" y1="50" x2="59" y2="62" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="98" y1="50" x2="93" y2="62" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="132" y1="50" x2="127" y2="62" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="166" y1="50" x2="161" y2="62" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="200" y1="50" x2="195" y2="62" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="234" y1="50" x2="229" y2="62" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="30" y1="80" x2="25" y2="92" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="64" y1="80" x2="59" y2="92" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="98" y1="80" x2="93" y2="92" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="132" y1="80" x2="127" y2="92" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="166" y1="80" x2="161" y2="92" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="200" y1="80" x2="195" y2="92" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="234" y1="80" x2="229" y2="92" stroke="#0969da" stroke-width="1.3"/>
+  <rect x="50" y="110" width="150" height="12" fill="#a8784a"/>
+  <rect x="58" y="122" width="8" height="88" fill="#a8784a"/>
+  <rect x="184" y="122" width="8" height="88" fill="#a8784a"/>
+  <path d="M18 180 H236" stroke="#1f2328" stroke-width="1.5" fill="none" marker-end="url(#w)"/>
+  <text x="125" y="173" text-anchor="middle" font-size="12">wind passes under</text>
+  <line x1="10" y1="210" x2="245" y2="210" stroke="#1f2328" stroke-width="2"/>
+  <text x="20" y="236">Covered: yes</text>
+  <text x="20" y="254">Wind shelter: no</text>
+  <text x="20" y="272">Enclosed: no</text>
+  <text x="270" y="30" font-size="14" font-weight="600">Wall, no roof</text>
+  <line x1="280" y1="50" x2="275" y2="62" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="314" y1="50" x2="309" y2="62" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="348" y1="50" x2="343" y2="62" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="382" y1="50" x2="377" y2="62" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="416" y1="50" x2="411" y2="62" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="450" y1="50" x2="445" y2="62" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="484" y1="50" x2="479" y2="62" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="280" y1="80" x2="275" y2="92" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="314" y1="80" x2="309" y2="92" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="348" y1="80" x2="343" y2="92" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="382" y1="80" x2="377" y2="92" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="416" y1="80" x2="411" y2="92" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="450" y1="80" x2="445" y2="92" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="484" y1="80" x2="479" y2="92" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="280" y1="110" x2="275" y2="122" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="314" y1="110" x2="309" y2="122" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="348" y1="110" x2="343" y2="122" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="382" y1="110" x2="377" y2="122" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="416" y1="110" x2="411" y2="122" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="450" y1="110" x2="445" y2="122" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="484" y1="110" x2="479" y2="122" stroke="#0969da" stroke-width="1.3"/>
+  <rect x="310" y="125" width="14" height="85" fill="#8c959f"/>
+  <path d="M262 180 H305" stroke="#1f2328" stroke-width="1.5" fill="none" marker-end="url(#w)"/>
+  <text x="283" y="172" text-anchor="middle" font-size="12">wind</text>
+  <text x="400" y="190" text-anchor="middle" font-size="12">calm in the lee</text>
+  <line x1="260" y1="210" x2="495" y2="210" stroke="#1f2328" stroke-width="2"/>
+  <text x="270" y="236">Covered: no</text>
+  <text x="270" y="254">Wind shelter: yes</text>
+  <text x="270" y="272">Enclosed: no</text>
+  <text x="520" y="30" font-size="14" font-weight="600">Closed room</text>
+  <line x1="530" y1="50" x2="525" y2="62" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="564" y1="50" x2="559" y2="62" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="598" y1="50" x2="593" y2="62" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="632" y1="50" x2="627" y2="62" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="666" y1="50" x2="661" y2="62" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="700" y1="50" x2="695" y2="62" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="734" y1="50" x2="729" y2="62" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="530" y1="80" x2="525" y2="92" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="564" y1="80" x2="559" y2="92" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="598" y1="80" x2="593" y2="92" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="632" y1="80" x2="627" y2="92" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="666" y1="80" x2="661" y2="92" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="700" y1="80" x2="695" y2="92" stroke="#0969da" stroke-width="1.3"/>
+  <line x1="734" y1="80" x2="729" y2="92" stroke="#0969da" stroke-width="1.3"/>
+  <rect x="535" y="108" width="190" height="12" fill="#a8784a"/>
+  <rect x="535" y="120" width="12" height="90" fill="#8c959f"/>
+  <rect x="713" y="120" width="12" height="28" fill="#8c959f"/>
+  <rect x="713" y="172" width="12" height="38" fill="#8c959f"/>
+  <rect x="547" y="128" width="6" height="60" fill="#cf222e"/>
+  <text x="558" y="140" font-size="12">wall hanging</text>
+  <rect x="615" y="194" width="28" height="16" fill="#fb8f44" stroke="#bc4c00"/>
+  <text x="649" y="206" font-size="12">hearth</text>
+  <text x="640" y="164" text-anchor="middle" font-size="12" fill="#59636e">room</text>
+  <text x="640" y="178" text-anchor="middle" font-size="12" fill="#59636e">temperature</text>
+  <path d="M716 160 H756" stroke="#bc4c00" stroke-width="1.5" fill="none" marker-end="url(#h)"/>
+  <text x="730" y="192" font-size="12">opening</text>
+  <line x1="510" y1="210" x2="770" y2="210" stroke="#1f2328" stroke-width="2"/>
+  <text x="520" y="236">Covered: yes</text>
+  <text x="520" y="254">Wind: none</text>
+  <text x="520" y="272">Enclosed: feels the room temperature</text>
+</svg>

@@ -28,6 +28,23 @@ Time gives Feudum one clock and one calendar, and every time-based system follow
 - Daylight is the same everywhere, since a dimension has one sun. Its share of the day runs from about 60% at midsummer to about 40% at midwinter, with the vanilla split at the equinoxes.
 - The calendar is global. Each biome has a climate profile that maps the global sub-seasons to its local seasons and sets how strongly each season curve other than daylight applies there. A temperate profile keeps the four seasons, a tropical profile reads Late Spring through Early Autumn as Wet and the rest as Dry, and an arid profile may have no local seasons at all.
 - Climate profiles are data-driven: JSON in a data pack, assigned to biomes through biome tags such as `#feudum:climate/tropical`.
+
+The table shows how the example profiles above read the global sub-seasons, taking an arid profile with no local seasons. The profiles are illustrative, since a data pack sets each one.
+
+| Global sub-season | Temperate | Tropical | Arid |
+|:------------------|:----------|:---------|:-----|
+| Early Spring      | Spring    | Dry      | None |
+| Mid Spring        | Spring    | Dry      | None |
+| Late Spring       | Spring    | Wet      | None |
+| Early Summer      | Summer    | Wet      | None |
+| Mid Summer        | Summer    | Wet      | None |
+| Late Summer       | Summer    | Wet      | None |
+| Early Autumn      | Autumn    | Wet      | None |
+| Mid Autumn        | Autumn    | Dry      | None |
+| Late Autumn       | Autumn    | Dry      | None |
+| Early Winter      | Winter    | Dry      | None |
+| Mid Winter        | Winter    | Dry      | None |
+| Late Winter       | Winter    | Dry      | None |
 - The player sees the global date with the local season after it, as in "Mid Summer 5, Year 3 (Wet)". Schedules and events follow the global date only, so they never depend on where a player stands.
 
 ## Sleep

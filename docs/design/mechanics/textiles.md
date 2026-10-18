@@ -19,6 +19,12 @@ Every thread, rope, and bolt of cloth in Feudum is made the long way. Flax rots 
 - Villagers work the same blocks at the same rate. Spinning and flax dressing are household work any villager does. [Weaver](https://github.com/NoNamer777/feudum/issues/107), [Fuller](https://github.com/NoNamer777/feudum/issues/108), and [Dyer](https://github.com/NoNamer777/feudum/issues/109) are trades.
 - [Tools and blocks](#tools-and-blocks) lists what each step needs.
 
+## Fibers and products
+
+The diagram maps each fiber to the cloth and cordage it yields, and shows where a chain branches. Each arrow stands for one step and skips the rest, which the tables below list. Arrows into cloth are weaving, and the other arrows name their step. Cordage is tan, and felt and matting, which are neither spun nor woven, are gray.
+
+![Six fibers and what they become. Wool is carded into rolags, which are spun into woolen yarn and woven and fulled into woolen, or felted into felt. Combed wool becomes tops, spun into worsted yarn, which is woven into worsted or plied into thread. Flax is hackled into line and tow, spun into fine and coarse yarn, and woven into linen and coarse linen; fine yarn is also plied into thread, and coarse yarn into twine. Nettle and hemp are scutched and spun, then woven into nettle cloth and hemp cloth or plied into twine, and hemp yarn is also laid into rope. Goat hair is carded and spun, then woven into haircloth or laid into rope. Lime bast is retted and peeled into strips, which are twisted into rope or plaited into matting.](images/textiles-fibers.svg)
+
 ## Bast fibers
 
 Flax, hemp, and nettle follow one chain:

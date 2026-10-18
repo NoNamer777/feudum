@@ -40,7 +40,9 @@ Water in Feudum is finite: every block holds real liters that flow, level out, e
 
 ## Water cycle
 
-Water enters and leaves the world through these paths.
+Water enters and leaves the world through these paths. The diagram shows where water sits and the flows between those stores that this section, [Rivers](#rivers), and [Groundwater](#groundwater) describe. Blue boxes are where water sits, and dashed boxes are where it enters or leaves the world.
+
+![The water cycle. Weather adds snow to snow cover and ice, rain to open water, and rain on land, which soaks into the ground or runs off into rivers. Snow and ice melt into open water and, in the catchment, into rivers, and open water freezes. Open water flows to rivers through lake outlets and floods draining back, and rivers flood onto it. Open water seeps into the ground, which feeds rivers through baseflow and springs. Wells draw from the ground, and containers, troughs, and bodies draw from open water and pour back into it. Rivers reach the sea at their mouths, and open water and rivers lose water to evaporation.](images/fluids-water-cycle.svg)
 
 ### In
 

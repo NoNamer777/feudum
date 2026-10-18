@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1030 390" width="1030" height="390" role="img" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#1f2328">
+  <title>How food and drink move through the stores of Hunger, Thirst, and Relief, and where they leave the body</title>
+  <rect x="0.5" y="0.5" width="1029" height="389" rx="6" fill="#ffffff" stroke="#d0d7de"/>
+  <defs>
+    <marker id="e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#57606a"/></marker>
+  </defs>
+  <path d="M150 190 H238" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M150 190 H238" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <text x="195" y="171" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">eating and</text>
+  <text x="195" y="184" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">drinking</text>
+  <path d="M85 165 C 85 60, 300 45, 438 45" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M85 165 C 85 60, 300 45, 438 45" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <text x="190" y="72" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">eating</text>
+  <path d="M360 176 C 400 176, 400 120, 438 120" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M360 176 C 400 176, 400 120, 438 120" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <text x="396" y="146" text-anchor="end" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">digests</text>
+  <path d="M360 192 H438" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M360 192 H438" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <text x="400" y="208" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">water absorbs</text>
+  <path d="M330 215 C 340 300, 380 345, 438 345" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M330 215 C 340 300, 380 345, 438 345" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <text x="342" y="302" text-anchor="end" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">residue of what digests</text>
+  <path d="M350 215 C 380 268, 560 275, 668 272" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M350 215 C 380 268, 560 275, 668 272" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <text x="514" y="292" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">water once hydration is full</text>
+  <path d="M590 120 H668" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M590 120 H668" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <text x="629" y="113" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">metabolism</text>
+  <path d="M590 184 H668" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M590 184 H668" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <text x="629" y="164" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">exertion and</text>
+  <text x="629" y="177" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">heat drain</text>
+  <path d="M590 205 C 630 205, 640 258, 668 262" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M590 205 C 630 205, 640 258, 668 262" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <text x="622" y="233" text-anchor="end" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">base drain and</text>
+  <text x="622" y="246" text-anchor="end" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">salt load</text>
+  <path d="M800 270 H848" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M800 270 H848" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M590 345 C 700 345, 780 340, 848 330" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M590 345 C 700 345, 780 340, 848 330" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <text x="720" y="362" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">except at a lant tub</text>
+  <rect x="20" y="165" width="130" height="50" rx="6" fill="#f6f8fa" stroke="#8c959f"/>
+  <text x="85" y="194.5" text-anchor="middle" font-weight="600">Food and drink</text>
+  <rect x="240" y="165" width="120" height="50" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="300" y="187" text-anchor="middle" font-weight="600">Stomach</text>
+  <text x="300" y="202" text-anchor="middle" font-size="11.5" fill="#59636e">Hunger</text>
+  <rect x="440" y="20" width="150" height="50" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="515" y="42" text-anchor="middle" font-weight="600">Group levels</text>
+  <text x="515" y="57" text-anchor="middle" font-size="11.5" fill="#59636e">Hunger</text>
+  <rect x="440" y="95" width="150" height="50" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="515" y="117" text-anchor="middle" font-weight="600">Energy</text>
+  <text x="515" y="132" text-anchor="middle" font-size="11.5" fill="#59636e">Hunger</text>
+  <rect x="440" y="165" width="150" height="50" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="515" y="187" text-anchor="middle" font-weight="600">Hydration</text>
+  <text x="515" y="202" text-anchor="middle" font-size="11.5" fill="#59636e">Thirst</text>
+  <rect x="440" y="320" width="150" height="50" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="515" y="342" text-anchor="middle" font-weight="600">Bowels</text>
+  <text x="515" y="357" text-anchor="middle" font-size="11.5" fill="#59636e">Relief</text>
+  <rect x="670" y="95" width="130" height="50" rx="6" fill="#ffffff" stroke="#8c959f" stroke-dasharray="5 3"/>
+  <text x="735" y="117" text-anchor="middle" font-weight="600">Spent</text>
+  <text x="735" y="132" text-anchor="middle" font-size="11.5" fill="#59636e">fills nothing</text>
+  <rect x="670" y="165" width="130" height="50" rx="6" fill="#ffffff" stroke="#8c959f" stroke-dasharray="5 3"/>
+  <text x="735" y="187" text-anchor="middle" font-weight="600">Sweat</text>
+  <text x="735" y="202" text-anchor="middle" font-size="11.5" fill="#59636e">fills nothing</text>
+  <rect x="670" y="245" width="130" height="50" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="735" y="267" text-anchor="middle" font-weight="600">Bladder</text>
+  <text x="735" y="282" text-anchor="middle" font-size="11.5" fill="#59636e">Relief</text>
+  <rect x="850" y="245" width="160" height="100" rx="6" fill="#ffffff" stroke="#8c959f" stroke-dasharray="5 3"/>
+  <text x="930" y="277" text-anchor="middle" font-weight="600">Relieving</text>
+  <text x="930" y="292" text-anchor="middle" font-size="11.5" fill="#59636e">privy, chamber pot,</text>
+  <text x="930" y="307" text-anchor="middle" font-size="11.5" fill="#59636e">lant tub, open ground,</text>
+  <text x="930" y="322" text-anchor="middle" font-size="11.5" fill="#59636e">or water</text>
+</svg>
