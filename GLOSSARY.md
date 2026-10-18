@@ -595,3 +595,95 @@ _Avoid_: Liege homage
 
 A manor's title, which follows the number of manors in its subtree.\
 _Avoid_: Tier, peerage
+
+## Textiles
+
+### Bast fiber
+
+Fiber from the stalk of flax, hemp, or nettle, which is retted, broken, scutched, and hackled before it is spun.
+
+### Retting
+
+Rotting stalks or bark, in water or on grass, until the fiber loosens from the woody core.
+
+### Line
+
+The long, fine fiber that hackling draws from a bast fiber, spun into fine yarn and thread.
+
+### Tow
+
+The short, coarse fiber that hackling leaves behind, spun into coarse yarn and twine.
+
+### Shives
+
+The woody bits of the stalk that scutching beats out.
+
+### Skirtings
+
+The soiled edges stripped from a fleece, which count as dung.
+
+### Woolen
+
+Yarn spun from carded wool, and the cloth woven from it, which is fulled before use.
+
+### Worsted
+
+Yarn spun from combed wool, and the smooth cloth woven from it, which needs no fulling.
+
+### Fulling
+
+Shrinking and thickening woolen cloth by treading it in water with fuller's earth or stale urine.\
+_Avoid_: Felting
+
+### Felt
+
+Carded wool matted with hot water and pressure, without spinning or weaving.
+
+### Cordage
+
+Thread, twine, and rope, which replace vanilla string.\
+_Avoid_: String
+
+### Ropewalk
+
+A rope jack and a traveler set apart on a straight run, between which rope is laid.
+
+### Dyestuff
+
+A plant or other source of a dye color, such as woad or madder.\
+_Avoid_: Dye item
+
+### Mordant
+
+A substance that fixes a dyestuff in the fiber, such as alum or iron.\
+_Avoid_: Fixative
+
+### Shade
+
+How deep a dyed color is: pale, mid, or deep.\
+_Avoid_: Tint
+
+### Overdyeing
+
+Dyeing an item that already has a color, which mixes the two colors or deepens the shade.
+
+### Fastness
+
+How slowly a dyed color fades, set by its dyestuff, its mordant, and the stage it was dyed at.
+
+### Stale urine
+
+Urine aged in a closed lant tub, used to full cloth and to ferment a woad vat.\
+_Avoid_: Lant
+
+### Lant tub
+
+The vessel that collects urine alone and ages it into stale urine.
+
+### Waiting step
+
+A step of the craft that a placed block works through over time, such as retting or tentering, rather than a body at a workstation.
+
+### Wall hanging
+
+A thin block of cloth hung on a wall face, which raises its insulation.
