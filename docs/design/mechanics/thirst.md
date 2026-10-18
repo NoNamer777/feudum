@@ -24,9 +24,10 @@ Every mob that eats also drinks. A drink fills the stomach and absorbs into hydr
 
 ## Water quality
 
-- Fluids gives every water block and every container a salinity and a foulness, each from 0 to 1. Clean water is 0 for both, and seawater has a salinity of 1.
+- [Fluids](fluids.md#water-quality) gives every water block and every container a salinity and a foulness. Clean water is 0 for both, seawater has a salinity of 1, and brine more, up to about 7.5. Foulness runs up to 1.
 - A drink adds to the salt load in proportion to its salinity, and to the foul load in proportion to its foulness.
 - The diet profile's salt tolerance scales what salinity adds, so a species that tolerates salt can drink seawater.
+- A drink of brine adds more salt than seawater, so it dehydrates faster.
 - Fluids decides how water gets its quality, such as the fresh and salt water of world generation, the foul water of swamps and of ponds near livestock, and how waters mix.
 - Boiled water, ale, small beer, cider, and wine are clean, so a village can make foul water safe. Cooking owns boiling, and Brewing owns the rest.
 
