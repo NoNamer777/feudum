@@ -789,3 +789,56 @@ A step of the craft that a placed block works through over time, such as retting
 ### Wall hanging
 
 A thin block of cloth hung on a wall face, which raises its insulation.
+
+## Health
+
+### Body profile
+
+The data-driven definition of an entity type's pools, blood, healing, and whether it can be Downed.
+
+### Pool
+
+The hit points of one part of a body, such as the head or the left arm.\
+_Avoid_: Body part, health bar, limb
+
+### Vital pool
+
+A pool that downs the body when it reaches 0: the head and chest of a human, or the head and body of an animal.
+
+### Disabled
+
+The state of a limb whose pool is at 0, which can't be used until it heals.
+
+### Blood
+
+What bleeding drains, separate from the pools. A body that loses too much faints, falls Unconscious, and dies.
+
+### Injury
+
+A condition on a pool that a hit can cause and treatment ends: bleeding, a fracture, a burn, or a concussion.\
+_Avoid_: Wound, status effect
+
+### Open wound
+
+What a bandaged heavy bleed leaves until it heals, which Illness can infect.
+
+### Downed
+
+The state of a body whose vital pool is at 0: conscious and crawling, but unable to fight.\
+_Avoid_: Knocked down, incapacitated
+
+### Unconscious
+
+The state of a body knocked out by a concussion or by blood loss, which can't move until it wakes.
+
+### Weakened
+
+The state of a Downed body that a helper got up before its vital pools reached 10%.
+
+### Body panel
+
+The panel of the inventory screen that names the state of each pool in words and lists its injuries.
+
+### Body-condition modifier
+
+A modifier that a need, Body temperature, Health, or Illness puts on an attribute, of which only the strongest on each attribute applies.

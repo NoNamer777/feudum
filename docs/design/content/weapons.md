@@ -329,7 +329,7 @@ Weapons owns weapon types and materials, attack motions and profiles, armor pene
 
 - **[Armor](armor.md)**: damage kinds, struck regions, protection, rust and oiling, and the leatherworker's bench.
 - **[Clothing](clothing.md)**: the back and belt slots.
-- **[Health](https://github.com/NoNamer777/feudum/issues/36)**: damage, and the multiplier of each struck region.
+- **[Health](../mechanics/health.md)**: damage, the multiplier of each struck region, and the pool each hit lands in.
 - **[Wildlife](https://github.com/NoNamer777/feudum/issues/47)**: the attacks of animals.
 - **[Stamina](https://github.com/NoNamer777/feudum/issues/116)**: a pool that may replace the attack cooldown.
 - **[Mounted combat](https://github.com/NoNamer777/feudum/issues/117)**: fighting from the saddle, and bracing against a charge.

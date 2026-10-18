@@ -111,7 +111,7 @@ Water enters and leaves the world through these paths. The diagram shows where w
 - **Swimming**: Fluids owns how bodies move in water: swimming, diving, and climbing out.
 - **Buoyancy**: a body floats or sinks by the weight it wears and carries, which [Encumbrance](https://github.com/NoNamer777/feudum/issues/65) owns. A swimmer in mail struggles, and one in plate sinks. Items float or sink the same way, and boats float on the same buoyancy.
 - **Current**: a current pushes in proportion to its speed. A strong river sweeps swimmers downstream, and fording one means finding a shallow, slow stretch.
-- **Breath**: a body under water uses up its breath and then drowns. [Health](https://github.com/NoNamer777/feudum/issues/36) owns the damage.
+- **Breath**: a body under water uses up its breath and then drowns. [Health](health.md#damage-with-no-struck-region) owns the damage.
 - **Fire**: water puts out fire and burning entities.
 - **Wetness**: immersion soaks a body, which [Body temperature](body-temperature.md#wetness) reads. Body temperature also owns the water temperature a body in water feels.
 - **Aquatic mobs**: Fluids owns how mobs move in water. [Wildlife](https://github.com/NoNamer777/feudum/issues/47) owns how they behave.
@@ -155,7 +155,7 @@ Fluids owns Feudum water: volume, flow, and settling, river discharge and curren
 - **[Illness](https://github.com/NoNamer777/feudum/issues/37)**: what foul water does once drunk.
 - **[Relief](relief.md)**: the waste that fouls water.
 - **[Textiles](textiles.md)**: the retting bundles and spent water of the craft, which foul water.
-- **[Health](https://github.com/NoNamer777/feudum/issues/36)**: drowning damage.
+- **[Health](health.md)**: drowning damage.
 - **[Encumbrance](https://github.com/NoNamer777/feudum/issues/65)**: the weight that buoyancy reads.
 - **[Sailing](https://github.com/NoNamer777/feudum/issues/41)**: hulls, sails, and steering of boats.
 - **[Fishing](https://github.com/NoNamer777/feudum/issues/64)**: catching fish.
