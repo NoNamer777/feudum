@@ -133,7 +133,7 @@ Armor materials carry the thermal stats of [Body temperature](../mechanics/body-
 
 - Metal pieces, brigandine included, are made at the **armorer's anvil**. [Smithing](https://github.com/NoNamer777/feudum/issues/86) owns the anvil and the iron, steel, and bronze, and an [Armorer](https://github.com/NoNamer777/feudum/issues/87) works it in a village.
 - Hardened leather pieces are made at the **leatherworker's bench**, a block that shapes leather from Tanning by boiling and molding it into hardened leather. A [Leatherworker](https://github.com/NoNamer777/feudum/issues/88) works it in a village, and other designs can add their own goods to it, such as saddles, sheaths, and leather bottles.
-- Brigandine takes its cloth cover from [Textiles](https://github.com/NoNamer777/feudum/issues/79).
+- Brigandine takes its hemp cloth cover from [Textiles](../mechanics/textiles.md#cloth).
 
 ## Vision and noise
 
@@ -188,6 +188,6 @@ Armor owns the armor pieces, their types and materials, damage kinds, struck reg
 - **[Armorer](https://github.com/NoNamer777/feudum/issues/87)**: the villager who makes and repairs metal armor.
 - **[Leatherworker](https://github.com/NoNamer777/feudum/issues/88)**: the villager who works the leatherworker's bench.
 - **[Tanning](https://github.com/NoNamer777/feudum/issues/80)**: leather and tallow.
-- **[Textiles](https://github.com/NoNamer777/feudum/issues/79)**: the cloth of brigandine.
+- **[Textiles](../mechanics/textiles.md)**: the hemp cloth of brigandine.
 - **[Villagers](https://github.com/NoNamer777/feudum/issues/46)**, **[Village economy](https://github.com/NoNamer777/feudum/issues/44)**, and **[Village defense](https://github.com/NoNamer777/feudum/issues/90)**: who in a village wears armor, and where it comes from.
 - **[Animal husbandry](https://github.com/NoNamer777/feudum/issues/27)**: gear for mounts, and tallow.

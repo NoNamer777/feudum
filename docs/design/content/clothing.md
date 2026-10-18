@@ -128,8 +128,8 @@ Each garment carries its own wetness, from dry to soaked. The wetness of [Body t
 
 - Garments are sewn at a tailor's bench from cloth, leather, or fur, plus thread, not at a crafting table.
 - A [Tailor](https://github.com/NoNamer777/feudum/issues/81) works the bench in a village.
-- [Textiles](https://github.com/NoNamer777/feudum/issues/79) makes thread, cloth, and felt, and [Tanning](https://github.com/NoNamer777/feudum/issues/80) makes leather and fur.
-- A garment takes its color from the cloth it was sewn from, and a finished garment can be dyed again. Color is cosmetic here, and Textiles owns dyes and dyeing.
+- [Textiles](../mechanics/textiles.md) makes thread, cloth, and felt, and [Tanning](https://github.com/NoNamer777/feudum/issues/80) makes leather and fur.
+- A garment takes its color from the cloth it was sewn from, and a finished garment can be dyed again. Color is cosmetic here, and [Textiles](../mechanics/textiles.md#dyes) owns dyes, dyeing, and fading.
 
 ## Starting clothing
 
@@ -169,7 +169,7 @@ Clothing owns the regions, layers, and slots, garment types and materials, and h
 - **[Fluids](../mechanics/fluids.md)**: the water a body wades and swims in.
 - **[Armor](armor.md)**: the pieces of the armor layer and the helm slot, damage kinds and protection, the protection of padded garments included, and how much less armor protects over an empty clothing layer.
 - **[Encumbrance](https://github.com/NoNamer777/feudum/issues/65)**: what the weight of worn garments does to a body.
-- **[Textiles](https://github.com/NoNamer777/feudum/issues/79)**: thread, cloth, felt, dyes, and dyeing.
+- **[Textiles](../mechanics/textiles.md)**: thread, cloth, felt, dyes, dyeing, and fading.
 - **[Tanning](https://github.com/NoNamer777/feudum/issues/80)**: leather and fur.
 - **[Tailor](https://github.com/NoNamer777/feudum/issues/81)**: the villager who sews and mends at the tailor's bench.
 - **[Social standing of dress](https://github.com/NoNamer777/feudum/issues/82)**: whether garments carry a fineness, and how Villagers and standing read dress.
