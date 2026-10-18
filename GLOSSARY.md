@@ -247,7 +247,7 @@ How much clothing, fur, or fleece widens the comfort band toward the cold, narro
 
 ### Wetness
 
-How wet a body is, from dry to soaked.
+How wet a body or a garment is, from dry to soaked. A body's wetness is that of the skin under its clothing.
 
 ### Covered
 
@@ -451,3 +451,40 @@ _Avoid_: Compost, fertilizer
 
 A block that collects waste and straw bedding and rots them into manure.\
 _Avoid_: Midden, compost heap
+
+## Clothing
+
+### Region
+
+One of the five parts of a body that clothing covers: head, chest, legs, feet, or hands.
+
+### Layer
+
+One of the three depths at which a region is dressed, from the skin out: underlayer, clothing, and armor.
+
+### Underlayer
+
+The layer worn against the skin, such as a linen shirt or braies.\
+_Avoid_: Underwear, base layer
+
+### Cloak
+
+The slot over every layer, and the garment that fills it, which covers chest and legs, and the head too when hooded.
+
+### Garment
+
+A wearable item of the underlayer, clothing, or cloak: a garment type made in a material.\
+_Avoid_: Clothes item, outfit
+
+### Garment type
+
+The cut of a garment, such as a tunic or a hood, which sets its layer, regions, coverage, and thickness.
+
+### Tattered
+
+The state of a garment at zero durability, which keeps only a small share of its stats until mended.\
+_Avoid_: Broken
+
+### Tailor's bench
+
+The block at which garments are sewn and quickly mended.
