@@ -841,4 +841,65 @@ The panel of the inventory screen that names the state of each pool in words and
 
 ### Body-condition modifier
 
-A modifier that a need, Body temperature, Health, or Illness puts on an attribute, of which only the strongest on each attribute applies.
+A modifier that a need, Body temperature, drunkenness, Health, or Illness puts on an attribute, of which only the strongest on each attribute applies.
+
+## Brewing
+
+### Malt
+
+Grain steeped, sprouted on the malting floor, and dried in a kiln, which is mashed to make wort.
+
+### Wort
+
+The sweet liquid drawn from a mash of malt, which ferments into ale, beer, or small beer.
+
+### Small beer
+
+The weak drink fermented from the second running of a mash, after the strong wort is drawn off.
+
+### Gruit
+
+Herbs such as bog myrtle and yarrow that flavor ale and help it keep a little longer.
+
+### Must
+
+Trodden grapes with their juice, skins, and seeds, which ferment into wine.
+
+### Pomace
+
+The pulp left after pressing apples or grapes, pressed again for ciderkin and piquette, then fed to pigs.
+
+### Barm
+
+The yeasty froth skimmed from a fermenting batch, kept to start the next and to leaven bread.\
+_Avoid_: Yeast
+
+### Low wines
+
+The weak spirit of a first run through the alembic, distilled again into spirit.
+
+### Spirit
+
+A drink distilled twice in the alembic, such as aqua vitae from wine.\
+_Avoid_: Liquor
+
+### Alcohol level
+
+How much alcohol a body has absorbed and not yet cleared, which sets its drunkenness stage.\
+_Avoid_: Blood alcohol
+
+### Hangover
+
+The aftermath of reaching Drunk or worse, which speeds the thirst drain and slows work until it passes.
+
+### Alcohol tolerance
+
+How much drink a body takes to reach each drunkenness stage, set by its diet profile and raised by heavy drinking.
+
+### Dependence
+
+How much a body has come to need drink, built by days of drunkenness, which brings withdrawal once it sobers.
+
+### Withdrawal
+
+The stages a dependent body goes through once sober: Craving, Shakes, and Delirium.

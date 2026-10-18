@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1110 600" width="1110" height="600" role="img" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#1f2328">
+  <title>How each brewing ingredient becomes ale, beer, cider, perry, wine, mead, and spirits</title>
+  <rect x="0.5" y="0.5" width="1109" height="599" rx="6" fill="#ffffff" stroke="#d0d7de"/>
+  <defs>
+    <marker id="e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#57606a"/></marker>
+  </defs>
+  <line x1="20" y1="476" x2="1090" y2="476" stroke="#d0d7de" stroke-dasharray="4 4"/>
+  <path d="M140 63 H258" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M390 63 H478" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M390 63 C 435 63, 433 139, 478 139" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M600 63 H678" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M600 63 C 645 63, 633 101, 678 101" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M600 101 H678" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M600 139 H678" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M140 203 H258" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M390 203 H678" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M140 241 H258" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M390 241 H678" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M140 241 C 185 241, 213 279, 258 279" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M140 355 C 185 355, 213 279, 258 279" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M390 279 H678" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M140 355 C 185 355, 213 393, 258 393" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M140 355 H258" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M390 355 C 435 355, 633 317, 678 317" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M390 355 H678" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M390 355 C 435 355, 633 393, 678 393" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M830 317 C 875 317, 893 355, 938 355" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M830 355 H938" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M830 393 C 875 393, 893 355, 938 355" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M140 445 H678" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M140 511 H258" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M390 511 H678" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M140 549 H678" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M140 63 H258" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M390 63 H478" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M390 63 C 435 63, 433 139, 478 139" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M600 63 H678" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M600 63 C 645 63, 633 101, 678 101" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M600 101 H678" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M600 139 H678" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M140 203 H258" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M390 203 H678" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M140 241 H258" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M390 241 H678" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M140 241 C 185 241, 213 279, 258 279" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M140 355 C 185 355, 213 279, 258 279" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M390 279 H678" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M140 355 C 185 355, 213 393, 258 393" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M140 355 H258" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M390 355 C 435 355, 633 317, 678 317" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M390 355 H678" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M390 355 C 435 355, 633 393, 678 393" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M830 317 C 875 317, 893 355, 938 355" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M830 355 H938" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M830 393 C 875 393, 893 355, 938 355" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M140 445 H678" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M140 511 H258" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M390 511 H678" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M140 549 H678" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <text x="199" y="58" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">malted</text>
+  <text x="434" y="58" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">mashed</text>
+  <text x="426" y="105" text-anchor="end" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">mashed again</text>
+  <text x="639" y="116" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">boiled with</text>
+  <text x="199" y="198" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">milled and pressed</text>
+  <text x="199" y="236" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">milled and pressed</text>
+  <text x="199" y="264" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">pressed</text>
+  <text x="199" y="321" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">pressed</text>
+  <text x="534" y="274" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">soaked and pressed again</text>
+  <text x="199" y="378" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">pressed unripe</text>
+  <text x="199" y="350" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">trodden</text>
+  <text x="884" y="350" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">with aqua vitae</text>
+  <text x="409" y="440" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">mixed with water</text>
+  <text x="199" y="506" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">distilled</text>
+  <text x="534" y="506" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">distilled again</text>
+  <text x="409" y="544" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">frozen, ice removed</text>
+  <rect x="20" y="50" width="120" height="26" rx="6" fill="#f6f8fa" stroke="#8c959f"/>
+  <text x="80" y="67.5" text-anchor="middle" font-weight="600">Grain</text>
+  <rect x="260" y="50" width="130" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="325" y="67.5" text-anchor="middle">Malt</text>
+  <rect x="480" y="50" width="120" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="540" y="67.5" text-anchor="middle">Strong wort</text>
+  <rect x="480" y="126" width="120" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="540" y="143.5" text-anchor="middle">Second wort</text>
+  <rect x="480" y="88" width="120" height="26" rx="6" fill="#f6f8fa" stroke="#8c959f"/>
+  <text x="540" y="105.5" text-anchor="middle" font-weight="600">Hops</text>
+  <rect x="680" y="50" width="150" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="755" y="67.5" text-anchor="middle" font-weight="600">Ale</text>
+  <rect x="680" y="88" width="150" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="755" y="105.5" text-anchor="middle" font-weight="600">Hopped beer</text>
+  <rect x="680" y="126" width="150" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="755" y="143.5" text-anchor="middle" font-weight="600">Small beer</text>
+  <rect x="20" y="190" width="120" height="26" rx="6" fill="#f6f8fa" stroke="#8c959f"/>
+  <text x="80" y="207.5" text-anchor="middle" font-weight="600">Pears</text>
+  <rect x="260" y="190" width="130" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="325" y="207.5" text-anchor="middle">Pear juice</text>
+  <rect x="680" y="190" width="150" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="755" y="207.5" text-anchor="middle" font-weight="600">Perry</text>
+  <rect x="20" y="228" width="120" height="26" rx="6" fill="#f6f8fa" stroke="#8c959f"/>
+  <text x="80" y="245.5" text-anchor="middle" font-weight="600">Apples</text>
+  <rect x="260" y="228" width="130" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="325" y="245.5" text-anchor="middle">Apple juice</text>
+  <rect x="680" y="228" width="150" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="755" y="245.5" text-anchor="middle" font-weight="600">Cider</text>
+  <rect x="260" y="266" width="130" height="26" rx="6" fill="#eaeef2" stroke="#8c959f"/>
+  <text x="325" y="283.5" text-anchor="middle">Pomace</text>
+  <rect x="680" y="266" width="150" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="755" y="283.5" text-anchor="middle" font-weight="600">Ciderkin, piquette</text>
+  <rect x="20" y="342" width="120" height="26" rx="6" fill="#f6f8fa" stroke="#8c959f"/>
+  <text x="80" y="359.5" text-anchor="middle" font-weight="600">Grapes</text>
+  <rect x="260" y="342" width="130" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="325" y="359.5" text-anchor="middle">Must</text>
+  <rect x="260" y="380" width="130" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="325" y="397.5" text-anchor="middle" font-weight="600">Verjuice</text>
+  <rect x="680" y="304" width="150" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="755" y="321.5" text-anchor="middle" font-weight="600">Red wine</text>
+  <rect x="680" y="342" width="150" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="755" y="359.5" text-anchor="middle" font-weight="600">Rosé</text>
+  <rect x="680" y="380" width="150" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="755" y="397.5" text-anchor="middle" font-weight="600">White wine</text>
+  <rect x="940" y="342" width="150" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="1015" y="359.5" text-anchor="middle" font-weight="600">Fortified wine</text>
+  <rect x="20" y="432" width="120" height="26" rx="6" fill="#f6f8fa" stroke="#8c959f"/>
+  <text x="80" y="449.5" text-anchor="middle" font-weight="600">Honey</text>
+  <rect x="680" y="432" width="150" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="755" y="449.5" text-anchor="middle" font-weight="600">Mead</text>
+  <rect x="20" y="498" width="120" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="80" y="515.5" text-anchor="middle">Fermented drink</text>
+  <rect x="260" y="498" width="130" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="325" y="515.5" text-anchor="middle">Low wines</text>
+  <rect x="680" y="498" width="150" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="755" y="515.5" text-anchor="middle" font-weight="600">Spirit</text>
+  <rect x="20" y="536" width="120" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="80" y="553.5" text-anchor="middle">Cider or perry</text>
+  <rect x="680" y="536" width="150" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="755" y="553.5" text-anchor="middle" font-weight="600">Freeze-distilled</text>
+</svg>

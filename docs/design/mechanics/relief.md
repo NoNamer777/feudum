@@ -112,7 +112,7 @@ Relief decides how relieving moves [standing](villages.md#standing-and-wishes), 
 ## Food
 
 - The [food component](hunger.md#food) of Hunger also carries a residue amount: how much of the food passes on to the bowels once digested. Grass, hay, and coarse bread leave much, and meat, milk, and ale little.
-- The alcohol amount of a drink, which [Brewing](https://github.com/NoNamer777/feudum/issues/28) owns, speeds the filling of the bladder for a while after it.
+- The alcohol amount of a drink, which [Brewing](brewing.md#strength-and-nourishment) owns, speeds the filling of the bladder for a while after it.
 
 ## Animals
 
@@ -160,7 +160,7 @@ Relief owns the bladder and bowels, how they fill, the stages and their effects,
 - **[Health](health.md)**: the rule that modifiers of the same kind take the strongest.
 - **[Illness](https://github.com/NoNamer777/feudum/issues/37)**: what a Soiled body, deep dung, and fouled water do to a body.
 - **[Farming](https://github.com/NoNamer777/feudum/issues/32)**: what manure and fresh waste do to the soil.
-- **[Brewing](https://github.com/NoNamer777/feudum/issues/28)**: the alcohol amount of drinks.
+- **[Brewing](brewing.md)**: the alcohol amount of drinks.
 - **[Segmented sleep](https://github.com/NoNamer777/feudum/issues/42)**: the waking hour that a full bladder already brings.
 - **[Clothing](../content/clothing.md)**: soiled garments, which keep a body Soiled until they are washed.
 - **[Villagers](https://github.com/NoNamer777/feudum/issues/46)**: when and where a villager relieves, such as the chamber pot at night and the privy by day.
