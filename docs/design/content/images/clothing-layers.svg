@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 302" width="760" height="302" role="img" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#1f2328">
+  <title>The layers of the chest from the skin out, and how each stat combines across them</title>
+  <rect x="0.5" y="0.5" width="759" height="301" rx="6" fill="#ffffff" stroke="#d0d7de"/>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f2328"/></marker>
+    <marker id="rain" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0969da"/></marker>
+    <marker id="sun" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#9a6700"/></marker>
+  </defs>
+  <rect x="20" y="80" width="90" height="150" rx="4" fill="#f4d6b8" stroke="#8c959f"/>
+  <text x="65" y="130" text-anchor="middle" font-weight="600">Body</text>
+  <text x="65" y="148" text-anchor="middle" font-size="12" fill="#59636e">chest</text>
+  <rect x="125" y="80" width="100" height="150" rx="4" fill="#f6f8fa" stroke="#8c959f"/>
+  <text x="175" y="130" text-anchor="middle" font-weight="600">Underlayer</text>
+  <text x="175" y="148" text-anchor="middle" font-size="12" fill="#59636e">linen shirt</text>
+  <rect x="235" y="80" width="100" height="150" rx="4" fill="#f6f8fa" stroke="#8c959f"/>
+  <text x="285" y="130" text-anchor="middle" font-weight="600">Clothing</text>
+  <text x="285" y="148" text-anchor="middle" font-size="12" fill="#59636e">woolen tunic</text>
+  <rect x="345" y="80" width="100" height="150" rx="4" fill="#eaeef2" stroke="#8c959f"/>
+  <text x="395" y="130" text-anchor="middle" font-weight="600">Armor</text>
+  <text x="395" y="148" text-anchor="middle" font-size="12" fill="#59636e">iron mail</text>
+  <rect x="455" y="80" width="100" height="150" rx="4" fill="#f6f8fa" stroke="#8c959f"/>
+  <text x="505" y="130" text-anchor="middle" font-weight="600">Cloak</text>
+  <text x="505" y="148" text-anchor="middle" font-size="12" fill="#59636e">woolen cloak</text>
+  <path d="M125 70 V62 H555 V70" fill="none" stroke="#1f2328" stroke-width="1.3"/>
+  <text x="340" y="54" text-anchor="middle">Insulation and protection add up over every layer.</text>
+  <text x="340" y="36" text-anchor="middle">Wind and water resistance take the highest value of any layer.</text>
+  <circle cx="700" cy="40" r="15" fill="#f2c94c" stroke="#9a6700"/>
+  <path d="M684 50 L559 110" stroke="#9a6700" stroke-width="1.5" fill="none" marker-end="url(#sun)"/>
+  <text x="745" y="130" text-anchor="end" font-size="12">Sun heating comes</text>
+  <text x="745" y="145" text-anchor="end" font-size="12">from the outermost</text>
+  <text x="745" y="160" text-anchor="end" font-size="12">garment.</text>
+  <line x1="585" y1="185" x2="579" y2="201" stroke="#0969da" stroke-width="1.4"/>
+  <line x1="599" y1="191" x2="593" y2="207" stroke="#0969da" stroke-width="1.4"/>
+  <line x1="613" y1="185" x2="607" y2="201" stroke="#0969da" stroke-width="1.4"/>
+  <line x1="627" y1="191" x2="621" y2="207" stroke="#0969da" stroke-width="1.4"/>
+  <line x1="641" y1="185" x2="635" y2="201" stroke="#0969da" stroke-width="1.4"/>
+  <line x1="655" y1="191" x2="649" y2="207" stroke="#0969da" stroke-width="1.4"/>
+  <path d="M655 248 H22" stroke="#0969da" stroke-width="1.5" fill="none" marker-end="url(#rain)"/>
+  <text x="337.5" y="268" text-anchor="middle" font-size="12" fill="#0969da">Rain wets the outermost garment first. Each garment passes water inward once it is near soaked,</text>
+  <text x="337.5" y="284" text-anchor="middle" font-size="12" fill="#0969da">slowed by its water resistance, and past the underlayer it reaches the body.</text>
+  <path d="M88 202 H165" stroke="#1f2328" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
+  <text x="30" y="196" font-size="12">sweat</text>
+  <text x="395" y="186" text-anchor="middle" font-size="11" fill="#59636e">over an empty</text>
+  <text x="395" y="199" text-anchor="middle" font-size="11" fill="#59636e">clothing layer:</text>
+  <text x="395" y="212" text-anchor="middle" font-size="11" fill="#59636e">less protection,</text>
+  <text x="395" y="225" text-anchor="middle" font-size="11" fill="#59636e">and chafing</text>
+</svg>

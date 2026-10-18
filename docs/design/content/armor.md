@@ -77,6 +77,7 @@ Every hit lands on one region, and only the layers worn on that region protect a
 - The sum `p` becomes a damage reduction of `p / (p + 20)`, so stacking never reaches immunity.
 - Weapons may add armor penetration, which lowers `p` for that hit.
 - Each armor piece and garment on the struck region loses durability in proportion to the protection it contributed.
+- [Clothing](clothing.md#combining-stats) has a diagram of the layers of one region, from the skin out.
 
 ### Padding
 

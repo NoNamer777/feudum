@@ -19,6 +19,10 @@ A village is a persistent, self-steering community with its own name, territory,
 - A building is an entry in the village record with a footprint in the world.
 - A village runs live while any of its chunks is loaded, and as abstract data otherwise, as [Time](time.md#unloaded-villages) describes.
 
+The diagram shows two example villages at the default margin, with each square a chunk. The villages, their lords, and their buildings are illustrative. Alice's manor is two buildings with the village holding between them, since a [manor](#manors) is a set of buildings rather than an area of land.
+
+![Two villages on a grid of chunks. Ashby's territory surrounds its buildings by one chunk, and a second part surrounds its mill by a river. Thorne lies to the northeast. One chunk lies within both margins and stays Ashby's, which claimed it first. Each village center is the chunk nearest the middle of its buildings.](images/villages-territory.svg)
+
 ## Lifecycle
 
 - World generation places living villages with no lord. Each village begins on the date it generates, and its generated buildings and villagers are its starting state; it never catches up from before that date.

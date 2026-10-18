@@ -90,6 +90,10 @@ Body temperature reads one set of thermal stats per body. The worn garments comb
 - **Wind and water resistance** take, for each region, the highest value of any garment covering it, whatever its layer.
 - **Sun heating** comes, for each region, from its outermost garment, so mail under a cloak doesn't bake.
 
+The diagram shows a chest in a linen shirt, a woolen tunic, an iron mail haubergeon, and a woolen cloak, from the skin out, and how its stats combine across those layers. It also shows the rules of [Wetness](#wetness) and of [armor over an empty clothing layer](armor.md#over-an-empty-clothing-layer). The garments are an example.
+
+![The chest from the skin out: body, underlayer, clothing, armor, and cloak. Insulation and protection add up over every layer, and wind and water resistance take the highest value. The sun heats the cloak, the outermost garment. Rain wets the cloak first and passes inward, and sweat wets the body and the underlayer. Armor over an empty clothing layer protects less and chafes.](images/clothing-layers.svg)
+
 ## Protection
 
 - A clothing garment can carry protection, as a gambeson and an arming cap do, so a poor levy can fight in one. [Armor](armor.md#padding) sets how much.
