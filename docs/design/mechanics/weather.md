@@ -153,5 +153,6 @@ Weather owns the weather field, fronts, weather values and labels, the wind and 
 - **[Sailing](https://github.com/NoNamer777/feudum/issues/41)**: how boats under sail read the wind.
 - **[Extreme weather](https://github.com/NoNamer777/feudum/issues/31)**: tornadoes, hurricanes, and other extreme wind events.
 - **[Windmill](https://github.com/NoNamer777/feudum/issues/56)**: how wind powers milling.
+- **[Fluids](fluids.md)**: what rain, melt, and evaporation do to water, and what ice holds.
 
 World generation must offer the base height that exposure reads, as [ADR 0006](../../adr/0006-weather-reads-the-generated-terrain.md) records.

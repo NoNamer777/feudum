@@ -24,9 +24,10 @@ Every mob that eats also drinks. A drink fills the stomach and absorbs into hydr
 
 ## Water quality
 
-- Fluids gives every water block and every container a salinity and a foulness, each from 0 to 1. Clean water is 0 for both, and seawater has a salinity of 1.
+- [Fluids](fluids.md#water-quality) gives every water block and every container a salinity and a foulness. Clean water is 0 for both, seawater has a salinity of 1, and brine more, up to about 7.5. Foulness runs up to 1.
 - A drink adds to the salt load in proportion to its salinity, and to the foul load in proportion to its foulness.
 - The diet profile's salt tolerance scales what salinity adds, so a species that tolerates salt can drink seawater.
+- A drink of brine adds more salt than seawater, so it dehydrates faster.
 - Fluids decides how water gets its quality, such as the fresh and salt water of world generation, the foul water of swamps and of ponds near livestock, and how waters mix.
 - Boiled water, ale, small beer, cider, and wine are clean, so a village can make foul water safe. Cooking owns boiling, and Brewing owns the rest.
 
@@ -122,7 +123,7 @@ Thirst owns hydration, absorption, the salt and foul loads, drain, the stages an
 
 - **[Hunger](hunger.md)**: the stomach, food components, and diet profiles that Thirst extends.
 - **[Body temperature](body-temperature.md)**: the heat stages that raise the drain, and the thermal offset of drinks and snow.
-- **[Fluids](https://github.com/NoNamer777/feudum/issues/34)**: the salinity and foulness of water blocks and containers, how water flows, mixes, and fouls, and Feudum's replacement for vanilla water.
+- **[Fluids](fluids.md)**: the salinity and foulness of water blocks and containers, how water flows, mixes, and fouls, and Feudum's replacement for vanilla water.
 - **[Health](https://github.com/NoNamer777/feudum/issues/36)**: natural healing, and the rule that modifiers of the same kind take the strongest.
 - **[Illness](https://github.com/NoNamer777/feudum/issues/37)**: what the foul load does to a body.
 - **[Relief](https://github.com/NoNamer777/feudum/issues/40)**: the water that passes off once hydration is full.

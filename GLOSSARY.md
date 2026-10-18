@@ -341,7 +341,7 @@ What a body carries from foul water, which fades over days and which Illness rea
 
 ### Salinity
 
-How salty a water block or the contents of a container are, from 0 for fresh water to 1 for seawater.
+How salty a water block or the contents of a container are: 0 for fresh water, 1 for seawater, and higher for brine.
 
 ### Foulness
 
@@ -350,3 +350,50 @@ How foul a water block or the contents of a container are, from 0 for clean wate
 ### Foul water
 
 Water with a foulness above 0, such as swamp water or a pond fouled by livestock.
+
+## Fluids
+
+### Volume
+
+The liters of water a block holds, up to 1000.\
+_Avoid_: Level, fluid amount
+
+### Settling
+
+Water whose surface has leveled out going still until a change nearby wakes it.\
+_Avoid_: Sleeping
+
+### Wet ground
+
+Water below the minimum volume, which shows as damp ground and doesn't flow.\
+_Avoid_: Film, puddle
+
+### Current
+
+The direction and speed at which river water moves, set by its discharge and channel.\
+_Avoid_: Flow
+
+### Discharge
+
+The liters per hour a river segment carries, from its tributaries and catchment.\
+_Avoid_: Flow rate
+
+### Catchment
+
+The land whose rain and melt drain into a river segment.\
+_Avoid_: Watershed, basin
+
+### Infiltration
+
+Rain soaking into the ground, up to a rate that depends on the block.\
+_Avoid_: Absorption
+
+### Water table
+
+The depth below which the ground is full of water: a computed baseline plus the deviations stored where something touched the ground.\
+_Avoid_: Groundwater level
+
+### Brine
+
+Water with a salinity above 1.\
+_Avoid_: Saltwater
