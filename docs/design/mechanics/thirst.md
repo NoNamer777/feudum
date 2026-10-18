@@ -123,7 +123,7 @@ Thirst owns hydration, absorption, the salt and foul loads, drain, the stages an
 
 - **[Hunger](hunger.md)**: the stomach, food components, and diet profiles that Thirst extends.
 - **[Body temperature](body-temperature.md)**: the heat stages that raise the drain, and the thermal offset of drinks and snow.
-- **[Fluids](https://github.com/NoNamer777/feudum/issues/34)**: the salinity and foulness of water blocks and containers, how water flows, mixes, and fouls, and Feudum's replacement for vanilla water.
+- **[Fluids](fluids.md)**: the salinity and foulness of water blocks and containers, how water flows, mixes, and fouls, and Feudum's replacement for vanilla water.
 - **[Health](https://github.com/NoNamer777/feudum/issues/36)**: natural healing, and the rule that modifiers of the same kind take the strongest.
 - **[Illness](https://github.com/NoNamer777/feudum/issues/37)**: what the foul load does to a body.
 - **[Relief](https://github.com/NoNamer777/feudum/issues/40)**: the water that passes off once hydration is full.

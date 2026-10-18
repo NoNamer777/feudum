@@ -127,6 +127,7 @@ Body temperature owns thermal profiles, felt temperature and its inputs, wetness
 - **Weather**: local temperature, precipitation, snow cover, wind, and wind shelter. Body temperature reads the sheltered wind for wind chill and drying.
 - **[Hunger](hunger.md)**: nourishment, how faster drain plays out, and the vegetable deficiency that narrows the comfort band.
 - **[Thirst](thirst.md)**: drinking, and how faster drain plays out.
+- **[Fluids](fluids.md)**: the water a body swims in and the wet ground it lies on, both of which add wetness.
 - **[Health](https://github.com/NoNamer777/feudum/issues/36)**: the rule that modifiers of the same kind take the strongest.
 - **[Villagers](https://github.com/NoNamer777/feudum/issues/46)**: how villagers react to their body temperature.
 - **[Village simulation](https://github.com/NoNamer777/feudum/issues/45)**: abstract losses while a village is unloaded, such as livestock lost in a hard winter, read from the Weather query for each catch-up step.
