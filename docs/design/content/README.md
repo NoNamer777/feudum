@@ -6,6 +6,7 @@ The blocks, items, and entities of Feudum, which replace their vanilla counterpa
 
 - **[Armor](armor.md)**: armor pieces and their materials, damage kinds, where a hit lands, how protection combines with padding, rust and repair, and the armor stand.
 - **[Clothing](clothing.md)**: three layers and a cloak over five regions, garment types and materials, how their stats combine, garment wetness and drying, wear and mending, and soiled garments.
+- **[Weapons](weapons.md)**: weapons, shields, and ammunition, attack motions and armor penetration, grips and dual wielding, parrying, carried gear, sharpness, and the bowyer's and fletcher's benches.
 
 ## Planned
 

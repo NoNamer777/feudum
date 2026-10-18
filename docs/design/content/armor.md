@@ -58,7 +58,7 @@ Armor goes on over clothing: mail over a gambeson, a helm over a coif and an arm
 
 ## Damage kinds
 
-- Armor reduces three damage kinds: **cut**, **pierce**, and **blunt**. [Weapons](https://github.com/NoNamer777/feudum/issues/85) and [Wildlife](https://github.com/NoNamer777/feudum/issues/47) give each attack its kind.
+- Armor reduces three damage kinds: **cut**, **pierce**, and **blunt**. [Weapons](weapons.md#attack-profiles) and [Wildlife](https://github.com/NoNamer777/feudum/issues/47) give each attack its kind.
 - An explosion deals blunt damage.
 - Falls, fire, drowning, starvation, and temperature bypass armor.
 
@@ -75,7 +75,7 @@ Every hit lands on one region, and only the layers worn on that region protect a
 
 - On the struck region, protection against the hit's damage kind adds up over every worn layer: underlayer, clothing, armor, helm, and cloak.
 - The sum `p` becomes a damage reduction of `p / (p + 20)`, so stacking never reaches immunity.
-- Weapons may add armor penetration, which lowers `p` for that hit.
+- A weapon's [armor penetration](weapons.md#armor-penetration) lowers `p` for that hit.
 - Each armor piece and garment on the struck region loses durability in proportion to the protection it contributed.
 - [Clothing](clothing.md#combining-stats) has a diagram of the layers of one region, from the skin out.
 
@@ -166,7 +166,7 @@ Armor materials carry the thermal stats of [Body temperature](../mechanics/body-
 
 - Every vanilla armor item is hidden, along with armor trims, smithing templates, and the vanilla armor stand.
 - Vanilla armor enchantments are disabled with the rest of enchanting.
-- Shields belong to Weapons, and horse and wolf armor to Animal husbandry.
+- Shields belong to [Weapons](weapons.md#shields), and horse and wolf armor to Animal husbandry.
 
 ## Appearance
 
@@ -192,7 +192,7 @@ Armor owns the armor pieces, their types and materials, damage kinds, struck reg
 - **[Clothing](clothing.md)**: the regions, layers, and slots, the helm slot and the hood of a hooded cloak included, and garment wetness and drying.
 - **[Body temperature](../mechanics/body-temperature.md)**: what the thermal stats of armor do to felt temperature.
 - **[Health](https://github.com/NoNamer777/feudum/issues/36)**: damage, the multiplier of each struck region, and the healing rate a Chafed region slows.
-- **[Weapons](https://github.com/NoNamer777/feudum/issues/85)**: weapons and shields, the damage kind of each attack, and armor penetration.
+- **[Weapons](weapons.md)**: weapons and shields, the damage kind of each attack, and armor penetration.
 - **[Wildlife](https://github.com/NoNamer777/feudum/issues/47)**: the damage kinds of animal attacks.
 - **[Encumbrance](https://github.com/NoNamer777/feudum/issues/65)**: what the weight of armor does to a body.
 - **[Stealth](https://github.com/NoNamer777/feudum/issues/89)**: what the noise of armor does.

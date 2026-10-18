@@ -539,7 +539,7 @@ The state of a region where armor rests on bare skin, which slows natural healin
 
 ### Battered
 
-The state of an armor piece at zero durability, which keeps only a small share of its stats until repaired.\
+The state of an armor piece, weapon, or shield at zero durability, which keeps only a small share of its stats until repaired.\
 _Avoid_: Broken
 
 ### Rust
@@ -548,7 +548,7 @@ Durability that iron and steel lose while they stay wet.
 
 ### Oiled
 
-The state of an iron or steel piece rubbed with tallow, which can't rust for about one week.
+The state of an iron or steel armor piece or weapon rubbed with tallow, which can't rust for about one week.
 
 ### Armorer's anvil
 
@@ -557,6 +557,99 @@ The block at which metal armor pieces are made and repaired.
 ### Leatherworker's bench
 
 The block at which hardened leather is shaped, as for the hardened leather pieces of armor.
+
+## Weapons
+
+### Weapon
+
+A held item made to attack with: a weapon type made in a weapon material.\
+_Avoid_: Weapon item
+
+### Weapon type
+
+The make of a weapon, such as an arming sword or a poleaxe, which sets its grip, weight class, reach, attack speed, attack profile, traits, and parry protection.
+
+### Weapon material
+
+What a weapon is made of, such as bronze or steel, which sets its damage scale, flat penetration, sharpness, durability, and weight.
+
+### Attack motion
+
+One of the four ways an attack lands, read from the camera's turn: thrust, side swing, overhead, or rising.\
+_Avoid_: Attack type, swing type
+
+### Attack profile
+
+The damage kind, damage scale, and penetration fraction of each attack motion of a held item.
+
+### Penetration
+
+How much of the protection on the struck region a hit ignores: a fraction from the attack motion, then a flat amount from the material.\
+_Avoid_: Armor piercing
+
+### Grip
+
+Whether a weapon type is held in one hand, in two, or versatile, in either.\
+_Avoid_: Handedness
+
+### Weight class
+
+Whether a weapon or shield type is light, medium, or heavy, which sets its attack or raise speed and whether it can be held in the off hand.
+
+### Trait
+
+A property of a weapon type, such as long reach, shield-breaker, or hook.
+
+### Parry
+
+Blocking with a weapon, which covers a narrow frontal arc with its parry protection.\
+_Avoid_: Block
+
+### Parry key
+
+The key that raises a shield, or parries with a weapon when there is no shield.
+
+### Raised
+
+The position of a shield held up with the parry key, covering its regions against hits in its arc.
+
+### Planted
+
+The position of a pavise set on the ground, covering every region of a body behind it from the front.
+
+### Shield bash
+
+A weak blunt hit with a shield, which briefly knocks a raised shield or parry aside.
+
+### Sharpness
+
+How keen the edge or point of a weapon is, which drops with use and lowers its cut and pierce damage.\
+_Avoid_: Edge durability
+
+### Whetstone
+
+The stone carried in the inventory that slowly restores sharpness.
+
+### Grindstone
+
+The block that quickly restores sharpness.
+
+### Ammunition
+
+What a ranged weapon shoots: a head type made in a head material, such as a steel bodkin.\
+_Avoid_: Projectile
+
+### Quiver
+
+The container worn in the back or belt slot that holds about 24 arrows or bolts.
+
+### Bowyer's bench
+
+The block at which bows and crossbows are made and repaired.
+
+### Fletcher's bench
+
+The block at which arrows and bolts are put together.
 
 ## Realms
 
