@@ -489,6 +489,15 @@ _Avoid_: Broken
 
 The block at which garments are sewn and quickly mended.
 
+### Back slot
+
+The slot that holds a slung shield, a slung bow, or a back quiver.
+
+### Belt slot
+
+The slot that holds a hip quiver or a sheathed weapon.\
+_Avoid_: Hip slot
+
 ## Armor
 
 ### Armor piece

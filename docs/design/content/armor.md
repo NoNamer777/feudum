@@ -154,7 +154,7 @@ Armor materials carry the thermal stats of [Body temperature](../mechanics/body-
 
 ## Armor stand
 
-- Feudum's armor stand holds all 16 slots of a body, so a whole kit, from the gambeson to the cloak, hangs together.
+- Feudum's armor stand holds all 18 slots of a body, so a whole kit, from the gambeson to the cloak and the slung shield, hangs together.
 - A body swaps everything it wears with the stand in one action.
 
 ## Who wears armor

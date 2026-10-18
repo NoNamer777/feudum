@@ -8,7 +8,7 @@ A body dresses in layers: linen against the skin, wool or leather over it, armor
 
 - Players and humanoid mobs, such as villagers, wear clothing. [ADR 0012](../../adr/0012-bodies-wear-clothing-in-three-layers.md) records why bodies wear it in three layers.
 - Animals wear nothing: their warmth is the natural insulation of their [thermal profile](../mechanics/body-temperature.md#thermal-profiles). Gear for mounts belongs to [Animal husbandry](https://github.com/NoNamer777/feudum/issues/27).
-- This page owns the slots and how their layers stack. [Armor](armor.md) owns the pieces of the armor layer and the helm slot.
+- This page owns the slots and how their layers stack. [Armor](armor.md) owns the pieces of the armor layer and the helm slot, and [Weapons](weapons.md) owns what goes in the back and belt slots.
 - Feudum garments replace vanilla's leather armor, and Armor replaces the rest of vanilla armor. Other vanilla wearables, such as the turtle shell, mob heads, and the elytra, stay hidden.
 
 ## Slots
@@ -23,9 +23,10 @@ A body has five regions: head, chest, legs, feet, and hands. Each region has lay
 | Feet   |    Yes     |   Yes    |  Yes  |
 | Hands  |     No     |   Yes    |  Yes  |
 
-- A helm slot sits over the armor layer of the head, and a cloak slot over every other layer, for 16 slots in all. [ADR 0013](../../adr/0013-a-helm-slot-sits-over-the-head-armor.md) records why the helm has a slot of its own.
+- A helm slot sits over the armor layer of the head, and a cloak slot over every other layer. [ADR 0013](../../adr/0013-a-helm-slot-sits-over-the-head-armor.md) records why the helm has a slot of its own.
+- A back slot and a belt slot carry gear, such as a slung shield, a quiver, or a sheathed weapon, for 18 slots in all. [ADR 0015](../../adr/0015-back-and-belt-slots-carry-gear.md) records why.
 - A garment declares its layer and every region it fills, and blocks those slots. A robe fills the clothing layer of chest and legs; a hooded cloak covers the head as well as chest and legs while its hood is up.
-- Humanoid mobs carry the same 16 slots in place of vanilla's armor slots.
+- Humanoid mobs carry the same 18 slots in place of vanilla's armor slots.
 
 ## Garments
 
@@ -144,7 +145,7 @@ Each garment carries its own wetness, from dry to soaked. The wetness of [Body t
 ## Inventory screen
 
 - A paper-doll panel replaces vanilla's column of armor slots.
-- Tabs switch the panel between the Underlayer, Clothing, and Armor layers, and the cloak slot shows on every tab. The helm slot shows on the Armor tab.
+- Tabs switch the panel between the Underlayer, Clothing, and Armor layers, and the cloak slot shows on every tab. The helm slot shows on the Armor tab, and the back and belt slots show on every tab.
 
 ## Appearance
 
@@ -172,6 +173,7 @@ Clothing owns the regions, layers, and slots, garment types and materials, and h
 - **[Relief](../mechanics/relief.md)**: accidents and the Soiled state of a body.
 - **[Fluids](../mechanics/fluids.md)**: the water a body wades and swims in.
 - **[Armor](armor.md)**: the pieces of the armor layer and the helm slot, damage kinds and protection, the protection of padded garments included, and how much less armor protects over an empty clothing layer.
+- **[Weapons](weapons.md)**: the weapons, shields, and quivers carried in the back and belt slots.
 - **[Encumbrance](https://github.com/NoNamer777/feudum/issues/65)**: what the weight of worn garments does to a body.
 - **[Textiles](../mechanics/textiles.md)**: thread, cloth, felt, dyes, dyeing, and fading.
 - **[Tanning](https://github.com/NoNamer777/feudum/issues/80)**: leather and fur.
