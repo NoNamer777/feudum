@@ -66,7 +66,7 @@ Felt temperature starts from the local temperature of the [Weather](weather.md#l
 
 ## Clothing
 
-- Every wearable carries thermal stats as data: insulation, wind resistance, water resistance, and sun heating. Metal armor bakes in the sun and chills in the frost.
+- Every wearable carries thermal stats as data: insulation, wind resistance, water resistance, and sun heating. Metal [armor](../content/armor.md#thermal-stats) bakes in the sun and chills in the frost.
 - Bodies wear clothing in three layers, and [Clothing](../content/clothing.md) owns the slots and how the stats of worn garments combine.
 
 ## Stages
