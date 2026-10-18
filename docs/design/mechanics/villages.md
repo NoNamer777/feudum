@@ -48,7 +48,7 @@ A village is a persistent, self-steering community with its own name, territory,
 ## Lordship
 
 - A lord is the one player or villager a manor is sworn to. A lord holds at most one manor per village, and a second manor in the same village merges into the first. A lord can hold manors in any number of villages.
-- A lord's wishes carry a lord's weight for their own manor, and their standing's weight for the rest of the village.
+- A lord's wishes carry a lord's weight for their own manor, a liege's weight for the manors held of it, directly or down the chain, as [Realms](realms.md#wish-weight) describes, and their standing's weight for the rest of the village.
 - Lord-only rights apply to the lord's own manor. Other mechanics define them, such as tithes in Village economy.
 - When the village forms a manor, it offers it to the highest-standing player above the lordship threshold who holds no manor there yet, and that player accepts or declines. Failing that, the village may appoint one of its own villagers or keep the buildings in the village holding.
 - A lord cannot hand a manor to anyone else.
@@ -68,7 +68,7 @@ Villages owns a village's identity, its territory, its lifecycle, standing, mano
 - **[Buildings](https://github.com/NoNamer777/feudum/issues/29)**: how buildings are designed, built, and recognized, and how building moves standing.
 - **[Village generation](https://github.com/NoNamer777/feudum/issues/61)**: the layouts and placement of world-gen villages.
 - **[Lordship contests](https://github.com/NoNamer777/feudum/issues/38)**: how a contest starts and is won, and what the loser keeps.
-- **[Realms](https://github.com/NoNamer777/feudum/issues/39)**: fealty between lords, up to a sovereign with no lord above them, which a player can become.
+- **[Realms](realms.md)**: fealty between manors, up to a sovereign with no liege above them, which a player can become.
 
 ## Deferred
 
