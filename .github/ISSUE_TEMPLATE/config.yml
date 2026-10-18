@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Suggest an idea
+    url: https://github.com/NoNamer777/feudum/discussions/new?category=ideas
+    about: Talk a feature through in Discussions before it becomes a design issue.
+  - name: Ask a question
+    url: https://github.com/NoNamer777/feudum/discussions/new?category=q-a
+    about: Ask about the design or the project.
