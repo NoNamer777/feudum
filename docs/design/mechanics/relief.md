@@ -50,10 +50,11 @@ The stage follows whichever store is fuller, as a share of its capacity. Thresho
 ## Relieving
 
 - A player relieves by holding the relieve key for a few seconds: about 3 for the bladder and 8 for the bowels. The body can't move or act until it finishes, and an interruption, such as damage, stops it with the rest still in the store.
-- A body can relieve at any stage, and relieving empties both stores.
+- A body can relieve at any stage, and relieving empties both stores, except at a lant tub.
 - Where the waste goes depends on where the body relieves:
   - **Privy**: into the privy's pit, as [Privies](#privies) describes.
   - **Chamber pot**: into the pot, which holds a few uses and must be emptied by hand.
+  - **Lant tub**: the bladder alone, into the tub, as [Textiles](textiles.md#stale-urine) describes. The bowels stay as they are.
   - **Open ground**: the bowels leave a layer of night soil. Urine soaks in and leaves nothing lasting, but counts as a fouling source for a moment.
   - **In water**: into the water, as [Waste in water](#waste-in-water) describes.
 - An emptied chamber pot pours its waste where it is emptied: into a privy, onto a dung heap, onto open ground, or into water.
@@ -71,9 +72,9 @@ The stage follows whichever store is fuller, as a share of its capacity. Thresho
 
 Relief decides how relieving moves [standing](villages.md#standing-and-wishes), and Villages owns the scale:
 
-- Each of these lowers a player's standing a little with a village, when it happens inside its territory and in sight of one of its villagers: relieving on open ground or into water, emptying a chamber pot onto open ground or into water, an accident, and using the privy or chamber pot of another household.
+- Each of these lowers a player's standing a little with a village, when it happens inside its territory and in sight of one of its villagers: relieving on open ground or into water, emptying a chamber pot onto open ground or into water, an accident, and using the privy, chamber pot, or lant tub of another household.
 - A Soiled player in sight of a village's villagers lowers standing a little once per sighting, not over and over.
-- Relieving in the wilderness, or in a privy or chamber pot the player may use, costs nothing.
+- Relieving in the wilderness, or in a privy, chamber pot, or lant tub the player may use, costs nothing.
 - The amounts are starting values to tune.
 
 ## Waste
@@ -165,3 +166,4 @@ Relief owns the bladder and bowels, how they fill, the stages and their effects,
 - **[Village simulation](https://github.com/NoNamer777/feudum/issues/45)**: filling privy pits and dung heaps abstractly while a village is unloaded.
 - **[Buildings](https://github.com/NoNamer777/feudum/issues/29)**: which building a privy belongs to, and privies and barns as parts of a village.
 - **[Privy and chamber pot](https://github.com/NoNamer777/feudum/issues/71)** and **[Dung and manure](https://github.com/NoNamer777/feudum/issues/72)**: the blocks and items that hold and carry waste.
+- **[Textiles](textiles.md)**: the lant tub, which takes the bladder alone, and the stale urine it ages for fulling and dyeing.

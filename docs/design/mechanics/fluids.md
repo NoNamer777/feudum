@@ -83,7 +83,7 @@ Water enters and leaves the world through these paths.
 - The starting rates let three livestock foul a still pond within about one Feudum day.
 - Foulness decays toward 0, so a fouled pond clears in about two days once its sources leave.
 - A current carries foulness downstream and dilutes it. A river beside a pen stays nearly clean, and the stretch just below the pen runs slightly foul.
-- Other content can register as a fouling source, such as the waste of crafts once they have a design.
+- Other content can register as a fouling source, such as the retting bundles and spent water of [Textiles](textiles.md#waste).
 
 ### Groundwater quality
 
@@ -152,6 +152,7 @@ Fluids owns Feudum water: volume, flow, and settling, river discharge and curren
 - **[Terrain](https://github.com/NoNamer777/feudum/issues/60)**: the drainage network and the groundwater baseline, from the seed alone.
 - **[Illness](https://github.com/NoNamer777/feudum/issues/37)**: what foul water does once drunk.
 - **[Relief](relief.md)**: the waste that fouls water.
+- **[Textiles](textiles.md)**: the retting bundles and spent water of the craft, which foul water.
 - **[Health](https://github.com/NoNamer777/feudum/issues/36)**: drowning damage.
 - **[Encumbrance](https://github.com/NoNamer777/feudum/issues/65)**: the weight that buoyancy reads.
 - **[Sailing](https://github.com/NoNamer777/feudum/issues/41)**: hulls, sails, and steering of boats.
