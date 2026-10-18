@@ -469,7 +469,7 @@ _Avoid_: Underwear, base layer
 
 ### Cloak
 
-The slot over every layer, and the garment that fills it, which covers chest and legs, and the head too when hooded.
+The slot over every layer, and the garment that fills it, which covers chest and legs, and the head too when its hood is up.
 
 ### Garment
 
@@ -488,3 +488,63 @@ _Avoid_: Broken
 ### Tailor's bench
 
 The block at which garments are sewn and quickly mended.
+
+## Armor
+
+### Armor piece
+
+A wearable item of the armor layer or the helm slot: an armor type made in an armor material.\
+_Avoid_: Armor item, gear
+
+### Armor type
+
+The cut of an armor piece, such as a hauberk or a great helm, which sets its slot, regions, and coverage.
+
+### Armor material
+
+What an armor piece is made of, such as iron mail or steel plate, which sets its protection, thermal stats, noise, weight, and durability.
+
+### Helm
+
+The slot over the armor layer of the head, and the open or great helm that fills it.\
+_Avoid_: Helmet
+
+### Damage kind
+
+One of the three kinds of damage that protection reduces: cut, pierce, or blunt.\
+_Avoid_: Damage type
+
+### Protection
+
+How much a garment or armor piece reduces the damage of each damage kind on the regions it covers.\
+_Avoid_: Armor points, defense
+
+### Struck region
+
+The one region a hit lands on, whose worn layers alone protect against it.\
+_Avoid_: Hit box, body part
+
+### Chafed
+
+The state of a region where armor rests on bare skin, which slows natural healing.
+
+### Battered
+
+The state of an armor piece at zero durability, which keeps only a small share of its stats until repaired.\
+_Avoid_: Broken
+
+### Rust
+
+Durability that iron and steel lose while they stay wet.
+
+### Oiled
+
+The state of an iron or steel piece rubbed with tallow, which can't rust for about one week.
+
+### Armorer's anvil
+
+The block at which metal armor pieces are made and repaired.
+
+### Leatherworker's bench
+
+The block at which hardened leather is shaped, as for the hardened leather pieces of armor.
