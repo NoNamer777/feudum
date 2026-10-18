@@ -548,3 +548,50 @@ The block at which metal armor pieces are made and repaired.
 ### Leatherworker's bench
 
 The block at which hardened leather is shaped, as for the hardened leather pieces of armor.
+
+## Realms
+
+### Fealty
+
+The bond under which a vassal manor is held of a liege manor.\
+_Avoid_: Allegiance, vassalage
+
+### Liege
+
+The manor a manor is held of, or the lord of that manor.
+
+### Vassal
+
+A manor held of a liege manor, or the lord of that manor.
+
+### Realm
+
+The tree of manors under a root manor, joined by fealty.\
+_Avoid_: Kingdom, nation
+
+### Sovereign
+
+The lord of a realm's root manor.\
+_Avoid_: King, ruler
+
+### Tribute
+
+The share of what a manor takes in that it passes up to its liege manor.
+
+### Felony
+
+Contesting a manor above or below one of your own manors in a realm.
+
+### Leave
+
+The permission a contest within a realm needs from the lord of the nearest manor above both sides.
+
+### Liege realm
+
+The realm a lord with manors in several realms serves first when those realms clash.\
+_Avoid_: Liege homage
+
+### Rank
+
+A manor's title, which follows the number of manors in its subtree.\
+_Avoid_: Tier, peerage
