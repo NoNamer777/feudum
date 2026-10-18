@@ -8,7 +8,7 @@ A body dresses in layers: linen against the skin, wool or leather over it, armor
 
 - Players and humanoid mobs, such as villagers, wear clothing. [ADR 0012](../../adr/0012-bodies-wear-clothing-in-three-layers.md) records why bodies wear it in three layers.
 - Animals wear nothing: their warmth is the natural insulation of their [thermal profile](../mechanics/body-temperature.md#thermal-profiles). Gear for mounts belongs to [Animal husbandry](https://github.com/NoNamer777/feudum/issues/27).
-- This page owns the slots and how their layers stack. [Armor](https://github.com/NoNamer777/feudum/issues/78) owns the pieces of the armor layer.
+- This page owns the slots and how their layers stack. [Armor](armor.md) owns the pieces of the armor layer and the helm slot.
 - Feudum garments replace vanilla's leather armor, and Armor replaces the rest of vanilla armor. Other vanilla wearables, such as the turtle shell, mob heads, and the elytra, stay hidden.
 
 ## Slots
@@ -23,9 +23,9 @@ A body has five regions: head, chest, legs, feet, and hands. Each region has lay
 | Feet   |    Yes     |   Yes    |  Yes  |
 | Hands  |     No     |   Yes    |  Yes  |
 
-- A cloak slot sits over every other layer, for 15 slots in all.
-- A garment declares its layer and every region it fills, and blocks those slots. A robe fills the clothing layer of chest and legs; a hooded cloak covers the head as well as chest and legs.
-- Humanoid mobs carry the same 15 slots in place of vanilla's armor slots.
+- A helm slot sits over the armor layer of the head, and a cloak slot over every other layer, for 16 slots in all. [ADR 0013](../../adr/0013-a-helm-slot-sits-over-the-head-armor.md) records why the helm has a slot of its own.
+- A garment declares its layer and every region it fills, and blocks those slots. A robe fills the clothing layer of chest and legs; a hooded cloak covers the head as well as chest and legs while its hood is up.
+- Humanoid mobs carry the same 16 slots in place of vanilla's armor slots.
 
 ## Garments
 
@@ -57,6 +57,7 @@ Silk and other fine cloth wait for [Social standing of dress](https://github.com
 | Wraps        | Underlayer | Feet              | Linen, wool                             |
 | Hood         | Clothing   | Head              | Wool, fur                               |
 | Hat          | Clothing   | Head              | Felt, straw                             |
+| Arming cap   | Clothing   | Head              | Linen                                   |
 | Headwrap     | Clothing   | Head              | Linen                                   |
 | Tunic        | Clothing   | Chest             | Linen, wool                             |
 | Gambeson     | Clothing   | Chest             | Linen                                   |
@@ -74,9 +75,10 @@ Silk and other fine cloth wait for [Social standing of dress](https://github.com
 | Mantle       | Cloak      | Chest, legs       | Fur                                     |
 
 - A robe and a gown are the same type.
-- A gambeson is quilted from many layers of linen, and its thickness gives it warmth and protection.
+- A gambeson is quilted from many layers of linen, and its thickness gives it warmth and protection. An arming cap is quilted the same way, as padding under a helm.
 - A straw hat has a negative sun heating: it shades the face and cools the wearer in the sun.
-- The armor layer holds the pieces of [Armor](https://github.com/NoNamer777/feudum/issues/78).
+- The hood of a hooded cloak is up or down, and the wearer raises or lowers it with a key or from the paper-doll panel. Putting on a helm lowers the hood, and it can't be raised under a helm.
+- The armor layer and the helm slot hold the pieces of [Armor](armor.md).
 
 ## Combining stats
 
@@ -88,8 +90,8 @@ Body temperature reads one set of thermal stats per body. The worn garments comb
 
 ## Protection
 
-- A clothing garment can carry a small protection value, as a gambeson does, so a poor levy can fight in one.
-- Armor on a region with an empty clothing layer protects less and chafes. [Armor](https://github.com/NoNamer777/feudum/issues/78) sets the numbers for both.
+- A clothing garment can carry protection, as a gambeson and an arming cap do, so a poor levy can fight in one. [Armor](armor.md#padding) sets how much.
+- Armor on a region with an empty clothing layer protects less and chafes, as [Armor](armor.md#over-an-empty-clothing-layer) describes.
 
 ## Wetness
 
@@ -110,7 +112,7 @@ Each garment carries its own wetness, from dry to soaked. The wetness of [Body t
 
 ## Wear and mending
 
-- A garment loses durability while worn, and when its wearer takes damage.
+- A garment loses durability while worn, and when a hit lands on a region it covers.
 - A garment at zero durability falls to tatters: it stays worn but keeps only a small share of its stats until mended.
 - A garment is mended with thread and cloth, leather, or fur of its material: quickly at a tailor's bench, or slowly by hand with a needle.
 
@@ -136,7 +138,7 @@ Each garment carries its own wetness, from dry to soaked. The wetness of [Body t
 ## Inventory screen
 
 - A paper-doll panel replaces vanilla's column of armor slots.
-- Tabs switch the panel between the Underlayer, Clothing, and Armor layers, and the cloak slot shows on every tab.
+- Tabs switch the panel between the Underlayer, Clothing, and Armor layers, and the cloak slot shows on every tab. The helm slot shows on the Armor tab.
 
 ## Appearance
 
@@ -158,12 +160,12 @@ Each garment carries its own wetness, from dry to soaked. The wetness of [Body t
 
 ## Boundaries
 
-Clothing owns the regions, layers, and slots, garment types and materials, and how the stats of worn garments combine. It also owns the protection of clothing garments, garment wetness and drying, wear and mending, soiled garments, the tailor's bench, the starting set, the paper-doll panel, and how garments look. Other mechanics own the rest, each linked to its page or, while it waits for a design, its issue:
+Clothing owns the regions, layers, and slots, garment types and materials, and how the stats of worn garments combine. It also owns garment wetness and drying, wear and mending, soiled garments, the tailor's bench, the starting set, the paper-doll panel, and how garments look. Other mechanics own the rest, each linked to its page or, while it waits for a design, its issue:
 
 - **[Body temperature](../mechanics/body-temperature.md)**: the thermal stats a garment carries, and what insulation, wind and water resistance, sun heating, and body wetness do to felt temperature.
 - **[Relief](../mechanics/relief.md)**: accidents and the Soiled state of a body.
 - **[Fluids](../mechanics/fluids.md)**: the water a body wades and swims in.
-- **[Armor](https://github.com/NoNamer777/feudum/issues/78)**: the armor layer's pieces, protection, and durability, and how much less armor protects over an empty clothing layer.
+- **[Armor](armor.md)**: the pieces of the armor layer and the helm slot, damage kinds and protection, the protection of padded garments included, and how much less armor protects over an empty clothing layer.
 - **[Encumbrance](https://github.com/NoNamer777/feudum/issues/65)**: what the weight of worn garments does to a body.
 - **[Textiles](https://github.com/NoNamer777/feudum/issues/79)**: thread, cloth, felt, dyes, and dyeing.
 - **[Tanning](https://github.com/NoNamer777/feudum/issues/80)**: leather and fur.
