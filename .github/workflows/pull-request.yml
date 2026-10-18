@@ -1,0 +1,41 @@
+name: Pull Request
+
+on:
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  commitlint:
+    name: Commitlint
+    runs-on: ubuntu-26.04
+    timeout-minutes: 5
+    env:
+      COMMITLINT: pnpm dlx --package=@commitlint/cli@21.2.3 --package=@commitlint/config-conventional@21.2.3 commitlint
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+
+      - name: Set up pnpm
+        uses: pnpm/setup@a0881977cd8ea73b1ed212236c99ca10dcc80cf4 # v3.1.1
+        with:
+          version: 12.14.0
+          runtime: node@lts
+          install: false
+
+      - name: Lint commit messages
+        shell: bash
+        run: $COMMITLINT --from ${{ github.event.pull_request.base.sha }} --to ${{ github.event.pull_request.head.sha }} --verbose
+
+      - name: Lint pull request title
+        shell: bash
+        env:
+          TITLE: ${{ github.event.pull_request.title }}
+        run: echo "$TITLE" | $COMMITLINT --verbose
