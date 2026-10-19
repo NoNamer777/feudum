@@ -287,7 +287,7 @@ _Avoid_: Cold-blooded
 
 ### Diet profile
 
-An entity type's data for hunger: its diet type, what it can eat, the food groups it tracks, its stomach and energy capacity, its metabolic rate, and its stage thresholds. An optional thirst block holds its data for thirst.
+An entity type's data for hunger: its diet type, what it can eat, the food groups it tracks, whether it tracks salt, its stomach and energy capacity, its metabolic rate, and its stage thresholds. An optional thirst block holds its data for thirst.
 
 ### Diet type
 
@@ -317,13 +317,21 @@ How well a body is stocked with one food group, from 0 to 100%.
 The food group of grass and hay, which grazing animals need and humans can't digest.\
 _Avoid_: Fodder
 
+### Salt level
+
+How well a body is stocked with salt, from 0 to 100%, which the salt amount of food and drink fills and time and sweat drain.
+
 ### Deficiency
 
-A group level below 25%, whose effects grow as the level falls.
+A group level or salt level below 25%, whose effects grow as the level falls.
+
+### Cramp
+
+A few seconds of sharp slowness that heavy exertion can bring on in a body short of salt.
 
 ### Craving
 
-The cue that marks a food carrying a group the body lacks.
+The cue that marks a food carrying a group, or salt, that the body lacks.
 
 ## Thirst
 
@@ -1813,3 +1821,63 @@ The block on which hides dry, stiffen into rawhide, or are scraped into parchmen
 ### Hide glue
 
 Fleshings and scraps boiled in a heated cauldron, which set hard and keep forever once dry.
+
+## Salt
+
+### Salt
+
+The item of about 1 kg of salt that drying salty water leaves, in one of three grades.
+
+### Grade
+
+The kind of a salt item, which the way it was made sets: bay salt, white salt, or rock salt.
+
+### Bay salt
+
+Coarse gray salt left by evaporation in a salt pan.
+
+### White salt
+
+Fine, pure salt left by boiling brine.
+
+### Rock salt
+
+Salt mined from deep beds as a stone block, and the coarse, gritty grade crushed from it.
+
+### Salt crust
+
+The salt that a pan of saturated water leaves on its floor as it dries or boils, which is raked out.
+
+### Salt pan
+
+The shallow, clay-lined block in which seawater or brine dries in the sun into bay salt.\
+_Avoid_: Saltern
+
+### Boiling pan
+
+The wide, shallow iron pan set over a fire, in which brine boils down into white salt.
+
+### Brine spring
+
+A spring whose groundwater is strong brine, rising over a rock salt bed.
+
+### Salt silt
+
+Silt scraped from bared tidal flats, carrying the salt that sun and wind dried into it.
+
+### Sleeching
+
+Washing salt silt with seawater to drain strong brine from it.
+
+### Sleeching pit
+
+The block in which salt silt is washed into brine.\
+_Avoid_: Kinch
+
+### Pinch
+
+The small amount of salt, about 10 g, that seasons one serving of a dish.
+
+### Salt lick
+
+A block of salt that deficient animals lick, or the salty ground around a brine spring or exposed rock salt.

@@ -69,7 +69,7 @@ A raw hide keeps about 2 days under [Food preservation](food-preservation.md#sta
 | Salting    | Soaking the hide in a pit of brine for about 2 days.                       | About a season | About 1 day         |
 | Air-drying | Stretching the hide on a stretching frame to dry stiff, into a flint hide. | About a year   | About 3 days        |
 
-- Brine is salty water under [Fluids](fluids.md#evaporation-and-brine), made from seawater or by dissolving [salt](https://github.com/NoNamer777/feudum/issues/66) in water.
+- Brine is salty water under [Fluids](fluids.md#evaporation-and-brine), made from seawater or by dissolving [salt](../content/salt.md#dissolving) in water.
 - A cured hide is soaked soft in a pit of water before any process. A fresh hide needs no soaking.
 - A hide's [spoilage stage](food-preservation.md#keeping-time) sets its yield: a Stale hide gives about 75%, and a Spoiled hide about 50% and fouls the water of the pit it goes into. A Rotten hide gives nothing.
 - A hide's spoilage stops once it enters the lime pit or, for fur, the tawing bath, since both preserve it.
@@ -326,7 +326,7 @@ Tanning owns the hide items and their classes, curing, the five processes and ev
 - **[Textiles](textiles.md)**: alum.
 - **[Forestry](https://github.com/NoNamer777/feudum/issues/165)**: peeling bark.
 - **[Buildings](https://github.com/NoNamer777/feudum/issues/29)**: the lime kiln, and hair in plaster.
-- **[Salt](https://github.com/NoNamer777/feudum/issues/66)**: salt for brine and tawing.
+- **[Salt](../content/salt.md)**: salt for brine and tawing.
 - **[Foods](https://github.com/NoNamer777/feudum/issues/51)**: flour and offal.
 - **[Watermill](https://github.com/NoNamer777/feudum/issues/67)**: the power of a bark mill.
 - **[Smithing](https://github.com/NoNamer777/feudum/issues/86)**: the iron blades of the tools.

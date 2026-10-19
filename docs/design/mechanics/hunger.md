@@ -14,7 +14,7 @@ Every mob that eats has a stomach, an energy store, and a diet. A meal fills the
 
 ## Model
 
-- A body carries three layers: its stomach, its energy, and its group levels.
+- A body carries three layers: its stomach, its energy, and its group levels. A species that tracks salt also carries a salt level, as [Salt level](#salt-level) describes.
 - **Stomach**: how much the body has eaten and not yet digested. Eating fills it at once, and drinking fills it too, as [Thirst](thirst.md#model) describes. A body can eat past its capacity, up to 125%, and is Stuffed above 100%.
 - **Energy**: what digestion fills, over a few Feudum hours, and metabolism drains.
 - **Group levels**: one level from 0 to 100% for each food group the species tracks.
@@ -30,6 +30,16 @@ Every mob that eats has a stomach, an energy store, and a diet. A meal fills the
 - A group level rises when the body eats food that carries the group, and falls steadily from full to empty in about 6 Feudum days.
 - A group below 25% is deficient. Its effects grow stronger as the level falls toward 0.
 - A body with every group above 75% has a balanced diet and heals faster.
+
+## Salt level
+
+- The salt amount of the food component, which adds to the [salt load](thirst.md#model) of Thirst, also fills a salt level from 0 to 100%. Too much salt dries a body out, and too little leaves it deficient. [ADR 0027](../../adr/0027-salt-is-a-need-as-well-as-a-load.md) records why.
+- Each diet profile says whether its species tracks the salt level. Humans, grazers, and browsers track it, wild species included. Carnivores, pigs, and poultry don't, since meat or scavenging covers their need.
+- The level drains at a slow base rate, plus a share of the exertion and heat drain of [Thirst](thirst.md#drain), since sweat carries salt out. As starting values, a resting human goes from full to deficient in about a Feudum week, and a laborer in high summer in about three days.
+- A salt level below 25% is deficient, as a group level is.
+- Unsalted food carries a little salt: fresh meat, blood, milk, cheese, eggs, fish, and shellfish some, and grain, vegetables, and fruit almost none. A diet of meat and milk nearly covers the need, while bread and pottage need salting. [Foods](https://github.com/NoNamer777/feudum/issues/51) sets the amounts.
+- Drinking seawater or brine fills the level too, at the cost of a salt load.
+- [Salt](../content/salt.md) owns the salt item, seasoning by the pinch, and salt licks.
 
 ## Drain
 
@@ -73,8 +83,11 @@ For a human:
 | Vegetables | A narrower comfort band, so cold and heat bite sooner.  |
 | Fruit      | Slower healing.                                         |
 | Dairy      | More fall damage.                                       |
+| Salt       | Cramps, as described below.                             |
 
+- **Cramps**: each minute of heavy exertion, such as sprinting, swimming, climbing, or work, carries about a 1-in-20 chance of a cramp, which slows the body sharply for a few seconds. Starting values to tune.
 - A deficient animal yields less milk, wool, and eggs, grows more slowly, and won't breed.
+- A salt-deficient animal also craves salt: it seeks a [salt lick](../content/salt.md#salt-licks), and licks salty things nearby when none is in reach, such as a sweaty body or a lant tub.
 - Deficiencies apply under `mild` too, since none of them kills.
 
 ## Healing
@@ -91,7 +104,7 @@ For a human:
 - **Famished**: trembling hands and a faint darkening at the edge of the view.
 - **Starving**: heavier darkening and a heartbeat.
 - **Stuffed**: a sluggish step and the occasional belch.
-- A deficient body craves the groups it lacks: a food carrying a craved group shows "Craved" in its tooltip and is eaten a little faster. A craving is the only cue for a deficiency.
+- A deficient body craves the groups it lacks, and salt when its salt level is deficient: a food carrying a craved group or salt shows "Craved" in its tooltip and is eaten a little faster. A craving is the only cue for a deficiency.
 - Mobs show their state too, so a player can read a herd at a glance: hungry animals call out and nose at troughs and the ground, and starving ones look thin and stagger.
 
 ## Food
@@ -109,7 +122,7 @@ For a human:
 ## Diet profiles
 
 - Each entity type has a data-driven diet profile: JSON in a data pack, assigned through entity type tags, as thermal profiles are.
-- A profile holds the diet type, an item tag of what the species can eat, the groups it tracks, the stomach and energy capacity, the base metabolic rate, and the stage thresholds.
+- A profile holds the diet type, an item tag of what the species can eat, the groups it tracks, whether it tracks the salt level, the stomach and energy capacity, the base metabolic rate, and the stage thresholds.
 - The diet type is grazer, browser, carnivore, or omnivore.
 - Villagers use the human diet profile, the same as players.
 - A profile can carry a thirst block, which [Thirst](thirst.md#diet-profiles) describes.
@@ -119,9 +132,10 @@ For a human:
 ## Persistence
 
 - A player's hunger saves with the player. Logging back in resumes from the saved values, since a player's absence is not simulated.
-- A new player starts Fed, with an empty stomach and every group at 75%.
-- Respawning resets energy to Fed and empties the stomach, but group levels stay as they were, so dying never cures a deficiency.
+- A new player starts Fed, with an empty stomach and every group and the salt level at 75%.
+- Respawning resets energy to Fed and empties the stomach, but group levels and the salt level stay as they were, so dying never cures a deficiency.
 - Wild mobs in unloaded chunks are not simulated. When their chunk loads, each starts at a value that fits the season, well fed in summer and lean in late winter, and never starving.
+- A wild grazer or browser also starts at a salt level that fits the season: low in spring and summer, when lush grass carries little salt, and full in autumn and winter. As a starting value, about a third of a herd loads in deficient in spring and summer, and heads for a lick.
 - An owned animal outside any village territory keeps its saved values while its chunk is unloaded, as a logged-out player does.
 - Village simulation brings the villagers and livestock of an unloaded village forward, as [Boundaries](#boundaries) describes.
 
@@ -132,18 +146,18 @@ For a human:
 
 ## Query
 
-- One query returns an entity's stomach fullness, energy, group levels, stage, and current drain with the share of each input.
+- One query returns an entity's stomach fullness, energy, group levels, salt level, stage, and current drain with the share of each input.
 - Other mechanics read hunger through this query.
 
 ## Commands
 
 - `/feudum hunger query [entity]` shows the result of the query.
-- `/feudum hunger set <entity> <stomach|energy|group> <value>` sets a value, for testing.
+- `/feudum hunger set <entity> <stomach|energy|group|salt> <value>` sets a value, for testing.
 - Every `/feudum hunger` command requires operator permission.
 
 ## Boundaries
 
-Hunger owns diet profiles, the stomach, energy, food groups and group levels, drain, the stages and their effects, deficiencies and cravings, cues, food components, and the feeding goal of animals. Other mechanics own the rest, each linked to its page or, while it waits for a design, its issue:
+Hunger owns diet profiles, the stomach, energy, food groups and group levels, the salt level, drain, the stages and their effects, deficiencies and cravings, cues, food components, and the feeding goal of animals. Other mechanics own the rest, each linked to its page or, while it waits for a design, its issue:
 
 - **Body temperature**: the cold stages that raise the drain, and the comfort band that a vegetable deficiency narrows.
 - **[Relief](relief.md)**: the residue that digestion passes on to the bowels, which shares the food component and the diet profile of Hunger.
@@ -158,4 +172,5 @@ Hunger owns diet profiles, the stomach, energy, food groups and group levels, dr
 - **[Cooking](cooking.md)**: how preparing and combining food sets its food component, and the needs-cooked-food flag of diet profiles.
 - **[Food preservation](food-preservation.md)**: keeping times and spoilage, the preserved foods that salting, smoking, drying, and pickling make, and their nutrition.
 - **[Animal husbandry](animal-husbandry.md)**: breeding, beyond its hunger requirement.
+- **[Salt](../content/salt.md)**: the salt item, seasoning by the pinch, and the salt licks that deficient animals seek.
 - **[Foods](https://github.com/NoNamer777/feudum/issues/51)** and **[Feed trough and hay](https://github.com/NoNamer777/feudum/issues/50)**: the food and fodder that Feudum adds.

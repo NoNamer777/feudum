@@ -105,13 +105,14 @@ The diagram maps each kind of food to the methods that keep it, and shows the ch
 
 ### Salting
 
-| Step     | What happens                                                                                           | Takes         |
-|:---------|:-------------------------------------------------------------------------------------------------------|:--------------|
-| Dry salt | Layering meat or fish with [salt](https://github.com/NoNamer777/feudum/issues/66) in a salting barrel. | About ¼ day   |
-| Cure     | Leaving the barrel to draw the water out.                                                              | About 2 weeks |
-| Brine    | Submerging meat, fish, or vegetables in a barrel of brine.                                             | About 1 week  |
+| Step     | What happens                                                               | Takes         |
+|:---------|:---------------------------------------------------------------------------|:--------------|
+| Dry salt | Layering meat or fish with [salt](../content/salt.md) in a salting barrel. | About ¼ day   |
+| Cure     | Leaving the barrel to draw the water out.                                  | About 2 weeks |
+| Brine    | Submerging meat, fish, or vegetables in a barrel of brine.                 | About 1 week  |
 
 - Each measure of meat or fish takes a measure of salt, as a starting value.
+- Fine white salt cures to a quarter less keeping time than coarse bay salt or rock salt, as the [grades](../content/salt.md#grades) of Salt describe.
 - Brine must reach a [salinity](fluids.md#water-quality) of about 3, strong enough to float an egg, as a starting value. Seawater is too weak, so brine comes from salt dissolved in water or from seawater boiled down.
 - Brined cabbage becomes sauerkraut, and brined beans salted beans.
 - Salted food carries a high salt amount, so it adds to the [salt load](thirst.md#model) of Thirst.
@@ -251,7 +252,7 @@ Food preservation owns keeping times, the stages of spoilage and their effects, 
 - **[Foods](https://github.com/NoNamer777/feudum/issues/51)**: every food and preserved food item, meat cuts, and lard.
 - **[Cooking](cooking.md)**: the hearth, cooked food, and its food component.
 - **[Dairy](https://github.com/NoNamer777/feudum/issues/135)**: cheese and butter making, and how long they keep.
-- **[Salt](https://github.com/NoNamer777/feudum/issues/66)**: the salt item and salt pans.
+- **[Salt](../content/salt.md)**: the salt item, its grades, and salt pans.
 - **[Snow and ice](https://github.com/NoNamer777/feudum/issues/53)**: the ice and packed snow of an ice house, and how fast they melt.
 - **[Fire](fire.md)**: the smoldering fire of cold smoking, its fuel, and what smoke does to bodies.
 - **[Beekeeping](https://github.com/NoNamer777/feudum/issues/128)**: honey.

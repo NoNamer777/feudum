@@ -96,7 +96,7 @@ Water enters and leaves the world through these paths. The diagram shows where w
 ### Evaporation and brine
 
 - Evaporation removes water but not what it carries, so salinity and foulness rise as water evaporates.
-- Water with a salinity above 1 is brine, up to saturation at about 7.5. Brine dried out leaves [salt](https://github.com/NoNamer777/feudum/issues/66), so a shallow pan of seawater makes salt.
+- Water with a salinity above 1 is brine, up to saturation at about 7.5. Brine dried out leaves [salt](../content/salt.md#salt-crust), so a shallow pan of seawater makes salt.
 - Foulness rises up to 1, so a shrinking puddle gets fouler.
 
 ## Ice
@@ -166,7 +166,7 @@ Fluids owns Feudum water: volume, flow, and settling, river discharge and curren
 - **[Watermill](https://github.com/NoNamer777/feudum/issues/67)**: how a water wheel reads the current and falling water.
 - **[Fire](fire.md)**: how fire spreads, and how rain and poured water put it out.
 - **[Cooking](cooking.md)**: boiling water.
-- **[Salt](https://github.com/NoNamer777/feudum/issues/66)**: the salt item and salt pans.
+- **[Salt](../content/salt.md)**: the salt item, salt pans, and how salt converts to and from salinity.
 - **[Drink containers](https://github.com/NoNamer777/feudum/issues/49)**, **[Rain barrel](https://github.com/NoNamer777/feudum/issues/52)**, and **[Feed trough and hay](https://github.com/NoNamer777/feudum/issues/50)**: the containers and troughs that hold water.
 - **[Snow and ice](https://github.com/NoNamer777/feudum/issues/53)**: the ice block.
 - **[Aquatic plants](https://github.com/NoNamer777/feudum/issues/68)**: plants that grow in water.

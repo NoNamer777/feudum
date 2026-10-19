@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" width="760" height="380" role="img" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#1f2328">
+  <title>Where salt comes from, and which grade each way of making it gives</title>
+  <rect x="0.5" y="0.5" width="759" height="379" rx="6" fill="#ffffff" stroke="#d0d7de"/>
+  <defs>
+    <marker id="e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#57606a"/></marker>
+  </defs>
+  <path d="M150 70 C 230 70, 220 144, 298 144" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M150 70 C 230 70, 220 144, 298 144" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M150 150 H298" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M150 150 H298" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M150 230 C 230 230, 220 156, 298 156" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M150 230 C 230 230, 220 156, 298 156" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M150 330 H298" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M150 330 H298" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M375 317 V165" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M375 317 V165" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M450 144 C 530 144, 530 110, 608 110" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M450 144 C 530 144, 530 110, 608 110" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M450 156 C 530 156, 530 190, 608 190" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M450 156 C 530 156, 530 190, 608 190" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M450 330 H608" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M450 330 H608" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M675 203 C 675 260, 470 260, 432 166" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M675 203 C 675 260, 470 260, 432 166" fill="none" stroke="#57606a" stroke-width="1.4" stroke-dasharray="5 4" marker-end="url(#e)"/>
+  <text x="224" y="144" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">sleeched</text>
+  <text x="224" y="197" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">drawn</text>
+  <text x="224" y="324" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">mined</text>
+  <text x="375" y="250" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">dissolved</text>
+  <text x="529" y="122" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">evaporated</text>
+  <text x="529" y="182" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">boiled</text>
+  <text x="529" y="324" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">crushed</text>
+  <text x="569" y="262" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">dissolved again</text>
+  <rect x="20" y="57" width="130" height="26" rx="6" fill="#f6f8fa" stroke="#8c959f"/>
+  <text x="85" y="74.5" text-anchor="middle">Sea</text>
+  <rect x="20" y="137" width="130" height="26" rx="6" fill="#f6f8fa" stroke="#8c959f"/>
+  <text x="85" y="154.5" text-anchor="middle">Tidal flats</text>
+  <rect x="20" y="217" width="130" height="26" rx="6" fill="#f6f8fa" stroke="#8c959f"/>
+  <text x="85" y="234.5" text-anchor="middle">Brine spring</text>
+  <rect x="20" y="317" width="130" height="26" rx="6" fill="#f6f8fa" stroke="#8c959f"/>
+  <text x="85" y="334.5" text-anchor="middle">Rock salt bed</text>
+  <rect x="300" y="137" width="150" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="375" y="154.5" text-anchor="middle">Seawater or brine</text>
+  <rect x="300" y="317" width="150" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="375" y="334.5" text-anchor="middle">Rock salt block</text>
+  <rect x="610" y="97" width="130" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="675" y="114.5" text-anchor="middle" font-weight="600">Bay salt</text>
+  <rect x="610" y="177" width="130" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="675" y="194.5" text-anchor="middle" font-weight="600">White salt</text>
+  <rect x="610" y="317" width="130" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="675" y="334.5" text-anchor="middle" font-weight="600">Rock salt</text>
+</svg>

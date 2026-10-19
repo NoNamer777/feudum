@@ -84,6 +84,7 @@ The stages follow hydration. Thresholds come from the diet profile. For a human 
 ## Food and drink
 
 - The food component of [Hunger](hunger.md#food) also carries a water amount and a salt amount. Fruit, milk, broth, and stew hydrate, and salted meat carries salt, so a winter on salt pork calls for more ale.
+- The same salt amount also fills the [salt level](hunger.md#salt-level) of Hunger, so a body needs a little salt and suffers from too much.
 - A drink is a consumable with a food component, so a drink with energy, such as milk or ale, also feeds.
 - Each drink also carries an alcohol amount, which Brewing reads.
 
