@@ -37,16 +37,18 @@ A body has five regions: head, chest, legs, feet, and hands. Each region has lay
 
 ### Materials
 
-| Material | Character                                                               | Insulation kept when soaked |
-|:---------|:------------------------------------------------------------------------|----------------------------:|
-| Linen    | Light and cool; the underlayer material.                                |                   about 10% |
-| Nettle   | A rough, cheap linen that wears faster.                                 |                   about 10% |
-| Woolen   | Warm, and stays fairly warm when wet.                                   |                   about 50% |
-| Worsted  | Smooth and hard-wearing; less warm than woolen and more wind-resistant. |                   about 40% |
-| Leather  | Resists wind and water, and wears slowly.                               |                   about 30% |
-| Fur      | The warmest, and heavy.                                                 |                   about 35% |
-| Felt     | Matted wool, for hats and boot linings.                                 |                   about 40% |
-| Straw    | Hats that shade the face.                                               |                   about 10% |
+| Material      | Character                                                               | Insulation kept when soaked |
+|:--------------|:------------------------------------------------------------------------|----------------------------:|
+| Linen         | Light and cool; the underlayer material.                                |                   about 10% |
+| Nettle        | A rough, cheap linen that wears faster.                                 |                   about 10% |
+| Woolen        | Warm, and stays fairly warm when wet.                                   |                   about 50% |
+| Worsted       | Smooth and hard-wearing; less warm than woolen and more wind-resistant. |                   about 40% |
+| Leather       | Resists wind and water, and wears slowly.                               |                   about 30% |
+| White leather | Soft and close-fitting; soaking stiffens it until it is tawed again.    |                   about 20% |
+| Buckskin      | Soft, and stays supple when wet and washed.                             |                   about 40% |
+| Fur           | The warmest, and heavy.                                                 |                   about 35% |
+| Felt          | Matted wool, for hats and boot linings.                                 |                   about 40% |
+| Straw         | Hats that shade the face.                                               |                   about 10% |
 
 Silk and other fine cloth wait for [Social standing of dress](https://github.com/NoNamer777/feudum/issues/82).
 
@@ -64,15 +66,15 @@ Silk and other fine cloth wait for [Social standing of dress](https://github.com
 | Headwrap     | Clothing   | Head              | Linen                                   |
 | Tunic        | Clothing   | Chest             | Linen, nettle, woolen, worsted          |
 | Gambeson     | Clothing   | Chest             | Linen                                   |
-| Jerkin       | Clothing   | Chest             | Leather                                 |
+| Jerkin       | Clothing   | Chest             | Leather, buckskin                       |
 | Coat         | Clothing   | Chest             | Fur                                     |
 | Hose         | Clothing   | Legs              | Woolen, worsted                         |
-| Trousers     | Clothing   | Legs              | Woolen, leather                         |
+| Trousers     | Clothing   | Legs              | Woolen, leather, buckskin               |
 | Robe         | Clothing   | Chest, legs       | Linen, woolen                           |
 | Shoes        | Clothing   | Feet              | Leather                                 |
 | Boots        | Clothing   | Feet              | Leather, leather lined with felt or fur |
 | Mittens      | Clothing   | Hands             | Woolen, fur                             |
-| Gloves       | Clothing   | Hands             | Leather                                 |
+| Gloves       | Clothing   | Hands             | Leather, white leather, buckskin        |
 | Cloak        | Cloak      | Chest, legs       | Woolen, leather                         |
 | Hooded cloak | Cloak      | Head, chest, legs | Woolen                                  |
 | Mantle       | Cloak      | Chest, legs       | Fur                                     |
@@ -134,7 +136,7 @@ Each garment carries its own wetness, from dry to soaked. The wetness of [Body t
 
 - Garments are sewn at a tailor's bench from cloth, leather, or fur, plus thread, not at a crafting table.
 - A [Tailor](https://github.com/NoNamer777/feudum/issues/81) works the bench in a village.
-- [Textiles](../mechanics/textiles.md) makes thread, cloth, and felt, and [Tanning](https://github.com/NoNamer777/feudum/issues/80) makes leather and fur.
+- [Textiles](../mechanics/textiles.md) makes thread, cloth, and felt, and [Tanning](../mechanics/tanning.md) makes leather, white leather, buckskin, and fur.
 - A garment takes its color from the cloth it was sewn from, and a finished garment can be dyed again. Color is cosmetic here, and [Textiles](../mechanics/textiles.md#dyes) owns dyes, dyeing, and fading.
 
 ## Starting clothing
@@ -177,7 +179,7 @@ Clothing owns the regions, layers, and slots, garment types and materials, and h
 - **[Weapons](weapons.md)**: the weapons, shields, and quivers carried in the back and belt slots.
 - **[Encumbrance](https://github.com/NoNamer777/feudum/issues/65)**: what the weight of worn garments does to a body.
 - **[Textiles](../mechanics/textiles.md)**: thread, cloth, felt, dyes, dyeing, and fading.
-- **[Tanning](https://github.com/NoNamer777/feudum/issues/80)**: leather and fur.
+- **[Tanning](../mechanics/tanning.md)**: leather, white leather, buckskin, and fur.
 - **[Tailor](https://github.com/NoNamer777/feudum/issues/81)**: the villager who sews and mends at the tailor's bench.
 - **[Social standing of dress](https://github.com/NoNamer777/feudum/issues/82)**: whether garments carry a fineness, and how Villagers and standing read dress.
 - **[Inventory](https://github.com/NoNamer777/feudum/issues/83)**: the rest of the inventory screen, and the rule for items that change while stored.

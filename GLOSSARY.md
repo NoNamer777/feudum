@@ -1689,4 +1689,127 @@ Opening a whole fish with a knife to take its flesh, offal, roe, liver, and bone
 
 ### Fishpond
 
-A still water body dug or dammed by a player or villager, stocked and drained by its keeper._Avoid_: Stew pond
+A still water body dug or dammed by a player or villager, stocked and drained by its keeper.\
+_Avoid_: Stew pond
+
+## Tanning
+
+### Hide
+
+The skin of a butchered mammal, as an item before it is tanned. As a class, the large hides of cattle, horses, water buffalo, and deer, apart from skins and pelts.
+
+### Skin
+
+The class of hide from smaller animals, such as calves, sheep, goats, and pigs, which every process but fur dressing can work.
+
+### Pelt
+
+The class of hide from rabbits and wild fur-bearers, which is dressed into fur.
+
+### Prime
+
+The state of a pelt taken from Late Autumn to Early Spring, when its fur is thick.
+
+### Flint hide
+
+A hide cured by air-drying on a stretching frame, which keeps about a year and is soaked soft before work.
+
+### Fleshing beam
+
+The block at which a hide is fleshed, unhaired, scudded, oiled, and staked.
+
+### Fleshings
+
+The flesh and fat scraped off a hide, which boil into hide glue.
+
+### Liming
+
+Laying a hide in a lime pit until its hair loosens.
+
+### Bate
+
+Dog or poultry dung in water, which draws the lime out of a hide and makes it supple.
+
+### Pit
+
+The block, dug into the ground and filled with water, that soaks, salts, limes, bates, tans, or taws hides by its contents.
+
+### Tan pit
+
+A pit of water and ground bark, in which hides lie in ooze for a season or a year.
+
+### Ooze
+
+The tannin steeped out of ground bark into the water of a tan pit.
+
+### Re-layering
+
+Restarting a tan pit with fresh ground bark once its strength has fallen.
+
+### Tan
+
+The spent bark taken out of a tan pit, which burns as fuel.
+
+### Currying
+
+Finishing a bark-tanned skin by shaving it, stuffing it with dubbin, and slicking it, into upper leather.
+
+### Dubbin
+
+Tallow melted with fish oil, which stuffs leather in currying.
+
+### Sole leather
+
+Bark-tanned leather from a hide, thick and stiff, for soles, belts, harness, and hardened leather.
+
+### Upper leather
+
+Bark-tanned and curried leather from a skin, for garments.
+
+### Tawing
+
+Soaking a skin or pelt in a bath of alum and salt instead of tanning it.
+
+### White leather
+
+Soft leather tawed from a skin, which stiffens when soaked until it is tawed again.
+
+### Fur dressing
+
+Tawing a pelt or woolly sheepskin with its hair left on, into fur.
+
+### Oil tanning
+
+Working brains or fish oil into a skin and smoking it, into buckskin.
+
+### Buckskin
+
+Oil-tanned leather that stays soft when wet and washed.
+
+### Smudge pit
+
+A small pit of smoldering wood over which oil-tanned hides are smoked.
+
+### Rawhide
+
+A hide or skin limed, scraped, and dried stiff with no tanning.
+
+### Parchment
+
+A sheep or goat skin limed, stretched, and scraped thin for writing.
+
+### Vellum
+
+Parchment made from calfskin.
+
+### Lunellum
+
+The crescent knife that scrapes parchment on a stretching frame.
+
+### Stretching frame
+
+The block on which hides dry, stiffen into rawhide, or are scraped into parchment.
+
+### Hide glue
+
+Fleshings and scraps boiled in a heated cauldron, which set hard and keep forever once dry.

@@ -7,7 +7,7 @@ A village lives off its livestock: oxen pull the plough, sheep give wool, cows g
 ## Scope
 
 - Animal husbandry owns the livestock of the [Species](#species) table: where it comes from, breeding, pregnancy and birth, nursing and lactation, growth and old age, traits and breeds, fleece, eggs, slaughter and butchering, ownership, and herding.
-- [Dairy](https://github.com/NoNamer777/feudum/issues/135) owns milking and what milk becomes, [Foods](https://github.com/NoNamer777/feudum/issues/51) the meat cuts, and [Tanning](https://github.com/NoNamer777/feudum/issues/80) the hides.
+- [Dairy](https://github.com/NoNamer777/feudum/issues/135) owns milking and what milk becomes, [Foods](https://github.com/NoNamer777/feudum/issues/51) the meat cuts, and [Tanning](tanning.md) the hides.
 - [Tack and barding](https://github.com/NoNamer777/feudum/issues/139) owns the gear of mounts and draft animals, [Working dogs](https://github.com/NoNamer777/feudum/issues/142) the work a dog does, and [Wildlife](https://github.com/NoNamer777/feudum/issues/47) wild animals, including the wild forms of livestock.
 - [Beekeeping](https://github.com/NoNamer777/feudum/issues/128) owns bees, [Falconry](https://github.com/NoNamer777/feudum/issues/140) hawks and falcons, Wildlife the deer of a deer park, and [Fishing](fishing.md) the fish of a fishpond.
 
@@ -147,7 +147,7 @@ The chart plots the year of sheep, cattle, and poultry against daylight across t
 | Yield           | From                                | Goes to                                                              |
 |:----------------|:------------------------------------|:---------------------------------------------------------------------|
 | Meat cuts       | Every species                       | [Foods](https://github.com/NoNamer777/feudum/issues/51)              |
-| Hide            | Mammals                             | [Tanning](https://github.com/NoNamer777/feudum/issues/80)            |
+| Hide            | Mammals                             | [Tanning](tanning.md)                                                |
 | Fat             | Every species                       | Tallow, rendered in a heated cauldron                                |
 | Bones           | Every species                       | The designs that use bone, or the [dung heap](relief.md#dung-heap)   |
 | Blood and offal | Every species                       | Foods                                                                |
@@ -285,7 +285,7 @@ Animal husbandry owns the livestock roster, where livestock comes from, sexes an
 - **[Villages](villages.md)**: standing, manors, and the village holding.
 - **[Dairy](https://github.com/NoNamer777/feudum/issues/135)**: milking and what milk becomes.
 - **[Foods](https://github.com/NoNamer777/feudum/issues/51)**: meat cuts, blood and offal, and eggs as food.
-- **[Tanning](https://github.com/NoNamer777/feudum/issues/80)**: hides.
+- **[Tanning](tanning.md)**: hides.
 - **[Cooking](cooking.md)**: the heated cauldron that renders tallow.
 - **[Tack and barding](https://github.com/NoNamer777/feudum/issues/139)**: saddles, bridles, harness, and barding.
 - **[Carts and wagons](https://github.com/NoNamer777/feudum/issues/141)**: what draft animals pull.
