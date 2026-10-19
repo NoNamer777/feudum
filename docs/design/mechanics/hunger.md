@@ -153,7 +153,7 @@ Hunger owns diet profiles, the stomach, energy, food groups and group levels, dr
 - **[Villagers](https://github.com/NoNamer777/feudum/issues/46)**: when and what a villager eats, such as meals on its schedule.
 - **[Village economy](https://github.com/NoNamer777/feudum/issues/44)**: the food stock a village eats from.
 - **[Village simulation](https://github.com/NoNamer777/feudum/issues/45)**: drawing on the stock at each catch-up step, and applying hunger and deficiencies abstractly, so a village that runs out of fruit in winter falls sick while no one is near.
-- **[Farming](https://github.com/NoNamer777/feudum/issues/32)**: how grass grows back with the season.
+- **[Farming](farming.md#pasture-and-hay)**: how the sward grows back with the season.
 - **[Wildlife](https://github.com/NoNamer777/feudum/issues/47)**: hunting live prey, such as stalking, pack tactics, and prey that flees.
 - **[Cooking](cooking.md)**: how preparing and combining food sets its food component, and the needs-cooked-food flag of diet profiles.
 - **[Food preservation](food-preservation.md)**: keeping times and spoilage, the preserved foods that salting, smoking, drying, and pickling make, and their nutrition.

@@ -305,7 +305,7 @@ Fire owns fire blocks, fuel loads, ignition thresholds, burnt forms, fire sizes,
 - **[Lighting](https://github.com/NoNamer777/feudum/issues/163)**: torches, candles, rushlights, and lamps.
 - **[Smithing](https://github.com/NoNamer777/feudum/issues/86)**: the fire steel, the fireguard, the furnace, and the forge.
 - **[Carpentry](https://github.com/NoNamer777/feudum/issues/115)**: the smoke louver.
-- **[Farming](https://github.com/NoNamer777/feudum/issues/32)**: the crops that fire destroys.
+- **[Farming](farming.md)**: the crops that fire destroys, and burning stubble.
 - **[Buildings](https://github.com/NoNamer777/feudum/issues/29)**: how houses are built with hearths, fireplaces, chimneys, and louvers.
 - **[Wildlife](https://github.com/NoNamer777/feudum/issues/47)**: how animals flee fire.
 - **[Villagers](https://github.com/NoNamer777/feudum/issues/46)**: when villagers tend, bank, and fight fire.

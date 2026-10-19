@@ -73,7 +73,7 @@ Time owns the clock, the calendar, the season curves, climate profiles, and the 
 - **[Villagers](https://github.com/NoNamer777/feudum/issues/46)**: daily schedules and how fast villagers age.
 - **[Village economy](https://github.com/NoNamer777/feudum/issues/44)**: harvests, markets, tithes, and taxes on the calendar.
 - **[Village simulation](https://github.com/NoNamer777/feudum/issues/45)**: what a village does during each catch-up step.
-- **[Farming](https://github.com/NoNamer777/feudum/issues/32)**: how crop growth reads the season curves.
+- **[Farming](farming.md)**: how crop growth reads the season curves and daylight.
 - **Weather**: what a local season brings, such as rain, storms, and snow.
 
 ## Deferred

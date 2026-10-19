@@ -97,7 +97,7 @@ Relief decides how relieving moves [standing](villages.md#standing-and-wishes), 
 
 - A dung heap is a block that collects night soil, dung, and straw bedding, and rots them into manure over about one season. Turning the heap with a fork speeds it.
 - A dung heap is a fouling source like any other waste, so it belongs downhill of the well.
-- [Farming](https://github.com/NoNamer777/feudum/issues/32) decides what manure, and fresh waste spread on a field, do to the soil.
+- [Farming](farming.md#nutrients) decides what manure, and fresh waste spread on a field, do to the soil.
 - [Dung and manure](https://github.com/NoNamer777/feudum/issues/72) owns the waste items, the waste layer, and the dung heap block.
 
 ## Cues
@@ -159,7 +159,7 @@ Relief owns the bladder and bowels, how they fill, the stages and their effects,
 - **[Villages](villages.md)**: the standing scale.
 - **[Health](health.md)**: the rule that modifiers of the same kind take the strongest.
 - **[Illness](illness.md)**: what a Soiled body, deep dung, and a sick body's waste do.
-- **[Farming](https://github.com/NoNamer777/feudum/issues/32)**: what manure and fresh waste do to the soil.
+- **[Farming](farming.md)**: what manure and fresh waste do to the soil.
 - **[Brewing](brewing.md)**: the alcohol amount of drinks.
 - **[Segmented sleep](https://github.com/NoNamer777/feudum/issues/42)**: the waking hour that a full bladder already brings.
 - **[Clothing](../content/clothing.md)**: soiled garments, which keep a body Soiled until they are washed.

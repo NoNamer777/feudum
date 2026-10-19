@@ -36,7 +36,7 @@ Water in Feudum is finite: every block holds real liters that flow, level out, e
 - Discharge follows the season and the weather, so rivers swell in the Wet season and with spring melt and shrink in the Dry season. A stream whose discharge reaches zero runs dry, so seasonal streams need no rule of their own.
 - The sea boundary takes each river's water at its mouth.
 - **Current**: river water moves in the direction of its course, at a speed that its discharge and channel set. The current pushes swimmers, items, and boats, and carries [quality](#water-quality) downstream.
-- **Floods**: when discharge exceeds what a channel holds, the water spills onto the floodplain as real water, and drains back or soaks in as the river falls. [Farming](https://github.com/NoNamer777/feudum/issues/32) and [Buildings](https://github.com/NoNamer777/feudum/issues/29) own what floodwater does to crops and buildings.
+- **Floods**: when discharge exceeds what a channel holds, the water spills onto the floodplain as real water, and drains back or soaks in as the river falls. [Farming](farming.md#weather-damage) and [Buildings](https://github.com/NoNamer777/feudum/issues/29) own what floodwater does to crops and buildings.
 
 ## Water cycle
 
@@ -70,7 +70,7 @@ Water enters and leaves the world through these paths. The diagram shows where w
 - A column that something touches stores its deviation from the baseline. Wells and heavy drawing lower it, and seepage raises it. Deviations spread slowly to neighboring columns and relax back toward the baseline over time.
 - Untouched ground stores nothing.
 - A well dug below the water table fills at a rate that grows with its depth below it. A Dry season can drop the table below a shallow well. [Buildings](https://github.com/NoNamer777/feudum/issues/29) owns wells and cisterns.
-- [Farming](https://github.com/NoNamer777/feudum/issues/32) reads the water table and decides how soil moisture follows from it.
+- [Farming](farming.md#moisture) reads the water table and decides how soil moisture follows from it.
 
 ## Water quality
 
@@ -160,7 +160,7 @@ Fluids owns Feudum water: volume, flow, and settling, river discharge and curren
 - **[Sailing](https://github.com/NoNamer777/feudum/issues/41)**: hulls, sails, and steering of boats.
 - **[Fishing](https://github.com/NoNamer777/feudum/issues/64)**: catching fish.
 - **[Wildlife](https://github.com/NoNamer777/feudum/issues/47)**: how aquatic mobs behave.
-- **[Farming](https://github.com/NoNamer777/feudum/issues/32)**: soil moisture, and what floods do to crops.
+- **[Farming](farming.md)**: soil moisture, irrigation, and what floods do to crops.
 - **[Buildings](https://github.com/NoNamer777/feudum/issues/29)**: wells and cisterns, and what floods do to buildings.
 - **[Village simulation](https://github.com/NoNamer777/feudum/issues/45)**: what an unloaded village's wells and ponds yield during catch-up.
 - **[Watermill](https://github.com/NoNamer777/feudum/issues/67)**: how a water wheel reads the current and falling water.

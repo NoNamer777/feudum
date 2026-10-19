@@ -193,7 +193,7 @@ The chart plots the year of sheep, cattle, and poultry against daylight across t
 - Cattle, water buffalo, horses, donkeys, and mules can draw. Oxen are the main draft animal.
 - Size sets how much an animal can draw.
 - Draft work counts as heavy exertion: it raises the drain of [Hunger](hunger.md#drain) and the exertion offset of [Body temperature](body-temperature.md#felt-temperature).
-- [Tack and barding](https://github.com/NoNamer777/feudum/issues/139) owns the harness, [Farming](https://github.com/NoNamer777/feudum/issues/32) the plough and harrow, and [Carts and wagons](https://github.com/NoNamer777/feudum/issues/141) carts, wagons, and sledges.
+- [Tack and barding](https://github.com/NoNamer777/feudum/issues/139) owns the harness, [Farming](farming.md#breaking-ground) the ard, the heavy plough, and the harrow, and [Carts and wagons](https://github.com/NoNamer777/feudum/issues/141) carts, wagons, and sledges.
 
 ## Housing
 
@@ -296,7 +296,7 @@ Animal husbandry owns the livestock roster, where livestock comes from, sexes an
 - **[Falconry](https://github.com/NoNamer777/feudum/issues/140)**: hawks and falcons.
 - **[Fishing](https://github.com/NoNamer777/feudum/issues/64)**: fishponds.
 - **[Beekeeping](https://github.com/NoNamer777/feudum/issues/128)**: bees.
-- **[Farming](https://github.com/NoNamer777/feudum/issues/32)**: the plough, crops that strays trample, and grass on the pasture.
+- **[Farming](farming.md)**: the ard, the heavy plough, and the harrow, crops that strays trample, and the sward of the pasture.
 - **[Feed trough and hay](https://github.com/NoNamer777/feudum/issues/50)**: troughs and fodder.
 - **[Buildings](https://github.com/NoNamer777/feudum/issues/29)**: recognizing byres, sties, coops, dovecotes, and warrens.
 - **[Village economy](https://github.com/NoNamer777/feudum/issues/44)**: buying and selling livestock, and the pinfold fine.

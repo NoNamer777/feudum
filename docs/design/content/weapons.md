@@ -55,7 +55,7 @@ Every attack is one of four motions, read from how the camera turns over the las
 - A weapon type declares, for each motion it has, the damage kind, a damage scale, and a penetration fraction.
 - A motion the type doesn't declare falls back to its side swing, or to its thrust for a type without one, at reduced damage, so a falchion's thrust is a weak cut.
 - The direction of a swing also changes its damage and its timing: an overhead deals about ×1.25 damage and recovers more slowly, and a rising swing deals about ×0.85 damage and recovers faster.
-- Every held item has an attack profile. A pick pierces, an axe cuts, and a hammer or a shovel deals blunt damage. A bare fist or any other item deals a weak blunt hit. The design that owns a tool, such as Smithing or [Farming](https://github.com/NoNamer777/feudum/issues/32), may override its profile.
+- Every held item has an attack profile. A pick pierces, an axe cuts, and a hammer or a shovel deals blunt damage. A bare fist or any other item deals a weak blunt hit. The design that owns a tool, such as Smithing or [Farming](../mechanics/farming.md#tools-and-blocks), may override its profile.
 
 ### Armor penetration
 
