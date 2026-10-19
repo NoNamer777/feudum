@@ -272,7 +272,7 @@ A block or living entity that warms the felt temperature around it, or cools it,
 
 ### Cave temperature
 
-The yearly average of the local temperature at a place, which felt temperature blends toward below the surface.
+The yearly average of the local temperature at a place, which felt temperature and the room temperature of a cellar blend toward below the surface.
 
 ### Water temperature
 
@@ -903,3 +903,59 @@ How much a body has come to need drink, built by days of drunkenness, which brin
 ### Withdrawal
 
 The stages a dependent body goes through once sober: Craving, Shakes, and Delirium.
+
+## Food preservation
+
+### Keeping time
+
+How long an organic item lasts at 10 °C and dry before it rots, which runs down faster in warmth and wet.\
+_Avoid_: Shelf life, freshness
+
+### Spoilage stage
+
+One of the four stages an organic item passes through as its keeping time runs down: Fresh, Stale, Spoiled, and Rotten.
+
+### Rotten version
+
+The item an organic item turns into once its keeping time runs out, such as rotten pork from pork, which never spoils further.\
+_Avoid_: Rotten flesh
+
+### Sealed
+
+Of a container, such as a barrel or an earthenware crock: closed against rain, water, and vermin.
+
+### Cellar
+
+An enclosed room below the surface, whose room temperature settles toward the cave temperature.
+
+### Ice house
+
+An enclosed room kept near freezing by the ice or packed snow inside it.
+
+### Dry salting
+
+Curing meat or fish by layering it with salt in a barrel.
+
+### Brining
+
+Curing meat, fish, or vegetables by submerging them in strong brine, as for sauerkraut.
+
+### Soaking
+
+Steeping salted food in fresh water to draw out some of its salt before eating.
+
+### Cold smoking
+
+Preserving food on a smoking rack in an enclosed room with a smoldering fire, over days.
+
+### Hot smoking
+
+Cooking food on a smoking rack over an open hearth, which keeps it only a little longer.
+
+### Stockfish
+
+Cod dried unsalted in cold wind, which keeps for years.
+
+### Potting
+
+Preserving cooked meat in a crock sealed under a layer of fat.

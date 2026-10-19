@@ -67,9 +67,10 @@ The diagram shows side views of three shelters, each passing a different test: c
 - A space past the volume cap is covered, not enclosed.
 - Each enclosed space stores a room temperature, which drifts toward the balance between the heat its heat sources put in and the heat it loses. Each wall face loses heat by the insulation of its block, so timber holds heat better than stone, and a [wall hanging](textiles.md#hangings-and-rugs) raises the insulation of the face it hangs on. Each opening loses much more: an open door or trapdoor more than a closed one, and a missing block most of all.
 - A well-heated room with one hole stays fairly warm, an open barn stays barely above the outside temperature, and an unheated room settles to the outside temperature.
+- An enclosed space below the surface, by heightmap and without sky access, settles toward the cave temperature instead of the local temperature, so an unheated cellar stays cool in summer and above freezing in winter. [Food preservation](food-preservation.md#cold-storage) keeps food in it.
 - Room temperatures are cached and recomputed when a block of the space changes. They are dropped when the chunks unload, and the space starts from its balance when they load again.
 - Heat sources are data-driven: block tags map a block to a heat output in °C. In the open, the output falls off over a radius. In an enclosed space, the full output goes into the room temperature.
-- Cold sources, such as ice and packed snow, carry negative outputs.
+- Cold sources, such as ice and packed snow, carry negative outputs, so an ice house holds near freezing while its ice lasts.
 - Living entities are weak heat sources, so a herd warms its barn, a crowd warms a hall, and huddling works.
 - Enclosure belongs to body temperature. Buildings can reuse the check.
 
@@ -137,6 +138,7 @@ Body temperature owns thermal profiles, felt temperature and its inputs, the wet
 - **[Hunger](hunger.md)**: nourishment, how faster drain plays out, and the vegetable deficiency that narrows the comfort band.
 - **[Thirst](thirst.md)**: drinking, and how faster drain plays out.
 - **[Brewing](brewing.md)**: the alcohol level that warms felt temperature and speeds the drift toward the cold.
+- **[Food preservation](food-preservation.md)**: how the room temperature of a cellar or an ice house slows spoilage.
 - **[Fluids](fluids.md)**: the water a body swims in and the wet ground it lies on, both of which add wetness.
 - **[Health](health.md)**: the rule that modifiers of the same kind take the strongest.
 - **[Villagers](https://github.com/NoNamer777/feudum/issues/46)**: how villagers react to their body temperature.
