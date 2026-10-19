@@ -30,7 +30,7 @@ A village eats what it cooks. A pot of pottage simmers on the hearth from mornin
 
 ## Heat
 
-- Every cooking block takes its heat from a fire: the hearth burns its own, the heated cauldron sits over a hearth or a fire, and the bake oven stores the heat of its firing. [Fire](https://github.com/NoNamer777/feudum/issues/33) decides what burns, how long, and the heat output it gives.
+- Every cooking block takes its heat from a fire: the hearth burns its own, the heated cauldron sits over a hearth or a fire, and the bake oven stores the heat of its firing. [Fire](fire.md#fuels) decides what burns, how long, and the heat output it gives.
 - The heat output sets how fast a block cooks. Below a minimum heat, it doesn't cook at all.
 - A hearth is also a heat source under [Body temperature](body-temperature.md#shelter-and-heat), so the kitchen fire warms the room.
 
@@ -207,7 +207,7 @@ Each is a single block, not a structure of several:
 
 ## Vanilla content
 
-- Cooking food in the furnace and on the campfire stays off. [Smithing](https://github.com/NoNamer777/feudum/issues/86) decides the furnace, and [Fire](https://github.com/NoNamer777/feudum/issues/33) the campfire.
+- Cooking food in the furnace and on the campfire stays off. [Smithing](https://github.com/NoNamer777/feudum/issues/86) decides the furnace, and [Fire](fire.md#open-fire) replaces the campfire with the open fire.
 - The vanilla cauldron and its uses stay hidden, and the heated cauldron replaces them.
 - The vanilla bowl stays hidden, and the wooden bowl replaces it.
 - The recipes for cake, cookies, pumpkin pie, and the vanilla stews and soups stay hidden. [Foods](https://github.com/NoNamer777/feudum/issues/51) hides the items themselves.
@@ -245,7 +245,7 @@ Cooking owns how raw food becomes cooked food, the foul load that raw food adds,
 - **[Textiles](textiles.md)**: scouring wool.
 - **[Animal husbandry](animal-husbandry.md)**: the fat that rendering melts down.
 - **[Foods](https://github.com/NoNamer777/feudum/issues/51)**: every ingredient and cooked item with its raw and cooked food components, flour, the quern, casings, tallow, and lard.
-- **[Fire](https://github.com/NoNamer777/feudum/issues/33)**: the fire in the hearth and the oven, its fuel, heat output, smoke, and ash, and the campfire.
+- **[Fire](fire.md)**: the fire in the hearth and the oven, its fuel, heat output, smoke, and ash, the fireplace, and the open fire.
 - **[Dairy](https://github.com/NoNamer777/feudum/issues/135)**: milk products, and the butter used for frying.
 - **[Oil pressing](https://github.com/NoNamer777/feudum/issues/106)**: the oil used for frying.
 - **[Salt](https://github.com/NoNamer777/feudum/issues/66)**: the salt item and salt pans.

@@ -36,7 +36,7 @@ Barley, oats, and wheat all malt. Barley gives the most wort per measure of malt
 | Kiln  | Drying the sprouted grain over a fire in the malt kiln.               | About 1 day    |
 
 - Turning the couch is the hand step. Each day it misses loses some of the malt to mold.
-- Steeping and kilning are waiting steps. The kiln burns fuel, as [Fire](https://github.com/NoNamer777/feudum/issues/33) decides.
+- Steeping and kilning are waiting steps. The kiln burns fuel, as [Fire](fire.md#contained-fires) decides.
 - Dried malt keeps for months.
 
 ## Ale and beer
@@ -337,7 +337,7 @@ Brewing owns malting, brewing, pressing, treading, fermenting, and distilling, e
 - **[Food preservation](food-preservation.md)**: the cellar, and pickling with vinegar.
 - **[Drink containers](https://github.com/NoNamer777/feudum/issues/49)**: casks, jugs, and cups.
 - **[Watermill](https://github.com/NoNamer777/feudum/issues/67)** and **[Windmill](https://github.com/NoNamer777/feudum/issues/56)**: milling malt.
-- **[Fire](https://github.com/NoNamer777/feudum/issues/33)**: the fire under the alembic and the fuel of the kiln.
+- **[Fire](fire.md)**: the fire under the alembic and the fuel of the kiln.
 - **[Smithing](https://github.com/NoNamer777/feudum/issues/86)**: the copper alembic.
 - **[Bandage, splint, and salve](https://github.com/NoNamer777/feudum/issues/125)**: what a spirit does as an antiseptic.
 - **[Drink quality](https://github.com/NoNamer777/feudum/issues/130)**: whether drinks carry a quality.

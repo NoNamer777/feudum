@@ -1272,3 +1272,120 @@ A piece of dough kept back from one batch to leaven the next, fed with flour to 
 ### Rendering
 
 Melting fat in the heated cauldron into tallow or lard.
+
+## Fire
+
+### Fuel load
+
+How long a flammable block feeds a fire before it turns into its burnt form.
+
+### Ignition threshold
+
+How easily a flammable block catches fire.
+
+### Burnt form
+
+What a flammable block turns into once its fuel load runs out, such as air, charred timber, or burnt ground.
+
+### Charred timber
+
+The burnt form of logs and timber beams, which still stands but breaks fast and drops charcoal.
+
+### Burnt ground
+
+The burnt form of grass and planted dirt, which greens again over a few weeks.
+
+### Fire size
+
+How large a fire burns: Small, Medium, or Large, each hotter and faster than the last.
+
+### Smoldering fire
+
+A fire that gives much smoke and little heat, on green or damp fuel, on sawdust, under a cover of earth, or banked.
+
+### Dryness
+
+How dry a block is, computed from the recent weather and cover: Soaked, Damp, Dry, or Parched.\
+_Avoid_: Flammability, moisture
+
+### Green wood
+
+Firewood freshly cut, which burns at a lower heat and with heavy smoke until it seasons.
+
+### Seasoned wood
+
+Firewood stored under cover for about a season, which burns hot and clean.
+
+### Ember
+
+A burning fragment the wind carries downwind across a gap, which sets alight the blocks it lands on.
+
+### Spark
+
+A burning fragment an open fire throws onto the flammable blocks within 2 blocks of it.
+
+### Fire steel
+
+A steel striker that, struck on flint over tinder, lights the tinder.\
+_Avoid_: Flint and steel
+
+### Tinder
+
+Material that catches from a spark of the fire steel: char cloth, tinder fungus, dry grass, or shives.
+
+### Char cloth
+
+Linen charred in a closed tin in a fire, the readiest tinder.
+
+### Brand
+
+A stick lit at one fire to carry fire to another.
+
+### Kindling
+
+Fuel that catches fast and burns out fast, such as straw, shives, and dry grass, used to light larger fuel.
+
+### Fireplace
+
+A hearth set into a wall, which carries its smoke up a chimney.
+
+### Open fire
+
+A fire laid on the ground from fuel.\
+_Avoid_: Campfire
+
+### Contained fire
+
+A fire that burns in a block made for it, such as a hearth, a fireplace, an open fire, or an oven.
+
+### Banking
+
+Covering a fire with ash at night so it smolders until morning and can be revived without striking a light.
+
+### Ash pit
+
+The part of a hearth, fireplace, or open fire where its ash builds up, which chokes the fire to Medium once full.
+
+### Hearthstone
+
+A stone laid under an open fire that stops its sparks.
+
+### Fireguard
+
+An iron screen set in front of an open fire that stops its sparks.
+
+### Charcoal clamp
+
+Wood stacked and covered with turf or earth, then lit, which smolders for days and chars the wood into charcoal.
+
+### Room smoke
+
+The smoke an enclosed space holds, fed by its fires and drained by its openings and smoke exits: Hazy, Smoky, or Choking.
+
+### Smoke louver
+
+A roof block that drains smoke and loses heat as half an opening does.
+
+### Chimney
+
+A stone flue from a fireplace to open sky, which drains smoke well and loses little heat.

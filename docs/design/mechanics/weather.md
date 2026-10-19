@@ -152,7 +152,7 @@ Weather owns the weather field, fronts, weather values and labels, the wind and 
 - **[Villagers](https://github.com/NoNamer777/feudum/issues/46)**: how weather changes villager behavior.
 - **[Buildings](https://github.com/NoNamer777/feudum/issues/29)**: what weather does to buildings, storm damage included.
 - **[Skills](https://github.com/NoNamer777/feudum/issues/43)**: how well players and villagers read weather signs, and what a skilled reader learns beyond them.
-- **[Fire](https://github.com/NoNamer777/feudum/issues/33)**: how fire spreads, downwind included, and how rain puts it out.
+- **[Fire](fire.md)**: how fire spreads, downwind included, how lightning ignites it, how rain puts it out, and dryness.
 - **Body temperature**: what cold, heat, wetness, and wind do to living mobs.
 - **[Sailing](https://github.com/NoNamer777/feudum/issues/41)**: how boats under sail read the wind.
 - **[Extreme weather](https://github.com/NoNamer777/feudum/issues/31)**: tornadoes, hurricanes, and other extreme wind events.

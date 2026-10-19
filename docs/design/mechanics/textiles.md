@@ -230,7 +230,7 @@ The waste of each step, and how strongly it fouls the water it reaches as a [fou
 | Shives              | Scutching                | None      | Bedding and kindling.        |
 | Skirtings           | Skirting                 | As dung   | Counts as dung under Relief. |
 
-- Shives bed the dung heap as straw does, and kindle [Fire](https://github.com/NoNamer777/feudum/issues/33).
+- Shives bed the dung heap as straw does, and kindle [Fire](fire.md#lighting-a-fire).
 - Water poured out fouls the water it reaches, as waste in water does under Relief, and fouls wet ground where it lands.
 - The fouling rates are starting values to tune.
 
