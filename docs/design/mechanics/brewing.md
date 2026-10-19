@@ -134,7 +134,7 @@ Brewing owns how its drinks keep, since the rules come from fermentation: hops, 
 | Fortified wine                           | Years          | A few weeks       |
 | Spirits, low wines                       | Forever        | Forever           |
 
-- Cold slows souring and heat speeds it. [Food preservation](https://github.com/NoNamer777/feudum/issues/35) owns the cellar, and Brewing reads its temperature.
+- Cold slows souring and heat speeds it. [Food preservation](food-preservation.md#cold-storage) owns the cellar, and Brewing reads its temperature.
 - Soured ale, beer, and small beer become sour ale: still drinkable, with no cue of spoilage beyond its name and taste.
 - Soured cider, perry, wine, and mead become vinegar, which Food preservation uses for pickling and Cooking uses too.
 - A drink counts as opened once its cask is unsealed or it is drawn into a jug or cup. [Drink containers](https://github.com/NoNamer777/feudum/issues/49) owns the casks, jugs, and cups.
@@ -334,7 +334,7 @@ Brewing owns malting, brewing, pressing, treading, fermenting, and distilling, e
 - **[Beekeeping](https://github.com/NoNamer777/feudum/issues/128)**: honey.
 - **[Cooking](https://github.com/NoNamer777/feudum/issues/30)**: the heated cauldron, bread leavened with barm, and dishes with verjuice and vinegar.
 - **[Foods](https://github.com/NoNamer777/feudum/issues/51)**: the quern, and windfall fruit.
-- **[Food preservation](https://github.com/NoNamer777/feudum/issues/35)**: the cellar, and pickling with vinegar.
+- **[Food preservation](food-preservation.md)**: the cellar, and pickling with vinegar.
 - **[Drink containers](https://github.com/NoNamer777/feudum/issues/49)**: casks, jugs, and cups.
 - **[Watermill](https://github.com/NoNamer777/feudum/issues/67)** and **[Windmill](https://github.com/NoNamer777/feudum/issues/56)**: milling malt.
 - **[Fire](https://github.com/NoNamer777/feudum/issues/33)**: the hearth under the alembic and the fuel of the kiln.

@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 890 610" width="890" height="610" role="img" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#1f2328">
+  <title>How each kind of food is preserved by salting, smoking, drying, pickling, potting, and honey</title>
+  <rect x="0.5" y="0.5" width="889" height="609" rx="6" fill="#ffffff" stroke="#d0d7de"/>
+  <defs>
+    <marker id="e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#57606a"/></marker>
+  </defs>
+  <path d="M160 120 C 275.0 120, 275.0 63, 388 63" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M160 120 C 275.0 120, 275.0 101, 388 101" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M160 120 C 275.0 120, 275.0 139, 388 139" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M160 120 C 275.0 120, 275.0 177, 388 177" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M160 292 C 275.0 292, 275.0 235, 388 235" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M160 292 C 275.0 292, 275.0 273, 388 273" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M160 292 C 275.0 292, 275.0 311, 388 311" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M160 292 C 275.0 292, 275.0 343, 388 343" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M160 349 H388" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M160 407 C 275.0 407, 275.0 355, 388 355" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M160 407 H388" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M160 484 C 275.0 484, 275.0 465, 388 465" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M160 484 C 275.0 484, 275.0 503, 388 503" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M160 561 H388" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M570 63 H718" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M570 235 H718" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <path d="M160 120 C 275.0 120, 275.0 63, 388 63" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M160 120 C 275.0 120, 275.0 101, 388 101" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M160 120 C 275.0 120, 275.0 139, 388 139" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M160 120 C 275.0 120, 275.0 177, 388 177" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M160 292 C 275.0 292, 275.0 235, 388 235" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M160 292 C 275.0 292, 275.0 273, 388 273" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M160 292 C 275.0 292, 275.0 311, 388 311" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M160 292 C 275.0 292, 275.0 343, 388 343" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M160 349 H388" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M160 407 C 275.0 407, 275.0 355, 388 355" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M160 407 H388" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M160 484 C 275.0 484, 275.0 465, 388 465" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M160 484 C 275.0 484, 275.0 503, 388 503" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M160 561 H388" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M570 63 H718" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <path d="M570 235 H718" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#e)"/>
+  <text x="382" y="58" text-anchor="end" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">dry salted</text>
+  <text x="382" y="96" text-anchor="end" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">dried</text>
+  <text x="382" y="154" text-anchor="end" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">potted under fat</text>
+  <text x="382" y="192" text-anchor="end" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">hot smoked</text>
+  <text x="382" y="230" text-anchor="end" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">salted or brined</text>
+  <text x="382" y="268" text-anchor="end" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">cold smoked</text>
+  <text x="382" y="326" text-anchor="end" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">dried in cold wind</text>
+  <text x="215" y="344" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">pickled in vinegar</text>
+  <text x="275" y="402" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">brined</text>
+  <text x="382" y="460" text-anchor="end" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">dried</text>
+  <text x="382" y="518" text-anchor="end" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">packed in honey</text>
+  <text x="275" y="556" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">dried</text>
+  <text x="645" y="58" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">cold smoked</text>
+  <text x="645" y="230" text-anchor="middle" font-size="11.5" fill="#59636e" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">cold smoked</text>
+  <rect x="20" y="107" width="140" height="26" rx="6" fill="#f6f8fa" stroke="#8c959f"/>
+  <text x="90" y="124.5" text-anchor="middle">Meat</text>
+  <rect x="20" y="279" width="140" height="26" rx="6" fill="#f6f8fa" stroke="#8c959f"/>
+  <text x="90" y="296.5" text-anchor="middle">Fish</text>
+  <rect x="20" y="336" width="140" height="26" rx="6" fill="#f6f8fa" stroke="#8c959f"/>
+  <text x="90" y="353.5" text-anchor="middle">Eggs</text>
+  <rect x="20" y="394" width="140" height="26" rx="6" fill="#f6f8fa" stroke="#8c959f"/>
+  <text x="90" y="411.5" text-anchor="middle">Vegetables</text>
+  <rect x="20" y="471" width="140" height="26" rx="6" fill="#f6f8fa" stroke="#8c959f"/>
+  <text x="90" y="488.5" text-anchor="middle">Fruit</text>
+  <rect x="20" y="548" width="140" height="26" rx="6" fill="#f6f8fa" stroke="#8c959f"/>
+  <text x="90" y="565.5" text-anchor="middle">Herbs, peas, beans</text>
+  <rect x="390" y="50" width="180" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="480" y="67.5" text-anchor="middle" font-weight="600">Salt meat</text>
+  <rect x="390" y="88" width="180" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="480" y="105.5" text-anchor="middle" font-weight="600">Dried meat</text>
+  <rect x="390" y="126" width="180" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="480" y="143.5" text-anchor="middle" font-weight="600">Potted meat</text>
+  <rect x="390" y="164" width="180" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="480" y="181.5" text-anchor="middle" font-weight="600">Hot-smoked meat</text>
+  <rect x="390" y="222" width="180" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="480" y="239.5" text-anchor="middle" font-weight="600">Salt fish</text>
+  <rect x="390" y="260" width="180" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="480" y="277.5" text-anchor="middle" font-weight="600">Smoked herring</text>
+  <rect x="390" y="298" width="180" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="480" y="315.5" text-anchor="middle" font-weight="600">Stockfish</text>
+  <rect x="390" y="336" width="180" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="480" y="353.5" text-anchor="middle" font-weight="600">Pickles</text>
+  <rect x="390" y="394" width="180" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="480" y="411.5" text-anchor="middle" font-weight="600">Sauerkraut, salted beans</text>
+  <rect x="390" y="452" width="180" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="480" y="469.5" text-anchor="middle" font-weight="600">Dried fruit</text>
+  <rect x="390" y="490" width="180" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="480" y="507.5" text-anchor="middle" font-weight="600">Honey preserves</text>
+  <rect x="390" y="548" width="180" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="480" y="565.5" text-anchor="middle" font-weight="600">Dried herbs, peas, beans</text>
+  <rect x="720" y="50" width="150" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="795" y="67.5" text-anchor="middle" font-weight="600">Ham, bacon</text>
+  <rect x="720" y="222" width="150" height="26" rx="6" fill="#ffffff" stroke="#8c959f"/>
+  <text x="795" y="239.5" text-anchor="middle" font-weight="600">Red herring</text>
+</svg>

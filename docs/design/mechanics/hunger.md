@@ -153,6 +153,6 @@ Hunger owns diet profiles, the stomach, energy, food groups and group levels, dr
 - **[Farming](https://github.com/NoNamer777/feudum/issues/32)**: how grass grows back with the season.
 - **[Wildlife](https://github.com/NoNamer777/feudum/issues/47)**: hunting live prey, such as stalking, pack tactics, and prey that flees.
 - **[Cooking](https://github.com/NoNamer777/feudum/issues/30)**: how preparing and combining food sets its food component.
-- **[Food preservation](https://github.com/NoNamer777/feudum/issues/35)**: spoilage, salting, smoking, and cellars.
+- **[Food preservation](food-preservation.md)**: keeping times and spoilage, the preserved foods that salting, smoking, drying, and pickling make, and their nutrition.
 - **[Animal husbandry](https://github.com/NoNamer777/feudum/issues/27)**: breeding, beyond its hunger requirement.
 - **[Foods](https://github.com/NoNamer777/feudum/issues/51)** and **[Feed trough and hay](https://github.com/NoNamer777/feudum/issues/50)**: the food and fodder that Feudum adds.
