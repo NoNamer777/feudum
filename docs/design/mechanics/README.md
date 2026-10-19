@@ -11,6 +11,7 @@ The game mechanics of Feudum. A mechanic gets its own page in this folder once i
 - **[Food preservation](food-preservation.md)**: keeping times and the stages of spoilage, how temperature, wetness, and containers set the rate, cellars and ice houses, salting, smoking, drying, pickling, potting, and honey preserves, and rotten items.
 - **[Health](health.md)**: a pool of health for each body part, where hits land, blood and bleeding, injuries and their treatment, natural healing, the Downed and Unconscious states, and the rule that combines the modifiers of every need.
 - **[Hunger](hunger.md)**: diet profiles for every mob that eats, the stomach, energy, and food groups, drain and its stages, deficiencies and cravings, and the feeding goal of animals.
+- **[Hygiene](hygiene.md)**: grime, mud, and bloodstain on bodies and garments, smell and scent, washing in basins, tubs, stone baths, and open water, laundry and drying, lye and soap, and dirty animals.
 - **[Realms](realms.md)**: fealty between manors, the realm record and its sovereign, tribute, aid, and wish weight up and down the chain, peace in the realm, liege realms, and rank.
 - **[Relief](relief.md)**: the bladder and bowels, their stages and accidents, relieving and where waste goes, how waste fouls water and fades, and the dung heap that rots it into manure.
 - **[Textiles](textiles.md)**: six fibers from retting and shearing to thread, rope, and cloth, fulling and felt, dyes, overdyeing, and fading, the lant tub, and wall hangings and rugs.

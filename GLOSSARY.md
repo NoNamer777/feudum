@@ -1042,3 +1042,94 @@ _Avoid_: Pound
 
 The state of an animal with less than its species' minimum area, which can't conceive and grows and yields more slowly.\
 _Avoid_: Overcrowding
+
+## Hygiene
+
+### Dirt
+
+The grime, mud, and bloodstain on a body or a garment, each from clean to filthy.\
+_Avoid_: Cleanliness, hygiene level
+
+### Grime
+
+The dirt of sweat, dust, and soot, which builds with time and labor.
+
+### Mud
+
+The dirt of wet soil, half of which flakes off as it dries.
+
+### Bloodstain
+
+Blood on the skin or a garment, from bleeding, fighting, or butchering. Not the blood that bleeding drains.
+
+### Smell
+
+What a body gives off, derived from its grime, its bloodstain, the dirt of its worn garments, and Soiled, in the stages Fresh, Stale, Rank, and Foul.\
+_Avoid_: Odor, stink
+
+### Scent
+
+How far a body's smell and bloodstain carry for animals and villagers to sense, farther downwind.
+
+### Dirt block
+
+The part of a diet profile that sets how a species gets dirty, and whether it wallows.
+
+### Washbasin
+
+A basin on a stand that holds 5 liters for a sponge bath.
+
+### Wooden tub
+
+A block that holds 300 liters, in which a body soaks.\
+_Avoid_: Bathtub
+
+### Stone bath
+
+A pool of water lined on every side and below with bath stone.\
+_Avoid_: Pool
+
+### Bath furnace
+
+A block set against a stone bath that heats its water while it burns fuel.
+
+### Soak
+
+Washing by sitting in a tub or a stone bath, which washes the body and every garment it wears.
+
+### Lathered
+
+The state of a body or garment rubbed with soft soap, until its next wash.
+
+### Laundry
+
+Washing a garment off the body, at open water, a tub, or a washbasin.
+
+### Battledore
+
+A wooden bat that halves the time of laundry.
+
+### Clothesline
+
+A line strung between two posts, on which garments and towels dry in the open air.
+
+### Drying rack
+
+A block on which garments and towels dry by the heat sources around it.
+
+### Lye
+
+The liquid leached from wood ash in a lye barrel, which is boiled into soft soap.
+
+### Soft soap
+
+Lye boiled with tallow or oil, which washes grime off in cold water.\
+_Avoid_: Soap bar
+
+### Curry brush
+
+A tool that clears the mud and grime from an animal.
+
+### Wallowing
+
+A species rolling in mud while Overheated, since mud cools like wetness and dries slower.

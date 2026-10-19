@@ -48,7 +48,7 @@ The stage follows whichever store is fuller, as a share of its capacity. Thresho
 
 - An accident empties the full store where the body stands, as [Relieving](#relieving) on open ground does, and leaves the body Soiled.
 - A Soiled body clears once it is washed, by immersion in water or by pouring a container of water over itself. Immersion adds the waste to the water, as [Waste in water](#waste-in-water) describes, and pouring leaves foul wet ground. An accident also soils the garment on the legs, and a body that wears a soiled garment stays Soiled, as [Clothing](../content/clothing.md#soiling) describes.
-- [Washing and bathhouses](https://github.com/NoNamer777/feudum/issues/75) plans washbasins and bathhouses as further ways to wash.
+- [Hygiene](hygiene.md#washing) adds washbasins, tubs, and stone baths as further ways to wash.
 - [Illness](https://github.com/NoNamer777/feudum/issues/37) decides whether a Soiled body or deep dung makes a body sick.
 
 ## Relieving
@@ -166,7 +166,7 @@ Relief owns the bladder and bowels, how they fill, the stages and their effects,
 - **[Villagers](https://github.com/NoNamer777/feudum/issues/46)**: when and where a villager relieves, such as the chamber pot at night and the privy by day.
 - **[Gong farmer](https://github.com/NoNamer777/feudum/issues/73)**: the villager who empties privy pits and carries night soil to the dung heap.
 - **[Inns and taverns](https://github.com/NoNamer777/feudum/issues/74)**: when a guest may use the privy of the house.
-- **[Washing and bathhouses](https://github.com/NoNamer777/feudum/issues/75)**: washbasins, bathhouses, and the wetness that washing leaves.
+- **[Hygiene](hygiene.md)**: washbasins, tubs, and stone baths, the wetness that washing leaves, and the smell of a Soiled body.
 - **[Village simulation](https://github.com/NoNamer777/feudum/issues/45)**: filling privy pits and dung heaps abstractly while a village is unloaded.
 - **[Buildings](https://github.com/NoNamer777/feudum/issues/29)**: which building a privy belongs to, and privies and barns as parts of a village.
 - **[Privy and chamber pot](https://github.com/NoNamer777/feudum/issues/71)** and **[Dung and manure](https://github.com/NoNamer777/feudum/issues/72)**: the blocks and items that hold and carry waste.

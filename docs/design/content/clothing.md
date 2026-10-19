@@ -115,7 +115,7 @@ Each garment carries its own wetness, from dry to soaked. The wetness of [Body t
 - Worn garments dry from the outside in, by felt temperature, sun, sheltered wind, and nearby heat sources, as the body does. Body heat also dries the underlayer.
 - A garment carried in the inventory dries slowly, by the felt temperature of its holder.
 - A garment in a container dries at a slow fixed rate, brought up to date from the elapsed time when the container is next opened, under the rule [Inventory](https://github.com/NoNamer777/feudum/issues/83) owns for items that change while stored.
-- [Washing and bathhouses](https://github.com/NoNamer777/feudum/issues/75) owns fast drying, such as a clothesline or a rack by the hearth.
+- [Hygiene](../mechanics/hygiene.md#drying) owns fast drying: the clothesline, the drying rack, and the towel.
 
 ## Wear and mending
 
@@ -128,6 +128,7 @@ Each garment carries its own wetness, from dry to soaked. The wetness of [Body t
 - An [accident](../mechanics/relief.md#accidents) soils the garment on the legs, if one is worn, and leaves the body Soiled.
 - A body wearing a soiled garment stays Soiled.
 - Immersion washes the body and every garment it wears. Washing a body without the garment leaves the garment soiled until it is washed on its own.
+- Garments also carry grime, mud, and bloodstain, and [Hygiene](../mechanics/hygiene.md#garments) owns how they get dirty and how [laundry](../mechanics/hygiene.md#laundry) washes them.
 
 ## Making clothing
 
@@ -180,6 +181,6 @@ Clothing owns the regions, layers, and slots, garment types and materials, and h
 - **[Tailor](https://github.com/NoNamer777/feudum/issues/81)**: the villager who sews and mends at the tailor's bench.
 - **[Social standing of dress](https://github.com/NoNamer777/feudum/issues/82)**: whether garments carry a fineness, and how Villagers and standing read dress.
 - **[Inventory](https://github.com/NoNamer777/feudum/issues/83)**: the rest of the inventory screen, and the rule for items that change while stored.
-- **[Washing and bathhouses](https://github.com/NoNamer777/feudum/issues/75)**: washing soiled garments, and fast drying.
+- **[Hygiene](../mechanics/hygiene.md)**: the dirt of garments, laundry, and fast drying.
 - **[Villagers](https://github.com/NoNamer777/feudum/issues/46)** and **[Village economy](https://github.com/NoNamer777/feudum/issues/44)**: who gets new clothes, and where they come from.
 - **[Tack and barding](https://github.com/NoNamer777/feudum/issues/139)**: gear for mounts.
