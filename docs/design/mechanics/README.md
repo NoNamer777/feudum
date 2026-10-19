@@ -4,6 +4,7 @@ The game mechanics of Feudum. A mechanic gets its own page in this folder once i
 
 ## Designed
 
+- **[Animal husbandry](animal-husbandry.md)**: livestock and where it comes from, breeding in its season, pregnancy, birth, nursing, growth, and old age, heritable traits and breeds, fleece and eggs, slaughter and butchering, ownership and strays, herding, draft work, and crowding.
 - **[Body temperature](body-temperature.md)**: thermal profiles for every living mob, felt temperature and its inputs, wetness, shelter and room temperature, and the stages of cold and heat.
 - **[Brewing](brewing.md)**: malting, ale and beer, cider, perry, wine, and mead, fermentation that makes water safe, distilling, keeping and souring, and drunkenness with its hangover, tolerance, dependence, and withdrawal.
 - **[Fluids](fluids.md)**: finite, volumetric water, rivers on a generated drainage network, the water cycle and groundwater, salinity and foulness, and how bodies swim and float.

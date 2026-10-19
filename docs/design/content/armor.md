@@ -7,7 +7,7 @@ Armor goes on over clothing: mail over a gambeson, a helm over a coif and an arm
 ## Scope
 
 - Players and humanoid mobs wear armor, in the armor layer and helm slot of [Clothing](clothing.md#slots). Clothing owns the slots and how their layers stack.
-- Animals wear none. Gear for mounts belongs to [Animal husbandry](https://github.com/NoNamer777/feudum/issues/27).
+- Animals wear none. Gear for mounts belongs to [Tack and barding](https://github.com/NoNamer777/feudum/issues/139).
 - This page owns the armor pieces, damage kinds, where a hit lands, and how protection combines, including the protection of padded garments.
 
 ## Slots
@@ -132,7 +132,7 @@ Armor materials carry the thermal stats of [Body temperature](../mechanics/body-
 ### Rust and oiling
 
 - Iron and steel pieces, brigandine included, **rust** while they stay wet: they slowly lose durability until they dry.
-- Rubbing a piece with tallow leaves it **Oiled**, and it can't rust for about one week (8 days). The tallow comes from [Tanning](https://github.com/NoNamer777/feudum/issues/80) or [Animal husbandry](https://github.com/NoNamer777/feudum/issues/27).
+- Rubbing a piece with tallow leaves it **Oiled**, and it can't rust for about one week (8 days). The tallow comes from [Tanning](https://github.com/NoNamer777/feudum/issues/80) or [Animal husbandry](../mechanics/animal-husbandry.md#slaughter-and-butchering).
 - Bronze doesn't rust, since its patina protects it.
 - Hardened leather softens instead: it loses durability while soaked, much more slowly than metal rusts.
 
@@ -167,7 +167,7 @@ Armor materials carry the thermal stats of [Body temperature](../mechanics/body-
 
 - Every vanilla armor item is hidden, along with armor trims, smithing templates, and the vanilla armor stand.
 - Vanilla armor enchantments are disabled with the rest of enchanting.
-- Shields belong to [Weapons](weapons.md#shields), and horse and wolf armor to Animal husbandry.
+- Shields belong to [Weapons](weapons.md#shields), and horse and wolf armor to [Tack and barding](https://github.com/NoNamer777/feudum/issues/139).
 
 ## Appearance
 
@@ -203,4 +203,5 @@ Armor owns the armor pieces, their types and materials, damage kinds, struck reg
 - **[Tanning](https://github.com/NoNamer777/feudum/issues/80)**: leather and tallow.
 - **[Textiles](../mechanics/textiles.md)**: the hemp cloth of brigandine.
 - **[Villagers](https://github.com/NoNamer777/feudum/issues/46)**, **[Village economy](https://github.com/NoNamer777/feudum/issues/44)**, and **[Village defense](https://github.com/NoNamer777/feudum/issues/90)**: who in a village wears armor, and where it comes from.
-- **[Animal husbandry](https://github.com/NoNamer777/feudum/issues/27)**: gear for mounts, and tallow.
+- **[Animal husbandry](../mechanics/animal-husbandry.md)**: tallow.
+- **[Tack and barding](https://github.com/NoNamer777/feudum/issues/139)**: gear for mounts, including horse and wolf armor.

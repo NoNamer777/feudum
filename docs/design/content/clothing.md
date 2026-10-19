@@ -7,7 +7,7 @@ A body dresses in layers: linen against the skin, wool or leather over it, armor
 ## Scope
 
 - Players and humanoid mobs, such as villagers, wear clothing. [ADR 0012](../../adr/0012-bodies-wear-clothing-in-three-layers.md) records why bodies wear it in three layers.
-- Animals wear nothing: their warmth is the natural insulation of their [thermal profile](../mechanics/body-temperature.md#thermal-profiles). Gear for mounts belongs to [Animal husbandry](https://github.com/NoNamer777/feudum/issues/27).
+- Animals wear nothing: their warmth is the natural insulation of their [thermal profile](../mechanics/body-temperature.md#thermal-profiles). Gear for mounts belongs to [Tack and barding](https://github.com/NoNamer777/feudum/issues/139).
 - This page owns the slots and how their layers stack. [Armor](armor.md) owns the pieces of the armor layer and the helm slot, and [Weapons](weapons.md) owns what goes in the back and belt slots.
 - Feudum garments replace vanilla's leather armor, and Armor replaces the rest of vanilla armor. Other vanilla wearables, such as the turtle shell, mob heads, and the elytra, stay hidden.
 
@@ -182,4 +182,4 @@ Clothing owns the regions, layers, and slots, garment types and materials, and h
 - **[Inventory](https://github.com/NoNamer777/feudum/issues/83)**: the rest of the inventory screen, and the rule for items that change while stored.
 - **[Washing and bathhouses](https://github.com/NoNamer777/feudum/issues/75)**: washing soiled garments, and fast drying.
 - **[Villagers](https://github.com/NoNamer777/feudum/issues/46)** and **[Village economy](https://github.com/NoNamer777/feudum/issues/44)**: who gets new clothes, and where they come from.
-- **[Animal husbandry](https://github.com/NoNamer777/feudum/issues/27)**: gear for mounts.
+- **[Tack and barding](https://github.com/NoNamer777/feudum/issues/139)**: gear for mounts.
