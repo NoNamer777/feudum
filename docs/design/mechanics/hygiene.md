@@ -84,7 +84,7 @@ Hygiene decides how smell moves [standing](villages.md#standing-and-wishes), and
 
 ### Health
 
-- [Illness](https://github.com/NoNamer777/feudum/issues/37) decides whether dirt or bloodstain in an [open wound](health.md#injuries) makes a body sick.
+- Grime and mud raise the chance that an [open wound](health.md#injuries) rots, and grime on the hands raises the chance of passing a disease by touch, as [Illness](illness.md#open-wounds) describes. Bloodstain doesn't count, since it is blood, not filth.
 
 ## Washing
 
@@ -256,7 +256,7 @@ Hygiene owns grime, mud, and bloodstain, how bodies and garments get dirty, smel
 - **[Groom](https://github.com/NoNamer777/feudum/issues/147)**: the villager who brushes a manor's horses.
 - **[Villagers](https://github.com/NoNamer777/feudum/issues/46)**: when and where villagers wash, and how they react to smell and bloodstain.
 - **[Wildlife](https://github.com/NoNamer777/feudum/issues/47)** and **[Stealth](https://github.com/NoNamer777/feudum/issues/89)**: how scent is sensed.
-- **[Illness](https://github.com/NoNamer777/feudum/issues/37)**: what dirt and bloodstain in a wound do to a body.
+- **[Illness](illness.md)**: what grime and mud in a wound do to a body, and how grime on the hands spreads disease by touch.
 - **[Cooking](https://github.com/NoNamer777/feudum/issues/30)**: the heated cauldron that heats water and boils soap.
 - **[Fire](https://github.com/NoNamer777/feudum/issues/33)**: wood ash.
 - **[Oil pressing](https://github.com/NoNamer777/feudum/issues/106)**: the oil for soap.

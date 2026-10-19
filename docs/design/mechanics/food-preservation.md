@@ -29,7 +29,7 @@ Everything a village grows, hunts, or shears starts to spoil the day it is taken
 | Spoiled | 80–100%    | 50% of its energy and 25% of its group amounts, and a foul load.           |
 | Rotten  | Past 100%  | Turns into its rotten version, as [Rotten items](#rotten-items) describes. |
 
-- Eating Spoiled food adds to the [foul load](thirst.md#model) of Thirst, as foul water does. [Illness](https://github.com/NoNamer777/feudum/issues/37) decides what the foul load does.
+- Eating Spoiled food adds to the [foul load](thirst.md#model) of Thirst, as foul water does. [Illness](illness.md#foul-load) decides what the foul load does.
 - For an item that isn't food, Stale and Spoiled lower what it yields: a Stale hide gives less leather, and a Spoiled seed may not sprout. The design that uses the item sets how much, such as Tanning for hides and [Farming](https://github.com/NoNamer777/feudum/issues/32) for seeds.
 - Two stacks of the same item merge only when their remaining keeping times round to the same Feudum hour, so a field harvested in one go stacks, and food from different days stays apart. The hour is a starting value to tune.
 - Food placed as a block, such as a pie or a hay bale, spoils by the same rules, and so does an item dropped on the ground. Crops still growing in the field don't spoil; Farming decides what happens to them.
@@ -257,7 +257,7 @@ Food preservation owns keeping times, the stages of spoilage and their effects, 
 - **[Beekeeping](https://github.com/NoNamer777/feudum/issues/128)**: honey.
 - **[Farming](https://github.com/NoNamer777/feudum/issues/32)**: crops in the field, and what a Spoiled seed does.
 - **[Tanning](https://github.com/NoNamer777/feudum/issues/80)**: hides once they are tanned, and what a Stale hide yields.
-- **[Illness](https://github.com/NoNamer777/feudum/issues/37)**: what the foul load of Spoiled food does.
+- **[Illness](illness.md)**: what the foul load of Spoiled food does.
 - **[Vermin](https://github.com/NoNamer777/feudum/issues/136)**: rats and mice in the stores, which a sealed container keeps out.
 - **[Inventory](https://github.com/NoNamer777/feudum/issues/83)**: chests and general storage.
 - **[Drink containers](https://github.com/NoNamer777/feudum/issues/49)**: casks, jugs, and cups.

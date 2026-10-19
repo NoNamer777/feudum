@@ -20,7 +20,7 @@ The diagram shows how food and drink move through the stores of [Hunger](hunger.
 
 - A body carries a bladder and bowels, which the [stomach](hunger.md#model) of Hunger and the [hydration](thirst.md#model) of Thirst fill.
 - **Bladder**: fills with the water that passes off once hydration is full, and with the share of the hydration drain that leaves as urine: the base drain and the salt load. Exertion and heat drain leave as sweat and fill nothing, so a body passes little on a hot day of hard work.
-- **Bowels**: fill as the stomach digests, by the residue of what digests, as [Food](#food) describes.
+- **Bowels**: fill as the stomach digests, by the residue of what digests, as [Food](#food) describes, and fast under the flux of [Illness](illness.md#symptoms).
 - Relieving empties a store. Neither store drains on its own.
 - While the body sleeps, the bladder fills at half its rate, so a body that relieved before bed sleeps through the night.
 - Relief advances by the Feudum time that passed, so it follows the day length and the sleep speed-up.
@@ -49,7 +49,7 @@ The stage follows whichever store is fuller, as a share of its capacity. Thresho
 - An accident empties the full store where the body stands, as [Relieving](#relieving) on open ground does, and leaves the body Soiled.
 - A Soiled body clears once it is washed, by immersion in water or by pouring a container of water over itself. Immersion adds the waste to the water, as [Waste in water](#waste-in-water) describes, and pouring leaves foul wet ground. An accident also soils the garment on the legs, and a body that wears a soiled garment stays Soiled, as [Clothing](../content/clothing.md#soiling) describes.
 - [Hygiene](hygiene.md#washing) adds washbasins, tubs, and stone baths as further ways to wash.
-- [Illness](https://github.com/NoNamer777/feudum/issues/37) decides whether a Soiled body or deep dung makes a body sick.
+- A Soiled body raises the chance of wound rot and lockjaw, and passes the flux by touch, as [Illness](illness.md) describes.
 
 ## Relieving
 
@@ -118,7 +118,7 @@ Relief decides how relieving moves [standing](villages.md#standing-and-wishes), 
 
 - Animals share one relieving goal: past Urge, they stop and relieve where they stand, and leave dung there.
 - A grazing herd spreads its dung across the pasture, where it fades in the open. Stabled animals pile it on the barn floor.
-- Animals walk around dung layers deeper than half a block, and a pen floored in deep dung is a matter for Illness.
+- Animals walk around dung layers deeper than half a block, and a pen floored in deep dung breeds murrain and foot rot, as [Illness](illness.md#first-cases) describes.
 - A diet profile can let a species seek a spot instead, so a cat or a trained dog goes outside before it relieves.
 
 ## Diet profiles
@@ -158,7 +158,7 @@ Relief owns the bladder and bowels, how they fill, the stages and their effects,
 - **[Fluids](fluids.md)**: how foulness spreads in water and groundwater, and how it decays.
 - **[Villages](villages.md)**: the standing scale.
 - **[Health](health.md)**: the rule that modifiers of the same kind take the strongest.
-- **[Illness](https://github.com/NoNamer777/feudum/issues/37)**: what a Soiled body, deep dung, and fouled water do to a body.
+- **[Illness](illness.md)**: what a Soiled body, deep dung, and a sick body's waste do.
 - **[Farming](https://github.com/NoNamer777/feudum/issues/32)**: what manure and fresh waste do to the soil.
 - **[Brewing](brewing.md)**: the alcohol amount of drinks.
 - **[Segmented sleep](https://github.com/NoNamer777/feudum/issues/42)**: the waking hour that a full bladder already brings.

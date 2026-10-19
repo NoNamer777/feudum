@@ -1133,3 +1133,86 @@ A tool that clears the mud and grime from an animal.
 ### Wallowing
 
 A species rolling in mud while Overheated, since mud cools like wetness and dries slower.
+
+## Illness
+
+### Disease
+
+A named, data-driven sickness with its hosts, symptoms, routes, spans, and immunity, such as the flux or murrain.\
+_Avoid_: Status effect, infection
+
+### Variant
+
+A disease that inherits every value of another and overrides some, as bloody flux does for the flux.
+
+### Turning
+
+A disease at Grave becoming another, as wound rot becomes gangrene.
+
+### Severity
+
+How far a disease has gone in a body, from 0 to 100%, which its symptoms scale with.
+
+### Incubating
+
+The state of a body that carries a disease but shows no symptoms yet.
+
+### Ailing
+
+The stage of a disease below 33% severity for a human, with faint symptoms.
+
+### Sick
+
+The stage of a disease from 33% severity for a human, with strong symptoms and no healing.
+
+### Grave
+
+The stage of a disease from 66% severity for a human, which deals illness damage under `harsh`.
+
+### Recovering
+
+The state of a body whose disease has turned, while its severity falls back to 0.
+
+### Immune
+
+The state of a body that can't catch a disease again until its immunity span runs out.
+
+### Care
+
+How a sick body is kept: in bed, warm, fed, and watered, which turns its course sooner and speeds its recovery.
+
+### Symptom
+
+One effect of a disease that acts through an existing mechanic, such as fever, the flux, or weakness.
+
+### Route
+
+A way a disease passes to a body: the foul load, an open wound, breath, waste, touch, a shared thing, or a vector.
+
+### Shared thing
+
+A garment, bedding, drink container, or trough that carries the disease of the sick body that used it.
+
+### Vector
+
+An entity type that passes a disease to the bodies it bites or lives near, without falling sick itself, such as a flea.
+
+### Carrier
+
+A survivor of a disease that shows no symptoms but keeps spreading it, as some survivors of enteric fever do.
+
+### Foul tolerance
+
+How well a species shrugs off its foul load, set in the thirst block of its diet profile.
+
+### Murrain
+
+The name villagers give every plague of livestock, such as cattle plague or swine fever.
+
+### Tainted ground
+
+Ground where an animal that died of anthrax lies or was buried, which infects grazing livestock for many years.
+
+### Illness damage
+
+The periodic damage to the chest of a body whose disease is Grave.

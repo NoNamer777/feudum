@@ -109,7 +109,7 @@ A hit can injure the pool it lands in. The chance and the severity of an injury 
 - **Burn**: from fire and lava on the pools they reach. Its degree grows with the exposure.
 - **Concussion**: from a blunt hit to the head over a threshold, with a chance of knocking the body out. It rings and blurs the view.
 - Under `off`, hits cause no injuries.
-- A bandaged heavy bleed leaves an open wound, and [Illness](https://github.com/NoNamer777/feudum/issues/37) decides whether it festers.
+- A bandaged heavy bleed leaves an open wound, and [Illness](illness.md#open-wounds) decides whether it rots.
 
 ### Treatment
 
@@ -169,7 +169,7 @@ Hunger, Thirst, Body temperature, Relief, and Brewing defer to this rule for how
 - A red edge creeps into the view as the head and chest pools fall, and the heartbeat of Starving plays near 0.
 - A damaged leg limps, and a damaged arm's hand trembles.
 - A bleeding body drips blood. A concussion rings and blurs the view, and Faint washes it out.
-- The inventory screen has a body panel that names the state of each pool in words (unhurt, bruised, hurt, badly hurt, or disabled) and lists its injuries, with no numbers.
+- The inventory screen has a body panel that names the state of each pool in words (unhurt, bruised, hurt, badly hurt, or disabled) and lists its injuries, with no numbers. It also names the diseases that [Illness](illness.md#cues) shows.
 - A player can open the same panel on another body they look at, so a healer can see what to treat.
 - Mobs show their state too: bandages, limps, and blood.
 
@@ -224,7 +224,7 @@ Health owns body profiles, pools and the region multipliers, which pool a hit la
 - **[Thirst](thirst.md)**: the stages that stop healing.
 - **[Body temperature](body-temperature.md)** and **[Relief](relief.md)**: modifiers under the rule of [Modifiers](#modifiers), and the damage of hypothermia and heatstroke.
 - **[Fluids](fluids.md)**: breath, and when a body under water starts to drown.
-- **[Illness](https://github.com/NoNamer777/feudum/issues/37)**: whether an open wound festers, and the damage that sickness deals.
+- **[Illness](illness.md)**: wound rot on an open wound, the diseases the body panel names, and illness damage.
 - **[Weapons](../content/weapons.md)**: the damage and damage kind of each attack, armor penetration, parrying, and shields.
 - **[Wildlife](https://github.com/NoNamer777/feudum/issues/47)**: the damage and damage kinds of animal attacks.
 - **[Fire](https://github.com/NoNamer777/feudum/issues/33)**: how fire catches and spreads. Health owns the burns it leaves.

@@ -40,6 +40,7 @@ Energy drains at the base metabolic rate of the diet profile, adjusted by:
 - **Cold**: Chilled multiplies the drain by 1.25 and Hypothermic by 1.5, as starting values to tune.
 - **Healing**: [natural healing](health.md#healing) spends energy.
 - **Grain deficiency**: raises the drain, as [Deficiencies](#deficiencies) describes.
+- **Illness**: the wasting of [Illness](illness.md#symptoms) raises the drain.
 
 Heat stages leave energy alone; they drain [thirst](thirst.md#drain).
 
@@ -147,6 +148,7 @@ Hunger owns diet profiles, the stomach, energy, food groups and group levels, dr
 - **[Relief](relief.md)**: the residue that digestion passes on to the bowels, which shares the food component and the diet profile of Hunger.
 - **[Thirst](thirst.md)**: drinking, hydration, and the salt and foul loads, which share the stomach, the food component, and the diet profile of Hunger.
 - **[Health](health.md)**: natural healing, injuries, and the rule that modifiers of the same kind take the strongest.
+- **[Illness](illness.md)**: the wasting and loss of appetite of a disease.
 - **[Villagers](https://github.com/NoNamer777/feudum/issues/46)**: when and what a villager eats, such as meals on its schedule.
 - **[Village economy](https://github.com/NoNamer777/feudum/issues/44)**: the food stock a village eats from.
 - **[Village simulation](https://github.com/NoNamer777/feudum/issues/45)**: drawing on the stock at each catch-up step, and applying hunger and deficiencies abstractly, so a village that runs out of fruit in winter falls sick while no one is near.

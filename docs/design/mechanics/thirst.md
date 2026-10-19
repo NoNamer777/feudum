@@ -18,7 +18,7 @@ Every mob that eats also drinks. A drink fills the stomach and absorbs into hydr
 - **Stomach**: a drink fills the stomach, as food does, so drinking on a full stomach can make a body Stuffed.
 - **Hydration**: what the water in the stomach absorbs into, and metabolism drains. The water of a drink absorbs within about one Feudum hour, and the water in food absorbs as the food digests. Absorption stops once hydration is full, and the rest of the water passes off to Relief as the stomach empties, so a body can't drink ahead.
 - **Salt load**: what seawater and salted food leave behind. It raises the drain in proportion to its size, and clean water absorbing into the body lowers it, so seawater dehydrates on balance.
-- **Foul load**: what foul water leaves behind. It fades over a few Feudum days. Thirst only stores it; Illness decides whether the body falls sick.
+- **Foul load**: what foul water leaves behind. It fades over a few Feudum days. Thirst only stores it; [Illness](illness.md#foul-load) decides whether the body falls sick.
 - Thirst advances by the Feudum time that passed, so it follows the day length and the sleep speed-up.
 - At normal activity in a mild climate, a human needs to drink three to four times per Feudum day.
 - [Relief](relief.md#model) has a diagram of how food and drink move through the stomach, energy, hydration, and the stores of Relief.
@@ -48,6 +48,7 @@ Hydration drains at the base rate of the diet profile, adjusted by:
 - **Exertion**: the activities that build the exertion offset of [Body temperature](body-temperature.md#felt-temperature), such as sprinting, mining, and fighting, raise the drain.
 - **Heat**: Overheated multiplies the drain by 1.5 and Heat exhaustion by 2, as starting values to tune.
 - **Salt load**: raises the drain, as [Model](#model) describes.
+- **Illness**: the flux of [Illness](illness.md#symptoms) raises the drain.
 
 Exertion while Overheated already counts as sweat, so sweat adds no input of its own. Cold stages leave hydration alone; they drain energy.
 
@@ -77,7 +78,7 @@ The stages follow hydration. Thresholds come from the diet profile. For a human 
 - **Parched**: hoarse breathing and a slightly washed-out view.
 - **Dehydrated**: a heavily washed-out, swaying view and the heartbeat of Starving.
 - A high salt load makes the body crave clean water: clean drinks show "Craved" in their tooltip, as craved food does.
-- The foul load has no cue of its own; the symptoms of Illness are its cue.
+- The foul load has no cue of its own; the symptoms of [Illness](illness.md#symptoms) are its cue.
 - Mobs show their state too, so a player can read a herd at a glance: thirsty animals pant and gather at water, and dehydrated ones stagger.
 
 ## Food and drink
@@ -90,12 +91,12 @@ The stages follow hydration. Thresholds come from the diet profile. For a human 
 
 - Animals share one drinking goal: when Thirsty, they walk to reachable water or a water trough and drink.
 - Ice and frozen troughs block drinking, so a village must keep its troughs open in winter.
-- Animals drink clean or foul water, and avoid salt water unless their profile tolerates salt. Illness decides whether foul water makes livestock sick.
+- Animals drink clean or foul water, and avoid salt water unless their profile tolerates salt. [Illness](illness.md#foul-load) decides whether foul water makes livestock sick.
 
 ## Diet profiles
 
 - The [diet profile](hunger.md#diet-profiles) of Hunger carries an optional thirst block, so thirst needs no profile or entity type tags of its own.
-- The thirst block holds the hydration capacity, the base drain, the absorption rate, the stage thresholds, and the salt tolerance.
+- The thirst block holds the hydration capacity, the base drain, the absorption rate, the stage thresholds, the salt tolerance, and the foul tolerance that [Illness](illness.md#foul-load) reads.
 - The young modifier of a profile also speeds the drain, and a young body stops growing while it is Thirsty or worse.
 
 ## Persistence
@@ -126,7 +127,7 @@ Thirst owns hydration, absorption, the salt and foul loads, drain, the stages an
 - **[Body temperature](body-temperature.md)**: the heat stages that raise the drain, and the thermal offset of drinks and snow.
 - **[Fluids](fluids.md)**: the salinity and foulness of water blocks and containers, how water flows, mixes, and fouls, and Feudum's replacement for vanilla water.
 - **[Health](health.md)**: natural healing, and the rule that modifiers of the same kind take the strongest.
-- **[Illness](https://github.com/NoNamer777/feudum/issues/37)**: what the foul load does to a body.
+- **[Illness](illness.md)**: what the foul load does to a body, the flux that raises the drain, and the foul tolerance it reads.
 - **[Relief](relief.md)**: the water that passes off once hydration is full.
 - **[Cooking](https://github.com/NoNamer777/feudum/issues/30)**: boiling water.
 - **[Brewing](brewing.md)**: ale, beer, cider, wine, the alcohol amount of drinks, and drunkenness.
