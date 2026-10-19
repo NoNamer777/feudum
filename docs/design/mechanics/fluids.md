@@ -164,7 +164,7 @@ Fluids owns Feudum water: volume, flow, and settling, river discharge and curren
 - **[Buildings](https://github.com/NoNamer777/feudum/issues/29)**: wells and cisterns, and what floods do to buildings.
 - **[Village simulation](https://github.com/NoNamer777/feudum/issues/45)**: what an unloaded village's wells and ponds yield during catch-up.
 - **[Watermill](https://github.com/NoNamer777/feudum/issues/67)**: how a water wheel reads the current and falling water.
-- **[Fire](https://github.com/NoNamer777/feudum/issues/33)**: how fire spreads and how rain puts it out.
+- **[Fire](fire.md)**: how fire spreads, and how rain and poured water put it out.
 - **[Cooking](cooking.md)**: boiling water.
 - **[Salt](https://github.com/NoNamer777/feudum/issues/66)**: the salt item and salt pans.
 - **[Drink containers](https://github.com/NoNamer777/feudum/issues/49)**, **[Rain barrel](https://github.com/NoNamer777/feudum/issues/52)**, and **[Feed trough and hay](https://github.com/NoNamer777/feudum/issues/50)**: the containers and troughs that hold water.

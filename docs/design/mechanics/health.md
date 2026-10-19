@@ -227,7 +227,7 @@ Health owns body profiles, pools and the region multipliers, which pool a hit la
 - **[Illness](illness.md)**: wound rot on an open wound, the diseases the body panel names, and illness damage.
 - **[Weapons](../content/weapons.md)**: the damage and damage kind of each attack, armor penetration, parrying, and shields.
 - **[Wildlife](https://github.com/NoNamer777/feudum/issues/47)**: the damage and damage kinds of animal attacks.
-- **[Fire](https://github.com/NoNamer777/feudum/issues/33)**: how fire catches and spreads. Health owns the burns it leaves.
+- **[Fire](fire.md)**: how fire catches and spreads, and how long a burning body burns. Health owns the burns it leaves.
 - **[Encumbrance](https://github.com/NoNamer777/feudum/issues/65)**: the modifiers of weight, which stack on top of body-condition modifiers.
 - **[Bandage, splint, and salve](https://github.com/NoNamer777/feudum/issues/125)**: the items that treat injuries.
 - **[Healer](https://github.com/NoNamer777/feudum/issues/126)**: the villager who treats a village's injuries.

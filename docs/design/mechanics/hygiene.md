@@ -180,7 +180,7 @@ Water clears dirt by its temperature and whether soap is used:
 
 ## Lye and soap
 
-- Wood ash is left by burning wood on a hearth or a fire, which [Fire](https://github.com/NoNamer777/feudum/issues/33) decides.
+- Wood ash is left by burning wood on a hearth or a fire, which [Fire](fire.md#ash-pit) decides.
 - A **lye barrel** is a block filled with wood ash. Water poured through it collects as lye within about a Feudum day, and each fill of ash leaches one batch.
 - **Soft soap** is lye boiled with tallow or oil in the heated cauldron of Cooking. The tallow comes from [Animal husbandry](animal-husbandry.md#slaughter-and-butchering), and the oil from [Oil pressing](https://github.com/NoNamer777/feudum/issues/106).
 - Lye and soft soap keep indefinitely. Boiling ends the spoilage of the tallow or oil, as [ADR 0018](../../adr/0018-every-organic-item-spoils.md) allows for processing that stabilized a material.
@@ -258,7 +258,7 @@ Hygiene owns grime, mud, and bloodstain, how bodies and garments get dirty, smel
 - **[Wildlife](https://github.com/NoNamer777/feudum/issues/47)** and **[Stealth](https://github.com/NoNamer777/feudum/issues/89)**: how scent is sensed.
 - **[Illness](illness.md)**: what grime and mud in a wound do to a body, and how grime on the hands spreads disease by touch.
 - **[Cooking](cooking.md)**: the heated cauldron that heats water and boils soap.
-- **[Fire](https://github.com/NoNamer777/feudum/issues/33)**: wood ash.
+- **[Fire](fire.md)**: wood ash, and the soot grime of room smoke.
 - **[Oil pressing](https://github.com/NoNamer777/feudum/issues/106)**: the oil for soap.
 - **[Carpentry](https://github.com/NoNamer777/feudum/issues/115)**: where the battledore is made.
 - **[Village economy](https://github.com/NoNamer777/feudum/issues/44)**: bathhouse fees.

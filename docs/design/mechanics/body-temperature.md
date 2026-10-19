@@ -146,7 +146,7 @@ Body temperature owns thermal profiles, felt temperature and its inputs, the wet
 - **[Health](health.md)**: the rule that modifiers of the same kind take the strongest.
 - **[Villagers](https://github.com/NoNamer777/feudum/issues/46)**: how villagers react to their body temperature.
 - **[Village simulation](https://github.com/NoNamer777/feudum/issues/45)**: abstract losses while a village is unloaded, such as livestock lost in a hard winter, read from the Weather query for each catch-up step.
-- **[Fire](https://github.com/NoNamer777/feudum/issues/33)**: how fire catches and spreads. Its heat output is a heat source like any other.
+- **[Fire](fire.md)**: how fire catches and spreads, fire sizes, and room smoke. Its heat output is a heat source like any other.
 - **[Buildings](https://github.com/NoNamer777/feudum/issues/29)**: whether a building reuses the enclosure check.
 - **[Clothing](../content/clothing.md)**: the slots, how the stats of worn garments combine, and the wetness and drying of garments.
 - **[Textiles](textiles.md)**: the wall hangings and rugs that raise the insulation of a face, and shearing, which leaves a sheep shorn.

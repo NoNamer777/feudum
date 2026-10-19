@@ -126,7 +126,7 @@ The diagram maps each kind of food to the methods that keep it, and shows the ch
 
 - Cold smoking gives long keeping: smoked herring keeps about a season, and salted food that is then smoked keeps longer still.
 - Hot smoking cooks the food, and adds only about a week of keeping.
-- [Fire](https://github.com/NoNamer777/feudum/issues/33) decides what smolders, what it burns, and what smoke does to the bodies in the room.
+- [Fire](fire.md#smoke) decides what smolders, what it burns, and what smoke does to the bodies in the room.
 
 ### Drying
 
@@ -253,7 +253,7 @@ Food preservation owns keeping times, the stages of spoilage and their effects, 
 - **[Dairy](https://github.com/NoNamer777/feudum/issues/135)**: cheese and butter making, and how long they keep.
 - **[Salt](https://github.com/NoNamer777/feudum/issues/66)**: the salt item and salt pans.
 - **[Snow and ice](https://github.com/NoNamer777/feudum/issues/53)**: the ice and packed snow of an ice house, and how fast they melt.
-- **[Fire](https://github.com/NoNamer777/feudum/issues/33)**: the smoldering fire of cold smoking, its fuel, and what smoke does to bodies.
+- **[Fire](fire.md)**: the smoldering fire of cold smoking, its fuel, and what smoke does to bodies.
 - **[Beekeeping](https://github.com/NoNamer777/feudum/issues/128)**: honey.
 - **[Farming](https://github.com/NoNamer777/feudum/issues/32)**: crops in the field, and what a Spoiled seed does.
 - **[Tanning](https://github.com/NoNamer777/feudum/issues/80)**: hides once they are tanned, and what a Stale hide yields.
