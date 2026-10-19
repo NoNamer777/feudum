@@ -19,6 +19,7 @@ The game mechanics of Feudum. A mechanic gets its own page in this folder once i
 - **[Illness](illness.md)**: named diseases and their course from incubation to immunity, symptoms that act through the needs, care, the foul load and rotting wounds, spread by breath, waste, touch, shared things, and vectors, and the plagues of livestock.
 - **[Realms](realms.md)**: fealty between manors, the realm record and its sovereign, tribute, aid, and wish weight up and down the chain, peace in the realm, liege realms, and rank.
 - **[Relief](relief.md)**: the bladder and bowels, their stages and accidents, relieving and where waste goes, how waste fouls water and fades, and the dung heap that rots it into manure.
+- **[Tanning](tanning.md)**: hides, skins, and pelts and how they are cured, bark tanning in tended pits with oak bark, currying and dubbin, tawing into white leather, fur dressing and prime pelts, oil tanning into buckskin, rawhide, parchment and vellum, hide glue, and the waste of the tannery.
 - **[Textiles](textiles.md)**: six fibers from retting and shearing to thread, rope, and cloth, fulling and felt, dyes, overdyeing, and fading, the lant tub, and wall hangings and rugs.
 - **[Thirst](thirst.md)**: hydration for every mob that eats, the salt and foul loads, drain and its stages, cues, and the drinking goal of animals.
 - **[Time](time.md)**: the clock, the calendar with its seasons and sub-seasons, climate profiles, and catch-up for unloaded villages.

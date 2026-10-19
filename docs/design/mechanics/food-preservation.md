@@ -8,7 +8,7 @@ Everything a village grows, hunts, or shears starts to spoil the day it is taken
 
 - Every organic item spoils: food, fodder, raw hides, raw fleece, cut plant stalks and herbs, seeds, saplings and cuttings, eggs, and carcasses. [ADR 0018](../../adr/0018-every-organic-item-spoils.md) records why.
 - Processing that stabilized a material historically, such as tanning, spinning, or seasoning, ends its spoilage. Wood, planks, leather, thread, rope, cloth, felt, bone, horn, feathers, wax, and anything fired or smelted keep forever.
-- [Brewing](brewing.md#keeping-and-souring) owns how drinks keep, [Textiles](textiles.md#retting) owns retting and over-retting, and [Tanning](https://github.com/NoNamer777/feudum/issues/80) owns hides once they are in the tan pit.
+- [Brewing](brewing.md#keeping-and-souring) owns how drinks keep, [Textiles](textiles.md#retting) owns retting and over-retting, and [Tanning](tanning.md) owns curing hides and stops their spoilage once tanning starts.
 - A per-world setting sets how fast items spoil: `off`, `slow` (half rate), or `normal`. The default is `normal`.
 
 ## Working
@@ -256,7 +256,7 @@ Food preservation owns keeping times, the stages of spoilage and their effects, 
 - **[Fire](fire.md)**: the smoldering fire of cold smoking, its fuel, and what smoke does to bodies.
 - **[Beekeeping](https://github.com/NoNamer777/feudum/issues/128)**: honey.
 - **[Farming](farming.md)**: crops in the field, and what a Spoiled seed does.
-- **[Tanning](https://github.com/NoNamer777/feudum/issues/80)**: hides once they are tanned, and what a Stale hide yields.
+- **[Tanning](tanning.md)**: curing hides, where their spoilage stops, and what a Stale hide yields.
 - **[Illness](illness.md)**: what the foul load of Spoiled food does.
 - **[Vermin](https://github.com/NoNamer777/feudum/issues/136)**: rats and mice in the stores, which a sealed container keeps out.
 - **[Inventory](https://github.com/NoNamer777/feudum/issues/83)**: chests and general storage.

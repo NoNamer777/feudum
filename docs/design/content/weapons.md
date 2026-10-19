@@ -183,7 +183,7 @@ A shield protects in four positions:
 | Kite shield  | Heavy  | Head, chest, legs, hands | Wide   | Tall wooden board with a leather facing.               |
 | Pavise       | Heavy  | Every region             | Wide   | A tall board that can be planted on the ground.        |
 
-- Rims and bosses are hardened leather or metal, and facings are leather from [Tanning](https://github.com/NoNamer777/feudum/issues/80).
+- Rims and bosses are hardened leather or metal, and facings are leather from [Tanning](../mechanics/tanning.md).
 - A planted pavise stands where it was set, as a block-like entity, and covers every region of a body behind it from the front, so a crossbowman can span and reload in its cover. Picking it up returns it to the hand.
 
 ## Ranged weapons
@@ -281,7 +281,7 @@ Two slots carry weapons on the body, and [ADR 0015](../../adr/0015-back-and-belt
 | Shields, hafts, clubs, and staffs        | Carpenter's bench     | [Carpentry](https://github.com/NoNamer777/feudum/issues/115) | [Carpenter](https://github.com/NoNamer777/feudum/issues/123)    |
 | Hardened leather rims and grips          | Leatherworker's bench | [Armor](armor.md#making-armor)                               | [Leatherworker](https://github.com/NoNamer777/feudum/issues/88) |
 
-- A fletcher's bench puts an arrow or bolt together from a shaft, feathers, glue, and a head.
+- A fletcher's bench puts an arrow or bolt together from a shaft, feathers, [hide glue](../mechanics/tanning.md#by-products), and a head.
 - The bowyer's bench shapes bows from wood, horn, and sinew, and strings them with twine.
 - Weapons owns the whetstone and the grindstone.
 
@@ -342,8 +342,8 @@ Weapons owns weapon types and materials, attack motions and profiles, armor pene
 - **[Smithing](https://github.com/NoNamer777/feudum/issues/86)**: bronze, iron, steel, lead, and the anvil.
 - **[Carpentry](https://github.com/NoNamer777/feudum/issues/115)**: wood and the carpenter's bench.
 - **[Textiles](../mechanics/textiles.md)**: the twine of bowstrings and sling cords.
-- **[Tanning](https://github.com/NoNamer777/feudum/issues/80)**: leather facings, and tallow.
-- **[Animal husbandry](../mechanics/animal-husbandry.md)**: horn, sinew, and feathers.
+- **[Tanning](../mechanics/tanning.md)**: leather facings, and hide glue.
+- **[Animal husbandry](../mechanics/animal-husbandry.md)**: horn, sinew, feathers, and tallow.
 - **[Heraldry](https://github.com/NoNamer777/feudum/issues/103)**: devices painted on shields.
 - **[Weaponsmith](https://github.com/NoNamer777/feudum/issues/119)**, **[Arrowsmith](https://github.com/NoNamer777/feudum/issues/120)**, **[Bowyer](https://github.com/NoNamer777/feudum/issues/121)**, **[Fletcher](https://github.com/NoNamer777/feudum/issues/122)**, and **[Carpenter](https://github.com/NoNamer777/feudum/issues/123)**: the villagers who make and repair weapons.
 - **[Villagers](https://github.com/NoNamer777/feudum/issues/46)**, **[Village economy](https://github.com/NoNamer777/feudum/issues/44)**, and **[Village defense](https://github.com/NoNamer777/feudum/issues/90)**: who in a village is armed, and where the weapons come from.
