@@ -127,7 +127,7 @@ Three grades of cordage replace vanilla string:
 | Rope    | Hemp or goat hair yarn, or lime bast strips | Many yarns laid at a ropewalk       | Leads, rigging, well ropes, and building     |
 
 - A ropewalk is a rope jack block and a traveler block, set apart on a straight run. Rope comes out as long as the run between them.
-- The design that owns each use, such as [Weapons](../content/weapons.md), [Fishing](https://github.com/NoNamer777/feudum/issues/64), or [Sailing](https://github.com/NoNamer777/feudum/issues/41), references the cordage it needs.
+- The design that owns each use, such as [Weapons](../content/weapons.md), [Fishing](fishing.md), or [Sailing](https://github.com/NoNamer777/feudum/issues/41), references the cordage it needs.
 
 ## Cloth
 
@@ -323,6 +323,6 @@ Textiles owns the six fibers from gathering to cloth and every step between, fel
 - **[Oil pressing](https://github.com/NoNamer777/feudum/issues/106)**: linseed and hempseed oil.
 - **[Social standing of dress](https://github.com/NoNamer777/feudum/issues/82)**: fine cloth, expensive dyes, and tapestries.
 - **[Heraldry](https://github.com/NoNamer777/feudum/issues/103)**: banners, which take their cloth and dyes from here.
-- **[Weapons](../content/weapons.md)**, **[Fishing](https://github.com/NoNamer777/feudum/issues/64)**, and **[Sailing](https://github.com/NoNamer777/feudum/issues/41)**: the bowstrings, lines, sails, and rigging made of cordage and cloth.
+- **[Weapons](../content/weapons.md)**, **[Fishing](fishing.md)**, and **[Sailing](https://github.com/NoNamer777/feudum/issues/41)**: the bowstrings, lines, sails, and rigging made of cordage and cloth.
 - **[Weaver](https://github.com/NoNamer777/feudum/issues/107)**, **[Fuller](https://github.com/NoNamer777/feudum/issues/108)**, and **[Dyer](https://github.com/NoNamer777/feudum/issues/109)**: the villagers who weave, full, and dye.
 - **[Villagers](https://github.com/NoNamer777/feudum/issues/46)** and **[Village simulation](https://github.com/NoNamer777/feudum/issues/45)**: household spinning, and textile work while a village is unloaded.
