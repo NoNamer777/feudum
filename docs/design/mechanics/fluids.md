@@ -158,7 +158,7 @@ Fluids owns Feudum water: volume, flow, and settling, river discharge and curren
 - **[Health](health.md)**: drowning damage.
 - **[Encumbrance](https://github.com/NoNamer777/feudum/issues/65)**: the weight that buoyancy reads.
 - **[Sailing](https://github.com/NoNamer777/feudum/issues/41)**: hulls, sails, and steering of boats.
-- **[Fishing](https://github.com/NoNamer777/feudum/issues/64)**: catching fish.
+- **[Fishing](fishing.md)**: fish, where they live, and catching them.
 - **[Wildlife](https://github.com/NoNamer777/feudum/issues/47)**: how aquatic mobs behave.
 - **[Farming](farming.md)**: soil moisture, irrigation, and what floods do to crops.
 - **[Buildings](https://github.com/NoNamer777/feudum/issues/29)**: wells and cisterns, and what floods do to buildings.

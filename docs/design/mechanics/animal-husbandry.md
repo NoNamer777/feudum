@@ -9,7 +9,7 @@ A village lives off its livestock: oxen pull the plough, sheep give wool, cows g
 - Animal husbandry owns the livestock of the [Species](#species) table: where it comes from, breeding, pregnancy and birth, nursing and lactation, growth and old age, traits and breeds, fleece, eggs, slaughter and butchering, ownership, and herding.
 - [Dairy](https://github.com/NoNamer777/feudum/issues/135) owns milking and what milk becomes, [Foods](https://github.com/NoNamer777/feudum/issues/51) the meat cuts, and [Tanning](https://github.com/NoNamer777/feudum/issues/80) the hides.
 - [Tack and barding](https://github.com/NoNamer777/feudum/issues/139) owns the gear of mounts and draft animals, [Working dogs](https://github.com/NoNamer777/feudum/issues/142) the work a dog does, and [Wildlife](https://github.com/NoNamer777/feudum/issues/47) wild animals, including the wild forms of livestock.
-- [Beekeeping](https://github.com/NoNamer777/feudum/issues/128) owns bees, [Falconry](https://github.com/NoNamer777/feudum/issues/140) hawks and falcons, Wildlife the deer of a deer park, and [Fishing](https://github.com/NoNamer777/feudum/issues/64) the fish of a fishpond.
+- [Beekeeping](https://github.com/NoNamer777/feudum/issues/128) owns bees, [Falconry](https://github.com/NoNamer777/feudum/issues/140) hawks and falcons, Wildlife the deer of a deer park, and [Fishing](fishing.md) the fish of a fishpond.
 
 ## Working
 
@@ -294,7 +294,7 @@ Animal husbandry owns the livestock roster, where livestock comes from, sexes an
 - **[Vermin](https://github.com/NoNamer777/feudum/issues/136)**: the cats that hunt rats and mice.
 - **[Wildlife](https://github.com/NoNamer777/feudum/issues/47)**: wild animals, the wild forms of livestock, and deer parks.
 - **[Falconry](https://github.com/NoNamer777/feudum/issues/140)**: hawks and falcons.
-- **[Fishing](https://github.com/NoNamer777/feudum/issues/64)**: fishponds.
+- **[Fishing](fishing.md)**: fishponds.
 - **[Beekeeping](https://github.com/NoNamer777/feudum/issues/128)**: bees.
 - **[Farming](farming.md)**: the ard, the heavy plough, and the harrow, crops that strays trample, and the sward of the pasture.
 - **[Feed trough and hay](https://github.com/NoNamer777/feudum/issues/50)**: troughs and fodder.

@@ -1187,11 +1187,15 @@ One effect of a disease that acts through an existing mechanic, such as fever, t
 
 ### Route
 
-A way a disease passes to a body: the foul load, an open wound, breath, waste, touch, a shared thing, or a vector.
+A way a disease passes to a body: the foul load, an open wound, breath, waste, touch, a shared thing, shared water, or a vector.
 
 ### Shared thing
 
 A garment, bedding, drink container, bowl, or trough that carries the disease of the sick body that used it.
+
+### Shared water
+
+The route by which a disease passes between fish in the same water body, more readily the more crowded it is.
 
 ### Vector
 
@@ -1208,6 +1212,10 @@ How well a species shrugs off its foul load, set in the thirst block of its diet
 ### Murrain
 
 The name villagers give every plague of livestock, such as cattle plague or swine fever.
+
+### Fish plague
+
+A disease of fish, such as water mold, which strikes mostly crowded water.
 
 ### Tainted ground
 
@@ -1568,3 +1576,117 @@ The young tree a scion is grafted onto, such as a crab apple seedling.
 ### Windfall
 
 Fruit that drops from an overripe tree, and spoils.
+
+## Fishing
+
+### Water body
+
+The unit whose fish breed, feed, and catch up together: a river segment, a lake basin, a pond of connected still water, or a chunk of sea water.
+
+### Shoal
+
+One mob that stands for a group of small schooling fish, carrying a count and an average weight, and rendered as that many fish swimming together._Avoid_: School
+
+### Carrying capacity
+
+The weight of fish a water body can feed, set by its size, depth, warmth, shallows, and cover.
+
+### Oxygen
+
+The breathable air dissolved in water, from 0 to 1, computed from its temperature, current, foulness, and ice cover.
+
+### Spawning ground
+
+The bottom a species lays its eggs on, such as gravel for salmon or weed for pike.
+
+### Fry
+
+Newly hatched fish, which rise from their clutch as a shoal.
+
+### Run
+
+The seasonal journey of a migratory species between the sea and its spawning ground, such as the salmon run in Autumn.
+
+### Home river
+
+The river a migratory fish hatched in, which it returns to when it runs.
+
+### Barrier
+
+A structure across the full width of a river, or a fall too high to leap, that stops a run.
+
+### In transit
+
+The state of a migrating fish that has crossed into an unloaded chunk, stored with its route until the chunk ahead loads.
+
+### Fish kill
+
+The death of the fish of a water body when its oxygen falls too low or its foulness rises too high.
+
+### Shellfish bed
+
+A block on the floor of shallow coastal water that holds mussels, oysters, cockles, or whelks at a density.
+
+### Night line
+
+A line with a few baited hooks, staked on the bank and left to fish on its own.
+
+### Longline
+
+A line with many baited hooks, set from a boat.
+
+### Landing net
+
+A small net on a hoop and pole that lands a heavy fish.
+
+### Mesh
+
+The size of the holes of a net, which sets the fish that slip through it.
+
+### Cast net
+
+A round net thrown over shallow water.
+
+### Seine
+
+A long net hauled through shallow water from the shore by a team.
+
+### Drift net
+
+A wall of net set from a boat at sea that hangs from the surface and catches shoal fish by the gills.
+
+### Fish trap
+
+A basket woven from withies and set in water, such as an eel trap or a crab pot.
+
+### Fish weir
+
+A structure of stakes and wattle in a river that steers fish into a trap or a pound.
+
+### Pound
+
+An enclosure at the end of a fish weir that holds the fish it steers in alive.
+
+### Leister
+
+A spear with several barbed prongs for fish.
+
+### Keepnet
+
+A net on the bank that keeps a catch alive in the water.
+
+### Fish box
+
+A box moored in the water that keeps a catch alive for market.
+
+### Whole fish
+
+A fish that has died out of water and waits to be gutted.
+
+### Gutting
+
+Opening a whole fish with a knife to take its flesh, offal, roe, liver, and bones.
+
+### Fishpond
+
+A still water body dug or dammed by a player or villager, stocked and drained by its keeper._Avoid_: Stew pond

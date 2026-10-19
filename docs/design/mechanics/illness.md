@@ -6,7 +6,7 @@ Bodies fall sick. Foul water and spoiled food bring the flux, dirt in an open wo
 
 ## Scope
 
-- Every entity type whose body profile carries an illness block can fall sick: players, villagers, livestock, and wild animals. [ADR 0022](../../adr/0022-every-living-mob-can-fall-sick.md) records why.
+- Every entity type whose body profile carries an illness block can fall sick: players, villagers, livestock, wild animals, and fish. [ADR 0022](../../adr/0022-every-living-mob-can-fall-sick.md) records why.
 - A body profile with no illness block never falls sick, and an entity type with no body profile has no illness.
 - A per-world setting sets how harsh illness is for every entity: `off`, `mild`, or `harsh`. The default is `harsh`. It is separate from the settings of the needs, Health, and Body temperature.
   - `off`: no body falls sick. The foul load is still stored, but nothing reads it.
@@ -149,6 +149,11 @@ The diagram shows the cycle of the flux, which joins rules from Fluids, Thirst, 
 - [Laundry](hygiene.md#laundry) clears a garment or bedding, boiling under [Cooking](cooking.md#boiling-water) clears a container, and time clears all of them.
 - The water and feed troughs of [Feed trough and hay](https://github.com/NoNamer777/feudum/issues/50) count as shared things for animals. Emptying a trough clears it.
 
+### Shared water
+
+- Fish in the same water body catch a disease that spreads by shared water from a sick fish within about 8 blocks. The chance each hour grows with the sick fish's severity and with how crowded the water is, so a stocked [fishpond](fishing.md#fishponds) spreads it and a river barely does.
+- Shared water passes disease only between fish. For every other body, water carries only its foulness, as [Waste](#waste) describes.
+
 ### Vectors
 
 - A data pack can mark an entity type as a vector of a disease. A vector passes the disease to the bodies it bites or lives near, without falling sick itself.
@@ -217,6 +222,19 @@ Murrain is the name villagers give every plague of livestock:
 
 - Cattle plague is fast and deadly. Strangles strikes mostly the young and rarely kills, and foot rot lames rather than kills.
 - Foot rot turns once the animal stands on dry, clean ground.
+
+### Fish plagues
+
+Fish plagues strike mostly crowded water, such as a stocked fishpond:
+
+| Disease    | Hosts      | Symptoms                     | Spreads by                                                      | Incubation   | Course        | Immunity |
+|:-----------|:-----------|:-----------------------------|:----------------------------------------------------------------|:-------------|:--------------|:---------|
+| Water mold | Every fish | Rash, decay of the body pool | Shared water, at a higher chance on an injured or stressed fish | None         | About a week  | None     |
+| Red sore   | Every fish | Rash, weakness               | Shared water, and crowding                                      | About 2 days | About 2 weeks | None     |
+
+- Water mold takes hold on a fish that was injured, such as one torn by a net or hooked and lost, or that is stressed by cold, low oxygen, or foulness.
+- A sick fish shows pale, furred patches or red sores, swims slowly, and keeps near the surface.
+- The flesh of a sick fish is safe to eat, unlike the meat of a sick animal under [Animals](#animals), but it yields less when gutted. [Parasites](https://github.com/NoNamer777/feudum/issues/157) owns the parasites of fish.
 
 ### Animals to humans
 
@@ -310,6 +328,7 @@ Illness owns disease definitions, variants and turning, severity and the course 
 - **[Fluids](fluids.md)**: foulness, fouling sources, groundwater, and wet ground.
 - **[Food preservation](food-preservation.md)**: Spoiled food and its foul load.
 - **[Animal husbandry](animal-husbandry.md)**: livestock, old age, crowding, milk, eggs, fleece, and butchering.
+- **[Fishing](fishing.md)**: fish, water bodies, and how crowded their water is.
 - **[Villages](villages.md)**: the standing scale.
 - **[Herbal remedies](https://github.com/NoNamer777/feudum/issues/155)**: the remedies that ease symptoms and speed recovery.
 - **[Bandage, splint, and salve](https://github.com/NoNamer777/feudum/issues/125)**: how a bandage gets dirty and is changed.

@@ -44,7 +44,7 @@ A body gets dirty as it lives. Sweat and soot build into grime over days of labo
 
 - A bleeding body stains itself, and [heavy bleeding](health.md#injuries) stains it faster.
 - Striking a bleeding target in melee stains the striker.
-- [Butchering](animal-husbandry.md#slaughter-and-butchering) a carcass, and gutting fish or game, stain the worker.
+- [Butchering](animal-husbandry.md#slaughter-and-butchering) a carcass, and [gutting](fishing.md#gutting) fish or game, stain the worker.
 - Bloodstain never fades on its own.
 
 ## Garments
