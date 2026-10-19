@@ -142,7 +142,7 @@ Water clears dirt by its temperature and whether soap is used:
 ### Water temperature
 
 - The water of a washbasin, tub, or stone bath carries a temperature. It drifts toward the [room temperature](body-temperature.md#shelter-and-heat) of its enclosed space, or toward the local temperature of [Weather](weather.md#local-temperature) in the open, over about a Feudum hour, and more slowly for a larger volume.
-- Water poured in mixes its temperature with the water already there as an average weighted by volume, as Fluids mixes salinity, so hot water from the heated cauldron of [Cooking](https://github.com/NoNamer777/feudum/issues/30) warms a tub or washbasin.
+- Water poured in mixes its temperature with the water already there as an average weighted by volume, as Fluids mixes salinity, so hot water from the heated cauldron of [Cooking](cooking.md#boiling-water) warms a tub or washbasin.
 - Each bath furnace adds heat to its stone bath while it burns, so a large bath needs several. A bath furnace burns the usual fuels, and it is also a heat source under Body temperature.
 - The heat output of a bath furnace is a starting value to tune.
 
@@ -257,7 +257,7 @@ Hygiene owns grime, mud, and bloodstain, how bodies and garments get dirty, smel
 - **[Villagers](https://github.com/NoNamer777/feudum/issues/46)**: when and where villagers wash, and how they react to smell and bloodstain.
 - **[Wildlife](https://github.com/NoNamer777/feudum/issues/47)** and **[Stealth](https://github.com/NoNamer777/feudum/issues/89)**: how scent is sensed.
 - **[Illness](illness.md)**: what grime and mud in a wound do to a body, and how grime on the hands spreads disease by touch.
-- **[Cooking](https://github.com/NoNamer777/feudum/issues/30)**: the heated cauldron that heats water and boils soap.
+- **[Cooking](cooking.md)**: the heated cauldron that heats water and boils soap.
 - **[Fire](https://github.com/NoNamer777/feudum/issues/33)**: wood ash.
 - **[Oil pressing](https://github.com/NoNamer777/feudum/issues/106)**: the oil for soap.
 - **[Carpentry](https://github.com/NoNamer777/feudum/issues/115)**: where the battledore is made.

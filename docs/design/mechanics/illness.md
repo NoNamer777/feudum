@@ -144,9 +144,9 @@ The diagram shows the cycle of the flux, which joins rules from Fluids, Thirst, 
 
 ### Shared things
 
-- Garments, bedding, and drink containers used by a sick body pick up a disease that spreads that way, and keep it for a span the disease sets.
-- Another body that wears the garment, sleeps in the bedding, or drinks from the container can catch it.
-- [Laundry](hygiene.md#laundry) clears a garment or bedding, boiling under [Cooking](https://github.com/NoNamer777/feudum/issues/30) clears a container, and time clears all of them.
+- Garments, bedding, drink containers, and bowls used by a sick body pick up a disease that spreads that way, and keep it for a span the disease sets.
+- Another body that wears the garment, sleeps in the bedding, or eats or drinks from the container can catch it.
+- [Laundry](hygiene.md#laundry) clears a garment or bedding, boiling under [Cooking](cooking.md#boiling-water) clears a container, and time clears all of them.
 - The water and feed troughs of [Feed trough and hay](https://github.com/NoNamer777/feudum/issues/50) count as shared things for animals. Emptying a trough clears it.
 
 ### Vectors
@@ -319,7 +319,7 @@ Illness owns disease definitions, variants and turning, severity and the course 
 - **[Wildlife](https://github.com/NoNamer777/feudum/issues/47)**: rabies and rabid animals.
 - **[Poisons and venom](https://github.com/NoNamer777/feudum/issues/156)**: toxins, and ergotism.
 - **[Magic](https://github.com/NoNamer777/feudum/issues/129)**: magical sickness and cures.
-- **[Cooking](https://github.com/NoNamer777/feudum/issues/30)**: boiling water and containers.
+- **[Cooking](cooking.md)**: boiling water and containers.
 - **[Feed trough and hay](https://github.com/NoNamer777/feudum/issues/50)**: the troughs.
 - **[Buildings](https://github.com/NoNamer777/feudum/issues/29)**: leper houses and sickrooms.
 - **[Villagers](https://github.com/NoNamer777/feudum/issues/46)**: how villagers care for the sick, keep apart from them, and react to signs of sickness, and who arrives from outside.

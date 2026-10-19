@@ -251,28 +251,28 @@ The waste of each step, and how strongly it fouls the water it reaches as a [fou
 
 ## Tools and blocks
 
-| Step           | Tool or block                                                                    | Kind        |
-|:---------------|:---------------------------------------------------------------------------------|:------------|
-| Ripple         | Rippling comb                                                                    | Block       |
-| Ret            | Retting bundle; spread stalks                                                    | Block       |
-| Break          | Flax brake                                                                       | Block       |
-| Scutch         | Scutching board, worked with a scutching knife                                   | Block, item |
-| Hackle         | Hackle                                                                           | Block       |
-| Shear          | Shears                                                                           | Item        |
-| Scour          | Heated cauldron, under [Cooking](https://github.com/NoNamer777/feudum/issues/30) | Block       |
-| Card           | Hand cards                                                                       | Item        |
-| Comb           | Wool combs                                                                       | Item        |
-| Spin           | Distaff and drop spindle; spinning wheel                                         | Item, block |
-| Warp           | Warping frame                                                                    | Block       |
-| Weave          | Loom                                                                             | Block       |
-| Full           | Fulling trough; fulling mill                                                     | Block       |
-| Tenter         | Tenter frame                                                                     | Block       |
-| Raise and crop | Teasel frame and cropping shears                                                 | Item        |
-| Felt           | Felting table                                                                    | Block       |
-| Bleach         | Spread cloth                                                                     | Block       |
-| Dye            | Dye vat; woad vat                                                                | Block       |
-| Stale urine    | Lant tub                                                                         | Block       |
-| Rope           | Rope jack and traveler                                                           | Block       |
+| Step           | Tool or block                                  | Kind        |
+|:---------------|:-----------------------------------------------|:------------|
+| Ripple         | Rippling comb                                  | Block       |
+| Ret            | Retting bundle; spread stalks                  | Block       |
+| Break          | Flax brake                                     | Block       |
+| Scutch         | Scutching board, worked with a scutching knife | Block, item |
+| Hackle         | Hackle                                         | Block       |
+| Shear          | Shears                                         | Item        |
+| Scour          | Heated cauldron, under [Cooking](cooking.md)   | Block       |
+| Card           | Hand cards                                     | Item        |
+| Comb           | Wool combs                                     | Item        |
+| Spin           | Distaff and drop spindle; spinning wheel       | Item, block |
+| Warp           | Warping frame                                  | Block       |
+| Weave          | Loom                                           | Block       |
+| Full           | Fulling trough; fulling mill                   | Block       |
+| Tenter         | Tenter frame                                   | Block       |
+| Raise and crop | Teasel frame and cropping shears               | Item        |
+| Felt           | Felting table                                  | Block       |
+| Bleach         | Spread cloth                                   | Block       |
+| Dye            | Dye vat; woad vat                              | Block       |
+| Stale urine    | Lant tub                                       | Block       |
+| Rope           | Rope jack and traveler                         | Block       |
 
 - A teasel frame holds dried teasel heads, from a plant that grows wild and that Farming cultivates.
 - [Smithing](https://github.com/NoNamer777/feudum/issues/86) makes the iron parts: the hackle's teeth, the shears, the scutching knife, and the wire of hand cards and wool combs.
@@ -315,7 +315,7 @@ Textiles owns the six fibers from gathering to cloth and every step between, fel
 - **[Animal husbandry](animal-husbandry.md)**: sheep and goats, fleece regrowth, and breeds with their natural colors.
 - **[Terrain](https://github.com/NoNamer777/feudum/issues/60)**: the deposits of fuller's earth and alunite.
 - **[Watermill](https://github.com/NoNamer777/feudum/issues/67)**: the power of the fulling mill.
-- **[Cooking](https://github.com/NoNamer777/feudum/issues/30)**: the heated cauldron that scours wool.
+- **[Cooking](cooking.md)**: the heated cauldron that scours wool.
 - **[Smithing](https://github.com/NoNamer777/feudum/issues/86)**: the iron parts of the tools.
 - **[Privy and chamber pot](https://github.com/NoNamer777/feudum/issues/71)**: how a lant tub is built and carried.
 - **[Hygiene](hygiene.md)**: the washes that fade dyes, and the dirt a fleece takes from its sheep.

@@ -129,7 +129,7 @@ Thirst owns hydration, absorption, the salt and foul loads, drain, the stages an
 - **[Health](health.md)**: natural healing, and the rule that modifiers of the same kind take the strongest.
 - **[Illness](illness.md)**: what the foul load does to a body, the flux that raises the drain, and the foul tolerance it reads.
 - **[Relief](relief.md)**: the water that passes off once hydration is full.
-- **[Cooking](https://github.com/NoNamer777/feudum/issues/30)**: boiling water.
+- **[Cooking](cooking.md)**: boiling water.
 - **[Brewing](brewing.md)**: ale, beer, cider, wine, the alcohol amount of drinks, and drunkenness.
 - **[Villagers](https://github.com/NoNamer777/feudum/issues/46)**: when and what a villager drinks.
 - **[Village economy](https://github.com/NoNamer777/feudum/issues/44)**: the stock of water, ale, and beer a village drinks from.
