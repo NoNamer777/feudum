@@ -113,6 +113,7 @@ For a human:
 - The diet type is grazer, browser, carnivore, or omnivore.
 - Villagers use the human diet profile, the same as players.
 - A profile can carry a thirst block, which [Thirst](thirst.md#diet-profiles) describes.
+- A profile can carry the needs-cooked-food flag of [Cooking](cooking.md#diet-profiles), so raw meat, fish, and eggs add a foul load. The human profile has it.
 - A profile can carry a young modifier with a faster drain. A young body stops growing while it is Hungry or worse.
 
 ## Persistence
@@ -154,7 +155,7 @@ Hunger owns diet profiles, the stomach, energy, food groups and group levels, dr
 - **[Village simulation](https://github.com/NoNamer777/feudum/issues/45)**: drawing on the stock at each catch-up step, and applying hunger and deficiencies abstractly, so a village that runs out of fruit in winter falls sick while no one is near.
 - **[Farming](https://github.com/NoNamer777/feudum/issues/32)**: how grass grows back with the season.
 - **[Wildlife](https://github.com/NoNamer777/feudum/issues/47)**: hunting live prey, such as stalking, pack tactics, and prey that flees.
-- **[Cooking](https://github.com/NoNamer777/feudum/issues/30)**: how preparing and combining food sets its food component.
+- **[Cooking](cooking.md)**: how preparing and combining food sets its food component, and the needs-cooked-food flag of diet profiles.
 - **[Food preservation](food-preservation.md)**: keeping times and spoilage, the preserved foods that salting, smoking, drying, and pickling make, and their nutrition.
 - **[Animal husbandry](animal-husbandry.md)**: breeding, beyond its hunger requirement.
 - **[Foods](https://github.com/NoNamer777/feudum/issues/51)** and **[Feed trough and hay](https://github.com/NoNamer777/feudum/issues/50)**: the food and fodder that Feudum adds.

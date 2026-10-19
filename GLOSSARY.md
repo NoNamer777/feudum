@@ -1191,7 +1191,7 @@ A way a disease passes to a body: the foul load, an open wound, breath, waste, t
 
 ### Shared thing
 
-A garment, bedding, drink container, or trough that carries the disease of the sick body that used it.
+A garment, bedding, drink container, bowl, or trough that carries the disease of the sick body that used it.
 
 ### Vector
 
@@ -1216,3 +1216,59 @@ Ground where an animal that died of anthrax lies or was buried, which infects gr
 ### Illness damage
 
 The periodic damage to the chest of a body whose disease is Grave.
+
+## Cooking
+
+### Hearth
+
+The open fire of a kitchen, with its spit, pot hook, trivet, and griddle, where food is roasted, fried, and set over the heat.
+
+### Heated cauldron
+
+A metal cauldron set over a hearth or a fire, which simmers dishes, boils water, and renders fat.\
+_Avoid_: Pot, kettle
+
+### Bake oven
+
+A stone or clay oven fired with wood and then raked out, which bakes on its stored heat.
+
+### Dish template
+
+A data-driven pattern for a dish, such as pottage or pie, whose slots take ingredients from item tags and whose food component is computed from what goes in.\
+_Avoid_: Recipe
+
+### Serving
+
+One portion of a cooked batch, about one good meal.
+
+### Doneness
+
+How far food on the heat has cooked: Raw, Cooked, or Burnt.
+
+### Pottage
+
+A thick dish of grain or peas and beans simmered with vegetables, herbs, and sometimes meat, the everyday meal of a household.
+
+### Trencher
+
+A thick slice of stale bread used as a plate, eaten with the meal or given to the poor or the dogs.
+
+### Coffin
+
+The pastry crust of a pie, which seals its filling.
+
+### Manchet
+
+Bread from white wheat flour, the finest kind.
+
+### Maslin
+
+Grain or bread of wheat and rye together.
+
+### Sourdough starter
+
+A piece of dough kept back from one batch to leaven the next, fed with flour to keep it alive.
+
+### Rendering
+
+Melting fat in the heated cauldron into tallow or lard.

@@ -156,7 +156,7 @@ The chart plots the year of sheep, cattle, and poultry against daylight across t
 | Feathers        | Poultry                             | Arrows, as [Weapons](../content/weapons.md#making-weapons) describes |
 
 - Size sets the amount of each yield, and condition sets the fat and meat: an animal slaughtered lean, with low energy under Hunger, gives less of both.
-- Fat renders to tallow in a heated cauldron, under [Cooking](https://github.com/NoNamer777/feudum/issues/30). Tallow oils armor, as [Armor](../content/armor.md#rust-and-oiling) describes.
+- Fat renders to tallow in a heated cauldron, under [Cooking](cooking.md#rendering). Tallow oils armor, as [Armor](../content/armor.md#rust-and-oiling) describes.
 - The raw yields spoil under Food preservation, while bone, horn, and feathers keep forever, as [its scope](food-preservation.md#scope) describes.
 
 ## Ownership
@@ -286,7 +286,7 @@ Animal husbandry owns the livestock roster, where livestock comes from, sexes an
 - **[Dairy](https://github.com/NoNamer777/feudum/issues/135)**: milking and what milk becomes.
 - **[Foods](https://github.com/NoNamer777/feudum/issues/51)**: meat cuts, blood and offal, and eggs as food.
 - **[Tanning](https://github.com/NoNamer777/feudum/issues/80)**: hides.
-- **[Cooking](https://github.com/NoNamer777/feudum/issues/30)**: the heated cauldron that renders tallow.
+- **[Cooking](cooking.md)**: the heated cauldron that renders tallow.
 - **[Tack and barding](https://github.com/NoNamer777/feudum/issues/139)**: saddles, bridles, harness, and barding.
 - **[Carts and wagons](https://github.com/NoNamer777/feudum/issues/141)**: what draft animals pull.
 - **[Mounted combat](https://github.com/NoNamer777/feudum/issues/117)**: fighting from the saddle.

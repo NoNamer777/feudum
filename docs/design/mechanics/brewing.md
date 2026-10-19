@@ -52,7 +52,7 @@ Barley, oats, and wheat all malt. Barley gives the most wort per measure of malt
 | Condition  | For hopped beer only: resting the beer in a sealed cask.                     | Hopped beer              |
 
 - One mash yields strong wort for ale or hopped beer and second wort for small beer (the parti-gyle method). A third running gives nothing worth brewing.
-- Ale needs no boil: the heat of mashing is enough. Hopped beer boils in the heated cauldron of [Cooking](https://github.com/NoNamer777/feudum/issues/30).
+- Ale needs no boil: the heat of mashing is enough. Hopped beer boils in the heated cauldron of [Cooking](cooking.md).
 - Gruit herbs go into the mash or the fermenting tun, and ale brewed with them is still ale. Gruit doubles how long ale keeps, far less than hops do.
 - Malt is ground on whatever grinds grain: the quern of [Foods](https://github.com/NoNamer777/feudum/issues/51), a [Watermill](https://github.com/NoNamer777/feudum/issues/67), or a [Windmill](https://github.com/NoNamer777/feudum/issues/56).
 
@@ -279,7 +279,7 @@ A dependent body whose alcohol level falls to Sober goes into withdrawal:
 | Kiln                    | Malt kiln                                                                                 |
 | Mill malt               | Quern, under [Foods](https://github.com/NoNamer777/feudum/issues/51); watermill; windmill |
 | Mash and run off        | Mash tun                                                                                  |
-| Boil                    | Heated cauldron, under [Cooking](https://github.com/NoNamer777/feudum/issues/30)          |
+| Boil                    | Heated cauldron, under [Cooking](cooking.md)                                              |
 | Ferment                 | Fermenting tun                                                                            |
 | Condition, keep, freeze | Cask, under [Drink containers](https://github.com/NoNamer777/feudum/issues/49)            |
 | Mill fruit              | Fruit mill                                                                                |
@@ -332,12 +332,12 @@ Brewing owns malting, brewing, pressing, treading, fermenting, and distilling, e
 - **[Time](time.md)**: climate profiles that limit where grapes grow.
 - **[Farming](https://github.com/NoNamer777/feudum/issues/32)**: grain, hops, orchards, and vineyards.
 - **[Beekeeping](https://github.com/NoNamer777/feudum/issues/128)**: honey.
-- **[Cooking](https://github.com/NoNamer777/feudum/issues/30)**: the heated cauldron, bread leavened with barm, and dishes with verjuice and vinegar.
+- **[Cooking](cooking.md)**: the hearth, the heated cauldron, bread leavened with barm, and dishes with verjuice and vinegar.
 - **[Foods](https://github.com/NoNamer777/feudum/issues/51)**: the quern, and windfall fruit.
 - **[Food preservation](food-preservation.md)**: the cellar, and pickling with vinegar.
 - **[Drink containers](https://github.com/NoNamer777/feudum/issues/49)**: casks, jugs, and cups.
 - **[Watermill](https://github.com/NoNamer777/feudum/issues/67)** and **[Windmill](https://github.com/NoNamer777/feudum/issues/56)**: milling malt.
-- **[Fire](https://github.com/NoNamer777/feudum/issues/33)**: the hearth under the alembic and the fuel of the kiln.
+- **[Fire](https://github.com/NoNamer777/feudum/issues/33)**: the fire under the alembic and the fuel of the kiln.
 - **[Smithing](https://github.com/NoNamer777/feudum/issues/86)**: the copper alembic.
 - **[Bandage, splint, and salve](https://github.com/NoNamer777/feudum/issues/125)**: what a spirit does as an antiseptic.
 - **[Drink quality](https://github.com/NoNamer777/feudum/issues/130)**: whether drinks carry a quality.

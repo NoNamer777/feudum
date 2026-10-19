@@ -160,7 +160,7 @@ The diagram maps each kind of food to the methods that keep it, and shows the ch
 
 - An item made from other items starts at the used share of its most-used input. Stale meat makes salt pork that is already Stale, and a Spoiled turnip makes a Spoiled stew. Preserving can only keep what is still good, so a village preserves while the food is fresh.
 - Rotten items can't be processed.
-- The rule holds for every design that makes one organic item from another, such as [Cooking](https://github.com/NoNamer777/feudum/issues/30) and milling.
+- The rule holds for every design that makes one organic item from another, such as [Cooking](cooking.md) and milling.
 
 ## Nutrition
 
@@ -197,23 +197,23 @@ The diagram maps each kind of food to the methods that keep it, and shows the ch
 
 ## Tools and blocks
 
-| Step                           | Block                                                                   |
-|:-------------------------------|:------------------------------------------------------------------------|
-| Dry salt, cure                 | Salting barrel                                                          |
-| Brine                          | Brine barrel                                                            |
-| Soak                           | Soaking tub                                                             |
-| Cold smoke, hot smoke          | Smoking rack                                                            |
-| Dry                            | Drying rack                                                             |
-| Pickle, pot, preserve in honey | Earthenware crock                                                       |
-| Cook before potting            | Hearth, under [Cooking](https://github.com/NoNamer777/feudum/issues/30) |
-| Store                          | Sack, basket, barrel, earthenware crock                                 |
+| Step                           | Block                                   |
+|:-------------------------------|:----------------------------------------|
+| Dry salt, cure                 | Salting barrel                          |
+| Brine                          | Brine barrel                            |
+| Soak                           | Soaking tub                             |
+| Cold smoke, hot smoke          | Smoking rack                            |
+| Dry                            | Drying rack                             |
+| Pickle, pot, preserve in honey | Earthenware crock                       |
+| Cook before potting            | Hearth, under [Cooking](cooking.md)     |
+| Store                          | Sack, basket, barrel, earthenware crock |
 
 - Food preservation owns the sack, basket, barrel, and earthenware crock as food containers.
 
 ## Vanilla content
 
 - Vanilla rotten flesh stays hidden; every Feudum item has its own rotten version instead.
-- The vanilla smoker stays hidden. Smoking food belongs to the smoking rack, and cooking to [Cooking](https://github.com/NoNamer777/feudum/issues/30).
+- The vanilla smoker stays hidden. Smoking food belongs to the smoking rack, and cooking to [Cooking](cooking.md).
 - Vanilla foods never spoil, since [Foods](https://github.com/NoNamer777/feudum/issues/51) hides them.
 
 ## Persistence
@@ -249,7 +249,7 @@ Food preservation owns keeping times, the stages of spoilage and their effects, 
 - **[Time](time.md)**: the calendar that keeping times are measured in.
 - **[Animal husbandry](animal-husbandry.md)**: slaughter, butchering, and tallow.
 - **[Foods](https://github.com/NoNamer777/feudum/issues/51)**: every food and preserved food item, meat cuts, and lard.
-- **[Cooking](https://github.com/NoNamer777/feudum/issues/30)**: the hearth, cooked food, and its food component.
+- **[Cooking](cooking.md)**: the hearth, cooked food, and its food component.
 - **[Dairy](https://github.com/NoNamer777/feudum/issues/135)**: cheese and butter making, and how long they keep.
 - **[Salt](https://github.com/NoNamer777/feudum/issues/66)**: the salt item and salt pans.
 - **[Snow and ice](https://github.com/NoNamer777/feudum/issues/53)**: the ice and packed snow of an ice house, and how fast they melt.
