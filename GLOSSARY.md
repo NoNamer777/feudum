@@ -1689,7 +1689,7 @@ Opening a whole fish with a knife to take its flesh, offal, roe, liver, and bone
 
 ### Fishpond
 
-A still water body dug or dammed by a player or villager, stocked and drained by its keeper._Avoid_: Stew pond
+A still water body dug or dammed by a player or villager, stocked and drained by its keeper.\n_Avoid_: Stew pond
 
 ## Tanning
 
