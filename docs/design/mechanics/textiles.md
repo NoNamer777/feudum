@@ -7,7 +7,7 @@ Every thread, rope, and bolt of cloth in Feudum is made the long way. Flax rots 
 ## Scope
 
 - Textiles works six fibers: flax, hemp, and nettle (the bast fibers), wool, goat hair, and lime bast.
-- It starts where the fiber is gathered. [Farming](https://github.com/NoNamer777/feudum/issues/32) grows flax and hemp, and Textiles takes over at the pulled stalk. [Animal husbandry](animal-husbandry.md) owns sheep and goats, their regrowth, and the natural fleece colors of their breeds; Textiles owns the shears, shearing, and the fleece. Nettle and lime trees grow wild, as [world generation](../world-generation/README.md) places them.
+- It starts where the fiber is gathered. [Farming](farming.md#field-crops) grows flax and hemp, and Textiles takes over at the pulled stalk. [Animal husbandry](animal-husbandry.md) owns sheep and goats, their regrowth, and the natural fleece colors of their breeds; Textiles owns the shears, shearing, and the fleece. Nettle and lime trees grow wild, as [world generation](../world-generation/README.md) places them.
 - It ends at thread, twine, rope, cloth, felt, matting, dyes, and dyed items. [Clothing](../content/clothing.md) sews garments from them.
 - Every historical step of the craft is its own step here, and each takes about as long as it did, so cloth is scarce and valuable.
 - Cloth carries no quality: every cloth of a kind is the same until [Cloth quality](https://github.com/NoNamer777/feudum/issues/105) lands.
@@ -311,7 +311,7 @@ Textiles owns the six fibers from gathering to cloth and every step between, fel
 - **[Weather](weather.md)**: the rain, sun, and frost that drive dew retting, bleaching, tentering, and fading.
 - **[Relief](relief.md)**: relieving, the rule for who may use a privy, and the dung that skirtings count as.
 - **[Villages](villages.md)**: the standing scale.
-- **[Farming](https://github.com/NoNamer777/feudum/issues/32)**: flax, hemp, teasel, and cultivated dye plants, and replanting seed.
+- **[Farming](farming.md)**: flax, hemp, teasel, and cultivated dye plants, and replanting seed.
 - **[Animal husbandry](animal-husbandry.md)**: sheep and goats, fleece regrowth, and breeds with their natural colors.
 - **[Terrain](https://github.com/NoNamer777/feudum/issues/60)**: the deposits of fuller's earth and alunite.
 - **[Watermill](https://github.com/NoNamer777/feudum/issues/67)**: the power of the fulling mill.

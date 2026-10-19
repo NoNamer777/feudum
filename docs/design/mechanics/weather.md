@@ -147,7 +147,7 @@ Wind forces read the sheltered wind, gusts included, so a wall or a house protec
 
 Weather owns the weather field, fronts, weather values and labels, the wind and its labels, wind shelter, wind forces, local temperature, snow cover, snow drifts, and ice, weather signs, lightning, and weather overrides. Other mechanics own what weather does to them, each linked to its page or, while it waits for a design, its issue:
 
-- **[Farming](https://github.com/NoNamer777/feudum/issues/32)**: how crops respond to the weather, storm damage included.
+- **[Farming](farming.md)**: how crops respond to the weather, storm damage included.
 - **[Village simulation](https://github.com/NoNamer777/feudum/issues/45)**: what a village does with the weather of each catch-up step.
 - **[Villagers](https://github.com/NoNamer777/feudum/issues/46)**: how weather changes villager behavior.
 - **[Buildings](https://github.com/NoNamer777/feudum/issues/29)**: what weather does to buildings, storm damage included.

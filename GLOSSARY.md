@@ -1389,3 +1389,182 @@ A roof block that drains smoke and loses heat as half an opening does.
 ### Chimney
 
 A stone flue from a fireplace to open sky, which drains smoke well and loses little heat.
+
+## Farming
+
+### Crop profile
+
+The data-driven description of a crop: its growth stages, the ranges of temperature, soil moisture, and acidity it grows in, its frost tolerance, its nutrient demand, its seed rate, and its yield.
+
+### Growth progress
+
+How far a crop has grown, which builds up with Feudum time at a rate its growth conditions set.
+
+### Growth conditions
+
+The local temperature, soil moisture, nutrients and acidity, and daylight at a crop's block, which set how fast it grows.
+
+### Ripe
+
+The stage at which a crop gives its full yield and its seed sprouts.
+
+### Overripe
+
+The stage of a crop left in the field past Ripe, when grain sheds, fruit drops, and roots start to rot.
+
+### Dormant
+
+The state of a winter-sown crop through the cold, when it doesn't grow and survives hard frost.
+
+### Frost tolerance
+
+How much frost a crop survives: Tender, Hardy, or Winter-hardy.
+
+### Dead stalks
+
+What a crop turns into when stress kills it.
+
+### Soil texture
+
+The kind of ground of a column, generated from the seed: sand, loam, clay, or peat.\
+_Avoid_: Soil type
+
+### Soil moisture
+
+How wet the soil is, computed from the recent weather, the drainage, and the water table: Waterlogged, Wet, Moist, Dry, or Parched.\
+_Avoid_: Hydration, dryness
+
+### Irrigation ditch
+
+A trench of water that raises the soil moisture of the tilled soil near it.
+
+### Tilled soil
+
+Ground broken by a spade, mattock, ard, or plough, in which crops are sown.\
+_Avoid_: Farmland
+
+### Nutrient
+
+One of the three things a crop draws from tilled soil: nitrogen, phosphorus, or potassium.\
+_Avoid_: Fertility
+
+### Leaching
+
+The loss of nitrogen from bare tilled soil to the rain.
+
+### Acidity
+
+How sour tilled soil is, which sets how much of each nutrient a crop can draw: Sour, Neutral, or Sweet.
+
+### Marl
+
+A limy clay dug from marl pits and spread on fields to sweeten the soil.
+
+### Fallow
+
+Tilled soil left unsown for a season or more, so its nutrients recover.
+
+### Ard
+
+A light plough drawn by one draft animal, which scratches the soil rather than turning it.
+
+### Heavy plough
+
+A plough drawn by a team of oxen, which turns any soil, clay included.
+
+### Harrow
+
+A frame drawn over tilled soil to break the clods and cover sown seed.
+
+### Headland
+
+The strip at the end of a field where the plough turns.
+
+### Broadcasting
+
+Sowing by throwing seed from a seed basket over a patch of tilled soil.
+
+### Setting
+
+Sowing one block at a time, with a dibber or by hand.
+
+### Seed rate
+
+How much seed a block of a crop takes.
+
+### Biennial
+
+A crop that sets seed only in its 2nd year, after standing through a winter.
+
+### Perennial
+
+A crop that lives for years in its block and grows again each spring.
+
+### Crown
+
+The rootstock of a hop plant, which lives on from year to year and sends up bines.
+
+### Bine
+
+The climbing stem of a hop plant, cut at harvest.
+
+### Weed
+
+A plant that spreads onto tilled soil and takes nutrients and moisture from the crops around it.
+
+### Lodging
+
+Ripe grain flattened by the wind, which is slower to reap and loses part of its yield.
+
+### Sheaf
+
+A bundle of reaped stalks, bound to dry and to carry.
+
+### Stook
+
+Sheaves stood together in the field to dry.\
+_Avoid_: Shock
+
+### Threshing
+
+Beating sheaves with a flail on a threshing floor, which gives grain, straw, and chaff.
+
+### Winnowing
+
+Tossing threshed grain in a draft, which carries the chaff away.
+
+### Chaff
+
+The husks winnowing separates from the grain, fed to livestock.
+
+### Stubble
+
+The stalks a reaped crop leaves standing in the field.
+
+### Sward height
+
+How tall the grass of a block stands, which grazing lowers and the season regrows.
+
+### Meadow
+
+Grassland kept for mowing into hay.
+
+### Pasture
+
+Grassland kept for grazing.
+
+### Grafting
+
+Joining a scion onto a rootstock, so the tree bears the scion's variety.
+
+### Scion
+
+A cutting from a tree of a known variety, grafted onto a rootstock.
+
+### Rootstock
+
+The young tree a scion is grafted onto, such as a crab apple seedling.
+
+### Windfall
+
+Fruit that drops from an overripe tree, and spoils.

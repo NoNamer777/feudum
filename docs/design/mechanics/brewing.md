@@ -7,7 +7,7 @@ A village drinks what it brews. Grain is steeped, sprouted, and kilned into malt
 ## Scope
 
 - Brewing makes ale, hopped beer, small beer, cider, perry, wine, rosé, fortified wine, mead, ciderkin, piquette, verjuice, and spirits.
-- It starts where the ingredient is harvested. [Farming](https://github.com/NoNamer777/feudum/issues/32) grows barley, oats, wheat, hops, apple and pear orchards, and vineyards, and the climate profile of [Time](time.md#seasons-and-climate) limits where grapes grow. [World generation](../world-generation/README.md) places crab apples, wild hops, and the gruit herbs bog myrtle and yarrow. Honey comes from [Beekeeping](https://github.com/NoNamer777/feudum/issues/128), and from wild hives until that design lands.
+- It starts where the ingredient is harvested. [Farming](farming.md#crops) grows barley, oats, wheat, hops, apple and pear orchards, and vineyards, and the climate profile of [Time](time.md#seasons-and-climate) limits where grapes grow. [World generation](../world-generation/README.md) places crab apples, wild hops, and the gruit herbs bog myrtle and yarrow. Honey comes from [Beekeeping](https://github.com/NoNamer777/feudum/issues/128), and from wild hives until that design lands.
 - It ends at the drink in a cask, jug, or cup, and at drunkenness and its aftermath in the body that drinks it.
 - Every historical step of the craft is its own step here, and each takes about as long as it did.
 - Drinks carry a strength but no quality: every drink of a kind is the same until [Drink quality](https://github.com/NoNamer777/feudum/issues/130) lands.
@@ -330,7 +330,7 @@ Brewing owns malting, brewing, pressing, treading, fermenting, and distilling, e
 - **[Fluids](fluids.md)**: the foulness and salinity of water, and fouling sources.
 - **[Weather](weather.md)**: the local temperature and the frost of freeze distilling.
 - **[Time](time.md)**: climate profiles that limit where grapes grow.
-- **[Farming](https://github.com/NoNamer777/feudum/issues/32)**: grain, hops, orchards, and vineyards.
+- **[Farming](farming.md)**: grain, hops, orchards, and vineyards.
 - **[Beekeeping](https://github.com/NoNamer777/feudum/issues/128)**: honey.
 - **[Cooking](cooking.md)**: the hearth, the heated cauldron, bread leavened with barm, and dishes with verjuice and vinegar.
 - **[Foods](https://github.com/NoNamer777/feudum/issues/51)**: the quern, and windfall fruit.
