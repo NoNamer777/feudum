@@ -179,7 +179,7 @@ The diagram maps each kind of food to the methods that keep it, and shows the ch
 
 - A carcass rots through the same stages, with a keeping time of about 4 days.
 - At Rotten, it draws flies, becomes a fouling source, and leaves bones and rotten meat behind.
-- Butchering, and what a carcass yields when cut up, belong to [Foods](https://github.com/NoNamer777/feudum/issues/51) and [Animal husbandry](https://github.com/NoNamer777/feudum/issues/27).
+- Butchering, and what a carcass yields when cut up, belong to [Animal husbandry](animal-husbandry.md#slaughter-and-butchering), and the meat cuts to [Foods](https://github.com/NoNamer777/feudum/issues/51).
 
 ## Cues
 
@@ -247,7 +247,8 @@ Food preservation owns keeping times, the stages of spoilage and their effects, 
 - **[Brewing](brewing.md)**: how drinks keep, and the vinegar that pickling uses.
 - **[Textiles](textiles.md)**: retting and over-retting.
 - **[Time](time.md)**: the calendar that keeping times are measured in.
-- **[Foods](https://github.com/NoNamer777/feudum/issues/51)**: every food and preserved food item, lard and tallow, and butchering.
+- **[Animal husbandry](animal-husbandry.md)**: slaughter, butchering, and tallow.
+- **[Foods](https://github.com/NoNamer777/feudum/issues/51)**: every food and preserved food item, meat cuts, and lard.
 - **[Cooking](https://github.com/NoNamer777/feudum/issues/30)**: the hearth, cooked food, and its food component.
 - **[Dairy](https://github.com/NoNamer777/feudum/issues/135)**: cheese and butter making, and how long they keep.
 - **[Salt](https://github.com/NoNamer777/feudum/issues/66)**: the salt item and salt pans.
@@ -256,7 +257,6 @@ Food preservation owns keeping times, the stages of spoilage and their effects, 
 - **[Beekeeping](https://github.com/NoNamer777/feudum/issues/128)**: honey.
 - **[Farming](https://github.com/NoNamer777/feudum/issues/32)**: crops in the field, and what a Spoiled seed does.
 - **[Tanning](https://github.com/NoNamer777/feudum/issues/80)**: hides once they are tanned, and what a Stale hide yields.
-- **[Animal husbandry](https://github.com/NoNamer777/feudum/issues/27)**: slaughter and butchering of livestock.
 - **[Illness](https://github.com/NoNamer777/feudum/issues/37)**: what the foul load of Spoiled food does.
 - **[Vermin](https://github.com/NoNamer777/feudum/issues/136)**: rats and mice in the stores, which a sealed container keeps out.
 - **[Inventory](https://github.com/NoNamer777/feudum/issues/83)**: chests and general storage.

@@ -203,7 +203,7 @@ A shield protects in four positions:
 - A crossbow is spanned and loaded slowly, then stays loaded until it shoots. A heavy crossbow can't be spanned without its cranequin or windlass in the inventory.
 - The ranged weapon sets the power of a shot, which scales the damage and penetration of its ammunition.
 - A shot lands on the struck region at its impact point, and drifts in the wind under the rules of [Weather](../mechanics/weather.md).
-- Bowstrings and sling cords are twine from [Textiles](../mechanics/textiles.md#cordage). Horn and sinew come from [Animal husbandry](https://github.com/NoNamer777/feudum/issues/27).
+- Bowstrings and sling cords are twine from [Textiles](../mechanics/textiles.md#cordage). Horn and sinew come from [Animal husbandry](../mechanics/animal-husbandry.md#slaughter-and-butchering).
 
 ### Ammunition
 
@@ -343,7 +343,7 @@ Weapons owns weapon types and materials, attack motions and profiles, armor pene
 - **[Carpentry](https://github.com/NoNamer777/feudum/issues/115)**: wood and the carpenter's bench.
 - **[Textiles](../mechanics/textiles.md)**: the twine of bowstrings and sling cords.
 - **[Tanning](https://github.com/NoNamer777/feudum/issues/80)**: leather facings, and tallow.
-- **[Animal husbandry](https://github.com/NoNamer777/feudum/issues/27)**: horn, sinew, and feathers.
+- **[Animal husbandry](../mechanics/animal-husbandry.md)**: horn, sinew, and feathers.
 - **[Heraldry](https://github.com/NoNamer777/feudum/issues/103)**: devices painted on shields.
 - **[Weaponsmith](https://github.com/NoNamer777/feudum/issues/119)**, **[Arrowsmith](https://github.com/NoNamer777/feudum/issues/120)**, **[Bowyer](https://github.com/NoNamer777/feudum/issues/121)**, **[Fletcher](https://github.com/NoNamer777/feudum/issues/122)**, and **[Carpenter](https://github.com/NoNamer777/feudum/issues/123)**: the villagers who make and repair weapons.
 - **[Villagers](https://github.com/NoNamer777/feudum/issues/46)**, **[Village economy](https://github.com/NoNamer777/feudum/issues/44)**, and **[Village defense](https://github.com/NoNamer777/feudum/issues/90)**: who in a village is armed, and where the weapons come from.

@@ -959,3 +959,86 @@ Cod dried unsalted in cold wind, which keeps for years.
 ### Potting
 
 Preserving cooked meat in a crock sealed under a layer of fat.
+
+## Animal husbandry
+
+### Livestock
+
+The domestic animals that a player, a manor, or a village holding owns and breeds.\
+_Avoid_: Farm animals, mobs
+
+### Livestock profile
+
+An entity type's data for animal husbandry: its breeding season, gestation or incubation, litter or clutch, growth, lifespan, lactation, fleece, crowding area, draft fitness, trait ranges, breeds, and slaughter yields.
+
+### Dam
+
+The mother of a young animal, or a female kept to breed.
+
+### Sire
+
+The father of a young animal, or a male kept to breed.
+
+### Breeding season
+
+The part of the year in which a species comes in season, set by daylight.\
+_Avoid_: Mating season, rut
+
+### In season
+
+Of a female: ready to conceive, which she shows by calling for the males.\
+_Avoid_: In heat, love mode
+
+### Trait
+
+One of the five heritable values every animal carries: size, yield, hardiness, temperament, or color.\
+_Avoid_: Gene, stat
+
+### Breed
+
+A data-driven set of trait ranges with a look and a home region, to which every animal whose traits fall within them belongs.
+
+### Temperament
+
+The trait that sets how far an animal flees, whether it fights back, and how readily it is led.\
+_Avoid_: Tameness
+
+### Castrate
+
+To make a male unable to breed, which leaves an ox, wether, gelding, or capon that grows larger and calmer.\
+_Avoid_: Neuter
+
+### Lactation
+
+The span after giving birth in which a dam gives milk, which milking can extend.
+
+### Weaning
+
+The age at which a young mammal stops suckling and eats by its diet profile.
+
+### Broody
+
+The state of a hen that sits on a clutch until it hatches, and lays no more meanwhile.
+
+### Carcass
+
+What an animal leaves when it dies, which rots in a few days unless it is butchered.\
+_Avoid_: Corpse
+
+### Butchering
+
+Cutting a carcass up at a butcher's block into meat, hide, fat, and the rest of its yields.
+
+### Tallow
+
+Animal fat rendered in a heated cauldron, which oils iron and steel against rust.
+
+### Pinfold
+
+The village pound in which the Hayward holds strays until their owner pays to redeem them.\
+_Avoid_: Pound
+
+### Crowding
+
+The state of an animal with less than its species' minimum area, which can't conceive and grows and yields more slowly.\
+_Avoid_: Overcrowding
