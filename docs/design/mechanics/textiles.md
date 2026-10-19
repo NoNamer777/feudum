@@ -77,6 +77,7 @@ Flax, hemp, and nettle follow one chain:
 | Tenter         | Stretching the wet cloth on a tenter frame to dry square.                | Tentered cloth    |
 | Raise and crop | Raising the nap with a teasel frame, then cropping it level with shears. | Woolen cloth      |
 
+- A fleece takes the grime and mud of its sheep at shearing, as [Hygiene](hygiene.md#fleece) describes. Grime raises the share of skirtings, and grime and mud lengthen the scour, so a flock washed in a stream before shearing gives the better fleece.
 - Shearing leaves the sheep shorn, which costs it most of its fleece insulation under [Body temperature](body-temperature.md#thermal-profiles) until the wool grows back.
 - Skirtings count as dung under [Relief](relief.md#waste).
 - Goat hair is sheared the same way, as [Goat hair and lime bast](#goat-hair-and-lime-bast) describes.
@@ -202,7 +203,7 @@ Starting values for the hand work behind 2 woolen cloth, from a fresh fleece, wo
 
 ### Fading
 
-- A dyed item loses shade from sunlight, while worn or left in the open, and with each wash under [Washing and bathhouses](https://github.com/NoNamer777/feudum/issues/75).
+- A dyed item loses shade from sunlight, while worn or left in the open, and with each wash, which [Hygiene](hygiene.md#fading) counts.
 - Its fastness sets the rate: the fastness of the dyestuff times a factor for the stage it was dyed at. The factor is 1 for fiber, about 1¼ for yarn, about 2 for cloth, and about 3 for a garment, so what is dyed in the wool lasts longest.
 - A mordant raises fastness wherever the dyestuff takes one.
 - Fading steps the shade down toward the undyed color. A faded item can be overdyed again.
@@ -317,7 +318,7 @@ Textiles owns the six fibers from gathering to cloth and every step between, fel
 - **[Cooking](https://github.com/NoNamer777/feudum/issues/30)**: the heated cauldron that scours wool.
 - **[Smithing](https://github.com/NoNamer777/feudum/issues/86)**: the iron parts of the tools.
 - **[Privy and chamber pot](https://github.com/NoNamer777/feudum/issues/71)**: how a lant tub is built and carried.
-- **[Washing and bathhouses](https://github.com/NoNamer777/feudum/issues/75)**: the washes that fade dyes.
+- **[Hygiene](hygiene.md)**: the washes that fade dyes, and the dirt a fleece takes from its sheep.
 - **[Cloth quality](https://github.com/NoNamer777/feudum/issues/105)**: whether cloth carries a quality, and how the steps and [Skills](https://github.com/NoNamer777/feudum/issues/43) set it.
 - **[Oil pressing](https://github.com/NoNamer777/feudum/issues/106)**: linseed and hempseed oil.
 - **[Social standing of dress](https://github.com/NoNamer777/feudum/issues/82)**: fine cloth, expensive dyes, and tapestries.

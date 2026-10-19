@@ -53,6 +53,7 @@ Felt temperature starts from the local temperature of the [Weather](weather.md#l
 - Snow falling on an uncovered body melts into wetness while the felt temperature is above freezing.
 - Garments carry wetness of their own, and precipitation reaches the body only through them, slowed by their water resistance, as [Clothing](../content/clothing.md#wetness) describes.
 - Wetness dries faster with higher felt temperature, sun, sheltered wind, and nearby heat sources.
+- Mud on a body cools it as wetness does and dries at half the rate, as [Hygiene](hygiene.md#wallowing) describes.
 
 ## Shelter and heat
 
@@ -147,3 +148,4 @@ Body temperature owns thermal profiles, felt temperature and its inputs, the wet
 - **[Buildings](https://github.com/NoNamer777/feudum/issues/29)**: whether a building reuses the enclosure check.
 - **[Clothing](../content/clothing.md)**: the slots, how the stats of worn garments combine, and the wetness and drying of garments.
 - **[Textiles](textiles.md)**: the wall hangings and rugs that raise the insulation of a face, and shearing, which leaves a sheep shorn.
+- **[Hygiene](hygiene.md)**: the mud that cools a body, the water temperature of washbasins, tubs, and stone baths, and the bath furnace as a heat source.
