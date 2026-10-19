@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" width="900" height="400" role="img" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#1f2328">
+  <title>The cycle of the flux: foul water, the foul load, the flux, waste, and the privy pit and groundwater that lead back to foul water</title>
+  <rect x="0.5" y="0.5" width="899" height="399" rx="6" fill="#ffffff" stroke="#d0d7de"/>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#57606a"/></marker>
+  </defs>
+
+  <!-- Edges -->
+  <path d="M130 172 C 130 110, 200 66, 298 66" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#a)"/>
+  <text x="190" y="122" font-size="11.5" fill="#59636e">drunk</text>
+  <text x="34" y="128" font-size="11.5" fill="#1a7f37" font-style="italic">boiled water, ale,</text>
+  <text x="34" y="142" font-size="11.5" fill="#1a7f37" font-style="italic">and wine are clean</text>
+
+  <path d="M460 66 H578" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#a)"/>
+  <text x="519" y="58" text-anchor="middle" font-size="11.5" fill="#59636e">a chance</text>
+  <text x="519" y="84" text-anchor="middle" font-size="11.5" fill="#59636e">each hour</text>
+
+  <path d="M740 66 C 790 66, 790 120, 790 170" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#a)"/>
+  <text x="800" y="116" font-size="11.5" fill="#59636e">the bowels</text>
+  <text x="800" y="130" font-size="11.5" fill="#59636e">fill fast</text>
+
+  <path d="M708 195 H232" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#a)"/>
+  <text x="470" y="187" text-anchor="middle" font-size="11.5" fill="#59636e">into a stream: carried downstream</text>
+
+  <path d="M790 220 C 790 280, 760 330, 702 330" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#a)"/>
+  <text x="800" y="280" font-size="11.5" fill="#59636e">into a</text>
+  <text x="800" y="294" font-size="11.5" fill="#59636e">privy pit</text>
+
+  <path d="M540 330 H442" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#a)"/>
+  <text x="491" y="300" text-anchor="middle" font-size="11.5" fill="#59636e">seeps through</text>
+  <text x="491" y="314" text-anchor="middle" font-size="11.5" fill="#59636e">the ground</text>
+  <text x="491" y="372" text-anchor="middle" font-size="11.5" fill="#1a7f37" font-style="italic">sand and loam filter it</text>
+
+  <path d="M280 330 C 190 330, 130 290, 130 222" fill="none" stroke="#57606a" stroke-width="1.4" marker-end="url(#a)"/>
+  <text x="185" y="282" font-size="11.5" fill="#59636e">drawn up</text>
+
+  <!-- Steps -->
+  <rect x="30" y="172" width="200" height="48" rx="6" fill="#ddf4ff" stroke="#0969da" stroke-width="1.2"/>
+  <text x="130" y="193" text-anchor="middle" font-weight="600">Foul water</text>
+  <text x="130" y="210" text-anchor="middle" font-size="11.5" fill="#59636e">Fluids</text>
+
+  <rect x="300" y="42" width="160" height="48" rx="6" fill="#fff8c5" stroke="#9a6700" stroke-width="1.2"/>
+  <text x="380" y="63" text-anchor="middle" font-weight="600">Foul load</text>
+  <text x="380" y="80" text-anchor="middle" font-size="11.5" fill="#59636e">Thirst</text>
+
+  <rect x="580" y="42" width="160" height="48" rx="6" fill="#ffd8d3" stroke="#cf222e" stroke-width="1.2"/>
+  <text x="660" y="63" text-anchor="middle" font-weight="600">The flux</text>
+  <text x="660" y="80" text-anchor="middle" font-size="11.5" fill="#59636e">Illness</text>
+
+  <rect x="710" y="172" width="170" height="48" rx="6" fill="#fff1e5" stroke="#bc4c00" stroke-width="1.2"/>
+  <text x="795" y="193" text-anchor="middle" font-weight="600">Waste</text>
+  <text x="795" y="210" text-anchor="middle" font-size="11.5" fill="#59636e">Relief; a sick body's fouls more</text>
+
+  <rect x="540" y="306" width="160" height="48" rx="6" fill="#eaeef2" stroke="#57606a" stroke-width="1.2"/>
+  <text x="620" y="327" text-anchor="middle" font-weight="600">Privy pit</text>
+  <text x="620" y="344" text-anchor="middle" font-size="11.5" fill="#59636e">Relief</text>
+
+  <rect x="280" y="306" width="160" height="48" rx="6" fill="#ddf4ff" stroke="#0969da" stroke-width="1.2"/>
+  <text x="360" y="327" text-anchor="middle" font-weight="600">Groundwater, well</text>
+  <text x="360" y="344" text-anchor="middle" font-size="11.5" fill="#59636e">Fluids</text>
+</svg>

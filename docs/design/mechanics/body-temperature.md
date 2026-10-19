@@ -42,6 +42,7 @@ Felt temperature starts from the local temperature of the [Weather](weather.md#l
 - **Heat sources**: see [Shelter and heat](#shelter-and-heat).
 - **Food and drink**: a consumable can carry a thermal component, an offset in °C and a duration, so a hot stew warms for a while and cold water cools. [Hunger](hunger.md) and [Thirst](thirst.md) own the nourishment.
 - **Alcohol**: the alcohol level of [Brewing](brewing.md#cold-and-pain) adds a warming offset, but also speeds the drift of body temperature toward the cold, so a drunk asleep in the snow freezes.
+- **Illness**: a fever of [Illness](illness.md#symptoms) adds a warming offset, and chills a cooling one, each growing with the severity of its disease.
 - **Depth**: below the surface, by heightmap and without sky access, felt temperature blends toward the cave temperature, the yearly average of the local temperature there. Caves feel cool in summer and mild in winter, and the deepest levels warm again with geothermal heat.
 - **Water**: a body in water feels the water temperature instead of the air. Deep water stays near the yearly average, shallows follow the air, and water under ice never drops below 0 °C. A body in water drifts several times faster than in air, so falling through winter ice kills within a minute or two.
 - **Insulation**: clothing and natural insulation, such as fur or fleece, widen the comfort band toward the cold and narrow it toward the heat, and slow the drift. A fur coat makes winter safe and summer worse.
@@ -139,6 +140,7 @@ Body temperature owns thermal profiles, felt temperature and its inputs, the wet
 - **[Hunger](hunger.md)**: nourishment, how faster drain plays out, and the vegetable deficiency that narrows the comfort band.
 - **[Thirst](thirst.md)**: drinking, and how faster drain plays out.
 - **[Brewing](brewing.md)**: the alcohol level that warms felt temperature and speeds the drift toward the cold.
+- **[Illness](illness.md)**: the fever and chills that offset felt temperature.
 - **[Food preservation](food-preservation.md)**: how the room temperature of a cellar or an ice house slows spoilage.
 - **[Fluids](fluids.md)**: the water a body swims in and the wet ground it lies on, both of which add wetness.
 - **[Health](health.md)**: the rule that modifiers of the same kind take the strongest.

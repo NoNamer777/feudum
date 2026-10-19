@@ -152,7 +152,7 @@ Fluids owns Feudum water: volume, flow, and settling, river discharge and curren
 - **[Weather](weather.md)**: rain, snow cover, ice forming and thawing, and the local temperature, wind, and cloud cover that drive evaporation.
 - **[Body temperature](body-temperature.md)**: wetness and water temperature.
 - **[Terrain](https://github.com/NoNamer777/feudum/issues/60)**: the drainage network and the groundwater baseline, from the seed alone.
-- **[Illness](https://github.com/NoNamer777/feudum/issues/37)**: what foul water does once drunk.
+- **[Illness](illness.md)**: what foul water does once drunk, and the stronger fouling of a sick body's waste.
 - **[Relief](relief.md)**: the waste that fouls water.
 - **[Textiles](textiles.md)**: the retting bundles and spent water of the craft, which foul water.
 - **[Health](health.md)**: drowning damage.

@@ -277,6 +277,7 @@ Animal husbandry owns the livestock roster, where livestock comes from, sexes an
 - **[Thirst](thirst.md)**: the drinking goal of animals.
 - **[Body temperature](body-temperature.md)**: thermal profiles, natural insulation, the young modifier, and shelter.
 - **[Health](health.md)**: injuries, including the bleeding of castration, and the vital pools a hit can strike.
+- **[Illness](illness.md)**: murrain and the other diseases of livestock, and the produce a sick animal stops giving.
 - **[Relief](relief.md)**: dung on the pasture and the barn floor.
 - **[Textiles](textiles.md)**: the shears, shearing, the fleece, and the cordage of the lead rope.
 - **[Food preservation](food-preservation.md)**: how carcasses, eggs, and the yields of butchering spoil.
