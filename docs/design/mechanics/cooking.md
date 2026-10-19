@@ -7,7 +7,7 @@ A village eats what it cooks. A pot of pottage simmers on the hearth from mornin
 ## Scope
 
 - Cooking covers roasting, boiling, stewing, frying, and baking, dishes combined from several ingredients, dough and bread, boiling water, and rendering fat. It owns the hearth, the heated cauldron, the bake oven, the kneading trough, the table, and the bowls and trenchers that dishes are served in.
-- It starts at a raw ingredient. [Foods](https://github.com/NoNamer777/feudum/issues/51) owns the food items and the quern that grinds flour, [Dairy](https://github.com/NoNamer777/feudum/issues/135) cheese and butter, [Food preservation](food-preservation.md) preserved food, [Brewing](brewing.md) drinks, and [Salt](https://github.com/NoNamer777/feudum/issues/66) salt pans.
+- It starts at a raw ingredient. [Foods](https://github.com/NoNamer777/feudum/issues/51) owns the food items and the quern that grinds flour, [Dairy](https://github.com/NoNamer777/feudum/issues/135) cheese and butter, [Food preservation](food-preservation.md) preserved food, [Brewing](brewing.md) drinks, and [Salt](../content/salt.md) salt.
 - It ends at the dish a body eats. [Hunger](hunger.md) owns what the food component does inside the body.
 - Dishes carry no quality: every dish of the same template and ingredients is the same until [Food quality](https://github.com/NoNamer777/feudum/issues/161) lands.
 - Cooking has no skill: every cook works at the same rate with the same result, and [Skills](https://github.com/NoNamer777/feudum/issues/43) decides whether that changes.
@@ -103,7 +103,8 @@ The block works out the template from what goes in, so there is no recipe menu:
 ## Seasoning
 
 - Seasonings are salt, herbs, spices, [verjuice](brewing.md#wine), [vinegar](brewing.md#keeping-and-souring), and honey.
-- A seasoning counts only through its own food component: salt adds its salt amount to the [salt load](thirst.md#model), and honey adds its energy.
+- A seasoning counts only through its own food component: salt adds its salt amount to the [salt load](thirst.md#model) and the [salt level](hunger.md#salt-level), and honey adds its energy.
+- Salt seasons by the pinch: a seasoning slot draws about 10 g of salt for each serving from a salt item, and the rest stays in the slot, as [Salt](../content/salt.md#seasoning) describes.
 - Spices come from trade, under [Village economy](https://github.com/NoNamer777/feudum/issues/44).
 
 ## Bread
@@ -248,7 +249,7 @@ Cooking owns how raw food becomes cooked food, the foul load that raw food adds,
 - **[Fire](fire.md)**: the fire in the hearth and the oven, its fuel, heat output, smoke, and ash, the fireplace, and the open fire.
 - **[Dairy](https://github.com/NoNamer777/feudum/issues/135)**: milk products, and the butter used for frying.
 - **[Oil pressing](https://github.com/NoNamer777/feudum/issues/106)**: the oil used for frying.
-- **[Salt](https://github.com/NoNamer777/feudum/issues/66)**: the salt item and salt pans.
+- **[Salt](../content/salt.md)**: the salt item, salt pans, and seasoning by the pinch.
 - **[Watermill](https://github.com/NoNamer777/feudum/issues/67)** and **[Windmill](https://github.com/NoNamer777/feudum/issues/56)**: milling flour.
 - **[Smithing](https://github.com/NoNamer777/feudum/issues/86)**: making the iron fixtures of the hearth and the heated cauldron, and the furnace.
 - **[Carpentry](https://github.com/NoNamer777/feudum/issues/115)**: making the kneading trough, the table, and the wooden bowl.
