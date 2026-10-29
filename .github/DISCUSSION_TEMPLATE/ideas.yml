@@ -1,0 +1,63 @@
+body:
+  - type: markdown
+    attributes:
+      value: >
+        Feudum is about managing medieval fantasy villages, built from its own content rather than vanilla Minecraft's.
+        Read [Contributing](https://github.com/NoNamer777/feudum/blob/main/CONTRIBUTING.md#suggesting-an-idea) for how
+        an idea becomes a `design` issue.
+
+  - type: markdown
+    attributes:
+      value: >
+        When a topic already has a home, add to it there instead: comment on its open
+        [`design` issue](https://github.com/NoNamer777/feudum/issues?q=is%3Aissue%20is%3Aopen%20label%3Adesign), or
+        link its [design page](https://github.com/NoNamer777/feudum/blob/main/docs/design/README.md) below to propose a
+        change to it.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you post
+      options:
+        - label: No open `design` issue covers this topic yet.
+          required: true
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: Idea
+      description: What the idea is.
+    validations:
+      required: true
+
+  - type: textarea
+    id: in-play
+    attributes:
+      label: In play
+      description: How a player would meet it in play.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Which area it belongs to. Pick more than one when it spans several.
+      multiple: true
+      options:
+        - Mechanics
+        - World generation
+        - Content
+        - Villager roles
+        - Not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: related
+    attributes:
+      label: Related pages and issues
+      description: Links to any design pages or issues it relates to.
+      placeholder: |
+        - https://github.com/NoNamer777/feudum/blob/main/docs/design/mechanics/villages.md
+        - #42
