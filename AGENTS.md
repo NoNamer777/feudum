@@ -1,5 +1,19 @@
 # Agent instructions
 
+Read [README.md](README.md) first: it says what Feudum is and where its design docs live. Before you design or build a feature, read the design page that covers it.
+
+## Planned designs
+
+A topic that comes up while designing another and waits for a design of its own is a GitHub issue, not a line in the docs. File it with the `design` label and the label of each area it belongs to: `mechanics`, `world-generation`, `content`, or `villager-roles`. Wherever a design page names the topic, link to its issue. The pull request that adds the topic's page closes the issue with a `Closes` line and points those links at the new page.
+
+An issue promoted from an idea in Discussions ends its body with a `Refs: <discussion URL>` line, since GitHub has no issue relationship for a discussion.
+
+Picking up a `design` issue starts a grilling session on its topic, run with the `grilling` skill, before you write any of the page. The user makes every decision of the design, and the page records the answers they settled.
+
+## Diagrams and tables
+
+A design page may carry a visual aid, such as a diagram, table, or chart, where it makes the design easier to grasp. Before you add or change one, read [Diagrams and tables](CONTRIBUTING.md#diagrams-and-tables) in CONTRIBUTING.md: it says when a page earns one, which format to pick, and how to check that it renders.
+
 ## Vanilla content
 
 Feudum replaces vanilla Minecraft rather than building on it: every block, item, entity, biome, structure, dimension, and mechanic a player meets comes from Feudum. The overworld is the one exception; it stays as the dimension Feudum's own biomes generate in.
