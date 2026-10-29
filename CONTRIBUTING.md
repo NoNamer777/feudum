@@ -9,7 +9,7 @@ Post your idea in the [Ideas](https://github.com/NoNamer777/feudum/discussions/c
 - What the idea is.
 - How a player would meet it in play.
 - Which area it belongs to: mechanics, world generation, content, or villager roles.
-- Any [design pages](docs/design/README.md) or issues it relates to.
+- Any design pages or issues it relates to.
 
 When a topic already has a home, add to it there instead. Comment on its open [`design` issue](https://github.com/NoNamer777/feudum/issues?q=is%3Aissue%20is%3Aopen%20label%3Adesign) when its page is still waiting to be written. To change a page that is already designed, post an idea that links the page.
 
@@ -49,18 +49,18 @@ Leave out a diagram of what a table already orders, such as the thresholds of a 
 
 Pick the lightest format that does the job:
 
-| Content                                               | Format                                                                                                    |
-|:------------------------------------------------------|:----------------------------------------------------------------------------------------------------------|
-| Values to compare, or a rule to work through          | A Markdown table, or worked examples                                                                      |
-| A small hierarchy                                     | A Mermaid fenced block, like the [Structure](docs/design/mechanics/realms.md#structure) diagram of Realms |
-| Flows, cycles, and branching chains                   | An SVG file                                                                                               |
-| Spatial or plotted, such as a map, layers, or a chart | An SVG file                                                                                               |
+| Content                                               | Format                               |
+|:------------------------------------------------------|:-------------------------------------|
+| Values to compare, or a rule to work through          | A Markdown table, or worked examples |
+| A small hierarchy                                     | A Mermaid fenced block               |
+| Flows, cycles, and branching chains                   | An SVG file                          |
+| Spatial or plotted, such as a map, layers, or a chart | An SVG file                          |
 
 Mermaid lays out a graph on its own. That suits a small hierarchy, but it scatters flows and cycles, so draw those as an SVG with every box placed by hand.
 
 Line up the columns of every table in the source, and give each cell of the separator row an alignment indicator, such as `:---`.
 
-Store each SVG in an `images/` folder beside the pages of its area, named `<page>-<topic>.svg`, such as `docs/design/mechanics/images/villages-territory.svg`. Give it a `<title>` and a light background of its own, so it reads in both GitHub themes. Embed it with alt text that describes what it shows.
+Store each SVG in an `images/` folder beside the pages of its area, named `<page>-<topic>.svg`. Give it a `<title>` and a light background of its own, so it reads in both GitHub themes. Embed it with alt text that describes what it shows.
 
 Introduce every visual aid with a sentence that says what it shows. The page's text stays the source of truth, so a visual aid shows only what the page already says. In that sentence, mark as illustrative any value the page leaves open, such as an example name, a threshold, or an assumed layout. A diagram that needs a rule the page lacks waits until that rule is designed.
 
