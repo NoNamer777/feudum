@@ -8,10 +8,10 @@ Post your idea in the [Ideas](https://github.com/NoNamer777/feudum/discussions/c
 
 - What the idea is.
 - How a player would meet it in play.
-- Which area it belongs to: mechanics, world generation, content, or villager roles.
-- Any design pages or issues it relates to.
+- Which area of the game it belongs to, if you can tell.
+- Any [design pages](docs/README.md) or issues it relates to.
 
-When a topic already has a home, add to it there instead. Comment on its open [`design` issue](https://github.com/NoNamer777/feudum/issues?q=is%3Aissue%20is%3Aopen%20label%3Adesign) when its page is still waiting to be written. To change a page that is already designed, post an idea that links the page.
+When a topic already has a home, add to it there instead. Comment on its [open issue](https://github.com/NoNamer777/feudum/issues) when its page is still waiting to be written. To change a page that is already designed, post an idea that links the page.
 
 The maintainer turns an idea into a `design` issue once:
 
@@ -34,7 +34,7 @@ The maintainer posts news about Feudum in [Announcements](https://github.com/NoN
 Pull requests are welcome for small fixes to the docs, such as a typo or a broken link. Design pages come out of the maintainer's design sessions, so propose design changes as an idea instead.
 
 - [Sign your commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits): the default branch rejects unsigned ones. If you can't sign, report the fix in Q&A.
-- Title the pull request as a [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/) subject, such as `docs: fix broken link in thirst page`.
+- Title the pull request as a [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/) subject, such as `docs: fix broken link in the docs index`.
 - Say in a sentence why the change is needed.
 
 ## Diagrams and tables
@@ -60,7 +60,7 @@ Mermaid lays out a graph on its own. That suits a small hierarchy, but it scatte
 
 Line up the columns of every table in the source, and give each cell of the separator row an alignment indicator, such as `:---`.
 
-Store each SVG in an `images/` folder beside the pages of its area, named `<page>-<topic>.svg`. Give it a `<title>` and a light background of its own, so it reads in both GitHub themes. Embed it with alt text that describes what it shows.
+Store each SVG in an `images/` folder beside the pages of its area, at `docs/<area>/images/<page>-<topic>.svg`. Give it a `<title>` and a light background of its own, so it reads in both GitHub themes. Embed it with alt text that describes what it shows.
 
 Introduce every visual aid with a sentence that says what it shows. The page's text stays the source of truth, so a visual aid shows only what the page already says. In that sentence, mark as illustrative any value the page leaves open, such as an example name, a threshold, or an assumed layout. A diagram that needs a rule the page lacks waits until that rule is designed.
 
