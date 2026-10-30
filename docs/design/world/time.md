@@ -63,7 +63,7 @@ Players, villagers, and animals tire, and sleep is how they recover. Fatigue kee
 
 ## Telling the time
 
-Players tell the time with one of two items they hold, both from Feudum's [era](../setting/era.md):
+Players tell the time with one of two items they hold, both from Feudum's [era](../setting/era.md). A pocket sundial shows the time from sunrise to sunset. An astrolabe shows the time and the date at any hour. The table sums them up:
 
 | Item           | Shows             | Works                  |
 |:---------------|:------------------|:-----------------------|

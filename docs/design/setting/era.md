@@ -19,7 +19,9 @@ Each design judges its own content against the rule. Fantasy content falls outsi
 
 ## Landmarks
 
-The table sorts the landmarks a design is most likely to reach for, borderline cases included. Roman concrete and hypocaust heating fell out of use before 1000; the rest of the right column arrived or spread after 1300.
+These are the landmarks a design is most likely to reach for, borderline cases included. In farming and crafts, the heavy plow, horse collar, three-field rotation, water mill, post windmill, treadle loom, spinning wheel, and bloomery are in the period, while the blast furnace is out. In building, stone castles, Romanesque and Gothic building, stained glass, and the wheelbarrow are in, while Roman concrete and hypocaust heating are out. Among weapons and armor, chain mail, the crossbow, the longbow, and the counterweight trebuchet are in, while plate armor, gunpowder, cannon, and firearms are out. Among instruments and writing, the astrolabe, pocket sundial, and magnetic compass are in, while mechanical clocks, the sandglass, spectacles, paper mills, and printing are out.
+
+Roman concrete and hypocaust heating fell out of use before 1000; the rest of what is out arrived or spread after 1300. The table sorts the same landmarks by kind:
 
 | Kind                    | In the period                                                                                                     | Out of the period                                               |
 |:------------------------|:------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------|
