@@ -10,6 +10,4 @@ The index of Feudum's documentation, from what the project is to the design of t
 
 ## Design
 
-The design of Feudum and the decisions behind it, with a subsection for each area of the game. Each subsection lists its designed topics in alphabetical order, each with a page of its own. The planned topics still waiting for a page are [open issues](https://github.com/NoNamer777/feudum/issues).
-
-No pages yet.
+- **[Design](design/README.md)**: the design of Feudum and the decisions behind it, with a page for each designed topic.
