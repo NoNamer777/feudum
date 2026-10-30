@@ -1,9 +1,0 @@
-export default {
-    extends: ['@commitlint/config-conventional'],
-    rules: {
-        'body-max-line-length': [2, 'always', 72],
-        'footer-max-line-length': [0],
-        'header-max-length': [2, 'always', 72],
-        'subject-case': [2, 'never', ['start-case', 'pascal-case', 'upper-case']],
-    },
-};
