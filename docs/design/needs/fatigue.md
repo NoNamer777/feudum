@@ -31,7 +31,7 @@ Sleep clears fatigue at a rate set by where a creature sleeps:
 | Pallet or bedroll |                                     2 |
 | Bare ground       |                                  1.25 |
 
-A creature sleeps on bare ground only when it collapses. A player sleeping on a pallet or bedroll at night counts toward the [sleeping share](../world/time.md#speeding-up-the-night), as one in a bed does. How cold and warmth affect sleep belongs to [Body temperature](https://github.com/NoNamer777/feudum/issues/227).
+A player or villager sleeps on bare ground only when they collapse. An animal sleeps wherever it settles for the night, and clears fatigue there at the rate of a bed; whether bedding or a stable changes that belongs to [Animals](https://github.com/NoNamer777/feudum/issues/228). A player sleeping on a pallet or bedroll at night counts toward the [sleeping share](../world/time.md#speeding-up-the-night), as one in a bed does. How cold and warmth affect sleep belongs to [Body temperature](https://github.com/NoNamer777/feudum/issues/227).
 
 In a bed, even the shortest night of the year clears a long day. At midsummer, a creature that goes to bed at sunset sleeps about 7 hours around the [watch](../world/time.md#two-sleeps-and-the-watch), which clears 17.5 hours: the 16 hours of daylight and the hour of the watch. A long winter night leaves it rested with time to spare. Exertion tips the balance: 10 hours of field work on that summer day add 5 hours, which the night cannot clear. A midday nap of an hour or so makes up most of the difference; without it, fatigue piles up through the harvest.
 
