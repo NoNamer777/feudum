@@ -20,6 +20,8 @@ An issue promoted from an idea in Discussions ends its body with a `Refs: <discu
 
 Picking up a `design` issue starts a grilling session on its topic, run with the `grilling` skill, before you write any of the page. The user makes every decision of the design, and the page records the answers they settled.
 
+Keep each design session to the topic of its issue. When a question grows too broad to settle within that topic, or leads into another topic or area, leave it unsettled: draft an issue for it as described above, and carry on with the rest of the topic. Wherever the page depends on that question, it links the issue in place of an answer.
+
 ## Diagrams and tables
 
 A design page may carry a visual aid, such as a diagram, table, or chart, where it makes the design easier to grasp. Before you add or change one, read [Diagrams and tables](CONTRIBUTING.md#diagrams-and-tables) in CONTRIBUTING.md: it says when a page earns one, which format to pick, and how to check that it renders.
