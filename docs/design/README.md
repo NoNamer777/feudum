@@ -5,3 +5,7 @@ The design of Feudum and the decisions behind it, with a section for each area o
 ## Setting
 
 - **[Setting and tone](setting/setting-and-tone.md)**: the world Feudum is set in, how real it is, and how it feels.
+
+## World
+
+- **[Materials and resources](world/materials-and-resources.md)**: the raw materials the world yields, what they refine into, and how they compare.
