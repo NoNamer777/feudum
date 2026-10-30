@@ -8,7 +8,7 @@ A design page lives at `docs/<area>/<topic>.md`, in the folder named after its a
 
 ## Planned designs
 
-A topic that comes up while designing another and waits for a design of its own is a GitHub issue, not a line in the docs. File it with the `design` label and the label of each area it belongs to: `mechanics`, `world-generation`, `content`, or `villager-roles`. Wherever a design page names the topic, link to its issue. The pull request that adds the topic's page closes the issue with a `Closes` line and points those links at the new page.
+A topic that comes up while designing another and waits for a design of its own is a GitHub issue, not a line in the docs. File it with a `design` label and a label for each area it belongs to. Run `gh label list` first: reuse a label that already covers the topic or area, and create one only when none does, named in kebab-case, such as `world-generation`. List the labels you would create in the issue draft, so they are reviewed with it. Wherever a design page names the topic, link to its issue. The pull request that adds the topic's page closes the issue with a `Closes` line and points those links at the new page.
 
 An issue promoted from an idea in Discussions ends its body with a `Refs: <discussion URL>` line, since GitHub has no issue relationship for a discussion.
 
