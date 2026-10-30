@@ -18,7 +18,7 @@ Each new issue joins the [Feudum project](https://github.com/users/NoNamer777/pr
 
 An issue promoted from an idea in Discussions ends its body with a `Refs: <discussion URL>` line, since GitHub has no issue relationship for a discussion.
 
-Picking up a `design` issue starts a grilling session on its topic, run with the `grilling` skill, before you write any of the page. The user makes every decision of the design, and the page records the answers they settled.
+Picking up an issue moves its project item to the In progress status, alongside the assignment. Picking up a `design` issue also starts a grilling session on its topic, run with the `grilling` skill, before you write any of the page. The user makes every decision of the design, and the page records the answers they settled.
 
 Keep each design session to the topic of its issue. When a question grows too broad to settle within that topic, or leads into another topic or area, leave it unsettled: draft an issue for it as described above, and carry on with the rest of the topic. Wherever the page depends on that question, it links the issue in place of an answer.
 
