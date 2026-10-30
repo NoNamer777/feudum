@@ -60,7 +60,7 @@ Mermaid lays out a graph on its own. That suits a small hierarchy, but it scatte
 
 Line up the columns of every table in the source, and give each cell of the separator row an alignment indicator, such as `:---`.
 
-Store each SVG in an `images/` folder beside the pages of its area, at `docs/<area>/images/<page>-<topic>.svg`. Give it a `<title>` and a light background of its own, so it reads in both GitHub themes. Embed it with alt text that describes what it shows.
+Store each SVG in an `images/` folder beside the pages of its area, at `docs/design/<area>/images/<page>-<topic>.svg`. Give it a `<title>` and a light background of its own, so it reads in both GitHub themes. Embed it with alt text that describes what it shows.
 
 Introduce every visual aid with a sentence that says what it shows. The page's text stays the source of truth, so a visual aid shows only what the page already says. In that sentence, mark as illustrative any value the page leaves open, such as an example name, a threshold, or an assumed layout. A diagram that needs a rule the page lacks waits until that rule is designed.
 
