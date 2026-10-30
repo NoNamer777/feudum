@@ -11,7 +11,7 @@ Post your idea in the [Ideas](https://github.com/NoNamer777/feudum/discussions/c
 - Which area it belongs to: mechanics, world generation, content, or villager roles.
 - Any [design pages](docs/README.md) or issues it relates to.
 
-When a topic already has a home, add to it there instead. Comment on its open [`design` issue](https://github.com/NoNamer777/feudum/issues?q=is%3Aissue%20is%3Aopen%20label%3Adesign) when its page is still waiting to be written. To change a page that is already designed, post an idea that links the page.
+When a topic already has a home, add to it there instead. Comment on its [open issue](https://github.com/NoNamer777/feudum/issues) when its page is still waiting to be written. To change a page that is already designed, post an idea that links the page.
 
 The maintainer turns an idea into a `design` issue once:
 
