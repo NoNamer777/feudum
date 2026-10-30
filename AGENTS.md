@@ -2,6 +2,10 @@
 
 Read [README.md](README.md) first: it says what Feudum is and where its design docs live. Before you design or build a feature, read the design page that covers it.
 
+## Design pages
+
+A design page lives at `docs/<area>/<topic>.md`, in the folder named after its area label, such as `docs/mechanics/villages.md`. The pull request that adds, renames, or removes a page updates [docs/README.md](docs/README.md) to match: each area lists its pages in alphabetical order, as a link with a one-line summary, and says "No pages yet." while it has none.
+
 ## Planned designs
 
 A topic that comes up while designing another and waits for a design of its own is a GitHub issue, not a line in the docs. File it with the `design` label and the label of each area it belongs to: `mechanics`, `world-generation`, `content`, or `villager-roles`. Wherever a design page names the topic, link to its issue. The pull request that adds the topic's page closes the issue with a `Closes` line and points those links at the new page.
