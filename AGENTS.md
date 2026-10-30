@@ -4,11 +4,11 @@ Read [README.md](README.md) first: it says what Feudum is and where its docs liv
 
 ## Documentation
 
-[docs/README.md](docs/README.md) indexes every document of the project, as a link with a one-line summary each. The pull request that adds, renames, or removes a document updates the index to match.
+[docs/README.md](docs/README.md) indexes the documents of the project, and [docs/design/README.md](docs/design/README.md) indexes the design by area. Each index lists its documents as a link with a one-line summary each. The pull request that adds, renames, or removes a document updates its index to match.
 
 ## Design pages
 
-The areas of the design are open: the user settles each one, and its name, when its first topic is filed or designed. A design page lives at `docs/<area>/<topic>.md`, where `<area>` is the name in its `area: <area>` label, such as `docs/world/biomes.md` for `area: world`. In the index's Design section, a subsection for each area lists its pages in alphabetical order. The first page of an area adds its subsection, and the Design section says "No pages yet." while it has none.
+The areas of the design are open: the user settles each one, and its name, when its first topic is filed or designed. A design page lives at `docs/design/<area>/<topic>.md`, where `<area>` is the name in its `area: <area>` label, such as `docs/design/world/biomes.md` for `area: world`. The design index links the index of each area, at `docs/design/<area>/README.md`, which lists the area's pages in alphabetical order. The first page of an area adds its index and its line in the design index, which says "No areas yet." while it has none.
 
 ## Planned designs
 
