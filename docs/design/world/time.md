@@ -63,7 +63,16 @@ Players, villagers, and animals tire, and sleep is how they recover. Fatigue kee
 
 ## Telling the time
 
-Players tell the time and date with an item they hold. Its form, and any limit on when it works, waits on [Era](https://github.com/NoNamer777/feudum/issues/211): a sundial works only in daylight, while an astrolabe works at night too. The management screen of a village also shows the date. Nothing else on screen shows the time or date.
+Players tell the time with one of two items they hold, both from Feudum's [era](../setting/era.md):
+
+| Item           | Shows             | Works                  |
+|:---------------|:------------------|:-----------------------|
+| Pocket sundial | The time          | From sunrise to sunset |
+| Astrolabe      | The time and date | At any hour            |
+
+Both read the sun or the stars, so they work only under open sky: under a roof or underground, neither gives a reading. Whether clouds and storms block one belongs to [Weather](https://github.com/NoNamer777/feudum/issues/215). They show the time in equal hours on a 24-hour clock, as astronomers counted them.
+
+The management screen of a village also shows the date. Nothing else on screen shows the time or date.
 
 ## Changing the time
 
