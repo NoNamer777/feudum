@@ -33,7 +33,7 @@ The longest day falls in the middle of Midsummer and the shortest in the middle 
 
 The days of the week are First Day, Second Day, Third Day, and Fourth Day. Years count from the world's creation, so a new world starts at dawn on First Day, 1 Early Spring, Year 1. A date reads as "Third Day, 7 Early Spring, Year 2".
 
-What the seasons change beyond daylight belongs to [Seasons](https://github.com/NoNamer777/feudum/issues/212).
+What the seasons change beyond daylight belongs to [Seasons](seasons.md).
 
 ### The moon
 
