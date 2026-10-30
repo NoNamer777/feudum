@@ -34,7 +34,7 @@ The maintainer posts news about Feudum in [Announcements](https://github.com/NoN
 Pull requests are welcome for small fixes to the docs, such as a typo or a broken link. Design pages come out of the maintainer's design sessions, so propose design changes as an idea instead.
 
 - [Sign your commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits): the default branch rejects unsigned ones. If you can't sign, report the fix in Q&A.
-- Title the pull request as a [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/) subject, such as `docs: fix broken link in thirst page`.
+- Title the pull request as a [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/) subject, such as `docs: fix broken link in the docs index`.
 - Say in a sentence why the change is needed.
 
 ## Diagrams and tables
