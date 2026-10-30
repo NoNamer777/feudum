@@ -9,7 +9,7 @@ Post your idea in the [Ideas](https://github.com/NoNamer777/feudum/discussions/c
 - What the idea is.
 - How a player would meet it in play.
 - Which area of the game it belongs to, if you can tell.
-- Any [design pages](docs/README.md) or issues it relates to.
+- Any [design pages](docs/design/README.md) or issues it relates to.
 
 When a topic already has a home, add to it there instead. Comment on its [open issue](https://github.com/NoNamer777/feudum/issues) when its page is still waiting to be written. To change a page that is already designed, post an idea that links the page.
 
