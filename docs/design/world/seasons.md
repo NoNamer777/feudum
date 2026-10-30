@@ -8,7 +8,7 @@ Every biome follows the same calendar and the same seasons, those of Western Eur
 
 The seasons change a little each day, as daylight does, so nothing jumps when a new season starts.
 
-Server owners cannot turn the seasons off or hold the world in one season, so every other design can count on them. The days-per-month [setting](time.md#settings) sets how long they last.
+No setting turns the seasons off or holds the world in one season, so every other design can count on them. The days-per-month [setting](time.md#settings) sets how long they last. Only an operator who [freezes the clock](time.md#changing-the-time) holds the season, along with the rest of the calendar.
 
 ## Temperature
 
@@ -45,7 +45,7 @@ Spring has no fixed thaw date: snow and ice melt when the temperature allows. Hi
 
 ### Land nobody keeps loaded
 
-Land outside villages misses time while no player keeps it loaded. When such land loads again, its snow and ice jump to the state the date and temperature imply, rather than replaying the missed days. A player who returns in summer finds no winter snow left. How villages catch up belongs to [Village catch-up](https://github.com/NoNamer777/feudum/issues/216).
+Land outside villages misses time while no player keeps it loaded. When such land loads again, its snow and ice jump to the state the date and temperature imply, rather than replaying the missed days. A player who returns in summer finds the winter snow gone, except where the land is still cold enough to keep it. How villages catch up belongs to [Village catch-up](https://github.com/NoNamer777/feudum/issues/216).
 
 ## Plants
 
