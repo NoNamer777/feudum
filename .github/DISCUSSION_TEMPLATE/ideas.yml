@@ -37,20 +37,11 @@ body:
     validations:
       required: true
 
-  - type: dropdown
+  - type: input
     id: area
     attributes:
       label: Area
-      description: Which area it belongs to. Pick more than one when it spans several.
-      multiple: true
-      options:
-        - Mechanics
-        - World generation
-        - Content
-        - Villager roles
-        - Not sure
-    validations:
-      required: true
+      description: Which area of the game it belongs to, if you can tell.
 
   - type: textarea
     id: related

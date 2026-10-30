@@ -4,11 +4,11 @@ Read [README.md](README.md) first: it says what Feudum is and where its design d
 
 ## Design pages
 
-A design page lives at `docs/<area>/<topic>.md`, in the folder named after its area label, such as `docs/mechanics/villages.md`. The pull request that adds, renames, or removes a page updates [docs/README.md](docs/README.md) to match: each area lists its pages in alphabetical order, as a link with a one-line summary, and says "No pages yet." while it has none.
+The areas of the design are open: the user settles each one, and its name, while designing the first page that belongs to it. A design page lives at `docs/<area>/<topic>.md`, where `<area>` is the kebab-case name of its area label. The pull request that adds, renames, or removes a page updates [docs/README.md](docs/README.md) to match: a section for each area lists its pages in alphabetical order, as a link with a one-line summary. The first page of an area adds its section, and the index says "No pages yet." while it has none.
 
 ## Planned designs
 
-A topic that comes up while designing another and waits for a design of its own is a GitHub issue, not a line in the docs. File it with a `design` label and a label for each area it belongs to. Run `gh label list` first: reuse a label that already covers the topic or area, and create one only when none does, named in kebab-case, such as `world-generation`. List the labels you would create in the issue draft, so they are reviewed with it. Wherever a design page names the topic, link to its issue. The pull request that adds the topic's page closes the issue with a `Closes` line and points those links at the new page.
+A topic that comes up while designing another and waits for a design of its own is a GitHub issue, not a line in the docs. File it with a `design` label and a label for each area it belongs to. Run `gh label list` first: reuse a label that already covers the topic or area, and create one only when none does, named in kebab-case. List the labels you would create in the issue draft, so they are reviewed with it. Wherever a design page names the topic, link to its issue. The pull request that adds the topic's page closes the issue with a `Closes` line and points those links at the new page.
 
 An issue promoted from an idea in Discussions ends its body with a `Refs: <discussion URL>` line, since GitHub has no issue relationship for a discussion.
 
