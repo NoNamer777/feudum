@@ -2,11 +2,12 @@
 
 A Minecraft mod in which players manage medieval fantasy villages.
 
+Feudum replaces vanilla Minecraft rather than building on it: every block, item, creature, and mechanic a player meets comes from Feudum. The overworld is the one thing that stays, as the dimension Feudum's own biomes generate in.
+
 The name comes from *feudum*, the medieval Latin word for a fief and the root of "feudal".
 
-## Status
-
-Early development: the repository holds no mod code yet.
+> [!NOTE]
+> Feudum is in early development: its design is just starting, and the repository holds no mod code yet.
 
 ## Design
 
