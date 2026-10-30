@@ -41,7 +41,7 @@ The moon runs through its cycle once a month: it is new on the first day and ful
 
 ## Sleeping
 
-Players can sleep only at night, from sunset to sunrise. Whether storms allow sleep during the day belongs to [Weather](https://github.com/NoNamer777/feudum/issues/215).
+Players can sleep only at night, from sunset to sunrise; during the day they can only [nap](../needs/fatigue.md#naps), which does not speed time up. Whether storms allow sleep during the day belongs to [Weather](https://github.com/NoNamer777/feudum/issues/215).
 
 ### Speeding up the night
 
@@ -59,7 +59,7 @@ Villagers keep the watch. What they do during it belongs to [Villager schedules]
 
 ### Fatigue
 
-Players, villagers, and animals tire, and sleep is how they recover. Fatigue keeps running through time that sleeping or catch-up skips, as if that time had played out. A player who sleeps while others stay awake still recovers, even though time does not speed up. How fatigue builds and what it does belongs to [Fatigue](https://github.com/NoNamer777/feudum/issues/213).
+Players, villagers, and animals tire, and sleep is how they recover. Fatigue keeps running through time that sleeping or catch-up skips, as if that time had played out. A player who sleeps while others stay awake still recovers, even though time does not speed up. How fatigue builds and what it does belongs to [Fatigue](../needs/fatigue.md).
 
 ## Telling the time
 
