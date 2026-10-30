@@ -9,9 +9,9 @@ The name comes from *feudum*, the medieval Latin word for a fief and the root of
 > [!NOTE]
 > Feudum is in early development: its design is just starting, and the repository holds no mod code yet.
 
-## Design
+## Documentation
 
-The [docs](docs/README.md) hold the design of Feudum and the decisions behind it.
+The [docs](docs/README.md) index all of Feudum's documentation, including its design and the decisions behind it.
 
 ## Contributing
 

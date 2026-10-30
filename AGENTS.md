@@ -1,10 +1,14 @@
 # Agent instructions
 
-Read [README.md](README.md) first: it says what Feudum is and where its design docs live. Before you design or build a feature, read the design page that covers it.
+Read [README.md](README.md) first: it says what Feudum is and where its docs live. Before you design or build a feature, read the design page that covers it.
+
+## Documentation
+
+[docs/README.md](docs/README.md) indexes every document of the project, as a link with a one-line summary each. The pull request that adds, renames, or removes a document updates the index to match.
 
 ## Design pages
 
-The areas of the design are open: the user settles each one, and its name, while designing the first page that belongs to it. A design page lives at `docs/<area>/<topic>.md`, where `<area>` is the kebab-case name of its area label. The pull request that adds, renames, or removes a page updates [docs/README.md](docs/README.md) to match: a section for each area lists its pages in alphabetical order, as a link with a one-line summary. The first page of an area adds its section, and the index says "No pages yet." while it has none.
+The areas of the design are open: the user settles each one, and its name, while designing the first page that belongs to it. A design page lives at `docs/<area>/<topic>.md`, where `<area>` is the kebab-case name of its area label. In the index's Design section, a subsection for each area lists its pages in alphabetical order. The first page of an area adds its subsection, and the Design section says "No pages yet." while it has none.
 
 ## Planned designs
 
