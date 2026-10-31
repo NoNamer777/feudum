@@ -40,7 +40,7 @@ A plant shows the stages it really goes through, so their number differs by spec
 
 ### Winter grains
 
-Winter grains, such as wheat, rye, and spelt, flower only after weeks of cold. Sown in autumn, they come through winter and ripen in summer. Sown in spring, they grow leaves but never ripen. That gives the sowing seasons of the three-field rotation a rule of their own.
+Winter grains, such as wheat, rye, and spelt, flower only after weeks of cold. Sown in autumn, they come through winter and ripen in summer. Sown in spring, they grow leaves but never ripen. That gives the sowing seasons of the three-field rotation a rule of their own. Spring forms of wheat and rye, which need no cold, belong to [Cultivars](https://github.com/NoNamer777/feudum/issues/249).
 
 ### Ripening
 
