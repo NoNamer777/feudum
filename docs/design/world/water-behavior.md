@@ -12,7 +12,7 @@ Feudum's water replaces vanilla's, which never generates and cannot be placed. F
 | Brackish |      0.5 to 30 | 0 °C to -1.6 °C    |
 | Salt     |       Above 30 | -1.6 °C to -1.9 °C |
 
-The sea holds about 35 g/L and freezes at -1.9 °C. Since the coldest nights fall to about -3 °C, as [Seasons](seasons.md#through-the-year-and-the-day) sets, the sea almost never freezes, while sheltered fresh water does.
+The sea holds about 35 g/L and freezes at -1.9 °C. Over the sea the coldest nights fall to about 3 °C, as [Biomes](biomes.md#distance-from-the-sea) sets, so the sea never freezes, while sheltered fresh water inland does.
 
 ### Where salt water meets fresh
 
