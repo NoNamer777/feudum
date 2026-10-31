@@ -68,7 +68,7 @@ Each species is pollinated the way it really is:
 - **Wind**: the plant needs others of its species nearby and dry weather while it flowers, since rain washes the pollen from the air. A rye field sets full ears, and a lone rye plant few.
 - **Self**: the plant sets seed alone, and the weather barely affects it. Wheat, barley, oats, and peas pollinate themselves.
 
-A few species use two modes: sweet chestnut and the willows take pollen from both insects and wind, and field beans pollinate themselves but set more when insects visit. The common fig sets fruit without pollination, eelgrass sheds its pollen into the water, and plants that spread by spores have no pollination at all. Bees and the other insects belong to [Animals](https://github.com/NoNamer777/feudum/issues/228).
+A few species use two modes: sweet chestnut and the willows take pollen from both insects and wind, and field beans pollinate themselves but set more when insects visit. The common fig sets fruit without pollination, saffron is sterile and spreads only by its corms, eelgrass sheds its pollen into the water, and plants that spread by spores have no pollination at all. Bees and the other insects belong to [Animals](https://github.com/NoNamer777/feudum/issues/228).
 
 ### Partners
 
