@@ -28,7 +28,7 @@ Only daylight under open sky grows plants. Torches and other block light do not,
 
 ### Ground and shade
 
-Each species has the soils it grows on and a range of ground wetness it accepts, read from the biome and the nearness of water. Nobody waters plants: drought and wet years come from [Weather](https://github.com/NoNamer777/feudum/issues/215). Each species also has a shade tolerance, read from the sky light that reaches it.
+Each species has the soils it grows on and a range of ground wetness it accepts. How wet the ground lies belongs to [Ground wetness](https://github.com/NoNamer777/feudum/issues/255). Players and villagers can water plants by hand, as [Water behavior](../world/water-behavior.md#buckets) describes, but drought and wet years come from [Weather](https://github.com/NoNamer777/feudum/issues/215). Each species also has a shade tolerance, read from the sky light that reaches it.
 
 On poor ground, the wrong wetness, or in shade, a plant grows more slowly and yields less. Where the ground or the shade is beyond what it can stand, it dies. How farmed ground loses its fertility and gets it back belongs to [Fields](https://github.com/NoNamer777/feudum/issues/244).
 
