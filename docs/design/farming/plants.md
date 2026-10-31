@@ -72,7 +72,7 @@ A few species use two modes: sweet chestnut and the willows take pollen from bot
 
 ### Partners
 
-Some species need a partner: another plant of their species nearby. Apple, pear, and sweet cherry cannot be fertilized by their own pollen, so a lone tree bears almost nothing; a wild crab apple can serve as an apple's partner. Species with separate male and female plants, such as holly, yew, and hop, need a plant of the other sex nearby, and only the female bears fruit or seed.
+Some species need a partner: a compatible plant nearby, usually of their own species. Apple, pear, and sweet cherry cannot be fertilized by their own pollen, so a lone tree bears almost nothing; a wild crab apple can serve as an apple's partner. Species with separate male and female plants, such as holly, yew, and hop, need a plant of the other sex nearby, and only the female bears fruit or seed.
 
 ## Fungi, seaweed, moss, and lichen
 

@@ -11,7 +11,7 @@ Each group has a table of its species in alphabetical order, with these columns:
 - **Warmth (°C·d)**: the warmth it gathers to ripen, in degree-days above 5 °C, as [Warmth and daylight](plants.md#warmth-and-daylight) describes. An annual counts from sowing, a perennial from the start of its spring growth, and a winter grain from the end of winter. Where a crop is harvested at two stages, such as a root crop in its first year and its seed in the second, the cell gives both. A blank cell means the species has no clear point of ripeness, such as a moss, or bears its fruit across more than one season.
 - **Frost kill (°C)**: the frost that kills the grown, hardened plant, then its more tender stages, such as seedlings or blossom. "Hardy" means it survives any winter in its biomes, and "tender" that it dies at or just below 0 °C.
 - **Shade**: how much shade it tolerates: low, medium, or high.
-- **Pollination**: insects, wind, or self, as [Pollination](plants.md#pollination) describes. "Partner" means it needs another plant of its species nearby.
+- **Pollination**: insects, wind, or self, as [Pollination](plants.md#pollination) describes. "Partner" means it needs a compatible plant nearby, as [Partners](plants.md#partners) describes.
 - **Harvest**: what it yields and how it is taken, with the return per seed sown for the main field crops. Every tree and shrub also gives wood when felled with an axe: "Wood only" marks those that yield nothing else, and "None" a plant nobody harvests.
 
 The values are real figures for each species. A "~" marks an approximate value, and a blank cell one with no reliable figure. Playtesting tunes them once the mod is built.
