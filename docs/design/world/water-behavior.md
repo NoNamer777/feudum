@@ -70,7 +70,7 @@ Rivers follow their sources. They swell after rain and in the spring melt and sh
 
 ## Currents
 
-A current adds its speed to everything in the water: swimmers, creatures, boats, and items. A swimmer or boat makes headway upstream only by moving faster than the current. How fast players and creatures swim belongs to their own designs.
+A current adds its speed to everything in the water: swimmers, creatures, boats, and items. A swimmer or boat makes headway upstream only by moving faster than the current. How fast players and creatures swim belongs to [Swimming](https://github.com/NoNamer777/feudum/issues/258).
 
 ## Ice
 
