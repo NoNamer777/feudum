@@ -1,6 +1,6 @@
 # Terrain height
 
-How high and how deep Feudum's world reaches, where sea level lies, and how the height of the land spreads. Which biomes cover the land belongs to [Biomes](https://github.com/NoNamer777/feudum/issues/225), and how rivers run across it to [Rivers](https://github.com/NoNamer777/feudum/issues/235).
+How high and how deep Feudum's world reaches, where sea level lies, and how the height of the land spreads. [Biomes](biomes.md) sets which biomes cover the land, and [Rivers](https://github.com/NoNamer777/feudum/issues/235) how rivers run across it.
 
 ## Scale
 
@@ -24,7 +24,7 @@ These heights are chosen for realism. A taller world costs more to generate and 
 
 ## Mountains
 
-Western Europe's highest summits do not fit under the limit: Mont Blanc rises to 4,808 m and the Pyrenees to 3,404 m. Feudum's tallest ranges stop at 3,000 m, about as high as the Apennines reach. At that height the air is 20 °C colder than at sea level: on the warmest days the summits average -1 °C, though afternoons reach 5 °C. Whether they keep their snow through summer belongs to [Thaw](https://github.com/NoNamer777/feudum/issues/239).
+Western Europe's highest summits do not fit under the limit: Mont Blanc rises to 4,808 m and the Pyrenees to 3,404 m. Feudum's tallest ranges stop at 3,000 m, about as high as the Apennines reach. At that height the air is 20 °C colder than at sea level: far inland, on the warmest days the summits average -1 °C, though afternoons reach 5 °C. Whether they keep their snow through summer belongs to [Thaw](https://github.com/NoNamer777/feudum/issues/239).
 
 The height of the land spreads as it does in Western Europe. Most of it is lowland and hills, a few hundred blocks above sea level at most, and uplands rise to about 1,500 blocks. High ranges are rare and far apart, so a range is a landmark to travel to, where vanilla spreads its mountains evenly.
 
