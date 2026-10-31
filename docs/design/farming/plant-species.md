@@ -12,7 +12,7 @@ Each group has a table of its species in alphabetical order, with these columns:
 - **Frost kill (°C)**: the frost that kills the grown, hardened plant, then its more tender stages, such as seedlings or blossom. "Hardy" means it survives any winter in its biomes, and "tender" that it dies at or just below 0 °C.
 - **Shade**: how much shade it tolerates: low, medium, or high.
 - **Pollination**: insects, wind, or self, as [Pollination](plants.md#pollination) describes. "Partner" means it needs a compatible plant nearby, as [Partners](plants.md#partners) describes.
-- **Harvest**: what it yields and how it is taken, with the return per seed sown for the main field crops. Every tree and shrub also gives wood when felled with an axe: "Wood only" marks those that yield nothing else, and "None" a plant nobody harvests.
+- **Harvest**: what it yields and how it is taken, with the return per seed sown for the main field crops. Every crop that sets seed also yields it when ripe, for sowing again, so the column names seed only where it has a use of its own, such as caraway. Every tree and shrub also gives wood when felled with an axe: "Wood only" marks those that yield nothing else, and "None" a plant nobody harvests.
 
 The values are real figures for each species. A "~" marks an approximate value, and a blank cell one with no reliable figure. Playtesting tunes them once the mod is built.
 
