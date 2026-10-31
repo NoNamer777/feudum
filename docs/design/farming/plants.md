@@ -6,7 +6,7 @@ Which plants grow in Feudum, how they grow through the year, what kills them, ho
 
 This page covers trees, shrubs, crops, and wild plants, along with fungi, seaweeds, mosses, and lichens, which players gather the same way. Those four follow the same rules, with the exceptions [below](#fungi-seaweed-moss-and-lichen).
 
-Each Feudum plant is one real species. Varieties bred within a species, such as named apples, belong to [Cultivars](https://github.com/NoNamer777/feudum/issues/249), and magical plants to [Fantasy](https://github.com/NoNamer777/feudum/issues/220).
+Each Feudum plant is one real species. A wild subspecies with a habitat of its own, such as sea beet, keeps its own entry. Varieties bred within a species, such as named apples, belong to [Cultivars](https://github.com/NoNamer777/feudum/issues/249), and magical plants to [Fantasy](https://github.com/NoNamer777/feudum/issues/220).
 
 ### Which species
 
