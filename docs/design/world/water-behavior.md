@@ -52,7 +52,7 @@ Every liter has a real source and a real sink:
 
 Rain falls into water and vessels open to the sky, and a long rain fills the hollows it falls into. Water open to the sky evaporates in warm, dry weather. Evaporating salt or brackish water leaves its salt behind, as in the salterns of the era. How much rain falls and how dry the air is belong to [Weather](https://github.com/NoNamer777/feudum/issues/215).
 
-Water soaks into soil: fast into sand, slowly into loam, and not at all into clay and stone. What it does in the ground, such as how wet it keeps the soil and how high it raises the water table, belongs to [Ground wetness](https://github.com/NoNamer777/feudum/issues/255).
+Water soaks into soil: fast into sand, slowly into loam, very slowly into clay, and not at all into stone. What it does in the ground, such as how wet it keeps the soil and how high it raises the water table, belongs to [Ground wetness](https://github.com/NoNamer777/feudum/issues/255).
 
 ### Rates in real time
 
