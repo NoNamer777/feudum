@@ -7,7 +7,7 @@ Every plant species in Feudum, with the values the rules of [Plants](plants.md) 
 Each group has a table of its species in alphabetical order, with these columns:
 
 - **Biomes**: the [biomes](../world/biomes.md) a species grows wild in. "Cultivated" means it grows where people plant it, and a species with no other biome comes only from villages. "Fields" means it grows as a weed among crops.
-- **Soil; wetness**: the ground it grows on, then the wetness it accepts.
+- **Soil; wetness**: the ground it grows on, then the wetness it accepts. For a parasite, or a fungus that partners trees, it names the host instead.
 - **Warmth (°C·d)**: the warmth it gathers to ripen, in degree-days above 5 °C, as [Warmth and daylight](plants.md#warmth-and-daylight) describes. An annual counts from sowing, a perennial from the start of its spring growth, and a winter grain from the end of winter. Where a crop is harvested at two stages, such as a root crop in its first year and its seed in the second, the cell gives both. A blank cell means the species has no clear point of ripeness, such as a moss, or bears its fruit across more than one season.
 - **Frost kill (°C)**: the frost that kills the grown, hardened plant, then its more tender stages, such as seedlings or blossom. "Hardy" means it survives any winter in its biomes, and "tender" that it dies at or just below 0 °C.
 - **Shade**: how much shade it tolerates: low, medium, or high.

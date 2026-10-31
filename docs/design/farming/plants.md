@@ -78,7 +78,7 @@ Some species need a partner: a compatible plant nearby, usually of their own spe
 
 These four follow the rules above, with these exceptions:
 
-- **Fungi** feed on rotting wood or rich soil rather than light, so they grow in shade or darkness. They fruit in damp, mild weather, mostly in autumn.
+- **Fungi** feed on rotting wood, rich soil, or living trees rather than light: some decay wood or litter, some live as parasites on trees, and some partner the roots of living trees. Each grows only near the food or host [Plant species](plant-species.md#fungi) lists, in shade or darkness, and fruits in damp, mild weather, mostly in autumn.
 - **Seaweed** grows underwater, in the light that filters through shallow water, so it thins out with depth.
 - **Moss and lichen** grow slowly, and frost does not kill them.
 
