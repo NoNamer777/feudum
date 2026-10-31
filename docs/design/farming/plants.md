@@ -88,7 +88,7 @@ These four follow the rules above, with these exceptions:
 
 Wild plants spread from seed on their own. Cleared land left alone turns back into scrub and then woodland over the years, unless grazing or mowing keeps it open. Pioneers that need open sky, such as birch and pine, take a clearing first, and trees that bear shade, such as beech, grow up beneath them and take over. The wild herds of [Animals](https://github.com/NoNamer777/feudum/issues/228) keep the [wooded grassland](../world/biomes.md#lowland) open this way.
 
-Foraging leaves the plant in place: picking berries, nuts, fruit, leaves, or mushrooms leaves it to yield again next season. Digging a wild plant up gives a seedling or cutting that a player can plant in a garden. Grafting fruit trees belongs to [Cultivars](https://github.com/NoNamer777/feudum/issues/249).
+Foraging leaves the plant in place: picking berries, nuts, fruit, leaves, or mushrooms does not kill it, so it lives out its life cycle, and a perennial yields again next season. Digging a wild plant up gives a seedling or cutting that a player can plant in a garden. Grafting fruit trees belongs to [Cultivars](https://github.com/NoNamer777/feudum/issues/249).
 
 ## Starting a plant
 
