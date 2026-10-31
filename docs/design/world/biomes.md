@@ -51,7 +51,7 @@ The lowland reaches from sea level to 600 blocks.
 
 ### Upland
 
-The upland reaches from 600 blocks to the tree line at 1,350 blocks, where the warmest days inland average 10 °C.
+The upland reaches from 600 blocks to the tree line at 1,350 blocks, where the warmest days inland average 10 °C. The moor alone reaches below it, down to 300 blocks.
 
 - **Mountain forest**: beech, fir, and spruce on thin, stony soil, on slopes from 600 to 1,100 blocks.
 - **Moor**: heather and grass moor with blanket bog on peat, on wet, rounded uplands from 300 blocks up.
