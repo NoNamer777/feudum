@@ -27,7 +27,7 @@ The temperature follows daylight about half a month behind it, as real seasons l
 
 ### Height
 
-The air cools by 1 °C for every 150 blocks above sea level, the rate of real air when a block is taken as a meter. At vanilla heights that is under 2 °C, but [Terrain height](terrain-height.md) raises the tallest peaks to 3,000 blocks above sea level, 20 °C colder than the coast. Whether their snow lasts all year belongs to [Thaw](https://github.com/NoNamer777/feudum/issues/239).
+The air cools by 1 °C for every 150 blocks above sea level, the rate of real air when a block is taken as a meter. At vanilla heights that is under 2 °C, but [Terrain height](terrain-height.md) raises the tallest peaks to 3,000 blocks above sea level, 20 °C colder than at sea level. Whether their snow lasts all year belongs to [Thaw](https://github.com/NoNamer777/feudum/issues/239).
 
 ### What this page leaves to others
 
