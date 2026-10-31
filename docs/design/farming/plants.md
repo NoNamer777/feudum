@@ -32,6 +32,8 @@ Each species has the soils it grows on and a range of ground wetness it accepts,
 
 On poor ground, the wrong wetness, or in shade, a plant grows more slowly and yields less. Where the ground or the shade is beyond what it can stand, it dies. How farmed ground loses its fertility and gets it back belongs to [Fields](https://github.com/NoNamer777/feudum/issues/244).
 
+Parasites grow only on their host: mistletoe on trees, dodder on flax, and yellow rattle on the roots of grasses and clovers. The bird's-nest orchid has no chlorophyll and feeds through the fungi at its roots rather than on light, so it grows in deep shade wherever they live.
+
 ### Life cycles and stages
 
 Each species keeps its real life cycle. Annuals such as grains and peas die after one season. Biennials such as cabbage, turnip, onion, and parsnip set seed only in their second year, so growers leave some in the ground over winter for seed. Perennials, such as trees, bushes, grasses, and most herbs, live for years and grow again each spring.
