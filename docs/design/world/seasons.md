@@ -53,7 +53,7 @@ Plants grow faster with warmth and longer days, and stop growing below about 5 Â
 
 Sowing seasons follow from these rules, as in the three-field rotation of the era. Winter grains such as wheat and rye are sown in autumn, survive the winter, and ripen in summer. Spring crops such as barley, oats, peas, and beans are sown in spring and harvested in late summer. Wild plants keep the same year: flowers bloom in spring, berries and nuts ripen in autumn, and grass stops growing in winter.
 
-Which plants exist and how they grow belongs to [Plants](https://github.com/NoNamer777/feudum/issues/226).
+Which plants exist and how they grow belongs to [Plants](../farming/plants.md).
 
 ## Animals
 

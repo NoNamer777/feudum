@@ -4,7 +4,7 @@ Which biomes cover Feudum's overworld, where each grows, what it holds, and how 
 
 ## What a biome sets
 
-A biome sets a temperature offset, its ground and soil, its water and wetness, the kind of vegetation that grows in it, and the tint of its grass and foliage. It names the kind of habitat it offers without listing species: which plants and animals exist belongs to [Plants](https://github.com/NoNamer777/feudum/issues/226) and [Animals](https://github.com/NoNamer777/feudum/issues/228).
+A biome sets a temperature offset, its ground and soil, its water and wetness, the kind of vegetation that grows in it, and the tint of its grass and foliage. It names the kind of habitat it offers without listing species: which plants and animals exist belongs to [Plants](../farming/plants.md) and [Animals](https://github.com/NoNamer777/feudum/issues/228).
 
 Other designs cover the rest of the land. What lies below the surface belongs to [Underground](https://github.com/NoNamer777/feudum/issues/236), how rivers run to [Rivers](https://github.com/NoNamer777/feudum/issues/235), and whether rain or snow falls, in any biome, to [Weather](https://github.com/NoNamer777/feudum/issues/215).
 
@@ -24,7 +24,7 @@ Neighboring biomes blend over a band of some dozens of blocks. Their ground, veg
 
 ## The biomes
 
-Feudum has 17 biomes in five zones: the sea, the coast, the lowland, the upland, and the high ground. The tree species named below are examples; which species exist belongs to [Plants](https://github.com/NoNamer777/feudum/issues/226).
+Feudum has 17 biomes in five zones: the sea, the coast, the lowland, the upland, and the high ground. The tree species named below are examples; [Plant species](../farming/plant-species.md) lists every species and the biomes it grows in.
 
 ### Sea
 
@@ -86,7 +86,7 @@ The table sums up each biome's zone, soil, and where it grows:
 | High       | Alpine meadow      | Thin turf over rock   | Gentler ground from the tree line to about 2,100   |
 | High       | Scree and rock     | Rock and loose stone  | Steep ground above the tree line, all above 2,100  |
 
-How each soil affects what grows on it belongs to [Plants](https://github.com/NoNamer777/feudum/issues/226).
+How each soil affects what grows on it belongs to [Plants](../farming/plants.md#ground-and-shade).
 
 ## Climate
 
