@@ -4,7 +4,7 @@ What the seasons change in Feudum beyond daylight: the temperature, snow and ice
 
 ## Seasons everywhere
 
-Every biome follows the same calendar and the same seasons, those of Western Europe at around 50° north. A biome changes only how strongly a season applies, through a temperature offset of its own: a highland biome runs colder and keeps its snow longer. Each biome's offset belongs to [Biomes](https://github.com/NoNamer777/feudum/issues/225), and whether Feudum adds regions with seasons of their own, such as a dry season, belongs to [Regions beyond Western Europe](https://github.com/NoNamer777/feudum/issues/231).
+Every biome follows the same calendar and the same seasons, those of Western Europe at around 50° north. Only how strongly a season applies changes from place to place: [Biomes](biomes.md#climate) gives the land near the sea milder winters and cooler summers, and each biome an offset of its own. Whether Feudum adds regions with seasons of their own, such as a dry season, belongs to [Regions beyond Western Europe](https://github.com/NoNamer777/feudum/issues/231).
 
 The seasons change a little each day, as daylight does, so nothing jumps when a new season starts.
 
@@ -12,13 +12,13 @@ No setting turns the seasons off or holds the world in one season, so every othe
 
 ## Temperature
 
-The world has an outdoor air temperature at every place and hour. It follows the season, the biome offset, the height, and the time of day. Snow, ice, and plants all read it.
+The world has an outdoor air temperature at every place and hour. It follows the season, the distance from the sea, the biome offset, the height, and the time of day. How the shape of the land changes it locally, such as cold air pooling in hollows, belongs to [Microclimate](https://github.com/NoNamer777/feudum/issues/241). Snow, ice, and plants all read the temperature.
 
 The temperature is kept in degrees Celsius, and nothing on screen shows it: the thermometer came some 300 years after Feudum's [era](../setting/era.md). Players read it from the world instead, from frost, snow, and ice.
 
 ### Through the year and the day
 
-The temperature follows daylight about half a month behind it, as real seasons lag the sun. The coldest days fall in the second half of Midwinter and the warmest in the second half of Midsummer. In a biome with no offset, a day in the coldest part of the year averages 1 °C, from -3 °C at night to 5 °C in the afternoon. A day in the warmest part averages 19 °C, from 13 °C at night to 25 °C in the afternoon. The temperature rises and falls smoothly between them, and each day is coldest just before sunrise and warmest in mid-afternoon. The table sums up those two extremes:
+The temperature follows daylight about half a month behind it, as real seasons lag the sun. The coldest days fall in the second half of Midwinter and the warmest in the second half of Midsummer. Far inland, in a biome with no offset, a day in the coldest part of the year averages 1 °C, from -3 °C at night to 5 °C in the afternoon. A day in the warmest part averages 19 °C, from 13 °C at night to 25 °C in the afternoon. The temperature rises and falls smoothly between them, and each day is coldest just before sunrise and warmest in mid-afternoon. Near the sea, [Biomes](biomes.md#distance-from-the-sea) narrows the yearly swing. The table sums up those two extremes:
 
 | Time of year            | Daily mean | Night low | Afternoon high |
 |:------------------------|-----------:|----------:|---------------:|

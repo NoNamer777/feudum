@@ -1,6 +1,6 @@
 # Terrain height
 
-How high and how deep Feudum's world reaches, where sea level lies, and how the height of the land spreads. Which biomes cover the land belongs to [Biomes](https://github.com/NoNamer777/feudum/issues/225), and how rivers run across it to [Rivers](https://github.com/NoNamer777/feudum/issues/235).
+How high and how deep Feudum's world reaches, where sea level lies, and how the height of the land spreads. [Biomes](biomes.md) sets which biomes cover the land, and [Rivers](https://github.com/NoNamer777/feudum/issues/235) how rivers run across it.
 
 ## Scale
 
