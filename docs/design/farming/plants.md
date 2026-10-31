@@ -6,7 +6,7 @@ Which plants grow in Feudum, how they grow through the year, what kills them, ho
 
 This page covers trees, shrubs, crops, and wild plants, along with fungi, seaweeds, mosses, and lichens, which players gather the same way. Those four follow the same rules, with the exceptions [below](#fungi-seaweed-moss-and-lichen).
 
-Each Feudum plant is one real species. A wild subspecies with a habitat of its own, such as sea beet, keeps its own entry. Varieties bred within a species, such as named apples, belong to [Cultivars](https://github.com/NoNamer777/feudum/issues/249), and magical plants to [Fantasy](https://github.com/NoNamer777/feudum/issues/220).
+Each Feudum plant is one real species. A wild form with a habitat of its own, such as sea beet or wild cabbage, keeps its own entry. Varieties bred within a species, such as named apples, belong to [Cultivars](https://github.com/NoNamer777/feudum/issues/249), and magical plants to [Fantasy](https://github.com/NoNamer777/feudum/issues/220).
 
 ### Which species
 
@@ -92,7 +92,7 @@ Foraging leaves the plant in place: picking berries, nuts, fruit, leaves, or mus
 
 A plant starts from a seed, a set such as an onion or garlic bulb, or a seedling or cutting, on ground it accepts. A crop's seed is what it yields: seed grain is grain held back from the harvest, so every sack sown comes out of the food supply. Plowing, sowing, and planting belong to [Fields](https://github.com/NoNamer777/feudum/issues/244).
 
-Crops with no wild form in Western Europe, such as wheat, peas, and flax, come only from villages: from [Generated villages](https://github.com/NoNamer777/feudum/issues/240) and through trade. [Plant species](plant-species.md) lists their only biome as "Cultivated". Crops that also grow wild can be taken from the wild, such as cabbage from sea cliffs and sweet cherry from the wildwood.
+Crops with no wild form in Western Europe, such as wheat, peas, and flax, come only from villages: from [Generated villages](https://github.com/NoNamer777/feudum/issues/240) and through trade. [Plant species](plant-species.md) lists their only biome as "Cultivated". Crops that also grow wild can be taken from the wild, such as sweet cherry from the wildwood. Where a crop's wild form has its own entry, such as wild cabbage beside cabbage, the wild form grows true in a garden and the crop comes only from villages. Breeding one into the other belongs to [Cultivars](https://github.com/NoNamer777/feudum/issues/249).
 
 ## Harvest
 
