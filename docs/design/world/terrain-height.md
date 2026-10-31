@@ -24,7 +24,7 @@ These heights are chosen for realism. A taller world costs more to generate and 
 
 ## Mountains
 
-Western Europe's highest summits do not fit under the limit: Mont Blanc rises to 4,808 m and the Pyrenees to 3,404 m. Feudum's tallest ranges stop at 3,000 m, about as high as the Apennines reach. At that height the air is 20 °C colder than at sea level, so the peaks keep their snow through summer without a biome offset.
+Western Europe's highest summits do not fit under the limit: Mont Blanc rises to 4,808 m and the Pyrenees to 3,404 m. Feudum's tallest ranges stop at 3,000 m, about as high as the Apennines reach. At that height the air is 20 °C colder than at sea level: on the warmest days the summits average -1 °C, though afternoons reach 5 °C. Whether they keep their snow through summer belongs to [Thaw](https://github.com/NoNamer777/feudum/issues/239).
 
 The height of the land spreads as it does in Western Europe. Most of it is lowland and hills, a few hundred blocks above sea level at most, and uplands rise to about 1,500 blocks. High ranges are rare and far apart, so a range is a landmark to travel to, where vanilla spreads its mountains evenly.
 
