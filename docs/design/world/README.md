@@ -6,3 +6,4 @@ The design of the world Feudum's villages stand in. The planned topics still wai
 - **[Seasons](seasons.md)**: what the seasons change beyond daylight, from temperature, snow, and ice to the year of plants, animals, and villagers.
 - **[Terrain height](terrain-height.md)**: how high and deep the world reaches, where sea level lies, and how tall mountains grow.
 - **[Time](time.md)**: the day and its light, the calendar, sleeping, and how players read and change the time.
+- **[Water behavior](water-behavior.md)**: how water flows, pools, and freezes, what salt it carries, and where it comes from and goes.

@@ -39,7 +39,7 @@ This page sets only the outdoor air temperature. How players, villagers, and ani
 
 Whether rain or snow falls belongs to [Weather](https://github.com/NoNamer777/feudum/issues/215). Precipitation falls as snow wherever the temperature is below 0 °C. Snow builds up on the ground and melts once the temperature rises above freezing, at a rate that belongs to [Thaw](https://github.com/NoNamer777/feudum/issues/239). A roof keeps snow off what lies beneath it, as it keeps off rain.
 
-Still water freezes over after a sustained frost, and its ice grows thicker the longer the frost lasts. Flowing water never freezes.
+Still water freezes over after a sustained frost, and its ice grows thicker the longer the frost lasts. Flowing water never freezes. [Water behavior](water-behavior.md#ice) sets what counts as still and how salt lowers the freezing point.
 
 Spring has no fixed thaw date: snow and ice melt when the temperature allows. Highlands and colder biomes keep them longer.
 
