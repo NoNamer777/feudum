@@ -29,7 +29,7 @@ Feudum has 17 biomes in five zones: the sea, the coast, the lowland, the upland,
 ### Sea
 
 - **Open ocean**: deep water over a floor of sand and rock, beyond the shelf, where the sea is deeper than 200 blocks.
-- **Shelf sea**: shallower water over sand and gravel, with seaweed beds, off every coast where the sea is less than 200 blocks deep.
+- **Shelf sea**: shallower water over sand and gravel, with seaweed beds, off every coast where the sea is 200 blocks deep or less.
 
 ### Coast
 
@@ -69,7 +69,7 @@ The table sums up each biome's zone, soil, and where it grows:
 | Zone       | Biome              | Soil                  | Where it grows                                     |
 |:-----------|:-------------------|:----------------------|:---------------------------------------------------|
 | Sea        | Open ocean         | Sand and rock         | Beyond the shelf, deeper than 200 blocks           |
-| Sea        | Shelf sea          | Sand and gravel       | Off every coast, under 200 blocks deep             |
+| Sea        | Shelf sea          | Sand and gravel       | Off every coast, up to 200 blocks deep             |
 | Coast      | Dunes              | Sand                  | Gentle, open coasts                                |
 | Coast      | Salt marsh         | Mud                   | Sheltered coasts and river mouths                  |
 | Coast      | Sea cliffs         | Rock and shingle      | Steep coasts                                       |
