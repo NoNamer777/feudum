@@ -18,7 +18,7 @@ The sea holds about 35 g/L and freezes at -1.9 °C. Over the sea the coldest nig
 
 Salt travels with the water that carries it. Water flowing into a block mixes with the water already there, by the amount of each, and neighboring still water evens out slowly, as salt diffuses.
 
-The world generates with the mix in place: salt water in the sea biomes, fresh water inland, and a brackish gradient up river mouths and salt marsh creeks, longer the larger the river. Since the sea and the river both keep supplying their own water, the gradient holds steady.
+The world generates with the mix in place: salt water in the sea biomes, fresh water inland, and a brackish gradient up river mouths and salt marsh creeks, longer the larger the river. The river's flow carries that salt back out to sea, so what keeps the gradient in place, the flood tide pushing salt water upstream, belongs to [Tides](https://github.com/NoNamer777/feudum/issues/254).
 
 ## Finite water
 
