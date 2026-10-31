@@ -114,4 +114,4 @@ Dry plants burn readily, above all dry grass, heather, gorse, and reed. How fire
 
 ## Land nobody keeps loaded
 
-When land outside villages loads again, its wild plants jump to the state the date and temperature imply, as [snow](../world/seasons.md#land-nobody-keeps-loaded) does, rather than replaying the missed days. Since growth follows gathered warmth, the jump comes out exact. The plants of villages follow [Village catch-up](https://github.com/NoNamer777/feudum/issues/216).
+When land outside villages loads again, its wild plants jump to the state the date and temperature imply, as [snow](../world/seasons.md#land-nobody-keeps-loaded) does, rather than replaying the missed days. The jump counts the warmth and frost of the missed days from the yearly temperature curve, so it comes close to what the plants would have done. How the missed days' weather counts belongs to [Weather](https://github.com/NoNamer777/feudum/issues/215). The plants of villages follow [Village catch-up](https://github.com/NoNamer777/feudum/issues/216).
