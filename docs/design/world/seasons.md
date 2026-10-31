@@ -27,7 +27,7 @@ The temperature follows daylight about half a month behind it, as real seasons l
 
 ### Height
 
-The air cools by 1 °C for every 150 blocks above sea level, the rate of real air when a block is taken as a meter. At vanilla heights that is under 2 °C, but [Terrain height](https://github.com/NoNamer777/feudum/issues/224) raises the build height. On peaks around 3,000 blocks up, snow lasts all year without a biome offset.
+The air cools by 1 °C for every 150 blocks above sea level, the rate of real air when a block is taken as a meter. At vanilla heights that is under 2 °C, but [Terrain height](terrain-height.md) raises the tallest peaks to 3,000 blocks above sea level, 20 °C colder than the coast. Whether their snow lasts all year belongs to [Thaw](https://github.com/NoNamer777/feudum/issues/239).
 
 ### What this page leaves to others
 
@@ -37,7 +37,7 @@ This page sets only the outdoor air temperature. How players, villagers, and ani
 
 ## Snow and ice
 
-Whether rain or snow falls belongs to [Weather](https://github.com/NoNamer777/feudum/issues/215). Precipitation falls as snow wherever the temperature is below 0 °C. Snow builds up on the ground and melts once the temperature rises above freezing. A roof keeps snow off what lies beneath it, as it keeps off rain.
+Whether rain or snow falls belongs to [Weather](https://github.com/NoNamer777/feudum/issues/215). Precipitation falls as snow wherever the temperature is below 0 °C. Snow builds up on the ground and melts once the temperature rises above freezing, at a rate that belongs to [Thaw](https://github.com/NoNamer777/feudum/issues/239). A roof keeps snow off what lies beneath it, as it keeps off rain.
 
 Still water freezes over after a sustained frost, and its ice grows thicker the longer the frost lasts. Flowing water never freezes.
 
