@@ -96,7 +96,7 @@ How each soil affects what grows on it belongs to [Plants](https://github.com/No
 
 The sea keeps the land near it mild: its winters are warmer and its summers cooler than inland. At the shore, the yearly mean is 2 °C warmer than inland, and the swing between the seasons is 0.55 times as wide. Both fade smoothly to the inland curve of [Seasons](seasons.md#through-the-year-and-the-day) by 20,000 blocks from the sea. Over the sea itself, the shore's climate holds.
 
-Every sea biome counts as the sea for this distance; lakes do not. The narrower swing applies to the year only: each day still swings 4 °C either side of its mean, as Seasons sets.
+Every sea biome counts as the sea for this distance; lakes do not. The narrower swing applies to the year only: each day still swings between night and afternoon as Seasons sets.
 
 The table compares the shore with the land far inland, both in a biome with no offset and at sea level. The shore matches Brest, on the Breton coast, and the land far inland matches Frankfurt:
 
