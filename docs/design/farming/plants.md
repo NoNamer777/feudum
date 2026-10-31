@@ -18,7 +18,9 @@ Climate keeps no crop out of the roster. The frost and warmth rules decide where
 
 ### Warmth and daylight
 
-A plant grows by gathering warmth. Each day adds as much as the daily mean temperature stands above 5 °C, and longer daylight adds more. Below 5 °C a plant gathers nothing and stays dormant. It moves on through its stages, and ripens, once it has gathered the warmth its species needs. Growth therefore follows the climate rather than the calendar: the same crop ripens weeks later in the uplands than on the coast.
+A plant grows by gathering warmth, counted in degree-days: each day adds as much as the daily mean temperature stands above 5 °C. Below 5 °C a plant gathers nothing and stays dormant. It moves on through its stages, and ripens, once it has gathered the warmth its species needs, which [Plant species](plant-species.md) gives for each one. Growth therefore follows the climate rather than the calendar: the same crop ripens weeks later in the uplands than on the coast.
+
+Each species' warmth holds at the daylight of the season it usually grows in, since real figures are measured there. Longer days than that make a day's warmth count for more, and shorter days for less.
 
 Each game day counts for the real days it stands for, so a crop takes the share of the year it really does, whatever the days-per-month [setting](../world/time.md#settings). Wheat sown in autumn ripens in late summer, and warmth needs keep their real values.
 
