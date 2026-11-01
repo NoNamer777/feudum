@@ -102,7 +102,7 @@ A crop returns what it really did in the period. English manors, whose accounts 
 
 A harvest yields every part the period used: grain and straw from a cereal, stalks and linseed from flax, and fruit with stones that grow new trees. Every tree or shrub felled with an axe gives timber or poles, bark, and brushwood, and [Plant species](plant-species.md) lists what else each one yields. Using these belongs to [Food](https://github.com/NoNamer777/feudum/issues/246) and [Crafts](https://github.com/NoNamer777/feudum/issues/247).
 
-Each plant is harvested the way it was: grain reaped with a sickle, hay mown with a scythe, roots lifted with a spade, fruit picked by hand, shoots and withies cut with a billhook, and trees felled with an axe. Harvesting without the right tool yields less. The tools themselves belong to [Tools](../crafts/tools.md).
+Each plant is harvested the way it was: grain reaped and soft shoots cut with a sickle, hay mown with a scythe, roots lifted with a spade, fruit picked by hand, woody shoots and withies cut with a billhook, and trees felled with an axe. Harvesting without the right tool yields less. The tools themselves belong to [Tools](../crafts/tools.md).
 
 Diseases such as ergot on rye and rust on wheat, and pests such as birds and rabbits in the fields, belong to [Plant diseases and pests](https://github.com/NoNamer777/feudum/issues/250).
 
