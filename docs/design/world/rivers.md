@@ -26,7 +26,7 @@ A river grows as long as its land allows, with no cap of its own. How far land r
 
 ### Mouths
 
-A river meets the sea in a funnel-shaped estuary lined with salt marsh, as the Thames, Seine, and Loire do. A large river flowing into a shallow, sheltered sea drops more silt than the sea carries away, and builds a delta instead, as the Rhine and Meuse do. Salt water reaches up the mouth as [Water behavior](water-behavior.md#where-salt-water-meets-fresh) describes.
+A river meets the sea in a funnel-shaped estuary with a muddy bed, lined with salt marsh, as the Thames, Seine, and Loire do. A large river flowing into a shallow, sheltered sea drops more silt than the sea carries away, and builds a delta instead, as the Rhine and Meuse do. Salt water reaches up the mouth as [Water behavior](water-behavior.md#where-salt-water-meets-fresh) describes.
 
 ## Lakes
 
@@ -48,18 +48,18 @@ A river's channel grows with its flow, as a real river's does: its width with ab
 
 The generator carves each river's valley as if the river had worn it down over ages, wider the larger the river. A river's course, valley, and bed follow its slope:
 
-- **Steep stretches** run straight, with rapids and step pools, and fall over waterfalls where the bed drops over a ledge of hard rock. Their valleys are narrow and steep-sided.
-- **Below the high ranges**, rivers carrying heavy gravel split into many braided threads across a gravel bed, as Alpine rivers do.
-- **In the lowland**, rivers meander across broad flood plains and leave oxbow lakes where a bend was cut off.
+- **Steep stretches** run straight, with rapids and step pools, and fall over waterfalls where the bed drops over a ledge of hard rock. Their valleys are narrow and steep-sided, and their beds bare rock and boulders.
+- **Below the high ranges**, rivers carrying heavy gravel split into many braided threads across a gravel bed, as Alpine rivers do, and their valleys open out.
+- **In the lowland**, rivers meander over beds of sand and silt across broad flood plains and leave oxbow lakes where a bend was cut off.
 
 The bed is made of Feudum's own blocks, and the banks take the ground of the biome around them. The table sums up a river from source to mouth:
 
-| Stretch | Course                                | Valley                 | Bed               |
-|:--------|:--------------------------------------|:-----------------------|:------------------|
-| Steep   | Straight, rapids, step pools, falls   | Narrow and steep-sided | Rock and boulders |
-| Upland  | Braided below high ranges             | Opening out            | Gravel            |
-| Lowland | Meanders, oxbow lakes                 | Broad flood plain      | Sand and silt     |
-| Mouth   | Estuary, or a delta on shallow coasts | Salt marsh             | Mud               |
+| Stretch | Course                                                                 | Valley                 | Bed               |
+|:--------|:-----------------------------------------------------------------------|:-----------------------|:------------------|
+| Steep   | Straight, rapids, step pools, falls                                    | Narrow and steep-sided | Rock and boulders |
+| Upland  | Braided below high ranges                                              | Opening out            | Gravel            |
+| Lowland | Meanders, oxbow lakes                                                  | Broad flood plain      | Sand and silt     |
+| Mouth   | Estuary, or a delta where a large river meets a shallow, sheltered sea | Salt marsh             | Mud               |
 
 How rivers wear their valleys during play, such as cutting their banks and shifting their bends, belongs to [Erosion](https://github.com/NoNamer777/feudum/issues/256).
 
