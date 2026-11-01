@@ -87,7 +87,7 @@ Whether and how water wears down the ground, such as rivers cutting their banks 
 
 ## Buckets
 
-A bucket holds 12 liters, as a medieval stave bucket does, and fills from the pool or flow it is dipped in. Poured out, it fills a vessel or trough, or wets the ground beneath it rather than leaving standing water there. Moving water in bulk takes channels, as it did in the era. Whether buckets exist and what they are made of belongs to [Tools](https://github.com/NoNamer777/feudum/issues/243).
+A bucket holds 12 liters, as a medieval stave bucket does, and fills from the pool or flow it is dipped in. Poured out, it fills a vessel or trough, or wets the ground beneath it rather than leaving standing water there. Moving water in bulk takes channels, as it did in the era. The bucket itself belongs to [Tools](../crafts/tools.md#the-bucket).
 
 Poured water wets the soil, so players and villagers can water plants by hand, as [Plants](../farming/plants.md#ground-and-shade) describes.
 
