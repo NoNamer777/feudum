@@ -1,6 +1,6 @@
 # Water behavior
 
-How water behaves in Feudum: what it carries, how it flows and pools, where it comes from and where it goes, and how it freezes. [Terrain height](terrain-height.md) sets sea level and the depth of the seas, and [Rivers](https://github.com/NoNamer777/feudum/issues/235) where rivers rise and run.
+How water behaves in Feudum: what it carries, how it flows and pools, where it comes from and where it goes, and how it freezes. [Terrain height](terrain-height.md) sets sea level and the depth of the seas, and [Rivers](rivers.md) where rivers rise and run.
 
 ## One water
 
@@ -47,7 +47,7 @@ Where loaded land ends, the two layers hand water to each other. A river therefo
 
 Every liter has a real source and a real sink:
 
-- **Sources**: springs, which belong to [Underground](https://github.com/NoNamer777/feudum/issues/236) and [Rivers](https://github.com/NoNamer777/feudum/issues/235), rain over each river's catchment, and melting snow and ice, whose rate belongs to [Thaw](https://github.com/NoNamer777/feudum/issues/239).
+- **Sources**: springs, which belong to [Underground](https://github.com/NoNamer777/feudum/issues/236) and [Rivers](rivers.md#springs), rain over each river's catchment, and melting snow and ice, whose rate belongs to [Thaw](https://github.com/NoNamer777/feudum/issues/239).
 - **Sinks**: the sea, evaporation, and soaking into the ground.
 
 Rain falls into water and vessels open to the sky, and a long rain fills the hollows it falls into. Water open to the sky evaporates in warm, dry weather. Evaporating salt or brackish water leaves its salt behind, as in the salterns of the era. How much rain falls and how dry the air is belong to [Weather](https://github.com/NoNamer777/feudum/issues/215).
@@ -64,7 +64,7 @@ What changes is the total per in-game day. A day lasts 40 real minutes by defaul
 
 The sea is finite too, but so large that nothing changes its level. It holds at sea level, y -1000, until [Tides](https://github.com/NoNamer777/feudum/issues/254) are designed.
 
-A lake forms wherever the terrain leaves a closed hollow, and fills it with fresh water up to its lowest rim, where the water spills out. How its outflow runs on as a river belongs to [Rivers](https://github.com/NoNamer777/feudum/issues/235).
+A lake forms wherever the terrain leaves a closed hollow, and fills it with fresh water up to its lowest rim, where the water spills out. Its outflow runs on as a river, as [Rivers](rivers.md#lakes) describes.
 
 Rivers follow their sources. They swell after rain and in the spring melt and shrink in summer, and small streams can run dry. A river in flood spills over its banks onto its flood plain, and the water it leaves there drains back, soaks in, or evaporates.
 
