@@ -34,7 +34,7 @@ Tracing the drainage turns up closed hollows in the terrain. The generator keeps
 
 ## Width and depth
 
-A river's channel grows with its flow, as a real river's does: its width with about the square root of the flow, and its depth a little more slowly. The channel holds the bankfull flow, the high water a river reaches every year or two, and a larger flood spills onto its flood plain. The table shows the sizes this gives:
+A river's channel grows with its flow, as a real river's does: its width with about the square root of the flow, and its depth a little more slowly. The channel holds the bankfull flow, the high water a river reaches every year or two, and a larger flood spills onto its flood plain. The table shows illustrative sizes this gives:
 
 | River              | Flow (m³/s) | Width (blocks) | Depth (blocks) |
 |:-------------------|------------:|---------------:|---------------:|
