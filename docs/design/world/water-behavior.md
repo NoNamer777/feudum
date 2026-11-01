@@ -47,7 +47,7 @@ Where loaded land ends, the two layers hand water to each other. A river therefo
 
 Every liter has a real source and a real sink:
 
-- **Sources**: springs, which belong to [Underground](https://github.com/NoNamer777/feudum/issues/236) and [Rivers](rivers.md#springs), rain over each river's catchment, and melting snow and ice, whose rate belongs to [Thaw](https://github.com/NoNamer777/feudum/issues/239).
+- **Sources**: springs, which belong to [Underground](underground.md#water-underground) and [Rivers](rivers.md#springs), rain over each river's catchment, and melting snow and ice, whose rate belongs to [Thaw](https://github.com/NoNamer777/feudum/issues/239).
 - **Sinks**: the sea, evaporation, and soaking into the ground.
 
 Rain falls into water and vessels open to the sky, and a long rain fills the hollows it falls into. Water open to the sky evaporates in warm, dry weather. Evaporating salt or brackish water leaves its salt behind, as in the salterns of the era. How much rain falls and how dry the air is belong to [Weather](https://github.com/NoNamer777/feudum/issues/215).

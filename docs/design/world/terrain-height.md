@@ -36,6 +36,6 @@ Seas keep their real depths where those fit. Shelf seas, such as the North Sea a
 
 ## Underground
 
-Below the land and the sea floor lies rock, down to the bottom of the world. What fills it, such as stone layers, caves, and ores, and how deep each lies, belongs to [Underground](https://github.com/NoNamer777/feudum/issues/236).
+Below the land and the sea floor lies rock, down to the bottom of the world. What fills it, such as stone layers, caves, and ores, and how deep each lies, belongs to [Underground](underground.md).
 
-The bottom few blocks of the world are an unbreakable rock of Feudum's own, in place of vanilla's bedrock, so nobody can dig out of the world.
+The bottom 5 blocks of the world are an unbreakable rock of Feudum's own, in place of vanilla's bedrock, so nobody can dig out of the world.
