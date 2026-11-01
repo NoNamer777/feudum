@@ -12,12 +12,10 @@ The rock follows the real geology of Western Europe, so it changes across the la
 
 Each kind of stone is a Feudum block:
 
-| Kind                        | Rocks                                                                           |
-|:----------------------------|:--------------------------------------------------------------------------------|
-| Crystalline and metamorphic | Granite, gneiss, schist, slate, marble                                          |
-| Sedimentary                 | Sandstone, limestone, chalk with flint nodules, mudstone or shale, conglomerate |
-| Volcanic                    | Basalt                                                                          |
-| Evaporites                  | Rock salt, gypsum                                                               |
+- **Crystalline and metamorphic**: granite, gneiss, schist, slate, and marble.
+- **Sedimentary**: sandstone, limestone, chalk with flint nodules, mudstone or shale, and conglomerate.
+- **Volcanic**: basalt.
+- **Evaporites**: rock salt and gypsum.
 
 Basalt comes from extinct volcanic country, such as the Auvergne and the Eifel. Feudum has no lava and no active volcanoes, as Western Europe has none.
 
@@ -31,7 +29,7 @@ Loose deposits lie between the soil and the bedrock: gravel and sand along river
 
 ### Under the sea
 
-The land's geology carries on under the shelf seas, beneath a cover of sand and mud. The floor of the open ocean is basalt beneath mud, as real ocean crust is, and holds no ores.
+The land's geology carries on under the shelf seas, beneath the cover that [Biomes](biomes.md#sea) sets. The floor of the open ocean is basalt beneath that cover, as real ocean crust is, and holds no ores.
 
 ## Depth
 
@@ -50,7 +48,7 @@ Feudum's ores and minerals follow the [era rule](../setting/era.md#the-rule): ea
 
 ### Districts
 
-Ores gather in ore districts, as real ones do, rather than spreading evenly through the rock as in vanilla. A district is tens of kilometers across, a place to seek out and settle near, as the Cornish tin country, the Harz silver mines, and the Erzberg iron mountain were. Each ore forms in the rock and setting where real deposits form, so the districts follow the geology. Iron is the exception: bog iron and ironstone are found everywhere.
+Ores gather in ore districts, as real ones do, rather than spreading evenly through the rock as in vanilla. A district is tens of kilometers across, a place to seek out and settle near, as the Cornish tin country, the Harz silver mines, and the Erzberg iron mountain were. Each ore forms in the rock and setting where real deposits form, so the districts follow the geology: lead in veins through limestone and slate, with silver in the same veins, as in the Mendips and the Harz; coal in seams at the edges of the basins, as at Liège and in Northumberland; salt in beds within the basins, as at Lüneburg, Salins, and Hallstatt; tin in granite, as in Cornwall; copper and gold in the old massifs; and mercury in a district of its own, as at Almadén. Tin and gold also wash into the stream gravels below their districts. Iron is the exception: bog iron under wetland and ironstone beds in sedimentary rock are found everywhere.
 
 The ores run from common to rare. After iron, a large landmass holds several districts each of lead, coal, and salt, and fewer of tin, copper, and silver. Gold and mercury are the rarest, with a mercury district perhaps once across many landmasses. The spacing of districts is tuned in testing. The table sums up each ore:
 
@@ -102,6 +100,7 @@ Springs, which feed the streams of [Rivers](rivers.md#springs), rise where the g
 - **Spring lines** run along the foot of chalk and limestone escarpments, where water-bearing rock lies on clay.
 - **Karst water** sinks at swallow holes, runs as underground rivers through the caves, and comes out again at resurgences, so a river that sinks into limestone flows on below the ground.
 - **Cave passages** below the water table are flooded.
+- **Salt springs** rise over salt beds, as at Lüneburg, Salins, and Droitwich. Their brine ranges from about the strength of the sea to saturation at about 320 g/L, and the strongest springs are rare.
 - **Warm springs** rise in a few rare places where deep faults bring heated water up, as at Bath, Aachen, and Dax, all used for bathing in the period. They are the one sign of heat underground.
 
 How much water each spring carries, and how water moves through the ground, belong to [Ground wetness](https://github.com/NoNamer777/feudum/issues/255).
