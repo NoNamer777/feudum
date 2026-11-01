@@ -6,7 +6,7 @@ Which biomes cover Feudum's overworld, where each grows, what it holds, and how 
 
 A biome sets a temperature offset, its ground and soil, its water and wetness, the kind of vegetation that grows in it, and the tint of its grass and foliage. It names the kind of habitat it offers without listing species: which plants and animals exist belongs to [Plants](../farming/plants.md) and [Animals](https://github.com/NoNamer777/feudum/issues/228).
 
-Other designs cover the rest of the land. What lies below the surface belongs to [Underground](https://github.com/NoNamer777/feudum/issues/236), how rivers run to [Rivers](https://github.com/NoNamer777/feudum/issues/235), and whether rain or snow falls, in any biome, to [Weather](https://github.com/NoNamer777/feudum/issues/215).
+Other designs cover the rest of the land. What lies below the surface belongs to [Underground](https://github.com/NoNamer777/feudum/issues/236), how rivers run to [Rivers](rivers.md), and whether rain or snow falls, in any biome, to [Weather](https://github.com/NoNamer777/feudum/issues/215).
 
 ## Real landscapes
 
