@@ -22,7 +22,7 @@ A stream's head is a spring, where water comes out of the ground. Water is finit
 
 Every river ends at the sea, in a lake, or in a larger river, and its water reaches the sea in the end. Feudum has no closed basins, where water gathers in a low point and leaves only by evaporating, since Western Europe is wet enough that every hollow fills and spills over. Rivers that sink into limestone belong to [Underground](https://github.com/NoNamer777/feudum/issues/236).
 
-A river grows as long as its land allows, with no cap of its own. How far land reaches from the sea, and so how long the longest rivers run, belongs to [Land and sea](https://github.com/NoNamer777/feudum/issues/259).
+A river grows as long as its land allows, with no cap of its own. [Land and sea](land-and-sea.md#landmasses) puts no land more than about 300 km from the sea, so the longest rivers run about 1,000 km.
 
 ### Mouths
 
