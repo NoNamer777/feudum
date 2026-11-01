@@ -48,7 +48,15 @@ Feudum's ores and minerals follow the [era rule](../setting/era.md#the-rule): ea
 
 ### Districts
 
-Ores gather in ore districts, as real ones do, rather than spreading evenly through the rock as in vanilla. A district is tens of kilometers across, a place to seek out and settle near, as the Cornish tin country, the Harz silver mines, and the Erzberg iron mountain were. Each ore forms in the rock and setting where real deposits form, so the districts follow the geology: lead in veins through limestone and slate, with silver in the same veins, as in the Mendips and the Harz; coal in seams at the edges of the basins, as at Liège and in Northumberland; salt in beds within the basins, as at Lüneburg, Salins, and Hallstatt; tin in granite, as in Cornwall; copper and gold in the old massifs; and mercury in a district of its own, as at Almadén. Tin and gold also wash into the stream gravels below their districts. Iron is the exception: bog iron under wetland and ironstone beds in sedimentary rock are found everywhere.
+Ores gather in ore districts, as real ones do, rather than spreading evenly through the rock as in vanilla. A district is tens of kilometers across, a place to seek out and settle near, as the Cornish tin country, the Harz silver mines, and the Erzberg iron mountain were. Each ore forms in the rock and setting where real deposits form, so the districts follow the geology:
+
+- **Lead** in veins through limestone and slate, with **silver** in the same veins, as in the Mendips and the Harz.
+- **Coal** in seams at the edges of the basins, as at Liège and in Northumberland.
+- **Salt** in beds within the basins, as at Lüneburg, Salins, and Hallstatt.
+- **Tin** in granite and the stream gravels below it, as in Cornwall.
+- **Copper** and **gold** in the old massifs, with gold also in the stream gravels below them.
+- **Mercury** in a district of its own, as at Almadén.
+- **Iron**, the exception, everywhere: bog iron under wetland and ironstone beds in sedimentary rock.
 
 The ores run from common to rare. After iron, a large landmass holds several districts each of lead, coal, and salt, and fewer of tin, copper, and silver. Gold and mercury are the rarest, with a mercury district perhaps once across many landmasses. The spacing of districts is tuned in testing. The table sums up each ore:
 
@@ -64,7 +72,12 @@ The ores run from common to rare. After iron, a large landmass holds several dis
 | Gold    | Old massifs and the stream gravels below them                       | Veins, placers | Rarest               |
 | Mercury | Its own district, as at Almadén                                     | Veins          | Rarest               |
 
-Stone and earths come from the rock and the loose ground: building stone from every rock, flint from chalk, gypsum from beds in the basins beside the salt, and clay, sand, and gravel from the sedimentary rock and the loose deposits.
+Stone and earths come from the rock and the loose ground:
+
+- **Building stone** from every rock.
+- **Flint** from chalk.
+- **Gypsum** from beds in the basins beside the salt.
+- **Clay, sand, and gravel** from the sedimentary rock and the loose deposits.
 
 ### Forms
 
@@ -100,7 +113,7 @@ Springs, which feed the streams of [Rivers](rivers.md#springs), rise where the g
 - **Spring lines** run along the foot of chalk and limestone escarpments, where water-bearing rock lies on clay.
 - **Karst water** sinks at swallow holes, runs as underground rivers through the caves, and comes out again at resurgences, so a river that sinks into limestone flows on below the ground.
 - **Cave passages** below the water table are flooded.
-- **Salt springs** rise over salt beds, as at Lüneburg, Salins, and Droitwich. Their brine ranges from about the strength of the sea to saturation at about 320 g/L, and the strongest springs are rare.
+- **Salt springs** rise over salt beds, as at Lüneburg, Salins, and Droitwich. Their water ranges from about the strength of the sea to saturated brine at about 320 g/L, and the strongest springs are rare.
 - **Warm springs** rise in a few rare places where deep faults bring heated water up, as at Bath, Aachen, and Dax, all used for bathing in the period. They are the one sign of heat underground.
 
 How much water each spring carries, and how water moves through the ground, belong to [Ground wetness](https://github.com/NoNamer777/feudum/issues/255).
