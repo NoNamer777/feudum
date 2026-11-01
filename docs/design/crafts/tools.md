@@ -36,7 +36,7 @@ Each tool has a job of its own, in its real period form. The table lists them by
 | Bucket    | Carrying | One   | Carrying water                                             |
 | Whetstone | Upkeep   | One   | Honing edges                                               |
 
-A two-handed tool keeps the off hand empty while it is held. The spade does the work of a shovel, and the billhook and axe that of a hatchet, so neither has a tool of its own. Saws belong to Crafts, quarrying wedges to [Mining](https://github.com/NoNamer777/feudum/issues/263), and fishing gear to [Fishing](https://github.com/NoNamer777/feudum/issues/267). How the hoe works a field belongs to Fields, threshing as a step in making food to [Food](https://github.com/NoNamer777/feudum/issues/246), and sheep to [Animals](https://github.com/NoNamer777/feudum/issues/228).
+A two-handed tool keeps the off hand empty while it is held. The spade does the work of a shovel, and the billhook and axe that of a hatchet, so neither has a tool of its own. Saws belong to [Crafts](https://github.com/NoNamer777/feudum/issues/247), quarrying wedges to [Mining](https://github.com/NoNamer777/feudum/issues/263), and fishing gear to [Fishing](https://github.com/NoNamer777/feudum/issues/267). How the hoe works a field belongs to [Fields](https://github.com/NoNamer777/feudum/issues/244), threshing as a step in making food to [Food](https://github.com/NoNamer777/feudum/issues/246), and sheep to [Animals](https://github.com/NoNamer777/feudum/issues/228).
 
 ## Using a tool
 
@@ -79,23 +79,23 @@ A dull tool builds no extra fatigue. The job takes longer, and the longer [exert
 A dulled edge comes back in two ways:
 
 - **Whetstone**: carried and used anywhere, such as in the field. It quickly hones a dull edge back to Sharp and costs the tool nothing, but cannot restore a blunt one.
-- **Grindstone**: a block a village builds. It brings any edge back to Keen, blunt ones included, but each grinding takes metal off the head. How it is made belongs to Crafts.
+- **Grindstone**: a block a village builds. It brings any edge back to Keen, blunt ones included, but each grinding takes metal off the head. How it is made belongs to [Crafts](https://github.com/NoNamer777/feudum/issues/247).
 
-The whetstone wears thinner with each honing until it is too small to use, and then it is replaced. Whetstones come from fine-grained stone: where it is found belongs to Mining, and how it is cut to Crafts.
+The whetstone wears thinner with each honing until it is too small to use, and then it is replaced. Whetstones come from fine-grained stone: where it is found belongs to [Mining](https://github.com/NoNamer777/feudum/issues/263), and how it is cut to [Crafts](https://github.com/NoNamer777/feudum/issues/247).
 
 ### The head and the handle
 
-The head never breaks suddenly. It wears thinner with use and with each grinding, through the labels Sound, Worn, and Worn thin. A smith re-steels a worn head to bring it back, and once it is worn past mending, its iron goes back to the smith as scrap. Which smithing trades exist belongs to Crafts.
+The head never breaks suddenly. It wears thinner with use and with each grinding, through the labels Sound, Worn, and Worn thin. A smith re-steels a worn head to bring it back, and once it is worn past mending, its iron goes back to the smith as scrap. Which smithing trades exist belongs to [Crafts](https://github.com/NoNamer777/feudum/issues/247).
 
-The handle wears with use and at last breaks suddenly, but it shows cracks and creaks under use before it does. Fitting a new handle is quick work. Making handles belongs to Crafts.
+The handle wears with use and at last breaks suddenly, but it shows cracks and creaks under use before it does. Fitting a new handle is quick work. Making handles belongs to [Crafts](https://github.com/NoNamer777/feudum/issues/247).
 
 ### The bucket
 
-A bucket holds what [Water behavior](../world/water-behavior.md#buckets) sets. It is made of wooden staves bound with hoops of wood or iron, as in the period, and Feudum has no metal or leather buckets. It never dulls, but over long use its hoops loosen and it leaks until a cooper re-hoops it. Coopering belongs to Crafts.
+A bucket holds what [Water behavior](../world/water-behavior.md#buckets) sets. It is made of wooden staves bound with hoops of wood or iron, as in the period, and Feudum has no metal or leather buckets. It never dulls, but over long use its hoops loosen and it leaks until a cooper re-hoops it. Coopering belongs to [Crafts](https://github.com/NoNamer777/feudum/issues/247).
 
 ## Quality
 
-A better tool holds its edge longer and lasts longer before it needs a smith. It also works a little faster, but having the right tool matters far more than having a good one. How quality comes about, such as from a steel edge or the smith's skill, and the names of its grades belong to Crafts.
+A better tool holds its edge longer and lasts longer before it needs a smith. It also works a little faster, but having the right tool matters far more than having a good one. How quality comes about, such as from a steel edge or the smith's skill, and the names of its grades belong to [Crafts](https://github.com/NoNamer777/feudum/issues/247).
 
 ## Reading a tool
 
