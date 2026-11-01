@@ -6,7 +6,7 @@ Which biomes cover Feudum's overworld, where each grows, what it holds, and how 
 
 A biome sets a temperature offset, its ground and soil, its water and wetness, the kind of vegetation that grows in it, and the tint of its grass and foliage. It names the kind of habitat it offers without listing species: which plants and animals exist belongs to [Plants](../farming/plants.md) and [Animals](https://github.com/NoNamer777/feudum/issues/228).
 
-Other designs cover the rest of the land. What lies below the surface belongs to [Underground](https://github.com/NoNamer777/feudum/issues/236), how rivers run to [Rivers](rivers.md), and whether rain or snow falls, in any biome, to [Weather](https://github.com/NoNamer777/feudum/issues/215).
+Other designs cover the rest of the land. What lies below the surface belongs to [Underground](underground.md), how rivers run to [Rivers](rivers.md), and whether rain or snow falls, in any biome, to [Weather](https://github.com/NoNamer777/feudum/issues/215).
 
 ## Real landscapes
 
@@ -28,7 +28,7 @@ Feudum has 17 biomes in five zones: the sea, the coast, the lowland, the upland,
 
 ### Sea
 
-- **Open ocean**: deep water over a floor of sand and rock, beyond the shelf, where the sea is deeper than 200 blocks.
+- **Open ocean**: deep water over a floor of mud, beyond the shelf, where the sea is deeper than 200 blocks.
 - **Shelf sea**: shallower water over sand and gravel, with seaweed beds, off every coast where the sea is 200 blocks deep or less.
 
 ### Coast
@@ -68,7 +68,7 @@ The table sums up each biome's zone, soil, and where it grows:
 
 | Zone       | Biome              | Soil                  | Where it grows                                     |
 |:-----------|:-------------------|:----------------------|:---------------------------------------------------|
-| Sea        | Open ocean         | Sand and rock         | Beyond the shelf, deeper than 200 blocks           |
+| Sea        | Open ocean         | Mud                   | Beyond the shelf, deeper than 200 blocks           |
 | Sea        | Shelf sea          | Sand and gravel       | Off every coast, up to 200 blocks deep             |
 | Coast      | Dunes              | Sand                  | Gentle, open coasts                                |
 | Coast      | Salt marsh         | Mud                   | Sheltered coasts and river mouths                  |

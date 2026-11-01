@@ -4,13 +4,14 @@ How water behaves in Feudum: what it carries, how it flows and pools, where it c
 
 ## One water
 
-Feudum's water replaces vanilla's, which never generates and cannot be placed. Fresh, brackish, and salt water are the same water: each block of it carries a salinity, kept in grams of salt per liter, as the temperature is kept in degrees Celsius. Nothing on screen shows it; players taste it, or see it in what lives there. Three bands name it, and salt lowers the temperature at which it freezes:
+Feudum's water replaces vanilla's, which never generates and cannot be placed. Fresh water, brackish water, salt water, and brine are the same water: each block of it carries a salinity, kept in grams of salt per liter, as the temperature is kept in degrees Celsius. Nothing on screen shows it; players taste it, or see it in what lives there. Four bands name it, and salt lowers the temperature at which it freezes:
 
-| Band     | Salinity (g/L) | Freezes at         |
-|:---------|---------------:|:-------------------|
-| Fresh    |      Below 0.5 | 0 °C               |
-| Brackish |      0.5 to 30 | 0 °C to -1.6 °C    |
-| Salt     |       Above 30 | -1.6 °C to -1.9 °C |
+| Band     | Salinity (g/L) | Freezes at       |
+|:---------|---------------:|:-----------------|
+| Fresh    |      Below 0.5 | 0 °C             |
+| Brackish |      0.5 to 30 | 0 °C to -1.6 °C  |
+| Salt     |       30 to 50 | -1.6 °C to -3 °C |
+| Brine    |       Above 50 | -3 °C to -21 °C  |
 
 The sea holds about 35 g/L and freezes at -1.9 °C. Over the sea the coldest nights fall to about 3 °C, as [Biomes](biomes.md#distance-from-the-sea) sets, so the sea never freezes, while sheltered fresh water inland does.
 
@@ -18,7 +19,7 @@ The sea holds about 35 g/L and freezes at -1.9 °C. Over the sea the coldest nig
 
 Salt travels with the water that carries it. Water flowing into a block mixes with the water already there, by the amount of each, and neighboring still water evens out slowly, as salt diffuses.
 
-The world generates with the mix in place: salt water in the sea biomes, fresh water inland, and a brackish gradient up river mouths and salt marsh creeks, longer the larger the river. The river's flow carries that salt back out to sea, so what keeps the gradient in place, the flood tide pushing salt water upstream, belongs to [Tides](https://github.com/NoNamer777/feudum/issues/254).
+The world generates with the mix in place: salt water in the sea biomes, fresh water inland, and a brackish gradient up river mouths and salt marsh creeks, longer the larger the river. The river's flow carries that salt back out to sea, so what keeps the gradient in place, the flood tide pushing salt water upstream, belongs to [Tides](https://github.com/NoNamer777/feudum/issues/254). Inland, [salt springs](underground.md#water-underground) generate salt water or brine by the strength of each spring.
 
 ## Finite water
 
@@ -47,7 +48,7 @@ Where loaded land ends, the two layers hand water to each other. A river therefo
 
 Every liter has a real source and a real sink:
 
-- **Sources**: springs, which belong to [Underground](https://github.com/NoNamer777/feudum/issues/236) and [Rivers](rivers.md#springs), rain over each river's catchment, and melting snow and ice, whose rate belongs to [Thaw](https://github.com/NoNamer777/feudum/issues/239).
+- **Sources**: springs, which belong to [Underground](underground.md#water-underground) and [Rivers](rivers.md#springs), rain over each river's catchment, and melting snow and ice, whose rate belongs to [Thaw](https://github.com/NoNamer777/feudum/issues/239).
 - **Sinks**: the sea, evaporation, and soaking into the ground.
 
 Rain falls into water and vessels open to the sky, and a long rain fills the hollows it falls into. Water open to the sky evaporates in warm, dry weather. Evaporating salt or brackish water leaves its salt behind, as in the salterns of the era. How much rain falls and how dry the air is belong to [Weather](https://github.com/NoNamer777/feudum/issues/215).
