@@ -18,23 +18,23 @@ Each tool takes the form the period used. The cutting and digging tools have an 
 
 Each tool has a job of its own, in its real period form. The table lists them by the work they do, with the hands they take:
 
-| Tool      | Work     | Hands | Job                                                        |
-|:----------|:---------|:------|:-----------------------------------------------------------|
-| Sickle    | Field    | One   | Reaping grain and pulses                                   |
-| Scythe    | Field    | Two   | Mowing hay and green fodder                                |
-| Hoe       | Field    | Two   | Weeding and breaking up soil by hand                       |
-| Mattock   | Field    | Two   | Breaking hard ground, and grubbing out roots and stumps    |
-| Pitchfork | Field    | Two   | Lifting hay, straw, and sheaves                            |
-| Rake      | Field    | Two   | Gathering hay and straw                                    |
-| Flail     | Field    | Two   | Threshing grain from the ear                               |
-| Spade     | Earth    | Two   | Digging soil, sand, gravel, and clay, and lifting roots    |
-| Axe       | Woodland | Two   | Felling and limbing trees                                  |
-| Billhook  | Woodland | One   | Cutting shoots, withies, and brushwood, and laying hedges  |
-| Pick      | Stone    | Two   | Breaking rock and ore                                      |
-| Knife     | General  | One   | Cutting herbs and small plants, tapping, and everyday work |
-| Shears    | Animals  | One   | Shearing sheep                                             |
-| Bucket    | Carrying | One   | Carrying water                                             |
-| Whetstone | Upkeep   | One   | Honing edges                                               |
+| Tool      | Work     | Hands | Job                                                                               |
+|:----------|:---------|:------|:----------------------------------------------------------------------------------|
+| Sickle    | Field    | One   | Reaping grain, pulses, and seed crops, and cutting reeds, rushes, and soft shoots |
+| Scythe    | Field    | Two   | Mowing hay and green fodder                                                       |
+| Hoe       | Field    | Two   | Weeding and breaking up soil by hand                                              |
+| Mattock   | Field    | Two   | Breaking hard ground, and grubbing out roots and stumps                           |
+| Pitchfork | Field    | Two   | Lifting hay, straw, and sheaves                                                   |
+| Rake      | Field    | Two   | Gathering hay and straw                                                           |
+| Flail     | Field    | Two   | Threshing grain from the ear                                                      |
+| Spade     | Earth    | Two   | Digging soil, sand, gravel, and clay, and lifting roots                           |
+| Axe       | Woodland | Two   | Felling and limbing trees                                                         |
+| Billhook  | Woodland | One   | Cutting shoots, withies, and brushwood, and laying hedges                         |
+| Pick      | Stone    | Two   | Breaking rock and ore                                                             |
+| Knife     | General  | One   | Cutting herbs and small plants, stripping bark, tapping, and everyday work        |
+| Shears    | Animals  | One   | Shearing sheep                                                                    |
+| Bucket    | Carrying | One   | Carrying water                                                                    |
+| Whetstone | Upkeep   | One   | Honing edges                                                                      |
 
 A two-handed tool keeps the off hand empty while it is held. The spade does the work of a shovel, and the billhook and axe that of a hatchet, so neither has a tool of its own. Saws belong to [Crafts](https://github.com/NoNamer777/feudum/issues/247), quarrying wedges to [Mining](https://github.com/NoNamer777/feudum/issues/263), and fishing gear to [Fishing](https://github.com/NoNamer777/feudum/issues/267). How the hoe works a field belongs to [Fields](https://github.com/NoNamer777/feudum/issues/244), threshing as a step in making food to [Food](https://github.com/NoNamer777/feudum/issues/246), and sheep to [Animals](https://github.com/NoNamer777/feudum/issues/228).
 
@@ -46,7 +46,8 @@ A few jobs are impossible without their tool, such as felling a grown tree or br
 
 | Job                                                       | Right tool | Second-best                              | Bare hands                        |
 |:----------------------------------------------------------|:-----------|:-----------------------------------------|:----------------------------------|
-| Reaping grain and pulses                                  | Sickle     | Scythe (faster, sheds more grain), knife | Slower, yields less               |
+| Reaping grain, pulses, and seed crops                     | Sickle     | Scythe (faster, sheds more grain), knife | Slower, yields less               |
+| Cutting reeds, rushes, and soft shoots                    | Sickle     | Knife                                    | Slower, yields less               |
 | Mowing hay and green fodder                               | Scythe     | Sickle                                   | Slower, yields less               |
 | Weeding                                                   | Hoe        | None                                     | Slower                            |
 | Breaking hard ground, and grubbing roots and stumps       | Mattock    | Spade, hoe                               | Slower                            |
@@ -59,7 +60,7 @@ A few jobs are impossible without their tool, such as felling a grown tree or br
 | Cutting shoots, withies, and brushwood, and laying hedges | Billhook   | Axe, knife                               | Slower, yields less               |
 | Breaking soft rock, such as chalk                         | Pick       | Mattock                                  | Impossible                        |
 | Breaking other rock and ore                               | Pick       | None                                     | Impossible                        |
-| Cutting herbs and small plants                            | Knife      | None                                     | Slower, yields less               |
+| Cutting herbs and small plants, and stripping bark        | Knife      | None                                     | Slower, yields less               |
 | Tapping trees                                             | Knife      | None                                     | Impossible                        |
 | Shearing sheep                                            | Shears     | None                                     | Impossible                        |
 | Carrying water                                            | Bucket     | Other vessels                            | Impossible                        |
