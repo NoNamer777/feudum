@@ -40,7 +40,7 @@ A two-handed tool keeps the off hand empty while it is held. The spade does the 
 
 ## Using a tool
 
-Each job has a right tool and, where the period had one, a second-best tool. The right tool works fastest and yields most. A second-best tool works slower and yields less unless the table says otherwise, and bare hands slower and less again. Any tool not listed for a job counts as bare hands. Work the period did by hand, such as picking fruit, needs no tool. Testing tunes the gaps.
+Each job has a right tool and, where the period had one, a second-best tool. The right tool works fastest and yields most. A second-best tool works slower and yields less unless the table says otherwise, and bare hands slower and less again. Any tool not listed for a job counts as bare hands. For a plant's harvest, [Plant species](../farming/plant-species.md) names the right tool, and the row below for that tool's kind of work sets the second-best and bare hands. Work the period did by hand, such as picking fruit, needs no tool. Testing tunes the gaps.
 
 A few jobs are impossible without their tool, such as felling a grown tree or breaking rock. The table lists each job with its tools and what bare hands manage:
 
