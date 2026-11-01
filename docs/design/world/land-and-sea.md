@@ -52,7 +52,7 @@ The table sums up the sea from the coast outward:
 
 ### Inland seas
 
-Inland seas are shelf seas almost enclosed by land, reached from the ocean through a narrow strait, as the Baltic and the Mediterranean are. They are as salty as the ocean. Salt in the sea is the same everywhere, apart from the brackish water at river mouths that [Water behavior](water-behavior.md#where-salt-water-meets-fresh) describes.
+Inland seas are shelf seas almost enclosed by land, reached from the ocean through a narrow strait, as the Baltic and the Mediterranean are. They are as salty as the ocean. Salt in the sea is the same everywhere, apart from the brackish water up river mouths and salt marsh creeks that [Water behavior](water-behavior.md#where-salt-water-meets-fresh) describes.
 
 ## Where players start
 
