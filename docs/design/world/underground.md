@@ -25,7 +25,7 @@ The sedimentary layers are tilted and folded, so each crops out in bands across 
 
 ### Loose ground
 
-Loose deposits lie between the soil and the bedrock: gravel and sand along rivers, glacial till in the north and in the mountains, and wind-blown loess. The soil on top belongs to [Biomes](biomes.md) and [Fields](https://github.com/NoNamer777/feudum/issues/244).
+Loose deposits lie between the soil and the bedrock: gravel and sand along rivers, glacial till in the north and in the mountains, and wind-blown loess. The soil on top belongs to [Biomes](biomes.md) and [Fields](../farming/fields.md).
 
 ### Under the sea
 
