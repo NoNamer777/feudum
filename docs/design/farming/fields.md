@@ -125,7 +125,7 @@ A sustained frost freezes the ground, as it does still water in [Seasons](../wor
 
 Sowing takes one seed item for each block, so the return per seed in [Harvest](plants.md#harvest), about 4 for wheat, is the number of items reaped for each one sown. Seed goes in two ways:
 
-- **Broadcast**: grain, pulses, and flax are scattered by hand over a swath of tilled ground as the player walks.
+- **Broadcast**: grain, flax, and pulses other than beans are scattered by hand over a swath of tilled ground as the player walks.
 - **Set one at a time**: garden crops, beans, and sets such as onion bulbs are planted block by block.
 
 ### Covering seed
