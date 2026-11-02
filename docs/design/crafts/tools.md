@@ -25,7 +25,7 @@ Each tool has a job of its own, in its real period form. The table lists them by
 | Hoe       | Field    | Two   | Weeding and breaking up soil by hand                                              |
 | Mattock   | Field    | Two   | Breaking hard ground, and grubbing out roots and stumps                           |
 | Pitchfork | Field    | Two   | Lifting hay, straw, and sheaves, and spreading manure                             |
-| Rake      | Field    | Two   | Gathering hay and straw                                                           |
+| Rake      | Field    | Two   | Gathering hay and straw, and covering seed                                        |
 | Flail     | Field    | Two   | Threshing grain from the ear                                                      |
 | Spade     | Earth    | Two   | Digging soil, sand, gravel, and clay, and lifting roots                           |
 | Axe       | Woodland | Two   | Felling and limbing trees                                                         |
@@ -55,6 +55,7 @@ A few jobs are impossible without their tool, such as felling a grown tree or br
 | Lifting roots                                             | Spade      | Mattock, hoe                             | Slower, yields less               |
 | Lifting hay, straw, and sheaves, and spreading manure     | Pitchfork  | None                                     | Slower                            |
 | Gathering hay and straw                                   | Rake       | Pitchfork                                | Slower, yields less               |
+| Covering seed                                             | Rake       | Hoe                                      | Slower, yields less               |
 | Threshing                                                 | Flail      | None                                     | Slower, yields less               |
 | Felling and limbing trees                                 | Axe        | None                                     | Impossible past the sapling stage |
 | Cutting shoots, withies, and brushwood, and laying hedges | Billhook   | Axe, knife                               | Slower, yields less               |
