@@ -7,7 +7,7 @@ Which hand tools players and villagers work with, what each does, and how it wea
 This page covers the hand tools a player or villager carries and uses on the world, in field, woodland, earth, and stone, along with the bucket. Other gear belongs elsewhere:
 
 - **Craftsmen's tools and workshop equipment**, such as the smith's tongs, the carpenter's saw, the anvil, and the loom, belong to [Crafts](https://github.com/NoNamer777/feudum/issues/247).
-- **Implements drawn by animals**, such as the plow and the harrow, belong to [Fields](https://github.com/NoNamer777/feudum/issues/244).
+- **Implements drawn by animals**, such as the plow and the harrow, belong to [Fields](../farming/fields.md).
 - **Weapons** belong to [Weapons](https://github.com/NoNamer777/feudum/issues/265). An axe or knife can still strike in a fight, and how well it fights belongs there too.
 
 ## Materials
@@ -24,7 +24,7 @@ Each tool has a job of its own, in its real period form. The table lists them by
 | Scythe    | Field    | Two   | Mowing hay and green fodder                                                       |
 | Hoe       | Field    | Two   | Weeding and breaking up soil by hand                                              |
 | Mattock   | Field    | Two   | Breaking hard ground, and grubbing out roots and stumps                           |
-| Pitchfork | Field    | Two   | Lifting hay, straw, and sheaves                                                   |
+| Pitchfork | Field    | Two   | Lifting hay, straw, and sheaves, and spreading manure                             |
 | Rake      | Field    | Two   | Gathering hay and straw                                                           |
 | Flail     | Field    | Two   | Threshing grain from the ear                                                      |
 | Spade     | Earth    | Two   | Digging soil, sand, gravel, and clay, and lifting roots                           |
@@ -36,7 +36,7 @@ Each tool has a job of its own, in its real period form. The table lists them by
 | Bucket    | Carrying | One   | Carrying water                                                                    |
 | Whetstone | Upkeep   | One   | Honing edges                                                                      |
 
-A two-handed tool keeps the off hand empty while it is held. The spade does the work of a shovel, and the billhook and axe that of a hatchet, so neither has a tool of its own. Saws belong to [Crafts](https://github.com/NoNamer777/feudum/issues/247), quarrying wedges to [Mining](https://github.com/NoNamer777/feudum/issues/263), and fishing gear to [Fishing](https://github.com/NoNamer777/feudum/issues/267). How the hoe works a field belongs to [Fields](https://github.com/NoNamer777/feudum/issues/244), threshing as a step in making food to [Food](https://github.com/NoNamer777/feudum/issues/246), and sheep to [Animals](https://github.com/NoNamer777/feudum/issues/228).
+A two-handed tool keeps the off hand empty while it is held. The spade does the work of a shovel, and the billhook and axe that of a hatchet, so neither has a tool of its own. Saws belong to [Crafts](https://github.com/NoNamer777/feudum/issues/247), quarrying wedges to [Mining](https://github.com/NoNamer777/feudum/issues/263), and fishing gear to [Fishing](https://github.com/NoNamer777/feudum/issues/267). How the hoe works a field belongs to [Fields](../farming/fields.md), threshing as a step in making food to [Food](https://github.com/NoNamer777/feudum/issues/246), and sheep to [Animals](https://github.com/NoNamer777/feudum/issues/228).
 
 ## Using a tool
 
@@ -53,7 +53,7 @@ A few jobs are impossible without their tool, such as felling a grown tree or br
 | Breaking hard ground, and grubbing roots and stumps       | Mattock    | Spade, hoe                               | Slower                            |
 | Digging soil, sand, gravel, and clay                      | Spade      | Mattock                                  | Slower                            |
 | Lifting roots                                             | Spade      | Mattock, hoe                             | Slower, yields less               |
-| Lifting hay, straw, and sheaves                           | Pitchfork  | None                                     | Slower                            |
+| Lifting hay, straw, and sheaves, and spreading manure     | Pitchfork  | None                                     | Slower                            |
 | Gathering hay and straw                                   | Rake       | Pitchfork                                | Slower, yields less               |
 | Threshing                                                 | Flail      | None                                     | Slower, yields less               |
 | Felling and limbing trees                                 | Axe        | None                                     | Impossible past the sapling stage |
