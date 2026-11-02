@@ -39,7 +39,7 @@ Only tilled ground loses nutrients. On wild land, what grows decays where it sta
 
 ### What a crop needs
 
-[Plant species](plant-species.md) lists what each crop and field weed needs of each nutrient, and the acidity it tolerates. Legumes, such as peas, beans, vetches, and clovers, fix their own nitrogen.
+[Plant species](plant-species.md) lists what each crop and field weed needs of each nutrient, and the acidity it tolerates. Legumes, such as peas, beans, vetches, and clovers, fix their own nitrogen. A species with a blank Nutrients cell, such as a wild plant dug up for a garden, needs little of each nutrient and tolerates the acidity of the soils it grows on.
 
 A crop grows and yields as well as its scarcest nutrient allows, measured against what it needs, and plenty of the others does not make up for it. Acidity outside the crop's range counts as one more shortage, since the crop then takes up nutrients poorly: acid ground starves a wheat crop even when it holds plenty. These effects come on top of the soil, wetness, and shade of [Ground and shade](plants.md#ground-and-shade).
 
