@@ -27,7 +27,7 @@ Each tool has a job of its own, in its real period form. The table lists them by
 | Pitchfork | Field    | Two   | Lifting hay, straw, and sheaves, and spreading manure                             |
 | Rake      | Field    | Two   | Gathering hay and straw, and covering seed                                        |
 | Flail     | Field    | Two   | Threshing grain from the ear                                                      |
-| Spade     | Earth    | Two   | Digging soil, sand, gravel, and clay, and lifting roots                           |
+| Spade     | Earth    | Two   | Digging soil, sand, gravel, clay, and snow, and lifting roots                     |
 | Axe       | Woodland | Two   | Felling and limbing trees                                                         |
 | Billhook  | Woodland | One   | Cutting shoots, withies, and brushwood, and laying hedges                         |
 | Pick      | Stone    | Two   | Breaking rock and ore                                                             |
@@ -40,7 +40,7 @@ A two-handed tool keeps the off hand empty while it is held. The spade does the 
 
 ## Using a tool
 
-Each job has a right tool and, where the period had one, a second-best tool. The right tool works fastest and yields most. A second-best tool works slower and yields less unless the table says otherwise, and bare hands slower and less again. Any tool not listed for a job counts as bare hands. For a plant's harvest, [Plant species](../farming/plant-species.md) names the right tool, and the row below for that tool's kind of work sets the second-best and bare hands. Work the period did by hand, such as picking fruit, needs no tool. Testing tunes the gaps.
+Each job has a right tool and, where the period had one, a second-best tool. The right tool works fastest and yields most. A second-best tool works slower and yields less unless the table says otherwise, and bare hands slower and less again. Digging ground is the exception: every tool, and bare hands, yields all the ground it moves, as [Terrain resolution](../world/terrain-resolution.md#digging) sets. Any tool not listed for a job counts as bare hands. For a plant's harvest, [Plant species](../farming/plant-species.md) names the right tool, and the row below for that tool's kind of work sets the second-best and bare hands. Work the period did by hand, such as picking fruit, needs no tool. Testing tunes the gaps.
 
 A few jobs are impossible without their tool, such as felling a grown tree or breaking rock. The table lists each job with its tools and what bare hands manage:
 
@@ -51,7 +51,7 @@ A few jobs are impossible without their tool, such as felling a grown tree or br
 | Mowing hay and green fodder                               | Scythe     | Sickle                                   | Slower, yields less               |
 | Weeding                                                   | Hoe        | None                                     | Slower                            |
 | Breaking hard ground, and grubbing roots and stumps       | Mattock    | Spade, hoe                               | Slower                            |
-| Digging soil, sand, gravel, and clay                      | Spade      | Mattock                                  | Slower                            |
+| Digging soil, sand, gravel, clay, and snow                | Spade      | Mattock                                  | Slower                            |
 | Lifting roots                                             | Spade      | Mattock, hoe                             | Slower, yields less               |
 | Lifting hay, straw, and sheaves, and spreading manure     | Pitchfork  | None                                     | Slower                            |
 | Gathering hay and straw                                   | Rake       | Pitchfork                                | Slower, yields less               |

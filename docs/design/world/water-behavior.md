@@ -27,7 +27,7 @@ Water is finite everywhere: it is never created or destroyed, only moved, as [Wh
 
 ### Volume
 
-A block holds 1,000 liters of water, and water is kept by the liter. Its surface shows in 8 steps of 125 liters. Less than a step on a block does not show as water: it wets the block, then soaks in or evaporates.
+A block holds 1,000 liters of water, and water is kept by the liter. Its surface shows in 8 steps, each 12.5 cm high: 125 liters in a whole block, and in a [split block](terrain-resolution.md#water) as much as the open pieces at that height hold. Less than a step on a block does not show as water: it wets the block, then soaks in or evaporates.
 
 Connected still water pools as one body with a single level, so a bucket taken from a lake lowers the whole lake by a sliver, rather than one block by a step.
 
@@ -79,7 +79,7 @@ A current adds its speed to everything in the water: swimmers, creatures, boats,
 
 ## Blocks and water
 
-A block with open space, such as a fence, a slab, or a grate, holds water in that space and lets it pass through, as an empty block does. Solid blocks, closed doors, and closed sluice gates stop it.
+A block with open space, such as a fence, a grate, or a [split block](terrain-resolution.md#water), holds water in that space and lets it pass through, as an empty block does. Solid blocks, closed doors, and closed sluice gates stop it.
 
 Water seeps slowly through sand and gravel, so a dam or pond bank built of them leaks. Clay, stone, and worked blocks hold it.
 
@@ -87,7 +87,7 @@ Whether and how water wears down the ground, such as rivers cutting their banks 
 
 ## Buckets
 
-A bucket holds 12 liters, as a medieval stave bucket does, and fills from the pool or flow it is dipped in. Poured out, it fills a vessel or trough, or wets the ground beneath it rather than leaving standing water there. Moving water in bulk takes channels, as it did in the era. The bucket itself belongs to [Tools](../crafts/tools.md#the-bucket).
+A bucket holds 12 liters, as a medieval stave bucket does, and fills from the pool or flow it is dipped in. Poured out, it fills a vessel or trough, or adds to the water of the block it is poured into. On whole ground that only wets the ground, as less than a step shows no water, but it can fill a small hollow in a [split block](terrain-resolution.md#water). Moving water in bulk takes channels, as it did in the era. The bucket itself belongs to [Tools](../crafts/tools.md#the-bucket).
 
 Poured water wets the soil, so players and villagers can water plants by hand, as [Plants](../farming/plants.md#ground-and-shade) describes.
 
