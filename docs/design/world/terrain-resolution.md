@@ -34,7 +34,7 @@ Each stroke of a digging tool takes a spadeful: 2×2×2 pieces at the spot struc
 
 A stroke takes about a second at best, with a keen spade in loose soil, so a block of soil takes 64 strokes, about a minute. Harder ground, a [duller edge](../crafts/tools.md#the-edge), and [fatigue](../needs/fatigue.md#effects) slow it. A real laborer moved about a cubic meter of soil an hour, so the pace runs faster than real, but large earthworks such as a moat or a mill race still take many villagers. Testing tunes the pace.
 
-Dug ground comes away loose: one item of loose material per spadeful, such as loose loam or loose sand, 64 to a block. What broken rock yields belongs to [Mining](https://github.com/NoNamer777/feudum/issues/263), and what cutting a worked block leaves, such as offcuts and cut pieces, to Crafts. How much a player carries, and in what, belongs to [Carrying](https://github.com/NoNamer777/feudum/issues/275).
+Dug ground comes away loose: one item of loose material per spadeful, such as loose loam or loose sand, 64 to a block. What broken rock yields belongs to [Mining](https://github.com/NoNamer777/feudum/issues/263), and what cutting a worked block leaves, such as offcuts and cut pieces, to [Crafts](https://github.com/NoNamer777/feudum/issues/247). How much a player carries, and in what, belongs to [Carrying](https://github.com/NoNamer777/feudum/issues/275).
 
 ## Placing
 
@@ -42,7 +42,7 @@ A player places loose material a spadeful at a time, at the spot aimed at, snapp
 
 ## Settling
 
-Sand, gravel, soil, and snow fall when nothing holds them up, and slump when piled steeper than their angle of repose, the steepest slope they hold: about 34° for dry sand. World generation lays them no steeper. Rock, clay, and worked blocks hold whatever shape they are cut to. How water wears the ground away belongs to Erosion.
+Sand, gravel, soil, and snow fall when nothing holds them up, and slump when piled steeper than their angle of repose, the steepest slope they hold: about 34° for dry sand. World generation lays them no steeper. Rock, clay, and worked blocks hold whatever shape they are cut to. How water wears the ground away belongs to [Erosion](https://github.com/NoNamer777/feudum/issues/256).
 
 ## Thin layers
 
