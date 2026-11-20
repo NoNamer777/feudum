@@ -12,7 +12,7 @@ A block splits 8 ways in each direction, into 512 pieces of 12.5 cm. Each piece 
 | Spadeful |   25 cm |      8 |   15.6 |
 | Piece    | 12.5 cm |      1 |   1.95 |
 
-A piece is as high as one of the 125-liter steps a water surface shows in, so the surfaces of terrain and water line up. It is also low enough to walk up, as [Moving over pieces](#moving-over-pieces) describes.
+A piece is as high as one of the 8 steps a water surface shows in, so the surfaces of terrain and water line up. It is also low enough to walk up, as [Moving over pieces](#moving-over-pieces) describes.
 
 ## How pieces look
 
@@ -50,7 +50,7 @@ Snow builds up a piece at a time as it falls, as [Seasons](seasons.md#snow-and-i
 
 ## Water
 
-Water stays one pool per block, kept by the liter as [Water behavior](water-behavior.md#volume) sets. A split block holds water only in its open pieces, about 1.95 liters each, and the water surface rests at the piece steps. Water passes from block to block only through the open pieces of the face the two blocks share. A wall of pieces through the middle of a block therefore holds nothing back: a dam holds only where it closes the faces between blocks.
+Water stays one pool per block, kept by the liter as [Water behavior](water-behavior.md#volume) sets. A split block holds water only in its open pieces, about 1.95 liters each, and the water surface rests at the piece steps. A step of water shows once it fills the open pieces at that height, however few: a hollow a spadeful in size holds standing water at 15.6 liters. Water passes from block to block only through the open pieces of the face the two blocks share. A wall of pieces through the middle of a block therefore holds nothing back: a dam holds only where it closes the faces between blocks.
 
 ## What stays per block
 
