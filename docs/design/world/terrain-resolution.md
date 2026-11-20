@@ -54,7 +54,7 @@ Water stays one pool per block, kept by the liter as [Water behavior](water-beha
 
 ## What stays per block
 
-Only shape and material are kept per piece. Wetness, nutrients, tilled state, temperature, and light stay per block, for three reasons:
+Only shape and material are kept per piece. [Wetness](https://github.com/NoNamer777/feudum/issues/255), nutrients, tilled state, temperature, and light stay per block, for three reasons:
 
 - **Cost.** These values spread from block to block across the loaded world. Kept per piece, each would have 512 times as many cells, and so would separate pockets of water within a block.
 - **Scale.** What they model changes over a meter or more. A crop's roots reach through more than a block, and air temperature differs over meters.
