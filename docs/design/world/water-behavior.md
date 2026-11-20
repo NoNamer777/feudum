@@ -79,7 +79,7 @@ A current adds its speed to everything in the water: swimmers, creatures, boats,
 
 ## Blocks and water
 
-A block with open space, such as a fence, a slab, or a grate, holds water in that space and lets it pass through, as an empty block does. Solid blocks, closed doors, and closed sluice gates stop it.
+A block with open space, such as a fence, a grate, or a [split block](terrain-resolution.md#water), holds water in that space and lets it pass through, as an empty block does. Solid blocks, closed doors, and closed sluice gates stop it.
 
 Water seeps slowly through sand and gravel, so a dam or pond bank built of them leaks. Clay, stone, and worked blocks hold it.
 

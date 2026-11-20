@@ -14,7 +14,7 @@ Breaking the ground turns a soil block into tilled ground of the same soil, so t
 
 How wet tilled ground lies belongs to [Ground wetness](https://github.com/NoNamer777/feudum/issues/255), not to the nearness of water.
 
-Plowing leaves the shape of the land as it is, and shows only in the texture of the tilled soil. Ridge and furrow, which centuries of plowing built across real fields, waits on [Terrain resolution](https://github.com/NoNamer777/feudum/issues/272), since a whole block is too coarse for it.
+Plowing leaves the shape of the land as it is, and shows only in the texture of the tilled soil. Ridge and furrow, which centuries of plowing built across real fields, belongs to [Ridge and furrow](https://github.com/NoNamer777/feudum/issues/274).
 
 ## Nutrients
 

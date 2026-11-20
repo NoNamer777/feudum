@@ -4,7 +4,7 @@ How high and how deep Feudum's world reaches, where sea level lies, and how the 
 
 ## Scale
 
-A block is a meter in every direction, so the land has the heights and slopes of real land. A mountain 2,000 blocks high spreads over several kilometers at its foot, as a real one does. [Seasons](seasons.md#height) cools the air with height at the same scale.
+A block is a meter in every direction, so the land has the heights and slopes of real land. A mountain 2,000 blocks high spreads over several kilometers at its foot, as a real one does. [Seasons](seasons.md#height) cools the air with height at the same scale. [Terrain resolution](terrain-resolution.md) splits each block into 12.5 cm pieces for gentler shapes.
 
 ## The world's height
 

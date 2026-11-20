@@ -7,6 +7,7 @@ The design of the world Feudum's villages stand in. The planned topics still wai
 - **[Rivers](rivers.md)**: where rivers rise, how they find their way down to the sea, and how wide and deep they grow.
 - **[Seasons](seasons.md)**: what the seasons change beyond daylight, from temperature, snow, and ice to the year of plants, animals, and villagers.
 - **[Terrain height](terrain-height.md)**: how high and deep the world reaches, where sea level lies, and how tall mountains grow.
+- **[Terrain resolution](terrain-resolution.md)**: the pieces a block splits into, and how digging, building, water, and rendering work with them.
 - **[Time](time.md)**: the day and its light, the calendar, sleeping, and how players read and change the time.
 - **[Underground](underground.md)**: the rock below the surface, its ores and caves, and the water that runs through it.
 - **[Water behavior](water-behavior.md)**: how water flows, pools, and freezes, what salt it carries, and where it comes from and goes.
